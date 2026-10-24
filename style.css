@@ -204,6 +204,12 @@ footer a:hover { color: var(--gold); }
   border: 1px solid var(--line);
 }
 
+/* YouTube images */
+.yt-links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+.yt-links a { flex: 1 1 260px; max-width: 360px; }
+.yt-img { width: 100%; border-radius: 8px; border: 1px solid var(--line); display: block; transition: opacity .2s; }
+.yt-links a:hover .yt-img { opacity: .85; }
+
 /* Language switch */
 nav a.lang-switch {
   border: 1px solid var(--gold);

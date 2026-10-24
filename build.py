@@ -23,6 +23,7 @@ HEAD = """<!DOCTYPE html>
 <meta name="description" content="{desc}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="{root}favicon.ico">
 <link rel="stylesheet" href="{root}style.css">
 </head>
 <body>
@@ -50,6 +51,7 @@ HEAD_JA = """<!DOCTYPE html>
 <meta name="description" content="{desc}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="{root}favicon.ico">
 <link rel="stylesheet" href="{root}style.css">
 </head>
 <body>
@@ -642,6 +644,12 @@ def build():
 <tr><td>聯絡方式</td><td><a href="mailto:{MAIL}">{MAIL}</a></td></tr>
 <tr><td>顧問契約</td><td>月額5萬日圓（未稅）起</td></tr>
 </table>
+<h2>YouTube頻道（日語）</h2>
+<p>在YouTube每天用日語介紹人事勞務的實用知識：「弁護士山﨑駿の毎日人事労務」。</p>
+<div class="yt-links">
+<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="youtube-banner.jpg" alt="YouTube頻道 弁護士山﨑駿の毎日人事労務" class="yt-img"></a>
+<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="youtube-card.jpg" alt="弁護士山﨑駿 YouTube頻道介紹" class="yt-img"></a>
+</div>
 </div>
 {CONTACT.format(mail=MAIL)}
 </main>"""
@@ -716,6 +724,12 @@ def build():
 <tr><td>連絡先</td><td><a href="mailto:{MAIL}">{MAIL}</a></td></tr>
 <tr><td>顧問契約</td><td>月額5万円（税別）〜</td></tr>
 </table>
+<h2>YouTubeチャンネル</h2>
+<p>YouTube「弁護士山﨑駿の毎日人事労務」で、人事労務に役立つ知識を毎日ご紹介しています。</p>
+<div class="yt-links">
+<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="../youtube-banner.jpg" alt="YouTubeチャンネル 弁護士山﨑駿の毎日人事労務" class="yt-img"></a>
+<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="../youtube-card.jpg" alt="弁護士山﨑駿 YouTubeチャンネル紹介" class="yt-img"></a>
+</div>
 </div>
 {CONTACT_JA.format(mail=MAIL)}
 </main>"""
