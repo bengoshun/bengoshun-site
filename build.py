@@ -647,8 +647,8 @@ def build():
 <h2>YouTube頻道（日語）</h2>
 <p>在YouTube每天用日語介紹人事勞務的實用知識：「弁護士山﨑駿の毎日人事労務」。</p>
 <div class="yt-links">
-<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="youtube-banner.jpg" alt="YouTube頻道 弁護士山﨑駿の毎日人事労務" class="yt-img"></a>
 <a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="youtube-card.jpg" alt="弁護士山﨑駿 YouTube頻道介紹" class="yt-img"></a>
+<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="youtube-banner.jpg" alt="YouTube頻道 弁護士山﨑駿の毎日人事労務" class="yt-img"></a>
 </div>
 </div>
 {CONTACT.format(mail=MAIL)}
@@ -727,8 +727,8 @@ def build():
 <h2>YouTubeチャンネル</h2>
 <p>YouTube「弁護士山﨑駿の毎日人事労務」で、人事労務に役立つ知識を毎日ご紹介しています。</p>
 <div class="yt-links">
-<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="../youtube-banner.jpg" alt="YouTubeチャンネル 弁護士山﨑駿の毎日人事労務" class="yt-img"></a>
 <a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="../youtube-card.jpg" alt="弁護士山﨑駿 YouTubeチャンネル紹介" class="yt-img"></a>
+<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="../youtube-banner.jpg" alt="YouTubeチャンネル 弁護士山﨑駿の毎日人事労務" class="yt-img"></a>
 </div>
 </div>
 {CONTACT_JA.format(mail=MAIL)}
