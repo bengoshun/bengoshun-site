@@ -140,6 +140,19 @@ article.post blockquote {
   font-size: .92rem;
 }
 .case-box .label { color: #a07820; font-weight: 700; font-size: .8rem; letter-spacing: .08em; }
+.related {
+  background: #f2f5f9;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-top: 36px;
+  font-size: .92rem;
+}
+.related .label { color: var(--navy); font-weight: 700; font-size: .8rem; letter-spacing: .08em; margin-bottom: 6px; }
+.related ul { margin: 0 0 0 1.4em; }
+.related li { margin: 4px 0; }
+.related a { color: var(--navy); }
+.related a:hover { color: var(--gold); }
 .post-footer {
   margin-top: 40px;
   padding-top: 24px;
