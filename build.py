@@ -3,11 +3,13 @@
 使い方: python3 build.py  → index.html / about.html / articles/*.html を生成
 記事の追加: ARTICLES に dict を追加して再実行
 """
-import os, html
+import os, re, html
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 SITE_NAME = "日本律師山崎駿"
 SITE_DESC = "用中文解說日本的勞動法與法律實務"
+SITE_NAME_JA = "弁護士山﨑駿"
+SITE_DESC_JA = "労働法と不動産の実務解説"
 MAIL = "bengoshun@gmail.com"
 THREADS = "https://www.threads.com/@bengoshun"
 YOUTUBE = "https://www.youtube.com/@bengoshun"
@@ -33,6 +35,34 @@ HEAD = """<!DOCTYPE html>
       <a href="{root}index.html#contact">諮詢</a>
       <a href="{threads}" target="_blank" rel="noopener">Threads</a>
       <a href="{youtube}" target="_blank" rel="noopener">YouTube</a>
+      <a class="lang-switch" href="{alt}" lang="ja">日本語</a>
+    </nav>
+  </div>
+</header>
+"""
+
+HEAD_JA = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title}</title>
+<meta name="description" content="{desc}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{root}style.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="brand"><a href="{root}ja/index.html">弁護士 山﨑駿<span class="sub">労働法と不動産の実務解説</span></a></div>
+    <nav>
+      <a href="{root}ja/index.html#articles">記事</a>
+      <a href="{root}ja/about.html">プロフィール</a>
+      <a href="{root}ja/index.html#contact">お問い合わせ</a>
+      <a href="{threads}" target="_blank" rel="noopener">Threads</a>
+      <a href="{youtube}" target="_blank" rel="noopener">YouTube</a>
+      <a class="lang-switch" href="{alt}" lang="zh-Hant">中文</a>
     </nav>
   </div>
 </header>
@@ -43,6 +73,22 @@ FOOT = """<footer>
   <div style="margin-top:6px;">
     <a href="{root}index.html">首頁</a>|
     <a href="{root}about.html">關於我</a>|
+    <a href="{root}ja/index.html">日本語版</a>|
+    <a href="{threads}" target="_blank" rel="noopener">Threads @bengoshun</a>|
+    <a href="{youtube}" target="_blank" rel="noopener">YouTube</a>
+  </div>
+  <div style="margin-top:10px;">&copy; 2026 Shun Yamazaki</div>
+</footer>
+</body>
+</html>
+"""
+
+FOOT_JA = """<footer>
+  <div>弁護士 山﨑駿（第一東京弁護士会）</div>
+  <div style="margin-top:6px;">
+    <a href="{root}ja/index.html">ホーム</a>|
+    <a href="{root}ja/about.html">プロフィール</a>|
+    <a href="{root}index.html">中文版</a>|
     <a href="{threads}" target="_blank" rel="noopener">Threads @bengoshun</a>|
     <a href="{youtube}" target="_blank" rel="noopener">YouTube</a>
   </div>
@@ -60,9 +106,21 @@ CONTACT = """<div class="contact-box" id="contact">
 </div>
 """
 
+CONTACT_JA = """<div class="contact-box" id="contact">
+  <h2>企業・経営者の方のご相談</h2>
+  <p>労働問題（懲戒・解雇、ハラスメント対応、残業代等）や不動産に関するご相談は、<br>メールでご連絡ください。</p>
+  <a class="mail" href="mailto:{mail}">{mail}</a>
+  <p class="note">※ 本サイトは山﨑駿個人の情報発信サイトです。ご連絡内容は秘密として取り扱います。</p>
+</div>
+"""
+
 DISCLAIMER = """<p class="disclaimer">※ 本文為一般性的法律資訊，而非針對個別案件的法律意見。實際案件請務必諮詢律師。日本的法律和判例可能隨時更新，內容以發布日為準。</p>"""
 
+DISCLAIMER_JA = """<p class="disclaimer">※ 本記事は一般的な法律情報であり、個別の案件に対する法的助言ではありません。実際の案件については必ず弁護士にご相談ください。法令・判例は更新されることがあり、内容は公開日時点のものです。</p>"""
+
 SIGNATURE = """<div class="post-footer">我是日本律師山崎駿，主要為企業處理勞動問題。文章的更新會發布在 <a href="{threads}" target="_blank" rel="noopener">Threads @bengoshun</a>。</div>"""
+
+SIGNATURE_JA = """<div class="post-footer">弁護士の山﨑駿です。使用者側の労働法務を中心に取り扱っています。更新情報は <a href="{threads}" target="_blank" rel="noopener">Threads @bengoshun</a> で発信しています。</div>"""
 
 # ------------------------------------------------------------------
 ARTICLES = [
@@ -499,15 +557,47 @@ ja="""
 ]
 
 # ------------------------------------------------------------------
-def page(title, desc, body, root=""):
-    return (HEAD.format(title=html.escape(title), desc=html.escape(desc), root=root, threads=THREADS, youtube=YOUTUBE)
+# 日本語版のカテゴリ名・記事要約（カード表示用）
+CAT_JA = {
+    "職場・勞動": "職場・労働",
+    "經營者須知": "経営者の基礎知識",
+    "外國人雇用": "外国人雇用",
+    "不動產": "不動産",
+}
+
+JA_SUMMARY = {
+    "shugyokisoku-shuchi": "会社が就業規則に基づき問題社員を懲戒解雇。社員は「その規則は見たことがない」。最高裁は社員の側に立ちました。キーワードは「周知」です。",
+    "pawahara-kokuseki": "「外国人だから」という職場での発言は、行政解釈上、パワハラの類型に当たり得ます。国際化する職場で経営者が知っておくべきルールです。",
+    "pawahara-taio-5steps": "社内でパワハラの訴えがあったとき、会社が踏むべき5つのステップ。中立的な調査手続こそが、会社の最良の防御です。",
+    "kaiko-shido-kiroku": "日本で解雇が有効と認められるのは「最後の手段」といえる場合だけ。日頃の指導記録の積み重ねがすべてを決めます。",
+    "kotei-zangyodai": "固定残業代は基本給と明確に区別できなければ無効。80時間分の設定は公序良俗違反で全部無効——東京高裁判決の教訓と設計チェックリスト。",
+    "kenshuhiyo-henkan": "「退職したら研修費用を返せ」という約定は、労基法16条との関係で有効・無効が分かれます。裁判所が見るのは、その費用が誰のためのものだったか。",
+    "passport-hokan": "同意書があっても違法。パスポートの会社保管には刑罰もあり、2025年の東京高裁は「生命に次ぐ重要な物」として賠償を命じました。",
+    "jiriki-kyusai-kinshi": "鍵の交換、荷物の処分、貼り紙、水道・電気の停止——日本ではすべて違法。滞納したのは借主でも、賠償するのは家主になり得ます。",
+    "teiki-shakuya": "日本の普通借家は期間満了でも自動更新。更新拒絶には「正当事由」が必要で、立退料を払っても足りないことがあります。解決策は定期借家契約。",
+    "nittai-kaiko-hikaku": "台湾は法定事由＋資遣費で適法に契約を終了できる。日本に資遣費はなく、お金では解雇は解決しません——日台の最大の違いと実務対応。",
+}
+
+def ja_parts(a):
+    """ja本文の冒頭<h2>【日本語版】…</h2>からタイトルを取り出し、本文と分離する"""
+    m = re.match(r"\s*<h2>【日本語版】(.*?)</h2>", a["ja"])
+    title = m.group(1)
+    body = a["ja"][m.end():]
+    return title, body
+
+def page(title, desc, body, root="", alt="", lang="zh"):
+    head = HEAD if lang == "zh" else HEAD_JA
+    foot = FOOT if lang == "zh" else FOOT_JA
+    return (head.format(title=html.escape(title), desc=html.escape(desc), root=root, alt=alt, threads=THREADS, youtube=YOUTUBE)
             + body
-            + FOOT.format(root=root, threads=THREADS, youtube=YOUTUBE))
+            + foot.format(root=root, threads=THREADS, youtube=YOUTUBE))
 
 def build():
     os.makedirs(os.path.join(BASE, "articles"), exist_ok=True)
+    os.makedirs(os.path.join(BASE, "ja", "articles"), exist_ok=True)
     arts = sorted(ARTICLES, key=lambda a: a["date"], reverse=True)
 
+    # ===== 中文版 =====
     # --- index ---
     cards = ""
     for a in arts:
@@ -532,7 +622,7 @@ def build():
 {DISCLAIMER}
 </main>"""
     with open(os.path.join(BASE, "index.html"), "w", encoding="utf-8") as f:
-        f.write(page(f"{SITE_NAME}｜{SITE_DESC}", "東京的日本律師用繁體中文解說日本的勞動法、職場霸凌、解僱規則、不動產法律與真實判決。", body))
+        f.write(page(f"{SITE_NAME}｜{SITE_DESC}", "東京的日本律師用繁體中文解說日本的勞動法、職場霸凌、解僱規則、不動產法律與真實判決。", body, alt="ja/index.html"))
 
     # --- about ---
     about_body = f"""<main>
@@ -552,33 +642,110 @@ def build():
 <tr><td>聯絡方式</td><td><a href="mailto:{MAIL}">{MAIL}</a></td></tr>
 <tr><td>顧問契約</td><td>月額5萬日圓（未稅）起</td></tr>
 </table>
-<h2>日本語プロフィール</h2>
-<p lang="ja">弁護士の山﨑駿です（第一東京弁護士会・登録番号62384）。東京で執務し、使用者側の労働法務（懲戒・解雇、ハラスメント対応、残業代紛争等）を中心に取り扱っています。中国語学習を兼ねて、台湾をはじめとする中国語圏の皆さまに向けて、日本の労働法・判例を繁体字中国語で発信しています。顧問契約は月額5万円（税別）からお受けしています。</p>
 </div>
 {CONTACT.format(mail=MAIL)}
 </main>"""
     with open(os.path.join(BASE, "about.html"), "w", encoding="utf-8") as f:
-        f.write(page(f"關於我｜{SITE_NAME}", "日本律師山崎駿的自我介紹。東京執業，主要為企業處理勞動法相關案件。", about_body))
+        f.write(page(f"關於我｜{SITE_NAME}", "日本律師山崎駿的自我介紹。東京執業，主要為企業處理勞動法相關案件。", about_body, alt="ja/about.html"))
 
     # --- articles ---
     for a in arts:
+        lang_note = f"""<p class="lang-note"><a href="../ja/articles/{a['slug']}.html" lang="ja">この記事を日本語で読む →</a></p>""" if a.get("ja") else ""
         body = f"""<main>
 <article class="post">
 <div class="cat">{a['cat']}</div>
 <h1>{a['title']}</h1>
 <div class="date">{a['date']}</div>
+{lang_note}
 {a['body']}
-{('<hr class="ja-sep"><section lang="ja" class="ja-version">' + a['ja'] + '</section>') if a.get('ja') else ''}
 {SIGNATURE.format(threads=THREADS)}
 {DISCLAIMER}
 </article>
 <a class="back" href="../index.html#articles">← 回到文章一覽</a>
 {CONTACT.format(mail=MAIL)}
 </main>"""
+        alt = f"../ja/articles/{a['slug']}.html" if a.get("ja") else "../ja/index.html"
         with open(os.path.join(BASE, "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
-            f.write(page(f"{a['title']}｜{SITE_NAME}", a["summary"], body, root="../"))
+            f.write(page(f"{a['title']}｜{SITE_NAME}", a["summary"], body, root="../", alt=alt))
 
-    print(f"built: index.html, about.html, {len(arts)} articles")
+    # ===== 日本語版 =====
+    # --- index ---
+    cards_ja = ""
+    for a in arts:
+        if not a.get("ja"):
+            continue
+        t, _ = ja_parts(a)
+        cards_ja += f"""<a class="card" href="articles/{a['slug']}.html">
+<div class="cat">{CAT_JA[a['cat']]}</div>
+<h3>{t}</h3>
+<p>{JA_SUMMARY[a['slug']]}</p>
+<div class="date">{a['date']}</div>
+</a>\n"""
+
+    hero_ja = f"""<div class="hero">
+<h1>経営者・人事担当者・不動産オーナーのための<br><span class="gold">労働法と不動産の実務解説</span></h1>
+<p class="lead">東京の弁護士が、実際の判例と経営者がとるべき実務対応を解説します</p>
+<a class="cta" href="#articles">記事を読む</a>
+</div>"""
+
+    body_ja = hero_ja + f"""<main>
+<h2 class="section-title" id="articles">記事</h2>
+<div class="cards">
+{cards_ja}</div>
+{CONTACT_JA.format(mail=MAIL)}
+{DISCLAIMER_JA}
+</main>"""
+    with open(os.path.join(BASE, "ja", "index.html"), "w", encoding="utf-8") as f:
+        f.write(page(f"{SITE_NAME_JA}｜{SITE_DESC_JA}", "弁護士山﨑駿が、労働法（懲戒・解雇、ハラスメント、残業代）と不動産の実務を、実際の判例とともに解説します。", body_ja, root="../", alt="../index.html", lang="ja"))
+
+    # --- about ---
+    about_ja = f"""<main>
+<h2 class="section-title">プロフィール</h2>
+<div class="profile">
+<img src="../profile.jpg" alt="弁護士 山﨑駿" class="profile-photo">
+<h2>山﨑 駿（やまざき しゅん）</h2>
+<p>弁護士（第一東京弁護士会・登録番号62384）。東京で執務し、使用者側の労働法務（懲戒・解雇、ハラスメント対応、残業代紛争等）を中心に取り扱っています。</p>
+<p>中国語学習を兼ねて、台湾をはじめとする中国語圏の皆さまに向け、日本の労働法・判例を繁体字中国語でも発信しています。</p>
+<h2>基本情報</h2>
+<table>
+<tr><td>執務地</td><td>東京</td></tr>
+<tr><td>弁護士登録</td><td>第一東京弁護士会・登録番号62384</td></tr>
+<tr><td>主な取扱分野</td><td>労働法（使用者側）、ハラスメント対応、解雇・懲戒、外国人雇用、企業法務一般</td></tr>
+<tr><td>言語</td><td>日本語、中国語（学習中。書面は可）</td></tr>
+<tr><td>発信</td><td><a href="{THREADS}" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a></td></tr>
+<tr><td>連絡先</td><td><a href="mailto:{MAIL}">{MAIL}</a></td></tr>
+<tr><td>顧問契約</td><td>月額5万円（税別）〜</td></tr>
+</table>
+</div>
+{CONTACT_JA.format(mail=MAIL)}
+</main>"""
+    with open(os.path.join(BASE, "ja", "about.html"), "w", encoding="utf-8") as f:
+        f.write(page(f"プロフィール｜{SITE_NAME_JA}", "弁護士山﨑駿のプロフィール。東京で使用者側の労働法務を中心に取り扱っています。", about_ja, root="../", alt="../about.html", lang="ja"))
+
+    # --- articles ---
+    n_ja = 0
+    for a in arts:
+        if not a.get("ja"):
+            continue
+        t, b = ja_parts(a)
+        body_ja = f"""<main>
+<article class="post">
+<div class="cat">{CAT_JA[a['cat']]}</div>
+<h1>{t}</h1>
+<div class="date">{a['date']}</div>
+<p class="lang-note"><a href="../../articles/{a['slug']}.html" lang="zh-Hant">閱讀本文中文版 →</a></p>
+{b}
+{SIGNATURE_JA.format(threads=THREADS)}
+{DISCLAIMER_JA}
+</article>
+<a class="back" href="../index.html#articles">← 記事一覧に戻る</a>
+{CONTACT_JA.format(mail=MAIL)}
+</main>"""
+        with open(os.path.join(BASE, "ja", "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(page(f"{t}｜{SITE_NAME_JA}", JA_SUMMARY[a["slug"]], body_ja, root="../../", alt=f"../../articles/{a['slug']}.html", lang="ja"))
+        n_ja += 1
+
+    print(f"built: index.html, about.html, {len(arts)} articles (zh) / ja: index, about, {n_ja} articles")
 
 if __name__ == "__main__":
     build()

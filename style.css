@@ -204,9 +204,17 @@ footer a:hover { color: var(--gold); }
   border: 1px solid var(--line);
 }
 
-/* Japanese version section */
-hr.ja-sep { border: none; border-top: 2px solid var(--gold); margin: 44px 0 34px; }
-.ja-version { font-size: .95em; }
+/* Language switch */
+nav a.lang-switch {
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  padding: 2px 10px;
+  color: var(--gold);
+}
+nav a.lang-switch:hover { background: var(--gold); color: var(--navy); }
+.lang-note { font-size: .85rem; margin: 10px 0 4px; }
+.lang-note a { color: var(--grey); text-decoration: underline; }
+.lang-note a:hover { color: var(--gold); }
 
 @media (max-width: 640px) {
   .hero h1 { font-size: 1.4rem; }
