@@ -194,6 +194,16 @@ footer a:hover { color: var(--gold); }
 /* Disclaimer */
 .disclaimer { font-size: .78rem; color: #9aa4b0; margin-top: 30px; }
 
+/* Profile photo */
+.profile-photo {
+  display: block;
+  width: 200px;
+  max-width: 60%;
+  border-radius: 8px;
+  margin: 0 auto 24px;
+  border: 1px solid var(--line);
+}
+
 /* Japanese version section */
 hr.ja-sep { border: none; border-top: 2px solid var(--gold); margin: 44px 0 34px; }
 .ja-version { font-size: .95em; }
