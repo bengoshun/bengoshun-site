@@ -194,6 +194,10 @@ footer a:hover { color: var(--gold); }
 /* Disclaimer */
 .disclaimer { font-size: .78rem; color: #9aa4b0; margin-top: 30px; }
 
+/* Japanese version section */
+hr.ja-sep { border: none; border-top: 2px solid var(--gold); margin: 44px 0 34px; }
+.ja-version { font-size: .95em; }
+
 @media (max-width: 640px) {
   .hero h1 { font-size: 1.4rem; }
   article.post { padding: 30px 22px; }
