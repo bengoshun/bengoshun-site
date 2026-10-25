@@ -9,11 +9,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="../favicon.ico">
 <link rel="stylesheet" href="../style.css">
+<script>(function(){var v=localStorage.getItem('bsfs');if(v)document.documentElement.style.fontSize=v+'%';})();</script><script>(function(){if(localStorage.getItem('bstheme')==='dark')document.documentElement.setAttribute('data-theme','dark');})();</script>
 </head>
 <body>
 <header>
   <div class="header-inner">
-    <div class="brand"><a href="../ja/index.html">弁護士 山﨑駿<span class="sub">労働法と不動産の実務解説</span></a></div>
+    <div class="brand"><a href="../ja/index.html">弁護士 山﨑駿<span class="sub">日本の労働法と暮らしの法律実務</span></a></div>
     <nav>
       <a href="../ja/index.html#articles">記事</a>
       <a href="../ja/about.html">プロフィール</a>
@@ -22,6 +23,8 @@
       <a href="https://www.youtube.com/@bengoshun" target="_blank" rel="noopener">YouTube</a>
       <a class="lang-switch" href="../about.html" lang="zh-Hant">中文</a>
     </nav>
+    <form class="header-search" action="../ja/index.html" method="get" role="search"><input type="search" name="q" placeholder="サイト内検索" aria-label="サイト内検索"></form>
+    <div class="fontsize" role="group" aria-label="文字サイズ"><span class="fs-label">文字</span><button type="button" data-fs="90">小</button><button type="button" data-fs="100">中</button><button type="button" data-fs="115">大</button><button type="button" class="theme-toggle" aria-label="ダークモード切替" title="ダーク／ライトモード">◐</button></div>
   </div>
 </header>
 <main>
@@ -40,6 +43,7 @@
 <tr><td>発信</td><td><a href="https://www.threads.com/@bengoshun" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="https://www.youtube.com/@bengoshun" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a></td></tr>
 <tr><td>連絡先</td><td><a href="mailto:bengoshun@gmail.com">bengoshun@gmail.com</a></td></tr>
 <tr><td>顧問契約</td><td>月額5万円（税別）〜</td></tr>
+<tr><td>初回相談料</td><td>1時間あたり3万円（税別）</td></tr>
 </table>
 <h2>YouTubeチャンネル</h2>
 <p>YouTube「弁護士山﨑駿の毎日人事労務」で、役立つ知識をご紹介しています。</p>
@@ -52,6 +56,7 @@
   <h2>企業・経営者の方のご相談</h2>
   <p>労働問題（懲戒・解雇、ハラスメント対応、残業代等）や不動産に関するご相談は、<br>メールでご連絡ください。</p>
   <a class="mail" href="mailto:bengoshun@gmail.com">bengoshun@gmail.com</a>
+  <p class="note"><a href="https://www.threads.com/@bengoshun" target="_blank" rel="noopener" style="color:#d9a441;">Threads（@bengoshun）のDM</a> でのご連絡も可能です。</p>
   <p class="note">※ 本サイトは山﨑駿個人の情報発信サイトです。ご連絡内容は秘密として取り扱います。</p>
 </div>
 
@@ -66,5 +71,43 @@
   </div>
   <div style="margin-top:10px;">&copy; 2026 Shun Yamazaki</div>
 </footer>
+<script>
+(function(){
+  var btns=document.querySelectorAll('.fontsize button');if(!btns.length)return;
+  function apply(v,save){
+    document.documentElement.style.fontSize=(v==='100'?'':v+'%');
+    btns.forEach(function(b){b.classList.toggle('active',b.getAttribute('data-fs')===v);});
+    if(save)localStorage.setItem('bsfs',v);
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){apply(b.getAttribute('data-fs'),true);});});
+  apply(localStorage.getItem('bsfs')||'100',false);
+})();
+</script><script>
+(function(){
+  var b=document.querySelector('.theme-toggle');if(!b)return;
+  b.addEventListener('click',function(){
+    if(document.documentElement.getAttribute('data-theme')==='dark'){
+      document.documentElement.removeAttribute('data-theme');localStorage.removeItem('bstheme');
+    }else{
+      document.documentElement.setAttribute('data-theme','dark');localStorage.setItem('bstheme','dark');
+    }
+  });
+})();
+</script><script>
+(function(){
+  var art=document.querySelector('article.post');if(!art)return;
+  function pick(sel){return Array.prototype.filter.call(art.querySelectorAll(sel),function(h){return !h.closest('.related');});}
+  var hs=pick('h2');if(hs.length<3)hs=pick('h3');if(hs.length<3)return;
+  var ja=document.documentElement.lang==='ja';
+  var items='';
+  hs.forEach(function(h,i){if(!h.id)h.id='sec'+(i+1);items+='<li><a href="#'+h.id+'"></a></li>';});
+  var toc=document.createElement('nav');toc.className='toc';
+  toc.innerHTML='<div class="label">'+(ja?'目次':'目錄')+'</div><ol>'+items+'</ol>';
+  var links=toc.querySelectorAll('a');
+  hs.forEach(function(h,i){links[i].textContent=h.textContent;});
+  var ref=art.querySelector('.tldr')||art.querySelector('.lang-note')||art.querySelector('.date');
+  if(ref)ref.insertAdjacentElement('afterend',toc);
+})();
+</script>
 </body>
 </html>
