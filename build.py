@@ -25847,6 +25847,7 @@ def build():
 <table>
 <tr><td>執業地</td><td>東京</td></tr>
 <tr><td>律師登錄</td><td>第一東京弁護士会・登錄番號62384</td></tr>
+<tr><td>學歷</td><td>早稻田大學法學部畢業（2018年）<br>同年通過司法試驗預備試驗（不經法科大學院即可取得司法試驗應考資格的考試）</td></tr>
 <tr><td>主要領域</td><td>勞動法（企業側）、職場霸凌對應、解僱・懲戒、外國人雇用、一般企業法務</td></tr>
 <tr><td>語言</td><td>日文、中文（學習中。書面OK，會話還有困難）</td></tr>
 <tr><td>發信平台</td><td><a href="{THREADS}" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a></td></tr>
@@ -25941,6 +25942,7 @@ def build():
 <table>
 <tr><td>執務地</td><td>東京</td></tr>
 <tr><td>弁護士登録</td><td>第一東京弁護士会・登録番号62384</td></tr>
+<tr><td>学歴</td><td>早稲田大学法学部卒業（2018年）<br>同年司法試験予備試験合格</td></tr>
 <tr><td>主な取扱分野</td><td>労働法（使用者側）、ハラスメント対応、解雇・懲戒、外国人雇用、企業法務一般</td></tr>
 <tr><td>言語</td><td>日本語、中国語（学習中。書面は可）</td></tr>
 <tr><td>発信</td><td><a href="{THREADS}" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a></td></tr>
