@@ -11,7 +11,7 @@ SITE_DESC = "日本的勞動法與生活法律實務"
 SITE_NAME_JA = "弁護士山﨑駿"
 SITE_DESC_JA = "日本の労働法と暮らしの法律実務"
 MAIL = "bengoshun@gmail.com"
-SITE_URL = "https://bengoshun-site.bengoshun.workers.dev"  # 独自ドメイン取得後に変更
+SITE_URL = "https://bengoshun.com"
 THREADS = "https://www.threads.com/@bengoshun"
 YOUTUBE = "https://www.youtube.com/@bengoshun"
 
