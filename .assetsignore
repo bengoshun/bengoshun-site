@@ -1,0 +1,7 @@
+.git
+.gitignore
+.DS_Store
+build.py
+pack_upload.py
+worker.js
+wrangler.jsonc
