@@ -26023,7 +26023,7 @@ def build():
 <h1>{a['title']}</h1>
 <div class="date">{a['date']}</div>
 {lang_note}
-<div class="tldr"><span class="tldr-label">5秒結論</span><p>{a['summary']}</p></div>
+<div class="tldr"><span class="tldr-label">10秒結論</span><p>{a['summary']}</p></div>
 {a['body']}
 {related_block(a['slug'], 'zh')}
 {SIGNATURE.format(threads=THREADS)}
@@ -26121,7 +26121,7 @@ def build():
 <h1>{t}</h1>
 <div class="date">{a['date']}</div>
 <p class="lang-note"><a href="../../articles/{a['slug']}.html" lang="zh-Hant">閱讀本文中文版 →</a></p>
-<div class="tldr"><span class="tldr-label">5秒でわかる結論</span><p>{JA_SUMMARY[a['slug']]}</p></div>
+<div class="tldr"><span class="tldr-label">10秒でわかる結論</span><p>{JA_SUMMARY[a['slug']]}</p></div>
 {b}
 {related_block(a['slug'], 'ja')}
 {SIGNATURE_JA.format(threads=THREADS)}
