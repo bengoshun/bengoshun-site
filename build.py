@@ -26078,10 +26078,13 @@ RELATED.update({
     "kaiko-seigen-kikan": ["kyushoku-manryo-taishoku", "kaiko-mae-checklist", "shobyo-teate"],
 })
 
+# 一時非公開の記事（公開時はここから slug を外して再ビルド）
+UNPUBLISHED = {"kihonkyu-shoyo-taigusa", "taigusa-setsumei-gimu", "haken-roshi-kyotei-hoshiki"}
+
 def build():
     os.makedirs(os.path.join(BASE, "articles"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "ja", "articles"), exist_ok=True)
-    arts = sorted(ARTICLES, key=lambda a: a["date"], reverse=True)
+    arts = sorted((a for a in ARTICLES if a["slug"] not in UNPUBLISHED), key=lambda a: a["date"], reverse=True)
 
     # ===== 中文版 =====
     # --- index ---
