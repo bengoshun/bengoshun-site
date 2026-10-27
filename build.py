@@ -3,9 +3,42 @@
 使い方: python3 build.py  → index.html / about.html / articles/*.html を生成
 記事の追加: ARTICLES に dict を追加して再実行
 """
-import os, re, html
+import os, re, html, opencc
 
 BASE = os.path.dirname(os.path.abspath(__file__))
+
+# 繁体字（台湾）→ 簡体字（大陸）。語彙も変換する（資訊→信息・網路→网络 等）
+_CC = opencc.OpenCC("tw2sp")
+_CC_PLAIN = opencc.OpenCC("t2s")  # 字体だけを変換する（語彙は変えない）
+_KEEP_RE = re.compile(r'<([a-z]+)[^>]*\blang="ja"[^>]*>.*?</\1>', re.S)
+
+# tw2sp の語彙辞書はIT用語が中心で、法律用語を別語に置き換えてしまう
+# （執行→运行、程序→进程、使用者→用户、物件→对象 等）。これらは字体変換のみとする
+_KEEP_WORDS = sorted((
+    "執行", "程序", "使用者", "文件", "核心", "物件", "列舉", "資料", "支援",
+    "線上", "文字", "存取", "整合", "複製", "專案", "檢視", "預設", "宣告",
+    "連結", "簡報", "排程", "裝置", "欄位", "呼叫", "模擬", "序列", "離線",
+    "入口", "宣言", "解析", "原件", "影本", "記憶", "回復", "還原", "介面",
+    "型別", "紀錄", "記錄", "匯入", "匯出", "匯款", "指標", "接觸", "查詢",
+    "存檔", "效能", "截圖", "通道", "撥出",
+), key=len, reverse=True)
+
+# 送り仮名が続く「著」は日本語の「著しく」。中国語の「放著→放着」は正しいので変換させる
+_JP_RE = re.compile(r"著(?=[\u3041-\u309f])")
+
+def to_cn(s):
+    """繁体字HTMLを簡体字に変換する。lang="ja" の要素・日本語の引用・法律用語は変換しない"""
+    keep = []
+    def stash(m):
+        keep.append(m.group(0))
+        return f"@@K{len(keep)-1}@@"
+    s = _KEEP_RE.sub(stash, s)
+    s = _JP_RE.sub(stash, s)
+    for i, w in enumerate(_KEEP_WORDS):
+        s = s.replace(w, f"@@W{i}@@")
+    s = _CC.convert(s)
+    s = re.sub(r"@@W(\d+)@@", lambda m: _CC_PLAIN.convert(_KEEP_WORDS[int(m.group(1))]), s)
+    return re.sub(r"@@K(\d+)@@", lambda m: keep[int(m.group(1))], s)
 SITE_NAME = "日本律師山崎駿"
 SITE_DESC = "日本的勞動法與生活法律實務"
 SITE_NAME_JA = "弁護士山﨑駿"
@@ -38,7 +71,7 @@ HEAD = """<!DOCTYPE html>
       <a href="{root}index.html#contact">諮詢</a>
       <a href="{threads}" target="_blank" rel="noopener">Threads</a>
       <a href="{youtube}" target="_blank" rel="noopener">YouTube</a>
-      <a class="lang-switch" href="{alt}" lang="ja">日本語</a>
+{langnav}
     </nav>
     <form class="header-search" action="{root}index.html" method="get" role="search"><input type="search" name="q" placeholder="站內搜尋" aria-label="站內搜尋"></form>
     <div class="fontsize" role="group" aria-label="文字大小"><span class="fs-label">文字</span><button type="button" data-fs="90">小</button><button type="button" data-fs="100">中</button><button type="button" data-fs="115">大</button><button type="button" class="theme-toggle" aria-label="切換深色模式" title="深色／淺色模式">◐</button></div>
@@ -69,7 +102,7 @@ HEAD_JA = """<!DOCTYPE html>
       <a href="{root}ja/index.html#contact">お問い合わせ</a>
       <a href="{threads}" target="_blank" rel="noopener">Threads</a>
       <a href="{youtube}" target="_blank" rel="noopener">YouTube</a>
-      <a class="lang-switch" href="{alt}" lang="zh-Hant">中文</a>
+{langnav}
     </nav>
     <form class="header-search" action="{root}ja/index.html" method="get" role="search"><input type="search" name="q" placeholder="サイト内検索" aria-label="サイト内検索"></form>
     <div class="fontsize" role="group" aria-label="文字サイズ"><span class="fs-label">文字</span><button type="button" data-fs="90">小</button><button type="button" data-fs="100">中</button><button type="button" data-fs="115">大</button><button type="button" class="theme-toggle" aria-label="ダークモード切替" title="ダーク／ライトモード">◐</button></div>
@@ -137,6 +170,35 @@ DISCLAIMER_DATED_JA = """<p class="disclaimer">※ 本記事は一般的な法�
 SIGNATURE = """<div class="post-footer">我是日本律師山崎駿，主要為企業處理勞動問題。文章的更新會發布在 <a href="{threads}" target="_blank" rel="noopener">Threads @bengoshun</a>。</div>"""
 
 SIGNATURE_JA = """<div class="post-footer">弁護士の山﨑駿です。使用者側の労働法務を中心に取り扱っています。更新情報は <a href="{threads}" target="_blank" rel="noopener">Threads @bengoshun</a> で発信しています。</div>"""
+
+# ===== 簡体字版（繁体字版から自動変換）=====
+HEAD_CN = (to_cn(HEAD)
+           .replace('<html lang="zh-Hant">', '<html lang="zh-Hans">')
+           .replace("Noto+Serif+TC", "Noto+Serif+SC")
+           .replace("{root}index.html", "{root}cn/index.html")
+           .replace("{root}cases.html", "{root}cn/cases.html")
+           .replace("{root}about.html", "{root}cn/about.html"))
+
+FOOT_CN = """<footer>
+  <div>日本律师 山崎骏（第一东京弁护士会）</div>
+  <div style="margin-top:6px;">
+    <a href="{root}cn/index.html">首页</a>|
+    <a href="{root}cn/about.html">关于我</a>|
+    <a href="{root}index.html" lang="zh-Hant">繁體中文版</a>|
+    <a href="{root}ja/index.html" lang="ja">日本語版</a>|
+    <a href="{threads}" target="_blank" rel="noopener">Threads @bengoshun</a>|
+    <a href="{youtube}" target="_blank" rel="noopener">YouTube</a>
+  </div>
+  <div style="margin-top:10px;">&copy; 2026 Shun Yamazaki</div>
+</footer>
+</body>
+</html>
+"""
+
+CONTACT_CN = to_cn(CONTACT)
+DISCLAIMER_CN = to_cn(DISCLAIMER)
+DISCLAIMER_DATED_CN = to_cn(DISCLAIMER_DATED)
+SIGNATURE_CN = to_cn(SIGNATURE)
 
 # ------------------------------------------------------------------
 ARTICLES = [
@@ -24913,11 +24975,32 @@ TOC_JS = """<script>
 })();
 </script>"""
 
-def page(title, desc, body, root="", alt="", lang="zh"):
-    head = HEAD if lang == "zh" else HEAD_JA
-    foot = FOOT if lang == "zh" else FOOT_JA
-    h = head.format(title=html.escape(title), desc=html.escape(desc), root=root, alt=alt, threads=THREADS, youtube=YOUTUBE)
-    h = h.replace("</head>", FS_INIT + THEME_INIT + "\n</head>")
+# 言語ごとの出力先ディレクトリ・hreflang値・切替リンクのラベル
+PREFIX = {"zh": "", "cn": "cn/", "ja": "ja/"}
+HREFLANG = {"zh": "zh-Hant", "cn": "zh-Hans", "ja": "ja"}
+SWITCH_LABEL = {"zh": "繁體", "cn": "简体", "ja": "日本語"}
+ALL_LANGS = ("zh", "cn", "ja")
+
+def lang_nav(root, base, cur, langs):
+    """ヘッダーの言語切替リンク（base＝言語接頭辞を除いたパス）"""
+    return "\n".join(
+        f'      <a class="lang-switch" href="{root}{PREFIX[lg]}{base}" lang="{HREFLANG[lg]}">{SWITCH_LABEL[lg]}</a>'
+        for lg in ALL_LANGS if lg != cur and lg in langs)
+
+def alt_links(base, cur, langs):
+    """hreflang と canonical（絶対URL）"""
+    ls = [f'<link rel="alternate" hreflang="{HREFLANG[lg]}" href="{SITE_URL}/{PREFIX[lg]}{base}">'
+          for lg in ALL_LANGS if lg in langs]
+    ls.append(f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}/{base}">')
+    ls.append(f'<link rel="canonical" href="{SITE_URL}/{PREFIX[cur]}{base}">')
+    return "\n".join(ls)
+
+def page(title, desc, body, root="", lang="zh", base="index.html", langs=ALL_LANGS):
+    head = {"zh": HEAD, "cn": HEAD_CN, "ja": HEAD_JA}[lang]
+    foot = {"zh": FOOT, "cn": FOOT_CN, "ja": FOOT_JA}[lang]
+    h = head.format(title=html.escape(title), desc=html.escape(desc), root=root,
+                    langnav=lang_nav(root, base, lang, langs), threads=THREADS, youtube=YOUTUBE)
+    h = h.replace("</head>", alt_links(base, lang, langs) + "\n" + FS_INIT + THEME_INIT + "\n</head>")
     f = foot.format(root=root, threads=THREADS, youtube=YOUTUBE)
     f = f.replace("</body>", FS_JS + THEME_JS + TOC_JS + "\n</body>")
     return h + body + f
@@ -26084,6 +26167,7 @@ UNPUBLISHED = {"kihonkyu-shoyo-taigusa", "taigusa-setsumei-gimu", "haken-roshi-k
 def build():
     os.makedirs(os.path.join(BASE, "articles"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "ja", "articles"), exist_ok=True)
+    os.makedirs(os.path.join(BASE, "cn", "articles"), exist_ok=True)
     arts = sorted((a for a in ARTICLES if a["slug"] not in UNPUBLISHED), key=lambda a: a["date"], reverse=True)
 
     # ===== 中文版 =====
@@ -26106,8 +26190,13 @@ def build():
 {DISCLAIMER}
 </main>
 {SEARCH_JS}"""
+    idx_title = f"{SITE_NAME}｜{SITE_DESC}"
+    idx_desc = "東京的日本律師用繁體中文解說日本的勞動法、職場霸凌、解僱規則、不動產法律與真實判決。"
     with open(os.path.join(BASE, "index.html"), "w", encoding="utf-8") as f:
-        f.write(page(f"{SITE_NAME}｜{SITE_DESC}", "東京的日本律師用繁體中文解說日本的勞動法、職場霸凌、解僱規則、不動產法律與真實判決。", body, alt="ja/index.html"))
+        f.write(page(idx_title, idx_desc, body, base="index.html"))
+    with open(os.path.join(BASE, "cn", "index.html"), "w", encoding="utf-8") as f:
+        f.write(page(to_cn(idx_title), "东京的日本律师用简体中文解说日本的劳动法、职场霸凌、解雇规则、不动产法律与真实判决。",
+                     to_cn(body), root="../", lang="cn", base="index.html"))
 
     # --- カテゴリ別ページ（中文） ---
     for cat, cslug in CAT_SLUG.items():
@@ -26123,8 +26212,13 @@ def build():
 {DISCLAIMER}
 {SEARCH_JS}
 </main>"""
+        cat_title = f"{cat}｜{SITE_NAME}"
+        cat_desc = f"「{cat}」分類的文章一覽（{len(cat_arts)}篇）。"
         with open(os.path.join(BASE, f"category-{cslug}.html"), "w", encoding="utf-8") as f:
-            f.write(page(f"{cat}｜{SITE_NAME}", f"「{cat}」分類的文章一覽（{len(cat_arts)}篇）。", cat_body, alt=f"ja/category-{cslug}.html"))
+            f.write(page(cat_title, cat_desc, cat_body, base=f"category-{cslug}.html"))
+        with open(os.path.join(BASE, "cn", f"category-{cslug}.html"), "w", encoding="utf-8") as f:
+            f.write(page(to_cn(cat_title), to_cn(cat_desc), to_cn(cat_body),
+                         root="../", lang="cn", base=f"category-{cslug}.html"))
 
     # --- about ---
     about_body = f"""<main>
@@ -26155,8 +26249,14 @@ def build():
 </div>
 {CONTACT.format(mail=MAIL)}
 </main>"""
+    about_title = f"關於我｜{SITE_NAME}"
+    about_desc = "日本律師山崎駿的自我介紹。東京執業，主要為企業處理勞動法相關案件。"
     with open(os.path.join(BASE, "about.html"), "w", encoding="utf-8") as f:
-        f.write(page(f"關於我｜{SITE_NAME}", "日本律師山崎駿的自我介紹。東京執業，主要為企業處理勞動法相關案件。", about_body, alt="ja/about.html"))
+        f.write(page(about_title, about_desc, about_body, base="about.html"))
+    # 簡体字版は cn/ 配下なので画像は一つ上の階層を参照する
+    about_cn = re.sub(r'src="(profile|youtube-card|youtube-banner)\.jpg"', r'src="../\1.jpg"', to_cn(about_body))
+    with open(os.path.join(BASE, "cn", "about.html"), "w", encoding="utf-8") as f:
+        f.write(page(to_cn(about_title), to_cn(about_desc), about_cn, root="../", lang="cn", base="about.html"))
 
     # --- cases（解決案例） ---
     cases_body = f"""<main>
@@ -26206,8 +26306,12 @@ def build():
 {CONTACT.format(mail=MAIL)}
 {DISCLAIMER}
 </main>"""
+    cases_title = f"解決案例｜{SITE_NAME}"
+    cases_desc = "日本律師山崎駿實際參與解決的案件例子：建物騰退、加班費請求、解僱・勞災・勞動審判等（已匿名化處理）。"
     with open(os.path.join(BASE, "cases.html"), "w", encoding="utf-8") as f:
-        f.write(page(f"解決案例｜{SITE_NAME}", "日本律師山崎駿實際參與解決的案件例子：建物騰退、加班費請求、解僱・勞災・勞動審判等（已匿名化處理）。", cases_body, alt="ja/cases.html"))
+        f.write(page(cases_title, cases_desc, cases_body, base="cases.html"))
+    with open(os.path.join(BASE, "cn", "cases.html"), "w", encoding="utf-8") as f:
+        f.write(page(to_cn(cases_title), to_cn(cases_desc), to_cn(cases_body), root="../", lang="cn", base="cases.html"))
 
     # --- articles ---
     for a in arts:
@@ -26227,9 +26331,17 @@ def build():
 <a class="back" href="../index.html#articles">← 回到文章一覽</a>
 {CONTACT.format(mail=MAIL)}
 </main>"""
-        alt = f"../ja/articles/{a['slug']}.html" if a.get("ja") else "../ja/index.html"
+        lgs = ALL_LANGS if a.get("ja") else ("zh", "cn")
+        art_base = f"articles/{a['slug']}.html"
         with open(os.path.join(BASE, "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
-            f.write(page(f"{a['title']}｜{SITE_NAME}", a["summary"], body, root="../", alt=alt))
+            f.write(page(f"{a['title']}｜{SITE_NAME}", a["summary"], body, root="../", base=art_base, langs=lgs))
+        # 簡体字版は cn/articles/ 配下なので日本語版へのリンクだけ一段深くする
+        body_cn = (to_cn(body)
+                   .replace('"../ja/articles/', '"../../ja/articles/')
+                   .replace('href="/articles/', 'href="/cn/articles/'))
+        with open(os.path.join(BASE, "cn", "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(page(to_cn(f"{a['title']}｜{SITE_NAME}"), to_cn(a["summary"]), body_cn,
+                         root="../../", lang="cn", base=art_base, langs=lgs))
 
     # ===== 日本語版 =====
     # --- index ---
@@ -26253,7 +26365,7 @@ def build():
 </main>
 {SEARCH_JS}"""
     with open(os.path.join(BASE, "ja", "index.html"), "w", encoding="utf-8") as f:
-        f.write(page(f"{SITE_NAME_JA}｜{SITE_DESC_JA}", "弁護士山﨑駿が、労働法（懲戒・解雇、ハラスメント、残業代）と不動産の実務を、実際の判例とともに解説します。", body_ja, root="../", alt="../index.html", lang="ja"))
+        f.write(page(f"{SITE_NAME_JA}｜{SITE_DESC_JA}", "弁護士山﨑駿が、労働法（懲戒・解雇、ハラスメント、残業代）と不動産の実務を、実際の判例とともに解説します。", body_ja, root="../", lang="ja", base="index.html"))
 
     # --- カテゴリ別ページ（日本語） ---
     for cat, cslug in CAT_SLUG.items():
@@ -26270,7 +26382,7 @@ def build():
 {SEARCH_JS}
 </main>"""
         with open(os.path.join(BASE, "ja", f"category-{cslug}.html"), "w", encoding="utf-8") as f:
-            f.write(page(f"{CAT_JA[cat]}｜{SITE_NAME_JA}", f"「{CAT_JA[cat]}」カテゴリの記事一覧（{len(cat_arts)}本）。", cat_body, root="../", alt=f"../category-{cslug}.html", lang="ja"))
+            f.write(page(f"{CAT_JA[cat]}｜{SITE_NAME_JA}", f"「{CAT_JA[cat]}」カテゴリの記事一覧（{len(cat_arts)}本）。", cat_body, root="../", lang="ja", base=f"category-{cslug}.html"))
 
     # --- about ---
     about_ja = f"""<main>
@@ -26302,7 +26414,7 @@ def build():
 {CONTACT_JA.format(mail=MAIL)}
 </main>"""
     with open(os.path.join(BASE, "ja", "about.html"), "w", encoding="utf-8") as f:
-        f.write(page(f"プロフィール｜{SITE_NAME_JA}", "弁護士山﨑駿のプロフィール。東京で使用者側の労働法務を中心に取り扱っています。", about_ja, root="../", alt="../about.html", lang="ja"))
+        f.write(page(f"プロフィール｜{SITE_NAME_JA}", "弁護士山﨑駿のプロフィール。東京で使用者側の労働法務を中心に取り扱っています。", about_ja, root="../", lang="ja", base="about.html"))
 
     # --- cases（解決事例・日本語） ---
     cases_ja = f"""<main>
@@ -26353,7 +26465,7 @@ def build():
 {DISCLAIMER_JA}
 </main>"""
     with open(os.path.join(BASE, "ja", "cases.html"), "w", encoding="utf-8") as f:
-        f.write(page(f"解決事例｜{SITE_NAME_JA}", "弁護士山﨑駿が実際に関与し解決した事案の一例。建物明渡し、残業代請求、労災、労働審判など（匿名化して掲載）。", cases_ja, root="../", alt="../cases.html", lang="ja"))
+        f.write(page(f"解決事例｜{SITE_NAME_JA}", "弁護士山﨑駿が実際に関与し解決した事案の一例。建物明渡し、残業代請求、労災、労働審判など（匿名化して掲載）。", cases_ja, root="../", lang="ja", base="cases.html"))
 
     # --- articles ---
     n_ja = 0
@@ -26377,7 +26489,7 @@ def build():
 {CONTACT_JA.format(mail=MAIL)}
 </main>"""
         with open(os.path.join(BASE, "ja", "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
-            f.write(page(f"{t}｜{SITE_NAME_JA}", JA_SUMMARY[a["slug"]], body_ja, root="../../", alt=f"../../articles/{a['slug']}.html", lang="ja"))
+            f.write(page(f"{t}｜{SITE_NAME_JA}", JA_SUMMARY[a["slug"]], body_ja, root="../../", lang="ja", base=f"articles/{a['slug']}.html"))
         n_ja += 1
 
     # ===== sitemap.xml =====
@@ -26385,18 +26497,19 @@ def build():
     urls = []
     def u(path, lastmod):
         urls.append(f"<url><loc>{SITE_URL}/{path}</loc><lastmod>{lastmod}</lastmod></url>")
-    u("index.html", today)
-    u("about.html", today)
-    u("cases.html", today)
-    u("ja/index.html", today)
-    u("ja/about.html", today)
-    u("ja/cases.html", today)
+    for p in ("index.html", "about.html", "cases.html"):
+        u(p, today)
+        u("cn/" + p, today)
+        u("ja/" + p, today)
     for cslug in CAT_SLUG.values():
         u(f"category-{cslug}.html", today)
+        u(f"cn/category-{cslug}.html", today)
         u(f"ja/category-{cslug}.html", today)
     for a in arts:
         u(f"articles/{a['slug']}.html", a["date"])
-        u(f"ja/articles/{a['slug']}.html", a["date"])
+        u(f"cn/articles/{a['slug']}.html", a["date"])
+        if a.get("ja"):
+            u(f"ja/articles/{a['slug']}.html", a["date"])
     sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                + "\n".join(urls) + "\n</urlset>\n")
@@ -26405,7 +26518,7 @@ def build():
     with open(os.path.join(BASE, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
 
-    print(f"built: index.html, about.html, {len(arts)} articles (zh) / ja: index, about, {n_ja} articles, sitemap.xml")
+    print(f"built: zh {len(arts)} / cn {len(arts)} / ja {n_ja} articles, {len(urls)} urls in sitemap.xml")
 
 JA_SUMMARY.update({
     "gyaku-pawahara": "パワハラは上司から部下への言動に限りません。厚労省指針は部下・同僚の言動（知識・経験の優位、集団による行為）も「優越的な関係」に該当すると明記。部下の中傷ビラによる料理長の自殺を労災と認めた裁判例（国・渋谷労基署長〔小田急レストランシステム〕事件）、管理職の相談を放置した会社に賠償を命じた裁判例（アンシス・ジャパン事件）を踏まえ、逆パワハラへの会社の対応を解説。",
