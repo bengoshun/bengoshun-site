@@ -26,10 +26,23 @@ _KEEP_WORDS = sorted((
 # 台湾語彙のうち、大陸では別語を使うもの（OpenCCの辞書が拾わない分を先に置換する）
 _CN_WORDS = (("紀錄", "記錄"), ("影本", "複印件"), ("存取", "訪問"))
 
+# 簡体字版は華人一般向けなので、読者への呼びかけ・読者の属性を指す語だけを「華人〜」に置き換える。
+# 台湾法・台湾の制度・台湾に所在することが法的に意味を持つ記述（準拠法・戶籍謄本・台灣駕照・
+# 社会保障協定・非居住者課税・ワーキングホリデー等）は事実が変わるので一切触れない
+_CN_AUDIENCE = sorted((
+    ("台灣人經營者", "華人經營者"), ("台灣經營者", "華人經營者"), ("台灣老闆", "華人老闆"),
+    ("台灣投資者", "華人投資者"), ("台灣投資人", "華人投資人"), ("台資企業", "華人企業"),
+    ("台灣房東", "華人房東"), ("台灣屋主", "華人屋主"),
+    ("台灣人上班族", "華人上班族"), ("台灣朋友", "華人朋友"), ("台灣買家", "華人買家"),
+), key=lambda t: len(t[0]), reverse=True)
+
+# 日台比較が主題の記事は「台灣經營者」等が記述上の意味を持つため、呼びかけの置換から除く
+CN_KEEP_TW = {"nittai-kaiko-hikaku", "shiyo-kikan-nittai"}
+
 # 送り仮名が続く「著」は日本語の「著しく」。中国語の「放著→放着」は正しいので変換させる
 _JP_RE = re.compile(r"著(?=[\u3041-\u309f])")
 
-def to_cn(s):
+def to_cn(s, audience=True):
     """繁体字HTMLを簡体字に変換する。lang="ja" の要素・日本語の引用・法律用語は変換しない"""
     keep = []
     def stash(m):
@@ -39,6 +52,9 @@ def to_cn(s):
     s = _JP_RE.sub(stash, s)
     for a, b in _CN_WORDS:
         s = s.replace(a, b)
+    if audience:
+        for a, b in _CN_AUDIENCE:
+            s = s.replace(a, b)
     for i, w in enumerate(_KEEP_WORDS):
         s = s.replace(w, f"@@W{i}@@")
     s = _CC.convert(s)
@@ -26660,11 +26676,12 @@ def build():
         with open(os.path.join(BASE, "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page(f"{a['title']}｜{SITE_NAME}", a["summary"], body, root="../", base=art_base, langs=lgs))
         # 簡体字版は cn/articles/ 配下なので日本語版へのリンクだけ一段深くする
-        body_cn = (to_cn(body)
+        aud = a["slug"] not in CN_KEEP_TW
+        body_cn = (to_cn(body, aud)
                    .replace('"../ja/articles/', '"../../ja/articles/')
                    .replace('href="/articles/', 'href="/cn/articles/'))
         with open(os.path.join(BASE, "cn", "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
-            f.write(page(to_cn(f"{a['title']}｜{SITE_NAME}"), to_cn(a["summary"]), body_cn,
+            f.write(page(to_cn(f"{a['title']}｜{SITE_NAME}", aud), to_cn(a["summary"], aud), body_cn,
                          root="../../", lang="cn", base=art_base, langs=lgs))
 
     # ===== 日本語版 =====
