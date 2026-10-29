@@ -28825,6 +28825,15 @@ NEWS_TYPE = {
 }
 NEWS = [
     dict(date="2026-10-30", type="video",
+         title="上傳了新影片「男性育休5割時代の新リスク『パタハラ配転』」（日語）。解說男性育休取得率提高後，育休復職者的調職（配轉）可能構成育介法上不利益取扱的風險與企業應注意的要點",
+         title_ja="新しい動画「男性育休5割時代の新リスク『パタハラ配転』――会社は何に気をつけるべきか」を公開しました",
+         url="https://youtu.be/WZFgEMSjAXY"),
+    dict(date="2026-10-30", type="article",
+         title="發布了新文章「育休中的社會保險料可以免除——令和4年10月改正後的14日要件與賞與的新規則」",
+         title_ja="新着記事「育休中の社会保険料免除の実務——令和4年10月改正後の14日要件と賞与の新ルール」を公開しました",
+         url="articles/ikukyu-shakaihoken-menjo.html",
+         url_ja="ja/articles/ikukyu-shakaihoken-menjo.html"),
+    dict(date="2026-10-30", type="video",
          title="YouTube頻道「弁護士山﨑駿の毎日人事労務」（日語）持續更新中。今後新影片上傳時也會在這裡公告",
          title_ja="YouTubeチャンネル「弁護士山﨑駿の毎日人事労務」を更新中です。今後、新しい動画をアップロードした際はこちらでお知らせします",
          url=""),
