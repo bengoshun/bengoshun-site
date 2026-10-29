@@ -88,6 +88,7 @@ HEAD = """<!DOCTYPE html>
     <div class="brand"><a href="{root}index.html">日本律師 山崎駿<span class="sub">日本的勞動法與生活法律實務</span></a></div>
     <nav>
       <a href="{root}index.html#articles">文章</a>
+      <a href="{root}news.html">最新消息</a>
       <a href="{root}cases.html">解決案例</a>
       <a href="{root}about.html">關於我</a>
       <a href="{root}index.html#contact">諮詢</a>
@@ -119,6 +120,7 @@ HEAD_JA = """<!DOCTYPE html>
     <div class="brand"><a href="{root}ja/index.html">弁護士 山﨑駿<span class="sub">日本の労働法と暮らしの法律実務</span></a></div>
     <nav>
       <a href="{root}ja/index.html#articles">記事</a>
+      <a href="{root}ja/news.html">お知らせ</a>
       <a href="{root}ja/cases.html">解決事例</a>
       <a href="{root}ja/about.html">プロフィール</a>
       <a href="{root}ja/index.html#contact">お問い合わせ</a>
@@ -198,6 +200,7 @@ HEAD_CN = (to_cn(HEAD)
            .replace('<html lang="zh-Hant">', '<html lang="zh-Hans">')
            .replace("Noto+Serif+TC", "Noto+Serif+SC")
            .replace("{root}index.html", "{root}cn/index.html")
+           .replace("{root}news.html", "{root}cn/news.html")
            .replace("{root}cases.html", "{root}cn/cases.html")
            .replace("{root}about.html", "{root}cn/about.html"))
 
@@ -28810,11 +28813,54 @@ RELATED.update({'zangyo-60jikan-warimashi': ['daitai-kyuka', 'saburoku-kyotei', 
 # 一時非公開の記事（公開時はここから slug を外して再ビルド）
 UNPUBLISHED = {"kihonkyu-shoyo-taigusa", "taigusa-setsumei-gimu", "haken-roshi-kyotei-hoshiki"}
 
+# ===== お知らせ（最新消息）=====
+# type: video=YouTube動画 / article=新着記事 / media=メディア掲載 / seminar=セミナー / site=サイト
+# url は空文字ならリンクなし。相対URL（例: "articles/xxx.html"）はサイトルート基準で書く
+NEWS_TYPE = {
+    "video":   ("影片", "動画"),
+    "article": ("文章", "記事"),
+    "media":   ("媒體", "メディア"),
+    "seminar": ("講座", "セミナー"),
+    "site":    ("網站", "サイト"),
+}
+NEWS = [
+    dict(date="2026-10-30", type="video",
+         title="YouTube頻道「弁護士山﨑駿の毎日人事労務」（日語）持續更新中。今後新影片上傳時也會在這裡公告",
+         title_ja="YouTubeチャンネル「弁護士山﨑駿の毎日人事労務」を更新中です。今後、新しい動画をアップロードした際はこちらでお知らせします",
+         url=""),
+    dict(date="2026-10-30", type="site",
+         title="開設了「最新消息」頁面。YouTube影片的上傳、新文章的發布等消息會在這裡公告",
+         title_ja="「お知らせ」ページを開設しました。YouTube動画のアップロードや新着記事などをこちらでご案内します",
+         url=""),
+]
+
 def build():
     os.makedirs(os.path.join(BASE, "articles"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "ja", "articles"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "cn", "articles"), exist_ok=True)
     arts = sorted((a for a in ARTICLES if a["slug"] not in UNPUBLISHED), key=lambda a: a["date"], reverse=True)
+
+    # ===== お知らせ（最新消息）=====
+    news_sorted = sorted(NEWS, key=lambda n: n["date"], reverse=True)
+
+    def news_li(n, lang, root=""):
+        label = NEWS_TYPE[n["type"]][0 if lang == "zh" else 1]
+        title = n["title"] if lang == "zh" else n["title_ja"]
+        url = n.get("url", "") if lang == "zh" else n.get("url_ja", n.get("url", ""))
+        if url:
+            href = url if url.startswith("http") else root + url
+            ext = ' target="_blank" rel="noopener"' if url.startswith("http") else ""
+            body = f'<a href="{href}"{ext}>{title}</a>'
+        else:
+            body = f"<span>{title}</span>"
+        return f'<li><span class="nd">{n["date"]}</span><span class="nt">{label}</span>{body}</li>'
+
+    def news_box(lang, root=""):
+        if not news_sorted:
+            return ""
+        items = "".join(news_li(n, lang, root) for n in news_sorted[:5])
+        h, more = ("最新消息", "查看全部 →") if lang == "zh" else ("お知らせ", "すべて見る →")
+        return f'<div class="newsbox"><h2>{h}</h2><ul>{items}</ul><p class="more"><a href="news.html">{more}</a></p></div>\n'
 
     # ===== 中文版 =====
     # --- index ---
@@ -28827,7 +28873,7 @@ def build():
 </div>"""
 
     body = hero + f"""<main>
-<h2 class="section-title" id="articles">文章</h2>
+{news_box("zh")}<h2 class="section-title" id="articles">文章</h2>
 {catnav(arts, "zh")}
 <div class="searchbox"><input type="search" id="q" placeholder="搜尋文章（例：解僱、加班費、簽證）" aria-label="搜尋文章"><p class="search-empty" id="qe" hidden>找不到符合的文章</p></div>
 <div class="cards">
@@ -29002,7 +29048,7 @@ def build():
 </div>"""
 
     body_ja = hero_ja + f"""<main>
-<h2 class="section-title" id="articles">記事</h2>
+{news_box("ja", "../")}<h2 class="section-title" id="articles">記事</h2>
 {catnav(arts_ja, "ja")}
 <div class="searchbox"><input type="search" id="q" placeholder="記事を検索（例：解雇、残業代、ビザ）" aria-label="記事を検索"><p class="search-empty" id="qe" hidden>該当する記事が見つかりません</p></div>
 <div class="cards">
@@ -29139,12 +29185,35 @@ def build():
             f.write(page(f"{t}｜{SITE_NAME_JA}", JA_SUMMARY[a["slug"]], body_ja, root="../../", lang="ja", base=f"articles/{a['slug']}.html"))
         n_ja += 1
 
+    # ===== お知らせ一覧ページ（news.html） =====
+    items_zh = "".join(news_li(n, "zh") for n in news_sorted)
+    news_body = f"""<main>
+<h2 class="section-title">最新消息</h2>
+<div class="newsbox news-list"><ul>{items_zh}</ul></div>
+{CONTACT.format(mail=MAIL)}
+</main>"""
+    news_title = f"最新消息｜{SITE_NAME}"
+    news_desc = "YouTube影片的上傳、新文章的發布、講座・媒體資訊等最新消息。"
+    with open(os.path.join(BASE, "news.html"), "w", encoding="utf-8") as f:
+        f.write(page(news_title, news_desc, news_body, base="news.html"))
+    with open(os.path.join(BASE, "cn", "news.html"), "w", encoding="utf-8") as f:
+        f.write(page(to_cn(news_title), to_cn(news_desc), to_cn(news_body),
+                     root="../", lang="cn", base="news.html"))
+    items_ja = "".join(news_li(n, "ja", "../") for n in news_sorted)
+    news_body_ja = f"""<main>
+<h2 class="section-title">お知らせ</h2>
+<div class="newsbox news-list"><ul>{items_ja}</ul></div>
+{CONTACT_JA.format(mail=MAIL)}
+</main>"""
+    with open(os.path.join(BASE, "ja", "news.html"), "w", encoding="utf-8") as f:
+        f.write(page(f"お知らせ｜{SITE_NAME_JA}", "YouTube動画のアップロード、新着記事、セミナー・メディア掲載などのお知らせ。", news_body_ja, root="../", lang="ja", base="news.html"))
+
     # ===== sitemap.xml =====
     today = max(a["date"] for a in arts)
     urls = []
     def u(path, lastmod):
         urls.append(f"<url><loc>{SITE_URL}/{path}</loc><lastmod>{lastmod}</lastmod></url>")
-    for p in ("index.html", "about.html", "cases.html"):
+    for p in ("index.html", "about.html", "cases.html", "news.html"):
         u(p, today)
         u("cn/" + p, today)
         u("ja/" + p, today)

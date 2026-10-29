@@ -423,3 +423,18 @@ article.post .cat a, article.post .cat { color: var(--catc, var(--gold)); }
 [data-theme="dark"] .back { color: #c9d3e0; }
 [data-theme="dark"] .lang-note a { color: var(--grey); }
 [data-theme="dark"] .card:hover { box-shadow: 0 6px 20px rgba(0,0,0,.5); }
+
+/* News（最新消息・お知らせ） */
+.newsbox { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 24px 16px; margin-bottom: 40px; }
+.newsbox h2 { font-size: 1.05rem; color: var(--navy); letter-spacing: .05em; border-left: 4px solid var(--gold); padding-left: 10px; margin-bottom: 12px; }
+.newsbox ul { list-style: none; margin: 0; padding: 0; }
+.newsbox li { padding: 9px 0; border-bottom: 1px dashed var(--line); font-size: .92rem; display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
+.newsbox li:last-child { border-bottom: none; }
+.newsbox .nd { color: #9aa4b0; font-size: .8rem; white-space: nowrap; }
+.newsbox .nt { color: var(--gold); font-weight: 700; font-size: .72rem; letter-spacing: .08em; border: 1px solid var(--gold); border-radius: 4px; padding: 1px 7px; white-space: nowrap; }
+.newsbox a { color: var(--ink); text-decoration: none; }
+.newsbox a:hover { color: var(--gold); text-decoration: underline; }
+.newsbox .more { text-align: right; margin-top: 10px; font-size: .85rem; }
+.newsbox .more a { color: var(--gold); font-weight: 700; }
+.news-list li { padding: 13px 0; }
+[data-theme="dark"] .newsbox h2 { color: #dfe7f2; }
