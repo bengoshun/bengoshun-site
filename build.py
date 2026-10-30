@@ -3,7 +3,7 @@
 使い方: python3 build.py  → index.html / about.html / articles/*.html を生成
 記事の追加: ARTICLES に dict を追加して再実行
 """
-import os, re, html, opencc
+import os, re, html, json, opencc
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 
@@ -194,6 +194,27 @@ DISCLAIMER_DATED_JA = """<p class="disclaimer">※ 本記事は一般的な法�
 SIGNATURE = """<div class="post-footer">我是日本律師山崎駿，主要為企業處理勞動問題。文章的更新會發布在 <a href="{threads}" target="_blank" rel="noopener">Threads @bengoshun</a>。</div>"""
 
 SIGNATURE_JA = """<div class="post-footer">弁護士の山﨑駿です。使用者側の労働法務を中心に取り扱っています。更新情報は <a href="{threads}" target="_blank" rel="noopener">Threads @bengoshun</a> で発信しています。</div>"""
+
+# 記事末尾の著者ボックス（E-E-A-T対策）。proot＝サイトルートへの相対パス、aroot＝aboutページへの相対パス
+AUTHOR_BOX = """<div class="author-box">
+<img src="{proot}profile.jpg" alt="律師 山崎駿" class="author-photo" loading="lazy">
+<div class="author-info">
+<div class="author-label">本文作者</div>
+<div class="author-name">山崎 駿（Yamazaki Shun）</div>
+<p>日本律師（弁護士・第一東京弁護士会・登錄番號62384）。在東京執業，主要為企業處理勞動法案件：解僱・懲戒、職場霸凌對應、加班費紛爭、外國人雇用等。在YouTube每日解說日本的勞動判決。</p>
+<p class="author-links"><a href="{aroot}about.html">詳細介紹 →</a><a href="{youtube}" target="_blank" rel="noopener">YouTube</a><a href="{threads}" target="_blank" rel="noopener">Threads</a></p>
+</div>
+</div>"""
+
+AUTHOR_BOX_JA = """<div class="author-box">
+<img src="{proot}profile.jpg" alt="弁護士 山﨑駿" class="author-photo" loading="lazy">
+<div class="author-info">
+<div class="author-label">この記事を書いた人</div>
+<div class="author-name">山﨑 駿（やまざき しゅん）</div>
+<p>弁護士（第一東京弁護士会・登録番号62384）。東京で使用者側の労働法務を中心に取り扱っています。解雇・懲戒、ハラスメント対応、残業代紛争、外国人雇用など。YouTubeで労働裁判例を毎日解説しています。</p>
+<p class="author-links"><a href="{aroot}about.html">プロフィール詳細 →</a><a href="{youtube}" target="_blank" rel="noopener">YouTube</a><a href="{threads}" target="_blank" rel="noopener">Threads</a></p>
+</div>
+</div>"""
 
 # ===== 簡体字版（繁体字版から自動変換）=====
 HEAD_CN = (to_cn(HEAD)
@@ -27594,12 +27615,44 @@ def alt_links(base, cur, langs):
     ls.append(f'<link rel="canonical" href="{SITE_URL}/{PREFIX[cur]}{base}">')
     return "\n".join(ls)
 
-def page(title, desc, body, root="", lang="zh", base="index.html", langs=ALL_LANGS):
+# 構造化データ（E-E-A-T対策）。著者＝弁護士であることを機械可読にする
+PERSON_LD = {
+    "@type": "Person",
+    "name": "山﨑 駿",
+    "alternateName": ["山崎駿", "Yamazaki Shun"],
+    "jobTitle": "弁護士（Attorney at Law, Japan）",
+    "url": f"{SITE_URL}/about.html",
+    "image": f"{SITE_URL}/profile.jpg",
+    "sameAs": [THREADS, YOUTUBE],
+    "memberOf": {"@type": "Organization", "name": "第一東京弁護士会"},
+    "identifier": {"@type": "PropertyValue", "name": "弁護士登録番号", "value": "62384"},
+    "knowsAbout": ["日本の労働法", "解雇・懲戒", "ハラスメント対応", "残業代紛争", "外国人雇用"],
+}
+
+def jsonld_article(a, lang, title, desc):
+    url = f"{SITE_URL}/{PREFIX[lang]}articles/{a['slug']}.html"
+    d = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": title,
+        "description": desc,
+        "datePublished": a["date"],
+        "inLanguage": HREFLANG[lang],
+        "mainEntityOfPage": {"@type": "WebPage", "@id": url},
+        "author": PERSON_LD,
+    }
+    return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
+
+def jsonld_profile():
+    d = {"@context": "https://schema.org", "@type": "ProfilePage", "mainEntity": PERSON_LD}
+    return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
+
+def page(title, desc, body, root="", lang="zh", base="index.html", langs=ALL_LANGS, jsonld=""):
     head = {"zh": HEAD, "cn": HEAD_CN, "ja": HEAD_JA}[lang]
     foot = {"zh": FOOT, "cn": FOOT_CN, "ja": FOOT_JA}[lang]
     h = head.format(title=html.escape(title), desc=html.escape(desc), root=root,
                     langnav=lang_nav(root, base, lang, langs), threads=THREADS, youtube=YOUTUBE)
-    h = h.replace("</head>", alt_links(base, lang, langs) + "\n" + FS_INIT + THEME_INIT + "\n</head>")
+    h = h.replace("</head>", alt_links(base, lang, langs) + "\n" + jsonld + FS_INIT + THEME_INIT + "\n</head>")
     f = foot.format(root=root, threads=THREADS, youtube=YOUTUBE)
     f = f.replace("</body>", FS_JS + THEME_JS + TOC_JS + "\n</body>")
     return h + body + f
@@ -28953,11 +29006,11 @@ def build():
     about_title = f"關於我｜{SITE_NAME}"
     about_desc = "日本律師山崎駿的自我介紹。東京執業，主要為企業處理勞動法相關案件。"
     with open(os.path.join(BASE, "about.html"), "w", encoding="utf-8") as f:
-        f.write(page(about_title, about_desc, about_body, base="about.html"))
+        f.write(page(about_title, about_desc, about_body, base="about.html", jsonld=jsonld_profile()))
     # 簡体字版は cn/ 配下なので画像は一つ上の階層を参照する
     about_cn = re.sub(r'src="(profile|youtube-card|youtube-banner)\.jpg"', r'src="../\1.jpg"', to_cn(about_body))
     with open(os.path.join(BASE, "cn", "about.html"), "w", encoding="utf-8") as f:
-        f.write(page(to_cn(about_title), to_cn(about_desc), about_cn, root="../", lang="cn", base="about.html"))
+        f.write(page(to_cn(about_title), to_cn(about_desc), about_cn, root="../", lang="cn", base="about.html", jsonld=jsonld_profile()))
 
     # --- cases（解決案例） ---
     cases_body = f"""<main>
@@ -29026,7 +29079,7 @@ def build():
 <div class="tldr"><span class="tldr-label">10秒結論</span><p>{a['summary']}</p></div>
 {a['body']}
 {related_block(a['slug'], 'zh')}
-{SIGNATURE.format(threads=THREADS)}
+{AUTHOR_BOX.format(proot="../", aroot="../", youtube=YOUTUBE, threads=THREADS)}
 {DISCLAIMER_DATED.format(date=a['date'])}
 </article>
 <a class="back" href="../index.html#articles">← 回到文章一覽</a>
@@ -29035,15 +29088,18 @@ def build():
         lgs = ALL_LANGS if a.get("ja") else ("zh", "cn")
         art_base = f"articles/{a['slug']}.html"
         with open(os.path.join(BASE, "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
-            f.write(page(f"{a['title']}｜{SITE_NAME}", a["summary"], body, root="../", base=art_base, langs=lgs))
+            f.write(page(f"{a['title']}｜{SITE_NAME}", a["summary"], body, root="../", base=art_base, langs=lgs,
+                         jsonld=jsonld_article(a, "zh", a["title"], a["summary"])))
         # 簡体字版は cn/articles/ 配下なので日本語版へのリンクだけ一段深くする
         aud = a["slug"] not in CN_KEEP_TW
         body_cn = (to_cn(body, aud)
                    .replace('"../ja/articles/', '"../../ja/articles/')
-                   .replace('href="/articles/', 'href="/cn/articles/'))
+                   .replace('href="/articles/', 'href="/cn/articles/')
+                   .replace('src="../profile.jpg"', 'src="../../profile.jpg"'))
         with open(os.path.join(BASE, "cn", "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page(to_cn(f"{a['title']}｜{SITE_NAME}", aud), to_cn(a["summary"], aud), body_cn,
-                         root="../../", lang="cn", base=art_base, langs=lgs))
+                         root="../../", lang="cn", base=art_base, langs=lgs,
+                         jsonld=jsonld_article(a, "cn", to_cn(a["title"], aud), to_cn(a["summary"], aud))))
 
     # ===== 日本語版 =====
     # --- index ---
@@ -29116,7 +29172,7 @@ def build():
 {CONTACT_JA.format(mail=MAIL)}
 </main>"""
     with open(os.path.join(BASE, "ja", "about.html"), "w", encoding="utf-8") as f:
-        f.write(page(f"プロフィール｜{SITE_NAME_JA}", "弁護士山﨑駿のプロフィール。東京で使用者側の労働法務を中心に取り扱っています。", about_ja, root="../", lang="ja", base="about.html"))
+        f.write(page(f"プロフィール｜{SITE_NAME_JA}", "弁護士山﨑駿のプロフィール。東京で使用者側の労働法務を中心に取り扱っています。", about_ja, root="../", lang="ja", base="about.html", jsonld=jsonld_profile()))
 
     # --- cases（解決事例・日本語） ---
     cases_ja = f"""<main>
@@ -29184,14 +29240,15 @@ def build():
 <div class="tldr"><span class="tldr-label">10秒でわかる結論</span><p>{JA_SUMMARY[a['slug']]}</p></div>
 {b}
 {related_block(a['slug'], 'ja')}
-{SIGNATURE_JA.format(threads=THREADS)}
+{AUTHOR_BOX_JA.format(proot="../../", aroot="../", youtube=YOUTUBE, threads=THREADS)}
 {DISCLAIMER_DATED_JA.format(date=a['date'])}
 </article>
 <a class="back" href="../index.html#articles">← 記事一覧に戻る</a>
 {CONTACT_JA.format(mail=MAIL)}
 </main>"""
         with open(os.path.join(BASE, "ja", "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
-            f.write(page(f"{t}｜{SITE_NAME_JA}", JA_SUMMARY[a["slug"]], body_ja, root="../../", lang="ja", base=f"articles/{a['slug']}.html"))
+            f.write(page(f"{t}｜{SITE_NAME_JA}", JA_SUMMARY[a["slug"]], body_ja, root="../../", lang="ja", base=f"articles/{a['slug']}.html",
+                         jsonld=jsonld_article(a, "ja", t, JA_SUMMARY[a["slug"]])))
         n_ja += 1
 
     # ===== お知らせ一覧ページ（news.html） =====

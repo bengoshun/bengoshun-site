@@ -171,6 +171,36 @@ article.post blockquote {
   font-size: .9rem;
   color: var(--grey);
 }
+
+/* 著者ボックス（記事末尾） */
+.author-box {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 22px 24px;
+  margin-top: 40px;
+}
+.author-photo {
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+.author-label { color: var(--gold); font-weight: 700; font-size: .75rem; letter-spacing: .1em; }
+.author-name { color: var(--navy); font-weight: 700; font-size: 1.05rem; margin: 4px 0 8px; }
+.author-info p { font-size: .88rem; color: var(--grey); margin: 0; line-height: 1.7; }
+.author-links { margin-top: 10px !important; }
+.author-links a { color: var(--navy); margin-right: 16px; font-size: .88rem; }
+.author-links a:hover { color: var(--gold); }
+@media (max-width: 600px) {
+  .author-box { flex-direction: column; align-items: center; text-align: left; }
+  .author-photo { width: 72px; height: 72px; }
+}
 .back { display: inline-block; margin-top: 26px; color: var(--navy); font-size: .9rem; }
 
 /* About */
@@ -411,6 +441,8 @@ article.post .cat a, article.post .cat { color: var(--catc, var(--gold)); }
 [data-theme="dark"] article.post h3,
 [data-theme="dark"] .section-title,
 [data-theme="dark"] .profile h2,
+[data-theme="dark"] .author-name,
+[data-theme="dark"] .author-links a,
 [data-theme="dark"] .toc .label { color: #dfe7f2; }
 [data-theme="dark"] article.post blockquote { background: #1f2a3b; color: #cfd8e4; border-left-color: var(--gold); }
 [data-theme="dark"] .case-box { background: #26200f; border-color: #54461f; }
