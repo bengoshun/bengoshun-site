@@ -69,6 +69,27 @@ MAIL = "bengoshun@gmail.com"
 SITE_URL = "https://bengoshun.com"
 THREADS = "https://www.threads.com/@bengoshun"
 YOUTUBE = "https://www.youtube.com/@bengoshun"
+INSTAGRAM = "https://www.instagram.com/bengoshun"
+
+# 著書・執筆（E-E-A-T対策。aboutページと構造化データで共用する）
+BOOKS = [
+    dict(title="就業規則の法律相談I", series="最新青林法律相談50", pub="青林書院",
+         url="https://amzn.asia/d/eKRhQO0", kind="book",
+         title_zh="就業規則的法律諮詢Ⅰ", pub_zh="青林書院"),
+    dict(title="就業規則の法律相談II", series="最新青林法律相談51", pub="青林書院",
+         url="https://amzn.asia/d/9v3UfQA", kind="book",
+         title_zh="就業規則的法律諮詢Ⅱ", pub_zh="青林書院"),
+    dict(title="高年齢者雇用における労務問題と実務対応", series="", pub="",
+         url="https://amzn.asia/d/06JCaFiN", kind="book",
+         title_zh="高齡者雇用的勞務問題與實務對應", pub_zh=""),
+    dict(title="「残業代」をめぐるトラブル防止のために今すぐやっておくべきこと",
+         series="月刊経理ウーマン2023年7月号", pub="研修出版", url="", kind="article",
+         title_zh="為預防加班費糾紛現在就該做的事", pub_zh="研修出版"),
+    dict(title="社労士事務所が被告となった（または被告に深く関与していた）裁判例",
+         series="開業社会保険労務士専門誌SR第76号・2024年12月号", pub="日本法令",
+         url="https://amzn.asia/d/8hcItXZ", kind="article",
+         title_zh="社會保險勞務士事務所成為被告的裁判例", pub_zh="日本法令"),
+]
 
 HEAD = """<!DOCTYPE html>
 <html lang="zh-Hant">
@@ -201,7 +222,7 @@ AUTHOR_BOX = """<div class="author-box">
 <div class="author-info">
 <div class="author-label">本文作者</div>
 <div class="author-name">山崎 駿（Yamazaki Shun）</div>
-<p>日本律師（弁護士・第一東京弁護士会・登錄番號62384）。在東京執業，主要為企業處理勞動法案件：解僱・懲戒、職場霸凌對應、加班費紛爭、外國人雇用等。在YouTube解說日本的勞動判決。</p>
+<p>日本律師（弁護士・第一東京弁護士会・登錄番號62384）。在東京執業，主要為企業處理勞動法案件：解僱・懲戒、職場霸凌對應、加班費紛爭、外國人雇用等。合著《就業規則的法律諮詢Ⅰ・Ⅱ》（青林書院）等。</p>
 <p class="author-links"><a href="{aroot}about.html">詳細介紹 →</a><a href="{youtube}" target="_blank" rel="noopener">YouTube</a><a href="{threads}" target="_blank" rel="noopener">Threads</a></p>
 </div>
 </div>"""
@@ -211,7 +232,7 @@ AUTHOR_BOX_JA = """<div class="author-box">
 <div class="author-info">
 <div class="author-label">この記事を書いた人</div>
 <div class="author-name">山﨑 駿（やまざき しゅん）</div>
-<p>弁護士（第一東京弁護士会・登録番号62384）。東京で使用者側の労働法務を中心に取り扱っています。解雇・懲戒、ハラスメント対応、残業代紛争、外国人雇用など。YouTubeで労働裁判例を解説しています。</p>
+<p>弁護士（第一東京弁護士会・登録番号62384）。東京で使用者側の労働法務を中心に取り扱っています。解雇・懲戒、ハラスメント対応、残業代紛争、外国人雇用など。『就業規則の法律相談Ⅰ・Ⅱ』（青林書院）等を共著で執筆。</p>
 <p class="author-links"><a href="{aroot}about.html">プロフィール詳細 →</a><a href="{youtube}" target="_blank" rel="noopener">YouTube</a><a href="{threads}" target="_blank" rel="noopener">Threads</a></p>
 </div>
 </div>"""
@@ -27623,10 +27644,14 @@ PERSON_LD = {
     "jobTitle": "弁護士（Attorney at Law, Japan）",
     "url": f"{SITE_URL}/about.html",
     "image": f"{SITE_URL}/profile.jpg",
-    "sameAs": [THREADS, YOUTUBE],
+    "sameAs": [THREADS, YOUTUBE, INSTAGRAM],
     "memberOf": {"@type": "Organization", "name": "第一東京弁護士会"},
     "identifier": {"@type": "PropertyValue", "name": "弁護士登録番号", "value": "62384"},
-    "knowsAbout": ["日本の労働法", "解雇・懲戒", "ハラスメント対応", "残業代紛争", "外国人雇用"],
+    "knowsAbout": ["日本の労働法", "解雇・懲戒", "ハラスメント対応", "残業代紛争", "外国人雇用",
+                   "就業規則", "労働審判", "休職・復職", "高年齢者雇用"],
+    "alumniOf": {"@type": "CollegeOrUniversity", "name": "早稲田大学法学部"},
+    "hasCredential": {"@type": "EducationalOccupationalCredential",
+                      "credentialCategory": "司法試験予備試験合格（2018年）"},
 }
 
 def jsonld_article(a, lang, title, desc):
@@ -27643,8 +27668,39 @@ def jsonld_article(a, lang, title, desc):
     }
     return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
 
+def books_html(lang):
+    """aboutページ用の著書・執筆リスト。lang='ja' は日本語、それ以外は繁体字（簡体字はto_cnで変換）"""
+    out = []
+    for b in BOOKS:
+        if lang == "ja":
+            name = f"『{b['title']}』" if b["kind"] == "book" else f"「{b['title']}」"
+            sub = "／".join(x for x in (b["series"], b["pub"]) if x)
+        else:
+            name = f"《{b['title_zh']}》" if b["kind"] == "book" else f"〈{b['title_zh']}〉"
+            sub = "／".join(x for x in (b["series"], b["pub_zh"]) if x)
+        label = f"{name}{f'（{sub}）' if sub else ''}"
+        if b["url"]:
+            label = f'<a href="{b["url"]}" target="_blank" rel="noopener nofollow">{label}</a>'
+        out.append(f"<li>{label}</li>")
+    return "<ul>" + "".join(out) + "</ul>"
+
 def jsonld_profile():
-    d = {"@context": "https://schema.org", "@type": "ProfilePage", "mainEntity": PERSON_LD}
+    # 著書・執筆を Book / Article として機械可読にし、著者が本人であることを示す
+    works = []
+    for b in BOOKS:
+        w = {"@type": "Book" if b["kind"] == "book" else "Article",
+             "name": b["title"],
+             "author": {"@type": "Person", "name": "山﨑 駿"},
+             "inLanguage": "ja"}
+        if b["pub"]:
+            w["publisher"] = {"@type": "Organization", "name": b["pub"]}
+        if b["series"]:
+            w["isPartOf"] = {"@type": "CreativeWork", "name": b["series"]}
+        if b["url"]:
+            w["url"] = b["url"]
+        works.append(w)
+    person = dict(PERSON_LD, subjectOf=works)
+    d = {"@context": "https://schema.org", "@type": "ProfilePage", "mainEntity": person}
     return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
 
 def page(title, desc, body, root="", lang="zh", base="index.html", langs=ALL_LANGS, jsonld=""):
@@ -28990,16 +29046,19 @@ def build():
 <table>
 <tr><td>執業地</td><td>東京</td></tr>
 <tr><td>律師登錄</td><td>第一東京弁護士会・登錄番號62384</td></tr>
-<tr><td>學歷</td><td>早稻田大學法學部畢業（2018年）<br>同年通過司法試驗預備試驗（不經法科大學院即可取得司法試驗應考資格的考試）</td></tr>
+<tr><td>學歷</td><td>2018年3月 早稻田大學法學部畢業<br>2018年11月 通過司法試驗預備試驗（不經法科大學院即可取得司法試驗應考資格的考試）<br>2022年4月 律師登錄</td></tr>
 <tr><td>主要領域</td><td>勞動法（企業側）、職場霸凌對應、解僱・懲戒、外國人雇用、一般企業法務</td></tr>
 <tr><td>語言</td><td>日文、中文（學習中。書面OK，會話還有困難）</td></tr>
-<tr><td>發信平台</td><td><a href="{THREADS}" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a></td></tr>
+<tr><td>發信平台</td><td><a href="{THREADS}" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram @bengoshun</a><br><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a></td></tr>
 <tr><td>聯絡方式</td><td><a href="mailto:{MAIL}">{MAIL}</a></td></tr>
 <tr><td>顧問契約</td><td>月額5萬日圓（未稅）起</td></tr>
 <tr><td>初次諮詢費</td><td>每1小時3萬日圓（未稅）</td></tr>
 </table>
+<h2>著作・執筆（合著・分擔執筆）</h2>
+{books_html("zh")}
+<p>此外，也在網站文章的專家審稿服務「みんなの記事監修」登錄為專家（<a href="https://kansyuu.sitecreation.co.jp/" target="_blank" rel="noopener nofollow">kansyuu.sitecreation.co.jp</a>）。</p>
 <h2>YouTube頻道（日語）</h2>
-<p>在YouTube用日語介紹實用的法律知識：「弁護士山﨑駿の毎日人事労務」。</p>
+<p>在YouTube用日語解說成為新聞話題的勞動問題：「弁護士山﨑駿の毎日人事労務」。</p>
 <div class="yt-links">
 <a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="youtube-card.jpg" alt="弁護士山﨑駿 YouTube頻道介紹" class="yt-img"></a>
 <a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="youtube-banner.jpg" alt="YouTube頻道 弁護士山﨑駿の毎日人事労務" class="yt-img"></a>
@@ -29008,7 +29067,7 @@ def build():
 {CONTACT.format(mail=MAIL)}
 </main>"""
     about_title = f"關於我｜{SITE_NAME}"
-    about_desc = "日本律師山崎駿的自我介紹。東京執業，主要為企業處理勞動法相關案件。"
+    about_desc = "日本律師山崎駿的自我介紹。東京執業，主要為企業處理勞動法相關案件。合著《就業規則的法律諮詢Ⅰ・Ⅱ》（青林書院）等。"
     with open(os.path.join(BASE, "about.html"), "w", encoding="utf-8") as f:
         f.write(page(about_title, about_desc, about_body, base="about.html", jsonld=jsonld_profile()))
     # 簡体字版は cn/ 配下なので画像は一つ上の階層を参照する
@@ -29158,16 +29217,19 @@ def build():
 <table>
 <tr><td>執務地</td><td>東京</td></tr>
 <tr><td>弁護士登録</td><td>第一東京弁護士会・登録番号62384</td></tr>
-<tr><td>学歴</td><td>早稲田大学法学部卒業（2018年）<br>同年司法試験予備試験合格</td></tr>
+<tr><td>経歴</td><td>2014年3月 世田谷学園高等学校卒業<br>2018年3月 早稲田大学法学部卒業<br>2018年11月 司法試験予備試験合格<br>2022年4月 弁護士登録</td></tr>
 <tr><td>主な取扱分野</td><td>労働法（使用者側）、ハラスメント対応、解雇・懲戒、外国人雇用、企業法務一般</td></tr>
 <tr><td>言語</td><td>日本語、中国語（学習中。書面は可）</td></tr>
-<tr><td>発信</td><td><a href="{THREADS}" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a></td></tr>
+<tr><td>発信</td><td><a href="{THREADS}" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram @bengoshun</a><br><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a></td></tr>
 <tr><td>連絡先</td><td><a href="mailto:{MAIL}">{MAIL}</a></td></tr>
 <tr><td>顧問契約</td><td>月額5万円（税別）〜</td></tr>
 <tr><td>初回相談料</td><td>1時間あたり3万円（税別）</td></tr>
 </table>
+<h2>著書・執筆（共著・分担執筆）</h2>
+{books_html("ja")}
+<p>このほか、Webサイト記事の専門家監修サービス「みんなの記事監修」に専門家登録しています（<a href="https://kansyuu.sitecreation.co.jp/" target="_blank" rel="noopener nofollow">kansyuu.sitecreation.co.jp</a>）。</p>
 <h2>YouTubeチャンネル</h2>
-<p>YouTube「弁護士山﨑駿の毎日人事労務」で、役立つ知識をご紹介しています。</p>
+<p>YouTube「弁護士山﨑駿の毎日人事労務」では、ニュースになっている労働問題を会社側の弁護士の視点で解説しています。</p>
 <div class="yt-links">
 <a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="../youtube-card.jpg" alt="弁護士山﨑駿 YouTubeチャンネル紹介" class="yt-img"></a>
 <a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="../youtube-banner.jpg" alt="YouTubeチャンネル 弁護士山﨑駿の毎日人事労務" class="yt-img"></a>
@@ -29176,7 +29238,7 @@ def build():
 {CONTACT_JA.format(mail=MAIL)}
 </main>"""
     with open(os.path.join(BASE, "ja", "about.html"), "w", encoding="utf-8") as f:
-        f.write(page(f"プロフィール｜{SITE_NAME_JA}", "弁護士山﨑駿のプロフィール。東京で使用者側の労働法務を中心に取り扱っています。", about_ja, root="../", lang="ja", base="about.html", jsonld=jsonld_profile()))
+        f.write(page(f"プロフィール｜{SITE_NAME_JA}", "弁護士山﨑駿のプロフィール。東京で使用者側の労働法務（解雇・懲戒、ハラスメント、残業代）を中心に取り扱っています。著書・執筆、経歴、相談料の一覧。", about_ja, root="../", lang="ja", base="about.html", jsonld=jsonld_profile()))
 
     # --- cases（解決事例・日本語） ---
     cases_ja = f"""<main>
