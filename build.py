@@ -201,7 +201,7 @@ AUTHOR_BOX = """<div class="author-box">
 <div class="author-info">
 <div class="author-label">本文作者</div>
 <div class="author-name">山崎 駿（Yamazaki Shun）</div>
-<p>日本律師（弁護士・第一東京弁護士会・登錄番號62384）。在東京執業，主要為企業處理勞動法案件：解僱・懲戒、職場霸凌對應、加班費紛爭、外國人雇用等。在YouTube每日解說日本的勞動判決。</p>
+<p>日本律師（弁護士・第一東京弁護士会・登錄番號62384）。在東京執業，主要為企業處理勞動法案件：解僱・懲戒、職場霸凌對應、加班費紛爭、外國人雇用等。在YouTube解說日本的勞動判決。</p>
 <p class="author-links"><a href="{aroot}about.html">詳細介紹 →</a><a href="{youtube}" target="_blank" rel="noopener">YouTube</a><a href="{threads}" target="_blank" rel="noopener">Threads</a></p>
 </div>
 </div>"""
@@ -211,7 +211,7 @@ AUTHOR_BOX_JA = """<div class="author-box">
 <div class="author-info">
 <div class="author-label">この記事を書いた人</div>
 <div class="author-name">山﨑 駿（やまざき しゅん）</div>
-<p>弁護士（第一東京弁護士会・登録番号62384）。東京で使用者側の労働法務を中心に取り扱っています。解雇・懲戒、ハラスメント対応、残業代紛争、外国人雇用など。YouTubeで労働裁判例を毎日解説しています。</p>
+<p>弁護士（第一東京弁護士会・登録番号62384）。東京で使用者側の労働法務を中心に取り扱っています。解雇・懲戒、ハラスメント対応、残業代紛争、外国人雇用など。YouTubeで労働裁判例を解説しています。</p>
 <p class="author-links"><a href="{aroot}about.html">プロフィール詳細 →</a><a href="{youtube}" target="_blank" rel="noopener">YouTube</a><a href="{threads}" target="_blank" rel="noopener">Threads</a></p>
 </div>
 </div>"""
