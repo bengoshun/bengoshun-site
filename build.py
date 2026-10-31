@@ -27786,12 +27786,19 @@ def lang_nav(root, base, cur, langs):
         f'      <a class="lang-switch" href="{root}{PREFIX[lg]}{base}" lang="{HREFLANG[lg]}">{SWITCH_LABEL[lg]}</a>'
         for lg in ALL_LANGS if lg != cur and lg in langs)
 
+def canon(path):
+    """絶対URL用のパス。Cloudflareは .html 付きURLを拡張子なしへ転送するため、
+    canonical・hreflang・sitemap・構造化データはすべて拡張子なしに統一する"""
+    if path.endswith("index.html"):
+        return path[: -len("index.html")]
+    return path[:-5] if path.endswith(".html") else path
+
 def alt_links(base, cur, langs):
     """hreflang と canonical（絶対URL）"""
-    ls = [f'<link rel="alternate" hreflang="{HREFLANG[lg]}" href="{SITE_URL}/{PREFIX[lg]}{base}">'
+    ls = [f'<link rel="alternate" hreflang="{HREFLANG[lg]}" href="{SITE_URL}/{canon(PREFIX[lg] + base)}">'
           for lg in ALL_LANGS if lg in langs]
-    ls.append(f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}/{base}">')
-    ls.append(f'<link rel="canonical" href="{SITE_URL}/{PREFIX[cur]}{base}">')
+    ls.append(f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}/{canon(base)}">')
+    ls.append(f'<link rel="canonical" href="{SITE_URL}/{canon(PREFIX[cur] + base)}">')
     return "\n".join(ls)
 
 # 構造化データ（E-E-A-T対策）。著者＝弁護士であることを機械可読にする
@@ -27800,7 +27807,7 @@ PERSON_LD = {
     "name": "山﨑 駿",
     "alternateName": ["山崎駿", "Yamazaki Shun"],
     "jobTitle": "弁護士（Attorney at Law, Japan）",
-    "url": f"{SITE_URL}/about.html",
+    "url": f"{SITE_URL}/about",
     "image": f"{SITE_URL}/profile.jpg",
     "sameAs": [THREADS, YOUTUBE, INSTAGRAM],
     "memberOf": {"@type": "Organization", "name": "第一東京弁護士会"},
@@ -27813,7 +27820,7 @@ PERSON_LD = {
 }
 
 def jsonld_article(a, lang, title, desc):
-    url = f"{SITE_URL}/{PREFIX[lang]}articles/{a['slug']}.html"
+    url = f"{SITE_URL}/{PREFIX[lang]}articles/{a['slug']}"
     d = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -29511,7 +29518,7 @@ def build():
     today = max(a["date"] for a in arts)
     urls = []
     def u(path, lastmod):
-        urls.append(f"<url><loc>{SITE_URL}/{path}</loc><lastmod>{lastmod}</lastmod></url>")
+        urls.append(f"<url><loc>{SITE_URL}/{canon(path)}</loc><lastmod>{lastmod}</lastmod></url>")
     for p in ("index.html", "about.html", "cases.html", "news.html"):
         u(p, today)
         u("cn/" + p, today)
