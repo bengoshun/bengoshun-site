@@ -25944,7 +25944,7 @@ ja="""<h2>【日本語版】懲戒処分と刑事告訴は両方できるか—�
 """),
 dict(slug="kihonkyu-shoyo-taigusa",
 cat="工資・加班費",
-date="2026-10-27",
+date="2026-11-02",
 title="基本給・獎金的待遇差也會違法——名古屋自動車學校事件（含2026年發回審判決）",
 summary="「津貼要逐項檢討，基本給・獎金差多少都沒關係」——這個理解已經過時。最高裁判所在名古屋自動車學校事件判示：基本給・獎金的差異也要依性質・目的＋勞資交涉的具體經過判斷是否不合理，並廢棄原審的「60%基準」。2026年2月的發回審認定低於定年時約55〜57%的部分不合理，命令公司賠償約336萬円。",
 body="""
@@ -29305,7 +29305,7 @@ JA_SUMMARY.update({'zangyo-60jikan-warimashi': '月60時間超の時間外労働
 RELATED.update({'zangyo-60jikan-warimashi': ['daitai-kyuka', 'saburoku-kyotei', 'chingin-hasu-shori'], 'daitai-kyuka': ['zangyo-60jikan-warimashi', 'yukyu-5nichi-gimu', 'saburoku-kyotei']})
 
 # 一時非公開の記事（公開時はここから slug を外して再ビルド）
-UNPUBLISHED = {"kihonkyu-shoyo-taigusa", "taigusa-setsumei-gimu", "haken-roshi-kyotei-hoshiki"}
+UNPUBLISHED = {"taigusa-setsumei-gimu", "haken-roshi-kyotei-hoshiki"}
 
 # ===== お知らせ（最新消息）=====
 # type: video=YouTube動画 / article=新着記事 / media=メディア掲載 / seminar=セミナー / site=サイト

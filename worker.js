@@ -6,6 +6,13 @@ export default {
       url.hostname = "bengoshun.com";
       return Response.redirect(url.toString(), 301);
     }
+    // 流入元を切り分けるための短縮リンク（YouTube概要欄・Threadsプロフィール等に貼る）
+    // 302＝一時転送。正規URLの評価を移さないため301にはしない
+    const SHORTLINKS = { "/yt": "/ja/", "/th": "/" };
+    if (SHORTLINKS[url.pathname]) {
+      url.pathname = SHORTLINKS[url.pathname];
+      return Response.redirect(url.toString(), 302);
+    }
     // .html 付きURLは拡張子なしの正規URLへ301転送する
     // （Cloudflare Assets の既定は307＝一時転送のため、Googleが .html 版を索引に残して評価が分散する）
     if (url.pathname.endsWith(".html")) {
