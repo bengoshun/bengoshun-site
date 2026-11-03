@@ -253,6 +253,7 @@ footer a:hover { color: var(--gold); }
   display: block;
   width: 200px;
   max-width: 60%;
+  height: auto;
   border-radius: 8px;
   margin: 0 auto 24px;
   border: 1px solid var(--line);
@@ -261,7 +262,7 @@ footer a:hover { color: var(--gold); }
 /* YouTube images */
 .yt-links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
 .yt-links a { flex: 1 1 260px; max-width: 360px; }
-.yt-img { width: 100%; border-radius: 8px; border: 1px solid var(--line); display: block; transition: opacity .2s; }
+.yt-img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--line); display: block; transition: opacity .2s; }
 .yt-links a:hover .yt-img { opacity: .85; }
 
 /* Language switch */

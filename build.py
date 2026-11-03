@@ -100,7 +100,8 @@ HEAD = """<!DOCTYPE html>
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&display=optional" rel="stylesheet">
 <link rel="icon" href="{root}favicon.ico">
 <link rel="stylesheet" href="{root}style.css">
 </head>
@@ -132,7 +133,8 @@ HEAD_JA = """<!DOCTYPE html>
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&display=optional" rel="stylesheet">
 <link rel="icon" href="{root}favicon.ico">
 <link rel="stylesheet" href="{root}style.css">
 </head>
@@ -29461,7 +29463,7 @@ def build():
     about_body = f"""<main>
 <h2 class="section-title">關於我</h2>
 <div class="profile">
-<img src="profile.jpg" alt="律師 山崎駿" class="profile-photo">
+<img src="profile.jpg" alt="律師 山崎駿" class="profile-photo" width="533" height="800">
 <h2>山崎 駿（Yamazaki Shun）</h2>
 <p>日本律師（弁護士・第一東京弁護士会・登錄番號62384）。在東京執業，主要為企業處理勞動法相關的案件：懲戒・解僱、職場霸凌對應、加班費紛爭等。</p>
 <p>一邊學習中文，一邊在 Threads 以繁體中文介紹日本的勞動法和判決。希望成為在日本工作、創業、投資的台灣・華語圈朋友，和日本法律之間的橋樑。中文還在學習中，目前用中文對話對我來說還有困難，但書面（電子郵件）可以用中文聯繫。</p>
@@ -29483,8 +29485,8 @@ def build():
 <h2>YouTube頻道（日語）</h2>
 <p>在YouTube用日語解說成為新聞話題的勞動問題：「弁護士山﨑駿の毎日人事労務」。</p>
 <div class="yt-links">
-<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="youtube-card.jpg" alt="弁護士山﨑駿 YouTube頻道介紹" class="yt-img"></a>
-<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="youtube-banner.jpg" alt="YouTube頻道 弁護士山﨑駿の毎日人事労務" class="yt-img"></a>
+<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="youtube-card.jpg" alt="弁護士山﨑駿 YouTube頻道介紹" class="yt-img" width="800" height="491" loading="lazy"></a>
+<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="youtube-banner.jpg" alt="YouTube頻道 弁護士山﨑駿の毎日人事労務" class="yt-img" width="800" height="489" loading="lazy"></a>
 </div>
 </div>
 {CONTACT.format(mail=MAIL)}
@@ -29632,7 +29634,7 @@ def build():
     about_ja = f"""<main>
 <h2 class="section-title">プロフィール</h2>
 <div class="profile">
-<img src="../profile.jpg" alt="弁護士 山﨑駿" class="profile-photo">
+<img src="../profile.jpg" alt="弁護士 山﨑駿" class="profile-photo" width="533" height="800">
 <h2>山﨑 駿（やまざき しゅん）</h2>
 <p>弁護士（第一東京弁護士会・登録番号62384）。東京で執務し、使用者側の労働法務（懲戒・解雇、ハラスメント対応、残業代紛争等）を中心に取り扱っています。</p>
 <p>中国語学習を兼ねて、台湾をはじめとする中国語圏の皆さまに向け、日本の労働法や不動産を中心とした知識を繁体字中国語でも発信しています。</p>
@@ -29654,8 +29656,8 @@ def build():
 <h2>YouTubeチャンネル</h2>
 <p>YouTube「弁護士山﨑駿の毎日人事労務」では、ニュースになっている労働問題を会社側の弁護士の視点で解説しています。</p>
 <div class="yt-links">
-<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="../youtube-card.jpg" alt="弁護士山﨑駿 YouTubeチャンネル紹介" class="yt-img"></a>
-<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="../youtube-banner.jpg" alt="YouTubeチャンネル 弁護士山﨑駿の毎日人事労務" class="yt-img"></a>
+<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="../youtube-card.jpg" alt="弁護士山﨑駿 YouTubeチャンネル紹介" class="yt-img" width="800" height="491" loading="lazy"></a>
+<a href="{YOUTUBE}" target="_blank" rel="noopener"><img src="../youtube-banner.jpg" alt="YouTubeチャンネル 弁護士山﨑駿の毎日人事労務" class="yt-img" width="800" height="489" loading="lazy"></a>
 </div>
 </div>
 {CONTACT_JA.format(mail=MAIL)}
