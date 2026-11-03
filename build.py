@@ -70,7 +70,7 @@ SITE_URL = "https://bengoshun.com"
 THREADS = "https://www.threads.com/@bengoshun"
 YOUTUBE = "https://www.youtube.com/@bengoshun"
 INSTAGRAM = "https://www.instagram.com/bengoshun"
-LINKEDIN = "https://www.linkedin.com/in/%E9%A7%BF-%E5%B1%B1%EF%A8%91-80692a448"
+LINKEDIN = "https://www.linkedin.com/in/bengoshun"
 
 # 著書・執筆（E-E-A-T対策。aboutページと構造化データで共用する）
 BOOKS = [
