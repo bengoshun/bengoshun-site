@@ -70,6 +70,7 @@ SITE_URL = "https://bengoshun.com"
 THREADS = "https://www.threads.com/@bengoshun"
 YOUTUBE = "https://www.youtube.com/@bengoshun"
 INSTAGRAM = "https://www.instagram.com/bengoshun"
+LINKEDIN = "https://www.linkedin.com/in/%E9%A7%BF-%E5%B1%B1%EF%A8%91-80692a448"
 
 # 著書・執筆（E-E-A-T対策。aboutページと構造化データで共用する）
 BOOKS = [
@@ -28031,7 +28032,7 @@ PERSON_LD = {
     "jobTitle": "弁護士（Attorney at Law, Japan）",
     "url": f"{SITE_URL}/about",
     "image": f"{SITE_URL}/profile.jpg",
-    "sameAs": [THREADS, YOUTUBE, INSTAGRAM],
+    "sameAs": [THREADS, YOUTUBE, INSTAGRAM, LINKEDIN],
     "memberOf": {"@type": "Organization", "name": "第一東京弁護士会"},
     "identifier": {"@type": "PropertyValue", "name": "弁護士登録番号", "value": "62384"},
     "knowsAbout": ["日本の労働法", "解雇・懲戒", "ハラスメント対応", "残業代紛争", "外国人雇用",
@@ -29471,7 +29472,7 @@ def build():
 <tr><td>學歷</td><td>2018年3月 早稻田大學法學部畢業<br>2018年11月 通過司法試驗預備試驗（不經法科大學院即可取得司法試驗應考資格的考試）<br>2022年4月 律師登錄</td></tr>
 <tr><td>主要領域</td><td>勞動法（企業側）、職場霸凌對應、解僱・懲戒、外國人雇用、一般企業法務</td></tr>
 <tr><td>語言</td><td>日文、中文（學習中。書面OK，會話還有困難）</td></tr>
-<tr><td>發信平台</td><td><a href="{THREADS}" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram @bengoshun</a><br><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a></td></tr>
+<tr><td>發信平台</td><td><a href="{THREADS}" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram @bengoshun</a><br><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a><br><a href="{LINKEDIN}" target="_blank" rel="noopener">LinkedIn</a></td></tr>
 <tr><td>聯絡方式</td><td><a href="mailto:{MAIL}">{MAIL}</a></td></tr>
 <tr><td>顧問契約</td><td>月額5萬日圓（未稅）起</td></tr>
 <tr><td>初次諮詢費</td><td>每1小時3萬日圓（未稅）</td></tr>
@@ -29642,7 +29643,7 @@ def build():
 <tr><td>経歴</td><td>2014年3月 世田谷学園高等学校卒業<br>2018年3月 早稲田大学法学部卒業<br>2018年11月 司法試験予備試験合格<br>2022年4月 弁護士登録</td></tr>
 <tr><td>主な取扱分野</td><td>労働法（使用者側）、ハラスメント対応、解雇・懲戒、外国人雇用、企業法務一般</td></tr>
 <tr><td>言語</td><td>日本語、中国語（学習中。書面は可）</td></tr>
-<tr><td>発信</td><td><a href="{THREADS}" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram @bengoshun</a><br><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a></td></tr>
+<tr><td>発信</td><td><a href="{THREADS}" target="_blank" rel="noopener">Threads @bengoshun</a><br><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram @bengoshun</a><br><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube「弁護士山﨑駿の毎日人事労務」</a><br><a href="{LINKEDIN}" target="_blank" rel="noopener">LinkedIn</a></td></tr>
 <tr><td>連絡先</td><td><a href="mailto:{MAIL}">{MAIL}</a></td></tr>
 <tr><td>顧問契約</td><td>月額5万円（税別）〜</td></tr>
 <tr><td>初回相談料</td><td>1時間あたり3万円（税別）</td></tr>
