@@ -3,9 +3,14 @@
 使い方: python3 build.py  → index.html / about.html / articles/*.html を生成
 記事の追加: ARTICLES に dict を追加して再実行
 """
-import os, re, html, json, opencc
+import os, re, html, json, hashlib, opencc
 
 BASE = os.path.dirname(os.path.abspath(__file__))
+
+# style.css のURLに内容ハッシュを付ける。付けないと、CSSを直したときに
+# 再訪者が古いCSS＋新しいHTMLの組合せになり表示が崩れる
+with open(os.path.join(BASE, "style.css"), "rb") as _f:
+    CSS_V = hashlib.sha1(_f.read()).hexdigest()[:8]
 
 # 繁体字（台湾）→ 簡体字（大陸）。語彙も変換する（資訊→信息・網路→网络 等）
 _CC = opencc.OpenCC("tw2sp")
@@ -157,6 +162,9 @@ HEAD_JA = """<!DOCTYPE html>
   </div>
 </header>
 """
+
+HEAD = HEAD.replace('style.css"', f'style.css?v={CSS_V}"')
+HEAD_JA = HEAD_JA.replace('style.css"', f'style.css?v={CSS_V}"')
 
 FOOT = """<footer>
   <div>日本律師 山崎駿（第一東京弁護士会）</div>
