@@ -29806,6 +29806,11 @@ NEWS_TYPE = {
     "site":    ("網站", "サイト"),
 }
 NEWS = [
+    dict(date="2026-11-06", type="article",
+         title="發布了新文章「12月1日施行・改正公益通報者保護法——檢舉後1年內的解僱・懲戒被『推定』為報復，退職合意書的『不檢舉條款』無效」",
+         title_ja="新着記事「12月1日施行・改正公益通報者保護法——通報後1年以内の解雇・懲戒は報復と推定、退職合意書の『通報しない』条項は無効に」を公開しました",
+         url="articles/koueki-tsuho-kaisei-shiko.html",
+         url_ja="ja/articles/koueki-tsuho-kaisei-shiko.html"),
     dict(date="2026-11-05", type="article",
          title="發布了新文章「個資洩漏報案前的兩罰確認——2027年1月個資法刑事罰加重（從業員持出・不正取得新設）」",
          title_ja="新着記事「令和8年個人情報保護法改正——2027年1月施行の刑事罰強化と両罰リスク」を公開しました",
