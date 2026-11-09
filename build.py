@@ -5,6 +5,8 @@
 """
 import os, re, html, json, hashlib, opencc
 
+from hanrei import HANREI  # 労働裁判例データベース（日本語のみ）
+
 BASE = os.path.dirname(os.path.abspath(__file__))
 
 # style.css のURLに内容ハッシュを付ける。付けないと、CSSを直したときに
@@ -149,6 +151,7 @@ HEAD_JA = """<!DOCTYPE html>
     <div class="brand"><a href="{root}ja/index.html">弁護士 山﨑駿<span class="sub">日本の労働法と暮らしの法律実務</span></a></div>
     <nav>
       <a href="{root}ja/index.html#articles">記事</a>
+      <a href="{root}ja/hanrei.html">裁判例</a>
       <a href="{root}ja/news.html">お知らせ</a>
       <a href="{root}ja/cases.html">解決事例</a>
       <a href="{root}ja/about.html">プロフィール</a>
@@ -28885,7 +28888,9 @@ def alt_links(base, cur, langs):
     """hreflang と canonical（絶対URL）"""
     ls = [f'<link rel="alternate" hreflang="{HREFLANG[lg]}" href="{SITE_URL}/{canon(PREFIX[lg] + base)}">'
           for lg in ALL_LANGS if lg in langs]
-    ls.append(f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}/{canon(base)}">')
+    # x-default は繁体字版（サイト既定）を指す。繁体字版が無いページでは出力しない
+    if "zh" in langs:
+        ls.append(f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}/{canon(base)}">')
     ls.append(f'<link rel="canonical" href="{SITE_URL}/{canon(PREFIX[cur] + base)}">')
     return "\n".join(ls)
 
@@ -28982,6 +28987,63 @@ def card_ja(a):
 <p>{JA_SUMMARY[a['slug']]}</p>
 <div class="date">{a['date']}</div>
 </a>\n"""
+
+# ===== 労働裁判例データベース（日本語のみ） =====
+def hanrei_card(h):
+    """一覧ページのカード。事件名・裁判所・判決日・事件番号・掲載誌・争点を
+    すべてカード内に入れ、SEARCH_JS の全文絞り込みで引けるようにする"""
+    return f"""<a class="card" href="hanrei/{h['slug']}.html">
+<div class="cat">{h['issue']}</div>
+<h3>{h['case']}</h3>
+<p>{h['summary']}</p>
+<div class="date">{h['court']}　{h['dateja']}　{h['docket']}／{'／'.join(h['cites'])}</div>
+</a>\n"""
+
+def hanrei_meta_table(h):
+    return f"""<div class="profile">
+<table>
+<tr><td>事件名</td><td>{h['case']}</td></tr>
+<tr><td>裁判所</td><td>{h['court']}</td></tr>
+<tr><td>判決年月日</td><td>{h['dateja']}</td></tr>
+<tr><td>事件番号</td><td>{h['docket']}</td></tr>
+<tr><td>事件の表示</td><td>{h['cause']}</td></tr>
+<tr><td>裁判結果</td><td>{h['result']}</td></tr>
+<tr><td>掲載誌</td><td>{'／'.join(h['cites'])}</td></tr>
+<tr><td>主な争点</td><td>{h['issue']}</td></tr>
+<tr><td>関係法令</td><td>{'／'.join(h['laws'])}</td></tr>
+</table>
+</div>"""
+
+def hanrei_related(h):
+    """関連する解説記事へのリンク（裁判例ページ → ../articles/）"""
+    by_slug = {a["slug"]: a for a in ARTICLES}
+    items = ""
+    for s in h.get("related", []):
+        ra = by_slug.get(s)
+        if not ra or not ra.get("ja"):
+            continue
+        items += f'<li><a href="../articles/{s}.html">{ja_parts(ra)[0]}</a></li>\n'
+    if not items:
+        return ""
+    return f'<div class="related"><div class="label">関連する解説記事</div><ul>\n{items}</ul></div>'
+
+def jsonld_hanrei(h):
+    url = f"{SITE_URL}/ja/hanrei/{h['slug']}"
+    d = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": f"{h['case']}（{h['court']}　{h['dateja']}判決）",
+        "description": h["summary"],
+        "inLanguage": "ja",
+        "mainEntityOfPage": {"@type": "WebPage", "@id": url},
+        "author": PERSON_LD,
+        "about": {"@type": "Legislation", "name": "／".join(h["laws"])},
+    }
+    return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
+
+# 一覧・個別ページ共通の出典・執筆方針の注記（著作権上の立場を明示しておく）
+HANREI_NOTE = """<p class="disclaimer">※ 各ページの解説は弁護士山﨑駿が独自に執筆したものです。「　」でくくった部分は判決原文の引用で、それ以外の記述は判例データベースや書籍の要旨を転載したものではありません。事件名・裁判所・判決年月日・事件番号・裁判結果・掲載誌は書誌情報として記載しています。</p>"""
+
 
 def catnav(arts, lang, active=None):
     """カテゴリナビ（件数付き）。index・カテゴリページ共通。root直下からの相対リンク"""
@@ -30287,6 +30349,7 @@ NEWS = [
 def build():
     os.makedirs(os.path.join(BASE, "articles"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "ja", "articles"), exist_ok=True)
+    os.makedirs(os.path.join(BASE, "ja", "hanrei"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "cn", "articles"), exist_ok=True)
     arts = sorted((a for a in ARTICLES if a["slug"] not in UNPUBLISHED), key=lambda a: a["date"], reverse=True)
 
@@ -30645,6 +30708,47 @@ def build():
                          jsonld=jsonld_article(a, "ja", t, JA_SUMMARY[a["slug"]])))
         n_ja += 1
 
+    # ===== 労働裁判例データベース（日本語のみ） =====
+    hanrei_sorted = sorted(HANREI, key=lambda h: h["date"], reverse=True)
+    hanrei_cards = "".join(hanrei_card(h) for h in hanrei_sorted)
+    hanrei_index = f"""<main>
+<h2 class="section-title" id="hanrei">労働裁判例データベース</h2>
+<p class="lead">使用者側の弁護士の視点で、実務に影響の大きい労働裁判例を整理しています。事件名・裁判所・判決年月日・事件番号・掲載誌から探せます。</p>
+<div class="searchbox"><input type="search" id="q" placeholder="裁判例を検索（例：解雇、配転、懲戒、試用期間）" aria-label="裁判例を検索"><p class="search-empty" id="qe" hidden>該当する裁判例が見つかりません</p></div>
+<div class="cards">
+{hanrei_cards}</div>
+{HANREI_NOTE}
+{CONTACT_JA.format(mail=MAIL)}
+{DISCLAIMER_JA}
+</main>
+{SEARCH_JS}"""
+    with open(os.path.join(BASE, "ja", "hanrei.html"), "w", encoding="utf-8") as f:
+        f.write(page(f"労働裁判例データベース｜{SITE_NAME_JA}",
+                     f"労働事件の裁判例を事件名・裁判所・判決年月日・掲載誌から検索できるデータベース（{len(HANREI)}件）。使用者側の弁護士が実務のポイントとともに解説します。",
+                     hanrei_index, root="../", lang="ja", base="hanrei.html", langs=("ja",)))
+
+    for h in hanrei_sorted:
+        h_body = f"""<main>
+<article class="post">
+<div class="cat"><a href="../hanrei.html">労働裁判例</a></div>
+<h1>{h['case']}</h1>
+<div class="date">{h['court']}　{h['dateja']}判決（{h['result']}）</div>
+<div class="tldr"><span class="tldr-label">10秒でわかる結論</span><p>{h['summary']}</p></div>
+{hanrei_meta_table(h)}
+{h['body']}
+{hanrei_related(h)}
+{HANREI_NOTE}
+{AUTHOR_BOX_JA.format(proot="../../", aroot="../", youtube=YOUTUBE, threads=THREADS)}
+{DISCLAIMER_JA}
+</article>
+<a class="back" href="../hanrei.html">← 裁判例一覧に戻る</a>
+{CONTACT_JA.format(mail=MAIL)}
+</main>"""
+        with open(os.path.join(BASE, "ja", "hanrei", h["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(page(f"{h['case']}（{h['court']}　{h['dateja']}）｜{SITE_NAME_JA}", h["summary"], h_body,
+                         root="../../", lang="ja", base=f"hanrei/{h['slug']}.html", langs=("ja",),
+                         jsonld=jsonld_hanrei(h)))
+
     # ===== お知らせ一覧ページ（news.html） =====
     items_zh = "".join(news_li(n, "zh") for n in news_sorted)
     news_body = f"""<main>
@@ -30686,7 +30790,10 @@ def build():
         u(f"cn/articles/{a['slug']}.html", a["date"])
         if a.get("ja"):
             u(f"ja/articles/{a['slug']}.html", a["date"])
-    sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+    u("ja/hanrei.html", today)
+    for h in HANREI:
+        u(f"ja/hanrei/{h['slug']}.html", today)
+    sitemap =('<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                + "\n".join(urls) + "\n</urlset>\n")
     with open(os.path.join(BASE, "sitemap.xml"), "w", encoding="utf-8") as f:
@@ -30694,7 +30801,7 @@ def build():
     with open(os.path.join(BASE, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
 
-    print(f"built: zh {len(arts)} / cn {len(arts)} / ja {n_ja} articles, {len(urls)} urls in sitemap.xml")
+    print(f"built: zh {len(arts)} / cn {len(arts)} / ja {n_ja} articles, 裁判例 {len(HANREI)} 件, {len(urls)} urls in sitemap.xml")
 
 JA_SUMMARY.update({
     "gyaku-pawahara": "パワハラは上司から部下への言動に限りません。厚労省指針は部下・同僚の言動（知識・経験の優位、集団による行為）も「優越的な関係」に該当すると明記。部下の中傷ビラによる料理長の自殺を労災と認めた裁判例（国・渋谷労基署長〔小田急レストランシステム〕事件）、管理職の相談を放置した会社に賠償を命じた裁判例（アンシス・ジャパン事件）を踏まえ、逆パワハラへの会社の対応を解説。",
