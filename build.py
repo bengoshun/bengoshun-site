@@ -29041,10 +29041,6 @@ def jsonld_hanrei(h):
     }
     return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
 
-# 一覧・個別ページ共通の出典・執筆方針の注記（著作権上の立場を明示しておく）
-HANREI_NOTE = """<p class="disclaimer">※ 各ページの解説は弁護士山﨑駿が独自に執筆したものです。「　」でくくった部分は判決原文の引用で、それ以外の記述は判例データベースや書籍の要旨を転載したものではありません。事件名・裁判所・判決年月日・事件番号・裁判結果・掲載誌は書誌情報として記載しています。</p>"""
-
-
 def catnav(arts, lang, active=None):
     """カテゴリナビ（件数付き）。index・カテゴリページ共通。root直下からの相対リンク"""
     links = []
@@ -30748,7 +30744,6 @@ def build():
 <div class="searchbox"><input type="search" id="q" placeholder="裁判例を検索（例：解雇、配転、懲戒、試用期間）" aria-label="裁判例を検索"><p class="search-empty" id="qe" hidden>該当する裁判例が見つかりません</p></div>
 <div class="cards">
 {hanrei_cards}</div>
-{HANREI_NOTE}
 {CONTACT_JA.format(mail=MAIL)}
 {DISCLAIMER_JA}
 </main>
@@ -30768,7 +30763,6 @@ def build():
 {hanrei_meta_table(h)}
 {h['body']}
 {hanrei_related(h)}
-{HANREI_NOTE}
 {AUTHOR_BOX_JA.format(proot="../../", aroot="../", youtube=YOUTUBE, threads=THREADS)}
 {DISCLAIMER_JA}
 </article>
