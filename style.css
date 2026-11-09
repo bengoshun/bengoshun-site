@@ -131,6 +131,28 @@ article.post blockquote {
   border-radius: 0 8px 8px 0;
   color: #333;
 }
+article.post .hfig {
+  margin: 22px 0;
+  padding: 16px 14px 10px;
+  background: #fafbfd;
+  border: 1px solid #dde3ec;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+article.post .hfig svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 560px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+article.post .hfig figcaption {
+  margin-top: 10px;
+  font-size: .84rem;
+  color: #5b6676;
+  text-align: center;
+}
 .case-box {
   background: #fdf8ee;
   border: 1px solid #ecd9ad;
@@ -446,6 +468,8 @@ article.post .cat a, article.post .cat { color: var(--catc, var(--gold)); }
 [data-theme="dark"] .author-links a,
 [data-theme="dark"] .toc .label { color: #dfe7f2; }
 [data-theme="dark"] article.post blockquote { background: #1f2a3b; color: #cfd8e4; border-left-color: var(--gold); }
+[data-theme="dark"] article.post .hfig { background: #1b2433; border-color: #30405a; }
+[data-theme="dark"] article.post .hfig figcaption { color: #9fb0c4; }
 [data-theme="dark"] .case-box { background: #26200f; border-color: #54461f; }
 [data-theme="dark"] .tldr { background: #26200f; }
 [data-theme="dark"] .related, [data-theme="dark"] .toc { background: #1f2a3b; }
