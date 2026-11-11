@@ -153,6 +153,38 @@ article.post .hfig figcaption {
   color: #5b6676;
   text-align: center;
 }
+/* 記事内の表 */
+article.post table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: .92rem;
+  line-height: 1.75;
+  display: block;
+  overflow-x: auto;
+  white-space: normal;
+}
+article.post table th,
+article.post table td {
+  border: 1px solid #dde3ec;
+  padding: 9px 12px;
+  vertical-align: top;
+  text-align: left;
+}
+article.post table th {
+  background: #eef2f7;
+  color: var(--navy);
+  font-weight: 700;
+  white-space: nowrap;
+}
+article.post table tr:nth-child(even) td { background: #fafbfd; }
+article.post table td:first-child { white-space: nowrap; }
+article.post table.wrap1 td:first-child { white-space: normal; }
+@media (max-width: 600px) {
+  article.post table { font-size: .86rem; }
+  article.post table th, article.post table td { padding: 7px 8px; }
+  article.post table td:first-child { white-space: normal; }
+}
 .case-box {
   background: #fdf8ee;
   border: 1px solid #ecd9ad;
@@ -470,6 +502,10 @@ article.post .cat a, article.post .cat { color: var(--catc, var(--gold)); }
 [data-theme="dark"] article.post blockquote { background: #1f2a3b; color: #cfd8e4; border-left-color: var(--gold); }
 [data-theme="dark"] article.post .hfig { background: #1b2433; border-color: #30405a; }
 [data-theme="dark"] article.post .hfig figcaption { color: #9fb0c4; }
+[data-theme="dark"] article.post table th,
+[data-theme="dark"] article.post table td { border-color: #30405a; }
+[data-theme="dark"] article.post table th { background: #223047; color: #dfe7f2; }
+[data-theme="dark"] article.post table tr:nth-child(even) td { background: #1b2433; }
 [data-theme="dark"] .case-box { background: #26200f; border-color: #54461f; }
 [data-theme="dark"] .tldr { background: #26200f; }
 [data-theme="dark"] .related, [data-theme="dark"] .toc { background: #1f2a3b; }
