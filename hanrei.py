@@ -1379,6 +1379,29 @@ HANREI = [
 <blockquote>「その個別的同意なしに、被上告人の従業員としての地位を維持しながら出向先である日鐵運輸においてその指揮監督の下に労務を提供することを命ずる本件各出向命令を発令することができるというべきである」（最二小判平成15年4月18日労判847号14頁）</blockquote>
 <p>出向期間の長期化が予想されていた点についても、社外勤務協定がそのような在籍出向があり得ることを前提に締結されており、出向元との労働契約関係の存続が形がい化しているとはいえないから、転籍と同視することはできないとした。権利濫用の点についても、業務委託の経営判断に合理性があり、人選基準にも合理性があったこと、業務内容や勤務場所に変更がなく処遇面の配慮もされていたことから、著しい不利益を受けるものとはいえないとして、出向命令を有効と判断した。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="個別的同意なしに在籍出向を命じられるための条件を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">個別的同意なしに在籍出向を命じられるための条件</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①就業規則と労働協約に社外勤務の根拠規定がある</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">会社は従業員に対し業務上の必要によって社外勤務をさせる</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">ことがある旨の規定が置かれていた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②出向中の処遇を定めた社外勤務協定が整備されている</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">社外勤務の定義、出向期間、出向中の社員の地位、賃金、退職金、</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">各種の出向手当、昇格・昇給等の査定その他の処遇を定めていた</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③個別的同意なしに出向命令を発令することができる</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">出向期間の長期化が予想されていても、協定がそのような在籍</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">出向を前提としている以上、転籍と同視することはできない</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">権利濫用の点も、業務委託の経営判断と人選基準に合理性があり、業務内容や勤務場所</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">に変更がなく処遇面の配慮もされていたことから、否定されている。</text>
+</svg>
+<figcaption>最二小判平成15年4月18日労判847号14頁が示した判断</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>在籍出向を命じるには、就業規則や労働協約に根拠規定があることに加えて、出向中の労働条件・処遇を定めた規程が整っていることが重要になる。根拠規定が一文だけの会社は、出向規程の整備から着手することになる。</li>
@@ -1559,6 +1582,29 @@ HANREI = [
 <blockquote>「当該具体的事情の下において、それが客観的に合理的な理由を欠き、社会通念上相当なものとして是認することができないときには、権利の濫用として無効になる」（最二小判平成18年10月6日労判925号11頁）</blockquote>
 <p>そのうえで、本件の暴行は職場で就業時間中に行われ、被害者以外にも目撃者がいたのであるから、捜査の結果を待たずに処分を決めることは十分に可能であり、長期間にわたって懲戒権の行使を留保する合理的な理由は見いだし難いとした。さらに、捜査の結果を待つこととした場合に不起訴となったのであれば、通常は重い懲戒処分を行わないと考えられるのに、実質的に懲戒解雇に等しい処分をするのは対応に一貫性を欠くとして、処分は無効と判断した。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="長期間経過後の懲戒処分が権利の濫用として無効とされた理由を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">事件から7年以上経過した後の懲戒処分が無効とされた理由</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①捜査の結果を待たずに処分を決めることが十分可能だった</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">暴行は職場で就業時間中に行われ、被害者以外にも目撃者が</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">いたのであるから、社内で事実関係を確認できた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②長期間にわたり懲戒権の行使を留保する合理的な理由がない</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">事件から7年以上が経過した後に諭旨退職処分がされ、</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">退職願が提出されなかったため懲戒解雇の扱いとなった</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③不起訴となった後に重い処分をするのは一貫性を欠く</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">捜査の結果を待つこととした場合、不起訴となったのであれば</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">通常は重い懲戒処分を行わないと考えられる</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">懲戒権の行使は、当該具体的事情の下において客観的に合理的な理由を欠き、社会通念上</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">相当なものとして是認することができないときに、権利の濫用として無効になる。</text>
+</svg>
+<figcaption>最二小判平成18年10月6日労判925号11頁が示した判断</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>懲戒は、事実関係が把握できた段階で速やかに行うのが原則である。非違行為の重大さが明らかな場合でも、長期間放置した後の処分は権利濫用とされうる。</li>
@@ -1626,6 +1672,29 @@ HANREI = [
 <p>最高裁は、このような精神的な不調による欠勤については、不調が解消されない限り引き続き出勤しないことが予想されるとして、使用者が採るべき対応を次のように示した。</p>
 <blockquote>「その診断結果等に応じて、必要な場合は治療を勧めた上で休職等の処分を検討し、その後の経過を見るなどの対応を採るべきであり」（最二小判平成24年4月27日労判1055号5頁）</blockquote>
 <p>就業規則には必要と認めるときに臨時の健康診断を行うことができる旨の定めがあったのであるから、精神科医による健康診断を実施するなどしたうえで対応すべきであり、これをせずに、出勤しない理由が存在しない事実に基づくものであることから直ちに無断欠勤として懲戒処分をすることは適切とはいい難いとした。その結果、本件の欠勤は懲戒事由である正当な理由のない無断欠勤に当たらず、処分は無効と判断された。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="精神的な不調がうかがわれる欠勤への対応の順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">精神的な不調がうかがわれる欠勤への対応の順序</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①不調が解消されない限り欠勤が続くことを前提に置く</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">実際には存在しない事実に基づく主張であっても、それ自体が</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">不調の表れである可能性を踏まえる必要がある</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②精神科医による健康診断を実施するなどして診断結果を得る</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">就業規則に、必要と認めるときに臨時の健康診断を行うことが</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">できる旨の定めが置かれていた</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③診断結果に応じ、必要なら治療を勧めて休職等を検討する</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">その後の経過を見るなどの対応を採るべきであり、これをせずに</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">直ちに無断欠勤として懲戒処分をすることは適切とはいい難い</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">長期欠勤への対応は、懲戒ではなく休職制度と復職判定の枠組みで進めるのが基本に</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">なる。懲戒を選ぶのは、受診を命じても応じない場合など手順を尽くした後である。</text>
+</svg>
+<figcaption>最二小判平成24年4月27日労判1055号5頁が示した対応の順序</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -1906,6 +1975,35 @@ HANREI = [
 
 <h2>最高裁の判断</h2>
 <p>最高裁の法廷意見は短く、所論の点に関する原審の認定判断は証拠関係に照らして是認しえないものではなく、その過程に違法はないとして上告を棄却したにとどまる。したがって、下級審が示した退職勧奨の限界に関する判断がそのまま維持された形になっている。この事件には裁判官2名の反対意見が付されており、勧奨の目的の合理性や、条件を変えながら説得を続けた経過を重く見て、原審の判断には法令の解釈適用の誤りがあるとする立場が示されている。結論は分かれたものの、勧奨の回数や期間、担当者の言動、職場環境の取扱いといった事情を総合して違法性を判断するという枠組み自体は、現在の実務にも引き継がれている。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 300" role="img" aria-label="下関商業高校事件における法廷意見と反対意見を並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">法廷意見と反対意見の分かれ方</text>
+<rect x="20.0" y="36" width="322.0" height="190" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">法廷意見（上告棄却）</text>
+<text x="181.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・原審の認定判断は、証拠関係に</text>
+<text x="181.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">　照らして是認しえないものでは</text>
+<text x="181.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">　ない</text>
+<text x="181.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">・その過程に違法はないとして、</text>
+<text x="181.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">　上告は棄却された</text>
+<text x="181.0" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">→　下級審が示した退職勧奨の限</text>
+<text x="181.0" y="194" font-size="11.5" fill="#44596f" text-anchor="middle">　界に関する判断が、そのまま維</text>
+<text x="181.0" y="213" font-size="11.5" fill="#44596f" text-anchor="middle">　持された</text>
+<rect x="358.0" y="36" width="322.0" height="190" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#c4cfdb"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">反対意見（裁判官2名）</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・勧奨の目的の合理性や、条件を</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">　変えながら説得を続けた経過を</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">　重く見るべきである</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">・原審の判断には法令の解釈適用</text>
+<text x="519.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">　の誤りがあるとする立場が示さ</text>
+<text x="519.0" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">　れた</text>
+<rect x="20" y="238" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="258" font-size="11.5" fill="#24313f" text-anchor="middle">勧奨の回数や期間、担当者の言動、職場環境の取扱いといった事情を総合して違法性を</text>
+<text x="350.0" y="277" font-size="11.5" fill="#24313f" text-anchor="middle">判断するという枠組み自体は、現在の実務にも引き継がれている。</text>
+</svg>
+<figcaption>最一小判昭和55年7月10日労判345号20頁における意見の分かれ方</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -2494,6 +2592,16 @@ HANREI = [
 <blockquote>「労務の提供の対価として支払われたものとみることは困難であり」（最一小判平成19年6月28日労判940号11頁）</blockquote>
 <p>そして、自己所有の道具の持込み使用状況や専属性の程度に照らしても労働基準法上の労働者に該当せず、労働者災害補償保険法上の労働者にも該当しないと判断した。当時この工務店以外の仕事をしていなかった点についても、他の工務店の仕事を禁じられていたわけではなく、優先的に仕事を回すなどの配慮と本人の希望によるものであるとして、結論を左右しないとされた。職長会議に出席して伝達等を行い職長手当を受けていた点も同様とされた。</p>
 
+<table class="wrap1">
+<tr><th>判断の要素</th><th>本件で認定された事実</th></tr>
+<tr><td>作業の進め方</td><td>仕上がりの画一性・均質性が求められることから寸法や仕様についてある程度細かな指示を受けていたが、工法や作業手順は自分の判断で選べた</td></tr>
+<tr><td>時間の拘束</td><td>安全確保や近隣への配慮から所定の作業時間に従うことを求められていたが、事前に連絡すれば、工期に遅れない限り仕事を休むことも始業・終業を前後させることも自由であった</td></tr>
+<tr><td>報酬の性質</td><td>完全な出来高払が中心で、請求書により請求し、工務店の従業員の給与より相当高額であった。労務の提供の対価として支払われたものとみることは困難であるとされた</td></tr>
+<tr><td>道具と諸制度の適用</td><td>大工道具一式を自ら所有して現場に持ち込んでいた。就業規則・年次有給休暇・退職金制度の適用はなく、労働保険や社会保険の被保険者でもなく、給与所得としての源泉徴収もされていなかった</td></tr>
+<tr><td>専属性</td><td>当時この工務店以外の仕事をしていなかったが、他の工務店の仕事を禁じられていたわけではなく、優先的に仕事を回すなどの配慮と本人の希望によるものであるとされた</td></tr>
+</table>
+<p class="small">これらを総合して、工務店の指揮監督の下に労務を提供していたと評価することはできないとされ、労働基準法上の労働者にも労働者災害補償保険法上の労働者にも該当しないと判断された（最一小判平成19年6月28日労判940号11頁）。</p>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>労働者性は一つの事情では決まらず、仕事の依頼に対する諾否の自由、業務遂行上の指揮監督、時間・場所の拘束、報酬の性質、機械・器具の負担、専属性などを総合して判断される。契約書の名称だけで決まるものではない。</li>
@@ -2632,6 +2740,14 @@ HANREI = [
 <blockquote>「経済的、社会的、精神的不利益が社会通念上甘受すべき程度を著しく超えるものということはできない」（最二小判平成11年9月17日労判768号16頁）</blockquote>
 <p>そして、転勤命令は違法とはいえず、債務不履行にも不法行為にも当たらないとされた。</p>
 
+<table class="wrap1">
+<tr><th>判断の項目</th><th>本件での評価</th></tr>
+<tr><td>業務上の必要性</td><td>本件転勤命令は業務上の必要性に基づくものであった</td></tr>
+<tr><td>不当な動機・目的の有無</td><td>不当な動機・目的をもってされたものではなかった</td></tr>
+<tr><td>労働者の不利益の程度</td><td>経済的、社会的、精神的不利益が社会通念上甘受すべき程度を著しく超えるものということはできない</td></tr>
+</table>
+<p class="small">育児介護休業法26条は、労働者の配置の変更で就業の場所の変更を伴うものをしようとする場合に、その変更により就業しつつ子の養育又は家族の介護を行うことが困難となる労働者がいるときは、その状況に配慮することを求めている（最二小判平成11年9月17日労判768号16頁）。</p>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>転勤命令の適法性は、業務上の必要性、不当な動機・目的の有無、労働者の不利益の程度という枠組みで判断される。単身赴任を伴うこと自体が直ちに命令を無効にするものではない。</li>
@@ -2662,6 +2778,29 @@ HANREI = [
 <blockquote>「雇い入れられる際に学歴を偽ったことが被上告会社就業規則所定の懲戒解雇事由に該当する」（最一小判平成3年9月19日労経速1443号27頁）</blockquote>
 <p>そのうえで、原審はその他の言動を情状として考慮し、解雇が解雇権の濫用に当たらないと判示したものであって、思想を理由として解雇を正当化したものではないから、憲法19条違反をいう主張は前提を欠くとされた。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="経歴詐称を理由とする懲戒解雇が有効とされた筋道を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">経歴詐称を理由とする懲戒解雇が有効とされた筋道</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①就業規則所定の懲戒解雇事由に該当するか</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">雇い入れられる際に学歴を偽ったことが、就業規則所定の</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">懲戒解雇事由に該当するとされた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②その他の言動を情状として考慮する</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">刑事処分を受けていた事実を告げていなかったことなども</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">情状として考慮された</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③解雇権の濫用に当たらないと判断する</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">思想を理由として解雇を正当化したものではないから、</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">憲法19条違反をいう主張は前提を欠くとされた</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">経歴詐称を懲戒の対象とするには、就業規則に経歴を偽って採用されたことを懲戒事由</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">として掲げていることが前提になる。</text>
+</svg>
+<figcaption>最一小判平成3年9月19日労経速1443号27頁が是認した原審の判断</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>経歴詐称が懲戒解雇事由となるためには、就業規則にその旨の定めがあることが前提になる。経歴を偽って採用されたことを懲戒事由として掲げているかを確認しておきたい。</li>
@@ -2690,6 +2829,29 @@ HANREI = [
 <h2>最高裁の判断</h2>
 <p>原審は、女子従業員の担当職種、男女従業員の勤続年数、高齢女子労働者の労働能力、定年制の一般的現状などを検討し、女子従業員の担当職務は相当広範囲にわたっていて貢献度を上げうる職種が数多く含まれており、各個人の能力等の評価を離れてその全体を貢献度の上がらない従業員と断定する根拠はないこと、少なくとも60歳前後までは男女とも通常の職務であれば企業経営上要求される職務遂行能力に欠けるところはないことなどから、定年年齢において女子を差別しなければならない合理的理由は認められないと判断していた。最高裁はこれを是認し、次のように述べた。</p>
 <blockquote>「性別のみによる不合理な差別を定めたものとして民法九〇条の規定により無効である」（最三小判昭和56年3月24日民集35巻2号300頁）</blockquote>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="男女別定年制が民法90条により無効とされた筋道を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">男女別定年制が無効とされた筋道</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①女子従業員の担当職務は相当広範囲にわたっていた</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">貢献度を上げうる職種が数多く含まれており、各個人の能力等の</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">評価を離れて全体を貢献度の上がらない従業員とは断定できない</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②60歳前後までは職務遂行能力に欠けるところはない</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">少なくとも60歳前後までは、男女とも通常の職務であれば企業</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">経営上要求される職務遂行能力に欠けるところはないとされた</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③定年年齢において女子を差別する合理的理由はない</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">性別のみによる不合理な差別を定めたものとして、民法90条の</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">規定により無効であるとされた</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">現在は、男女雇用機会均等法6条4号が、退職の勧奨、定年及び解雇並びに労働契約の</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">更新について、性別を理由とする差別的取扱いを明確に禁止している。</text>
+</svg>
+<figcaption>最三小判昭和56年3月24日民集35巻2号300頁が是認した判断</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -2720,6 +2882,29 @@ HANREI = [
 <p>最高裁は、原審の判断を是認できないとして、次のように述べた。</p>
 <blockquote>「その個別的同意なしに当該合意に反する配置転換を命ずる権限を有しない」（最二小判令和6年4月26日労判1308号5頁）</blockquote>
 <p>すなわち、職種や業務内容を特定のものに限定する旨の合意がある場合には、使用者はその合意に反する配置転換を命ずる権限をそもそも有していないことになる。したがって、権限があることを前提にその濫用に当たらないとした原審の判断には法令の違反があるとされ、不法行為の成否等について更に審理させるため事件が差し戻された。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="配置転換命令の当否を検討する順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">配置転換命令の当否を検討する順序</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①職種・業務内容を限定する合意があるか</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">採用の経緯や、長期にわたり同一職種に従事してきた実態などから</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">認定されうる。本件では技術職に限定する合意が認定された</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②合意があれば、配置転換を命ずる権限をそもそも有しない</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">その個別的同意なしに、当該合意に反する配置転換を命ずる</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">ことはできないとされた</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③権限を前提に濫用の有無を論じた原審には法令の違反がある</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">不法行為の成否等について更に審理させるため、事件は原審に</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">差し戻された</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">まず限定合意の有無を確認し、合意があれば濫用かどうかを論じる前の段階で権限自体</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">が否定される、という順序が明確にされた。</text>
+</svg>
+<figcaption>最二小判令和6年4月26日労判1308号5頁が示した検討の順序</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -2975,6 +3160,29 @@ HANREI = [
 <p>すなわち、安全配慮義務は、こうした関係に入った当事者間において、当該法律関係の付随義務として当事者の一方または双方が相手方に対して信義則上負う義務として一般的に認められるべきものであり、国と公務員との間でも別に解する論拠はないとされた。義務の具体的内容は、職種、地位、問題となる具体的状況によって異なるとも述べられている。</p>
 <p>消滅時効については、安全配慮義務違反による損害賠償義務の発生は偶発的で多発するものといえず、行政上の便宜を考慮する必要がないこと、国が義務者であっても損害の公正な填補を目的とする点で私人間の損害賠償関係と目的性質を異にしないことから、会計法30条の5年ではなく、当時の民法167条1項により10年と解すべきであるとした。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="安全配慮義務が認められる根拠と消滅時効の期間を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">安全配慮義務が認められる根拠と消滅時効</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①特別な社会的接触の関係に入った当事者間で認められる</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">当該法律関係の付随義務として、当事者の一方または双方が</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">相手方に対して信義則上負う義務として一般的に認められる</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②国と公務員との間でも別に解する論拠はない</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">国が負う義務は給与支払義務にとどまらず、場所・施設・器具等の</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">設置管理や公務の管理に当たって生命・健康を保護する配慮を含む</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③消滅時効は会計法の5年ではなく当時の民法167条1項の10年</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">義務の発生は偶発的で多発するものといえず行政上の便宜を考慮</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">する必要がないことなどから、10年と解すべきであるとされた</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">安全配慮義務は現在は労働契約法5条に明文化されている。義務の具体的内容は、職種、</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">地位、問題となる具体的状況によって異なるとされている。</text>
+</svg>
+<figcaption>最三小判昭和50年2月25日民集29巻2号143頁が示した判断</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>安全配慮義務は、明文の規定がなくても契約関係に付随して認められる。民間企業の労働契約についても同じ考え方が及び、現在は労働契約法5条に明文化されている。</li>
@@ -3004,6 +3212,30 @@ HANREI = [
 <p>最高裁は、各文書について、学校教育及び学校運営の根幹にかかわる事項につき、虚偽の事実を織り混ぜ、又は事実を誇張わい曲して学校と校長を非難攻撃し、全体として中傷ひぼうしたものといわざるを得ないとした。また、週刊誌の記者に対する情報提供は、問題のある情報が記事として社会一般に広く流布されることを予見ないし意図してされたものとみるべきであるとした。そのうえで、これらの行為の評価について次のように述べた。</p>
 <blockquote>「労働契約上の信頼関係を著しく損なうものであることが明らかである」（最一小判平成6年9月8日労判657号12頁）</blockquote>
 <p>先行する解雇が性急にされたうらみがないではないこと、文書の交付がその解雇の効力をめぐる紛争中のことであったことを考慮しても、この評価は左右されないとされ、従前の勤務状況の問題も併せ考慮して、解雇は権利の濫用に当たらないと結論付けられた。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 409" role="img" aria-label="使用者を批判する言動が解雇事由と評価された理由を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">使用者を批判する言動が解雇事由と評価された理由</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①文書の内容に虚偽や誇張わい曲があったか</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">学校教育及び学校運営の根幹にかかわる事項につき、虚偽の事実</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">を織り混ぜ、又は事実を誇張わい曲したものとされた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②情報提供の相手と波及の範囲はどうだったか</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">週刊誌の記者への情報提供は、社会一般に広く流布されることを</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">予見ないし意図してされたものとみるべきとされた</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③労働契約上の信頼関係を著しく損なうものか</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">先行する解雇が性急にされたうらみがないではないことなどを</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">考慮しても、この評価は左右されないとされた</text>
+<rect x="20" y="328" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">法令違反の事実を所定の窓口へ通報した場合は公益通報者保護法の保護が及ぶ。令和7年</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">改正により、通報から1年以内の解雇・懲戒は通報を理由とするものと推定され、解雇等</text>
+<text x="350.0" y="386" font-size="11.5" fill="#24313f" text-anchor="middle">をした個人に対する罰則も設けられた（令和8年12月1日施行）。</text>
+</svg>
+<figcaption>最一小判平成6年9月8日労判657号12頁が示した判断</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -3072,6 +3304,29 @@ HANREI = [
 <blockquote>「社会通念上相当な程度を超える過酷な業務に当たるものともいえず」（最二小判平成5年6月11日労判632号10頁）</blockquote>
 <p>そして本件の命令は、取外し命令を無視したまま点呼執行業務に就こうとした違反行為があったことから、本来の業務から外し、職場規律維持の上で支障が少ないと考えられる屋外作業に従事させたものであって、職場管理上やむを得ない措置といえ、殊更に不利益を課するという違法・不当な目的でされたものとは認められないとした。管理職が作業状況を監視したことなども、職責からして特に違法・不当視すべきものではないとされ、原審の判断が破棄された。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="本来業務から外して別の作業に従事させる措置の検討順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">本来業務から外して別の作業に従事させる措置の検討順序</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①作業自体が労働契約上の義務の範囲内にあるか</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">火山灰の除去は職場環境を整備して労務の円滑化・効率化を図る</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">ために必要な作業で、従来も職員が行うことがあった</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②社会通念上相当な程度を超える過酷な業務ではないか</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">作業方法や服装、休憩の取り方について特段の指示はされて</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">いなかった</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③殊更に不利益を課する違法・不当な目的でされていないか</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">取外し命令を無視したまま点呼執行業務に就こうとした違反が</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">あり、職場管理上やむを得ない措置といえるとされた</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">原審は、火山灰の除去作業を命ずる必然性はなく懲罰的に発せられたものであるとして</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">業務命令権の濫用に当たるとしていたが、この判断は破棄された。</text>
+</svg>
+<figcaption>最二小判平成5年6月11日労判632号10頁が示した検討の順序</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>本来業務から外して別の作業に従事させる措置は、作業自体が労働契約上の義務の範囲内にあるか、業務上の必要性があるか、懲罰目的ではないかという順で検討される。</li>
@@ -3102,6 +3357,29 @@ HANREI = [
 <blockquote>「現実的に選択可能なみちの中に通常甘受すべきものがあるのであれば」（最三小判平成12年1月28日労判774号7頁）</blockquote>
 <p>すなわち、そのような方法があるのであれば、労働者がより不利益性の高い方法を選択しようとする場合であっても、転勤命令権の行使を権利の濫用とすることはできないとされた。本件では、従前の住居が借家であること、転居先も同じ都内であること、夫の通勤時間の延長も比較的短く抑えられること、転居先で保育先を確保することはさほど困難とはいえないことなどから、不利益は決して小さくないものの通常甘受すべき程度を著しく超えるとまではいえないとされ、命令は有効とされた。</p>
 <p>もっとも最高裁は、本件の原審が就労場所を限定する合意を否定したのは都内での勤務場所の変更という事例を前提とするものであり、より広域の異動についても命令権があるとしたものではないと述べ、さらに未就学の子を持つ労働者の置かれた立場にはなお十分な配慮を要するとして、本判決により契約締結当時予期しなかった広域の異動が許されると誤解されることがあってはならないと付言している。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="転勤に伴う不利益が通常甘受すべき程度にとどまるかの判断方法を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">不利益が通常甘受すべき程度にとどまるかの判断方法</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①異動先が比較的近い場合に労働者が選びうる方法を見る</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">長距離通勤を選ぶか転居を選ぶか、転居の場合に家族と同居するか</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">別居するかは、通常は労働者ないしその家族の判断に懸かる</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②現実的に選択可能なみちの中に通常甘受すべきものがあるか</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">従前の住居が借家であること、転居先も同じ都内であること、</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">保育先の確保がさほど困難とはいえないことが挙げられた</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③あれば、より不利益性の高い方法を選ぼうとしても濫用でない</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">不利益は決して小さくないものの、通常甘受すべき程度を</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">著しく超えるとまではいえないとされた</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">最高裁は、本判決により契約締結当時予期しなかった広域の異動が許されると誤解され</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">ることがあってはならないとし、未就学の子を持つ労働者への十分な配慮も求めた。</text>
+</svg>
+<figcaption>最三小判平成12年1月28日労判774号7頁が示した判断方法</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -3226,6 +3504,38 @@ HANREI = [
 <p>最高裁は、本人が入社直後から幹部従業員であり、その後は取締役という地位にあったにもかかわらず、勤務態度は従業員だけでなく取引先からも苦情が寄せられるほどであり、社長から注意されても飲酒を控えることがなかったと指摘した。そのうえで、解雇の時点において勤務態度の問題点は正常な職場機能・秩序を乱す程度のものであり、自ら勤務態度を改める見込みも乏しかったとみるのが相当であるから、解雇事由に該当する事情があることは明らかであったとし、次のように述べた。</p>
 <blockquote>「懲戒処分などの解雇以外の方法を採ることなくされたとしても、本件解雇が著しく相当性を欠き」（最三小判平成22年5月25日労判1018号5頁）</blockquote>
 <p>すなわち、そのような事情の下では解雇に踏み切ったことはやむを得なかったものであり、不法行為を構成するものではないとして、原審の判断が破棄された。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 319" role="img" aria-label="解雇以外の方法を採らなかった点について原審と最高裁の評価を並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">解雇以外の方法を採らなかった点の評価</text>
+<rect x="20.0" y="36" width="322.0" height="209" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#c4cfdb"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">原審の判断（不法行為を肯定）</text>
+<text x="181.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・会社が問題点を自覚させる指</text>
+<text x="181.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">　導をしてこなかった</text>
+<text x="181.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">・取締役の解任や懲戒処分と</text>
+<text x="181.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">　いった解雇以外の方法で改善</text>
+<text x="181.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">　の機会を与えていない</text>
+<text x="181.0" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">→　解雇は社会通念上相当とし</text>
+<text x="181.0" y="194" font-size="11.5" fill="#44596f" text-anchor="middle">　て是認できず、不法行為に当</text>
+<text x="181.0" y="213" font-size="11.5" fill="#44596f" text-anchor="middle">　たる</text>
+<rect x="358.0" y="36" width="322.0" height="209" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">最高裁の判断（不法行為を否定）</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・入社直後から幹部従業員で、</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">　その後は取締役の地位にあっ</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">　た</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">・従業員だけでなく取引先から</text>
+<text x="519.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">　も苦情が寄せられ、注意され</text>
+<text x="519.0" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">　ても飲酒を控えなかった</text>
+<text x="519.0" y="194" font-size="11.5" fill="#44596f" text-anchor="middle">→　正常な職場機能・秩序を乱</text>
+<text x="519.0" y="213" font-size="11.5" fill="#44596f" text-anchor="middle">　す程度で、自ら改める見込み</text>
+<text x="519.0" y="232" font-size="11.5" fill="#44596f" text-anchor="middle">　も乏しかった</text>
+<rect x="20" y="257" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="277" font-size="11.5" fill="#24313f" text-anchor="middle">本判決は段階を尽くす必要を否定したものではなく、問題行動の程度と改善の見込みの</text>
+<text x="350.0" y="296" font-size="11.5" fill="#24313f" text-anchor="middle">乏しさが明らかな場合には、段階を尽くさなくても相当性を欠くとはいえないとした。</text>
+</svg>
+<figcaption>最三小判平成22年5月25日労判1018号5頁が原審と異なる評価をした点</figcaption></figure>
 <p>なお本件では、労働審判に関与した裁判官が訴訟移行後の第一審判決をしたことの適否も争われた。最高裁は、民訴法23条1項6号の「前審の裁判」とは当該事件の直接または間接の下級審の裁判を指すから、労働審判はこれに当たらないとして、違法はないとした。</p>
 
 <h2>実務のポイント</h2>
@@ -3421,6 +3731,29 @@ HANREI = [
 <blockquote>「債務者において、右規定の新設について、その高度の必要性及びその合理性につき主張及び疎明がない」（東京地決平成8年12月11日労判711号57頁）</blockquote>
 <p>諸手当の減額についても、給与の具体的な額を定める社内基準は法的性格として就業規則であるから、その変更にも同じ枠組みが適用されるとした。会社の営業成績が悪化し、店舗の統廃合や人員削減によって経費の削減に努めていたことから、手当を減額する必要性が全くなかったとはいえないとしつつ、その事情だけでは不利益を受忍させるだけの高度の必要性があるとは認められないとして、減額の効力を否定している。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="職能資格の引下げによる減給が認められるための条件を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">職能資格の引下げによる減給が認められるための条件</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①資格・等級を引き下げる根拠規定が置かれているか</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">従前の就業規則や給与規定には、いったん付与された職能資格・</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">等級を引き下げることを許す規定が置かれていなかった</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②後から新設した規定の適用は不利益変更に当たる</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">新設した給与規則の規定は降格・減給をも基礎づけるもので、</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">賃金に関する不利益な就業規則の変更に当たる</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③高度の必要性に基づいた合理的な内容であることを要する</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">本件では、その高度の必要性および合理性について主張・疎明が</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">ないとされ、減給の効力は否定された</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">給与の具体的な額を定める社内基準も法的性格としては就業規則であるから、その変更</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">にも同じ枠組みが適用されるとして、諸手当の減額も効力を否定されている。</text>
+</svg>
+<figcaption>東京地決平成8年12月11日労判711号57頁が示した判断</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>職能資格制度のもとで資格や等級を引き下げるには、就業規則や賃金規程に引下げができる旨の根拠規定が必要である。評価が下がったという事実だけでは減給の根拠にならない。</li>
@@ -3505,6 +3838,29 @@ HANREI = [
 <p>裁判所は、会社が育児休業中の労働者に対して制度改正を個別に説明していたこと、労働者には休業終了までの間に復職の形態を検討する機会が与えられていたこと、短時間勤務を講じても週5日の勤務が困難な状況にあり、一度は退職の意向を示したうえで一転して契約社員としての復職を求めたという経過、締結時に契約内容や賃金の算定方法の説明を受けていたことなどを挙げ、次のように判断した。</p>
 <blockquote>「本件合意には、一審原告の自由な意思に基づいてしたものと認めるに足りる合理的な理由が客観的に存在するものといえる」（東京高判令和元年11月28日労判1215号5頁）</blockquote>
 <p>したがって、転換の合意は男女雇用機会均等法9条3項や育児・介護休業法10条のいう不利益な取扱いには当たらないとされた。労働者が、休業を命じてもらえば週5日の勤務が可能であったとして契約社員契約を強要されたと主張した点については、当時の就労可能性の認定を踏まえて採用されなかった。また、短時間勤務の措置を定める育児・介護休業法23条との関係についても、会社は正社員の短時間勤務を設けたうえで、それでも就労できない者のために契約社員の制度を設けたのであるから、同条に反しないとされた。なお、この判決は、労働者が録音した会話の内容をもとに会社を批判する記者会見などをした点について、一部で会社に対する不法行為の成立を認めている。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="復職時の雇用形態の変更が不利益な取扱いに当たらないとされた理由を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">復職時の雇用形態の変更が不利益な取扱いに当たらないとされた理由</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①休業中に制度改正を個別に説明していたか</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">短時間勤務を講じてもなお就労が難しい者のために契約社員の</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">制度を設け、労働者にも個別に説明していた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②復職の形態を検討する機会が与えられていたか</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">休業終了までの間に検討する機会があり、一度は退職の意向を</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">示したうえで一転して契約社員としての復職を求めた</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③締結時に契約内容と賃金の算定方法の説明を受けていたか</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">自由な意思に基づいてしたものと認めるに足りる合理的な理由が</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">客観的に存在するといえるとされた</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">会社は正社員の短時間勤務を設けたうえで、それでも就労できない者のために契約社員</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">の制度を設けたのであるから、育児・介護休業法23条にも反しないとされた。</text>
+</svg>
+<figcaption>東京高判令和元年11月28日労判1215号5頁が挙げた事情</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -3926,6 +4282,15 @@ HANREI = [
 <blockquote>「単なる迷惑行為にとどまらず、不法行為法上も違法というべきである」（東京高判平成25年2月27日労判1072号5頁）</blockquote>
 <p>宿泊先での飲酒の勧めも引き続いて不法行為が成立するとされ、体調の悪い者に自動車の運転をさせる行為は極めて危険であるとして、運転の強要も違法とされた。深夜の留守番電話についても違法と評価され、これらは会社の事業の執行に関して行われたものとして、会社も使用者としての責任を負うとされた。慰謝料の額は、第一審の70万円から150万円に増額された。他方で、適応障害の発症と上司の行為との因果関係は、業務上のミスや年俸の減額など他の事情も重なっていたことから認められず、本人から復職願の提出がないまま休職期間が経過していることなどから、退職扱いは有効とされ、地位確認と賃金の請求、さらに定年までの賃金相当額を求める予備的請求もいずれも認められなかった。</p>
 
+<table class="wrap1">
+<tr><th>請求</th><th>結論</th></tr>
+<tr><td>上司の言動に対する損害賠償</td><td>飲酒の強要、宿泊先での飲酒の勧め、体調の悪い者に自動車の運転をさせたこと、深夜の留守番電話がいずれも違法とされ、事業の執行に関して行われたものとして会社も責任を負う。慰謝料は第一審の70万円から150万円に増額された</td></tr>
+<tr><td>適応障害の発症との因果関係</td><td>業務上のミスや年俸の減額など他の事情も重なっていたことから、上司の行為との因果関係は認められなかった</td></tr>
+<tr><td>労働契約上の地位の確認と賃金</td><td>本人から復職願の提出がないまま休職期間が経過していることなどから、退職扱いは有効とされ、請求は認められなかった</td></tr>
+<tr><td>定年までの賃金相当額（予備的請求）</td><td>認められなかった</td></tr>
+</table>
+<p class="small">極端にアルコールに弱い体質の部下に対して執ように飲酒を強要し、体調の悪化を気にかけることなく重ねて酒を注いだ行為は、単なる迷惑行為にとどまらず不法行為法上も違法とされた（東京高判平成25年2月27日労判1072号5頁）。</p>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>飲酒を勧める行為も、相手の体質や体調を無視して繰り返せば違法と評価される。懇親の場であっても、断っている相手に重ねて勧めない運用を徹底する必要がある。</li>
@@ -3956,6 +4321,29 @@ HANREI = [
 <p>最高裁は、使用者責任の趣旨は、会社が従業員の活動によって利益を上げる関係にあることや、事業範囲を拡張して第三者に損害を生じさせる危険を増大させていることに着目し、損害の公平な分担という見地から会社に損害を負担させることにあると述べた。その趣旨からすれば、会社は被害者に対して賠償義務を負うだけでなく、従業員との関係でも損害の全部または一部を負担すべき場合があるとされた。そして、会社が被害者に賠償した場合に従業員への求償が信義則上相当と認められる限度に制限されることと、従業員が被害者に賠償した場合とで、会社の負担が異なる結果となることは相当でないとして、次のように判断した。</p>
 <blockquote>「損害の公平な分担という見地から相当と認められる額について、使用者に対して求償することができる」（最二小判令和2年2月28日労判1224号5頁）</blockquote>
 <p>原判決のうち求償請求に関する部分は破棄され、求償できる額について審理を尽くさせるため原審に差し戻された。補足意見では、継続的かつ専属的に業務に従事する運転手と規模の大きな上場会社という関係では、通常の業務で生じた事故について従業員が負担すべき部分は僅少となることが多く、ゼロとすべき場合もありうることや、会社が責任保険に加入せず自己資金で賠償を賄う方針をとっていたことが指摘されている。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="被害者に賠償した従業員から会社への求償が認められた筋道を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">従業員から会社への求償が認められた筋道</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①使用者責任の趣旨は損害の公平な分担にある</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">会社が従業員の活動によって利益を上げる関係にあることや、事業</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">範囲を拡張して損害を生じさせる危険を増大させていることに着目</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②会社は従業員との関係でも損害を負担すべき場合がある</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">被害者に対して賠償義務を負うだけでなく、従業員との関係でも</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">損害の全部または一部を負担すべき場合があるとされた</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③損害の公平な分担という見地から相当と認められる額を求償</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">会社が賠償した場合の求償が信義則上相当と認められる限度に制限</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">されることとの均衡から導かれ、額の審理のため差し戻された</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">補足意見では、継続的かつ専属的に業務に従事する運転手と規模の大きな上場会社という</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">関係では、従業員が負担すべき部分は僅少となることが多いと指摘されている。</text>
+</svg>
+<figcaption>最二小判令和2年2月28日労判1224号5頁が示した判断</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -3988,6 +4376,38 @@ HANREI = [
 <blockquote>「就業規則や年俸規程に明示的な根拠もなく、労働者の個別の同意もないまま、使用者の一方的な行為によって行うことは許されない」（東京高判平成23年12月27日労判1042号15頁）</blockquote>
 <p>そして、大幅な報酬の減額を伴う役割グレードの変更を会社の一存で行えるとすることは、労使双方の対等性を損なうものとして許容できないとされ、役割報酬の減額と成果報酬のゼロ査定は人事権の濫用で無効と判断された。会社は、未払賃金約35万円と慰謝料60万円の支払を命じられた。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 319" role="img" aria-label="同じ人事措置のうち合理的とされた部分と人事権の濫用とされた部分を並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">同じ人事措置のうち結論が分かれた部分</text>
+<rect x="20.0" y="36" width="322.0" height="209" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">合理的と認められた措置</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">・担当業務を海外のライセンス</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">　業務から国内のライセンス業</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">　務に変更したこと</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">　（前任者の適格性に問題があ</text>
+<text x="181.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">　り業務の再配分が必要で、後</text>
+<text x="181.0" y="175" font-size="11.5" fill="#24313f" text-anchor="middle">　任者も定着している）</text>
+<text x="181.0" y="194" font-size="11.5" fill="#24313f" text-anchor="middle">・裁量労働制の適用を外したこ</text>
+<text x="181.0" y="213" font-size="11.5" fill="#24313f" text-anchor="middle">　と（合理的な理由がある）</text>
+<rect x="358.0" y="36" width="322.0" height="209" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">人事権の濫用とされた措置</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">・役割グレードの引下げと役割</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">　報酬の減額（年550万円から</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">　500万円へ）</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">・成果報酬のゼロ査定</text>
+<text x="519.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">→　就業規則や年俸規程に明示</text>
+<text x="519.0" y="175" font-size="11.5" fill="#24313f" text-anchor="middle">　的な根拠もなく、個別の同意</text>
+<text x="519.0" y="194" font-size="11.5" fill="#24313f" text-anchor="middle">　もないまま、使用者の一方的</text>
+<text x="519.0" y="213" font-size="11.5" fill="#24313f" text-anchor="middle">　な行為によって行うことは許</text>
+<text x="519.0" y="232" font-size="11.5" fill="#24313f" text-anchor="middle">　されない</text>
+<rect x="20" y="257" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="277" font-size="11.5" fill="#24313f" text-anchor="middle">年俸は休業前の合計640万円から復帰後は合計520万円となっていた。会社は未払賃金約</text>
+<text x="350.0" y="296" font-size="11.5" fill="#24313f" text-anchor="middle">35万円と慰謝料60万円の支払を命じられた。</text>
+</svg>
+<figcaption>東京高判平成23年12月27日労判1042号15頁が区別した措置</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>担当業務の変更と賃金の減額は、別々に評価されている。業務の変更に合理的な理由があっても、それだけで賃金を下げられるわけではない。</li>
@@ -4018,6 +4438,29 @@ HANREI = [
 <p>裁判所は、育児・介護休業法10条が育児休業の取得を理由とする不利益な取扱いを禁じていることを踏まえ、そのような取扱いが同法が保障した育児休業取得の権利を抑制し、権利を保障した趣旨を実質的に失わせる場合には公序に反し不法行為法上も違法になるとした。病院は、私傷病による欠勤が3か月以上に及んだ場合に昇給を認めない取扱いに倣ったものだと主張したが、遅刻・早退、年次有給休暇、生理休暇、慶弔休暇、労働災害による休業などは3か月の不就労期間に算入されないというのであるから、育児休業をこれらに比べて不利益に扱っていることになり、合理的な理由は見出し難いとされた。また、評価期間のうち勤務期間が3か月以上の者はすべて人事評価の対象とする定めであったことから、評価の結果にかかわらず一律に昇給させない定めは人事評価制度の在り方にも照らして合理性を欠くとされた。</p>
 <blockquote>「休業期間中の不就労の限度を超えて育児休業者に不利益を課すものである」（大阪高判平成26年7月18日労判1104号71頁）</blockquote>
 <p>こうして、この定めは育児・介護休業法10条が禁止する不利益取扱いに当たり、公序に反して無効であるとされ、これを根拠に昇給させなかったことは違法と判断された。昇格試験についても、受験資格を得ていたのに正当な理由なく機会を与えなかったことが違法とされ、差額賃金相当額8万9040円と慰謝料15万円の合計23万9040円の支払が命じられた。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="育児休業を理由とする昇給の抑制が違法とされた筋道を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">育児休業を理由とする昇給の抑制が違法とされた筋道</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①育児休業の取得を理由とする不利益な取扱いは禁じられる</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">育児・介護休業法10条。取得の権利を抑制し、権利を保障した</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">趣旨を実質的に失わせる場合は公序に反し不法行為法上も違法</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②他の不就労との扱いに均衡が取れているか</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">遅刻・早退、年次有給休暇、生理休暇、慶弔休暇、労働災害に</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">よる休業などは3か月の不就労期間に算入されていなかった</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③休業期間中の不就労の限度を超える不利益に当たる</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">評価期間のうち勤務期間が3か月以上の者はすべて人事評価の</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">対象とする定めであったことも、合理性を欠く理由とされた</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">昇格試験についても、受験資格を得ていたのに正当な理由なく機会を与えなかったことが</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">違法とされ、差額賃金相当額8万9040円と慰謝料15万円の合計23万9040円が認められた。</text>
+</svg>
+<figcaption>大阪高判平成26年7月18日労判1104号71頁が示した判断</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -4050,6 +4493,29 @@ HANREI = [
 <blockquote>「通常甘受すべき程度を著しく超える不利益を負わせたものであるから、本件配転命令は、権利の濫用に当たり無効」（名古屋高判令和3年1月20日労判1240号5頁）</blockquote>
 <p>結論として、業務上の必要性がそもそもなかったか、あったとしても高いものではなく、運行管理業務や配車業務から外すまでの必要性もない状況で、能力・経験を活かせない倉庫業務に漫然と配転したものであるとして、配転命令は無効と判断された。控訴は棄却され、判決は確定している。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="職種限定の合意がない場合でも配転命令が無効となる筋道を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">職種限定の合意がない場合でも配転命令が無効となる筋道</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①資格・経験を活かせるという期待が法的保護に値するか</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">職種を限定する合意までは認められなかったが、就業規則上の</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">位置づけや採用の経緯から、単なる一方的な期待ではないとされた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②配転の業務上の必要性があるか</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">倉庫業務は従前から他部門の運行管理者が兼任してこなしており、</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">支障が生じた様子もなかった</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③通常甘受すべき程度を著しく超える不利益で、権利の濫用</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">能力・経験を活かせない倉庫業務に漫然と配転したものである</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">として、配転命令は無効とされた</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">同じ日付で作られた組織図と人員配置図の記載が食い違っており、倉庫部門の新設を</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">裏づける証拠として採用できないとされた点が、結論を左右している。</text>
+</svg>
+<figcaption>名古屋高判令和3年1月20日労判1240号5頁が示した判断</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>職種限定の合意が認められない場合でも、資格や経験を活かせる業務に従事していけるという期待が法的保護に値するとされ、配転命令の適法性を左右している。合意の有無だけで判断しないことが重要である。</li>
@@ -4081,6 +4547,29 @@ HANREI = [
 <blockquote>「雇用契約締結に至る過程における信義誠実の原則に反するものであって」（東京高判平成12年4月19日労判787号35頁）</blockquote>
 <p>さらに、印刷室への配置転換についても、入社の意図や採用の趣旨に照らして必要性を首肯できる合理的理由が見当たらず、本人が格付けの是正を求めて対決姿勢を取ったことなどを主たる理由とするものと推認するほかないとして、これも信義則に反する違法な行為とされた。慰謝料は100万円と認められた。あわせて、毎月支給されていた付加給等を割増賃金の計算基礎から除いていた点が労働基準法37条違反とされ、時間外手当の不足額9万6924円の支払が命じられた。もっとも、付加金については違法性の程度が低いとして支払を命じないとされた。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="中途採用の過程における説明が信義則に反するとされた筋道を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">採用過程の説明が信義則に反するとされた筋道</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①平均的な格付けを受ける合意があったとは認められない</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">内部の運用基準は中途採用者の初任給を新卒同年次の定期採用者の</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">下限に合わせるというもので、差額賃金の請求は退けられた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②運用基準を明示しない説明が信義則に反する</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">応募者に平均的な給与と同等の待遇を受けられると信じさせかね</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">ない説明は、雇用契約の締結に至る過程における信義則に反する</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③是正を求めた後の配置転換も信義則に反する違法な行為</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">入社の意図や採用の趣旨に照らして必要性を首肯できる合理的理由</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">が見当たらないとされ、慰謝料100万円が認められた</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">あわせて、毎月支給されていた付加給等を割増賃金の計算基礎から除いていた点が労働</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">基準法37条違反とされ、時間外手当の不足額9万6924円の支払が命じられた。</text>
+</svg>
+<figcaption>東京高判平成12年4月19日労判787号35頁が示した判断</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>採用過程の説明と内部の運用基準が食い違っていると、採用が有効であっても損害賠償の対象になる。求人広告・会社説明会・面接の各段階で同じ内容を説明できるよう、資料と担当者の説明を統一しておく必要がある。</li>
@@ -4111,6 +4600,15 @@ HANREI = [
 <p>裁判所は、降格処分については無効とまでは認めず、社内に掲示された告示も名誉毀損には当たらないとした。他方、昇給査定については、人事考課規程が評定期間を前年4月1日から当年3月31日までと定めているのに、その期間外の事実を踏まえた評価がされていたと認め、規程に違反する点で裁量権の逸脱があるとした。賞与についても、功労報償的な性質から支給するかどうかや金額について使用者に裁量があることは認めつつ、賞与規程と人事考課規程が支給時期・算定期間・算定基準や評定の手順を具体的に定めていることを重視し、その手順に反する裁量権の逸脱によって正当に査定されて支給を受ける利益が侵害されたときは不法行為になるとした。</p>
 <blockquote>「賞与の算定期間後の事実を査定対象とした点において裁量権を逸脱した違法があるというべきである」（広島高判平成13年5月23日労判811号21頁）</blockquote>
 <p>そのうえで、各期の査定について、算定期間内に経営者批判があったことや注意指導の必要があったことを裏づける証拠がないとして、多くの期の査定を違法と認定した。損害は、適正な評価であればC評価であったと認められることを前提に算定され、昇給査定分17万2800円、賞与査定分146万4000円、弁護士費用20万円の合計183万6800円が認められた。昇給・賞与の査定に関する慰謝料請求は、財産的損害の賠償を超える精神的苦痛は認められないとして退けられている。</p>
+
+<table class="wrap1">
+<tr><th>争われた処分</th><th>裁判所の判断</th></tr>
+<tr><td>職能資格等級の降格（4級から3級へ）</td><td>無効とまでは認められなかった。社内に掲示された告示も名誉毀損には当たらないとされた</td></tr>
+<tr><td>定期昇給の査定</td><td>人事考課規程が評定期間を前年4月1日から当年3月31日までと定めているのに、その期間外の事実を踏まえた評価がされており、規程に違反する点で裁量権の逸脱があるとされた</td></tr>
+<tr><td>賞与の査定</td><td>支給するかどうかや金額について使用者に裁量があることは認めつつ、算定期間後の事実を査定対象とした点に裁量権を逸脱した違法があるとされた</td></tr>
+<tr><td>認められた損害</td><td>適正な評価であればC評価であったことを前提に、昇給査定分17万2800円、賞与査定分146万4000円、弁護士費用20万円の合計183万6800円</td></tr>
+</table>
+<p class="small">賞与規程と人事考課規程が支給時期・算定期間・算定基準や評定の手順を具体的に定めていることが重視され、その手順に反する裁量権の逸脱によって正当に査定されて支給を受ける利益が侵害されたときは不法行為になるとされた（広島高判平成13年5月23日労判811号21頁）。</p>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -4246,6 +4744,29 @@ HANREI = [
 <blockquote>「労働基準法４条、不法行為の違法性の基準とすべき雇用関係についての私法秩序に反する違法な行為であり」（東京高判平成20年1月31日労判959号85頁）</blockquote>
 <p>こうして4名について不法行為の成立が認められ、差額賃金相当額や退職金の算定上の不利益に加え、慰謝料（120万円から180万円）と弁護士費用が認められた。認容額は、1名が842万7000円、ほかに2355万200円、2260万円、1800万円であり、残る2名の請求は棄却された。なお、既に存在しない賃金表の適用を受ける地位の確認を求める訴えは、確認の利益を欠くとして却下された。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="男女で分かれた賃金体系のうち違法と評価された範囲を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">男女で分かれた賃金体系が違法と評価された範囲</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①募集・採用の条件は労働基準法3条の労働条件に含まれない</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">採用・配置・昇進の違いに由来する賃金差は、同法4条に直接</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">違反するとはいえないとされた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②男女で異なる採用区分を設けたこと自体は違法ではない</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">入社当時には募集・採用や昇進について男女の差別的取扱いを</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">禁じる法律がなく、企業には広い採用の自由があった</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③職務の同質性が認められる時期以降の格差は違法</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">職務の困難度を明確に区別できない男性の一般職との間に相当な</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">格差があった時期は、性別の違いによるものと推認された</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">4名について不法行為の成立が認められ、差額賃金相当額や退職金の算定上の不利益に</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">加え、慰謝料（120万円から180万円）と弁護士費用が認められた。</text>
+</svg>
+<figcaption>東京高判平成20年1月31日労判959号85頁が示した判断</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>制度の名目が性別と無関係でも、運用の結果として一方の性に偏った体系になっていれば、格差の合理性が問われる。コースや職掌ごとの在籍者の男女構成を把握しておく必要がある。</li>
@@ -4278,6 +4799,14 @@ HANREI = [
 <p>私傷病による病気休暇については、長期にわたり継続して勤務することが期待される正社員の生活保障を図り療養に専念させることで継続的な雇用を確保する目的によるものであり、そうした制度を設けること自体は経営判断として尊重し得るとした。しかし、契約更新を繰り返す時給制契約社員にも相応に継続的な勤務が見込まれるとして、次のように述べた。</p>
 <blockquote>「日数につき相違を設けることはともかく、これを有給とするか無給とするかにつき労働条件の相違があることは、不合理である」（最一小判令和2年10月15日労判1229号58頁）</blockquote>
 <p>さらに、夏期冬期休暇を与えられなかったことによる損害については、無給の休暇を取得したかどうかにかかわらず、本来する必要のなかった勤務をせざるを得なかったのだから財産的損害を受けたといえるとして、損害がないとした原審の判断を破棄し、差し戻した。</p>
+
+<table class="wrap1">
+<tr><th>労働条件</th><th>制度の趣旨と最高裁の判断</th></tr>
+<tr><td>年末年始勤務手当</td><td>12月29日から翌年1月3日までに実際に勤務したことを支給要件とし、業務の内容や難度にかかわらず金額が一律であることから、最繁忙期であり多くの人が休日として過ごす期間に勤務したことに対する対価と性質づけられた。この趣旨は時給制契約社員にも当てはまるとして、支給しないことは不合理とされた</td></tr>
+<tr><td>私傷病による病気休暇</td><td>長期にわたり継続して勤務することが期待される正社員の生活保障を図り、療養に専念させることで継続的な雇用を確保する目的による。もっとも契約更新を繰り返す時給制契約社員にも相応に継続的な勤務が見込まれるとして、日数に相違を設けることはともかく、有給とするか無給とするかの相違は不合理とされた</td></tr>
+<tr><td>夏期冬期休暇を与えられなかった損害</td><td>無給の休暇を取得したかどうかにかかわらず、本来する必要のなかった勤務をせざるを得なかったのだから財産的損害を受けたといえるとして、損害がないとした原審の判断が破棄され差し戻された</td></tr>
+</table>
+<p class="small">個々の労働条件の相違が不合理かどうかは、賃金の総額を比べるのではなく、その労働条件が定められた趣旨を個別に考慮して判断するという考え方が、賃金以外の労働条件についても及ぼされた（最一小判令和2年10月15日労判1229号58頁）。</p>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -4312,6 +4841,14 @@ HANREI = [
 <blockquote>「扶養親族があり、かつ、相応に継続的な勤務が見込まれるのであれば、扶養手当を支給することとした趣旨は妥当するというべきである」（最一小判令和2年10月15日労判1229号67頁）</blockquote>
 <p>こうして、扶養手当の不支給も不合理と認められるものに当たるとされ、該当部分は損害額の審理のため差し戻された。</p>
 
+<table class="wrap1">
+<tr><th>手当</th><th>原審の判断</th><th>最高裁の判断</th></tr>
+<tr><td>年末年始勤務手当</td><td>通算した契約期間が5年を超える場合に限って不合理と認めた</td><td>最繁忙期に実際に勤務したことに対する対価であり、支給要件も金額も業務の内容や難度と関係なく定まるから、その趣旨は契約社員にも当てはまる。支給しないことは不合理</td></tr>
+<tr><td>年始期間の勤務に対する祝日給</td><td>同じく通算した契約期間が5年を超える場合に限って不合理と認めた</td><td>最繁忙期の労働力確保の観点から契約社員に特別休暇を与えないこと自体には理由があるが、年始期間に勤務したことの代償として支給する趣旨は契約社員にも当てはまる。相違は不合理</td></tr>
+<tr><td>扶養手当</td><td>長期雇用を前提とする生活手当であるとして不合理ではないとした</td><td>扶養親族があり、かつ、相応に継続的な勤務が見込まれるのであれば、支給することとした趣旨は妥当する。不支給は不合理</td></tr>
+</table>
+<p class="small">通算雇用期間が5年を超えるかどうかで区切る原審の判断は是認されず、手当ごとの趣旨に即して検討された。扶養手当に該当する部分は、損害額の審理のため差し戻されている（最一小判令和2年10月15日労判1229号67頁）。</p>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>通算雇用期間が5年を超えるかどうかで区切るという原審の線引きは是認されなかった。勤続期間で機械的に区切る設計では、待遇差の説明が足りない。</li>
@@ -4343,6 +4880,29 @@ HANREI = [
 <p>そして、夏期冬期休暇が与えられているのは、年次有給休暇や病気休暇とは別に労働から離れる機会を与えて心身の回復を図る目的によるものであり、取得できる日数は勤続期間の長さに応じて決まるものではないことを指摘した。また、時給制契約社員は契約期間が6か月以内とされているものの、繁忙期に限った短期間の勤務ではなく、業務の繁閑にかかわらない勤務が見込まれていることから、次のように判断した。</p>
 <blockquote>「夏期冬期休暇を与える趣旨は、上記時給制契約社員にも妥当するというべきである」（最一小判令和2年10月15日労判1229号5頁）</blockquote>
 <p>結論として、職務の内容や配置の変更の範囲などに相応の違いがあることを考慮しても、夏期冬期休暇に関する相違は不合理と認められるものに当たるとされた。また、有給休暇を与えられなかったことにより、その日数について本来する必要のなかった勤務をせざるを得なかったのだから財産的損害を受けたといえるとして、損害の発生も認められた。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="夏期冬期休暇に関する相違が不合理と判断された順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">夏期冬期休暇の相違が不合理と判断された順序</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①個々の労働条件の趣旨を個別に考慮する</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">賃金の総額を比べるのではなく、賃金以外の労働条件についても</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">当該労働条件の趣旨を個別に考慮すべきものとされた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②夏期冬期休暇の趣旨は勤続期間の長さと結びついていない</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">年次有給休暇や病気休暇とは別に労働から離れる機会を与えて</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">心身の回復を図る目的で、日数も勤続期間の長さでは決まらない</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③その趣旨は時給制契約社員にも妥当する</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">契約期間は6か月以内とされているが、繁忙期に限った短期間の</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">勤務ではなく、業務の繁閑にかかわらない勤務が見込まれていた</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">有給休暇を与えられなかったことにより、その日数について本来する必要のなかった勤務</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">をせざるを得なかったのだから、財産的損害を受けたといえるとして損害も認められた。</text>
+</svg>
+<figcaption>最一小判令和2年10月15日労判1229号5頁が示した判断の順序</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -4376,6 +4936,40 @@ HANREI = [
 <blockquote>「給与上の処遇を手厚くすることにより相応しい人材を安定的に確保する必要があるということができる」（東京高判令和2年6月24日労経速2429号17頁）</blockquote>
 <p>そのうえで、本俸、賞与・年度末手当、家族手当・住宅手当のいずれについても相違は不合理とは認められないとされた。専任教員への採用についても、学部長には採用権限も採用の適否を審査する権限もなく、規程上の手続を経ていない以上、採用を約束したことにはならないとして、信義則上の義務を生じさせる段階にあったとはいえないとされた。控訴は棄却された。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 338" role="img" aria-label="専任教員と非常勤講師の労働契約上の義務と責任の違いを並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">労働契約上の義務と責任の違い</text>
+<rect x="20.0" y="36" width="322.0" height="228" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">専任教員</text>
+<text x="181.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・週に一定のコマ数以上の授業</text>
+<text x="181.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">　を担当する</text>
+<text x="181.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">・学長が必要と認めたときは担</text>
+<text x="181.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">　当時間を超えて授業をする</text>
+<text x="181.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">・専攻分野について研究活動を</text>
+<text x="181.0" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">　行い、大学の規程により3年</text>
+<text x="181.0" y="194" font-size="11.5" fill="#44596f" text-anchor="middle">　に1回以上は論文を発表する</text>
+<text x="181.0" y="213" font-size="11.5" fill="#44596f" text-anchor="middle">・教授会での審議や各種委員会</text>
+<text x="181.0" y="232" font-size="11.5" fill="#44596f" text-anchor="middle">　の委員など、大学運営に関す</text>
+<text x="181.0" y="251" font-size="11.5" fill="#44596f" text-anchor="middle">　る幅広い業務を行う</text>
+<rect x="358.0" y="36" width="322.0" height="228" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#c4cfdb"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">非常勤講師</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・専任教員と遜色のないコマ数</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">　を担当し、複数の論文を発表</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">　していた</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">→　もっとも、それは給与規則</text>
+<text x="519.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">　の定める条件の下で自ら合意</text>
+<text x="519.0" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">　し、あるいは自らの希望によ</text>
+<text x="519.0" y="194" font-size="11.5" fill="#44596f" text-anchor="middle">　るものであって、労働契約上</text>
+<text x="519.0" y="213" font-size="11.5" fill="#44596f" text-anchor="middle">　の義務の履行ではないとされ</text>
+<text x="519.0" y="232" font-size="11.5" fill="#44596f" text-anchor="middle">　た</text>
+<rect x="20" y="276" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="296" font-size="11.5" fill="#24313f" text-anchor="middle">大学設置基準により一定数以上の専任教員を確保しなければならないことから、給与上の</text>
+<text x="350.0" y="315" font-size="11.5" fill="#24313f" text-anchor="middle">処遇を手厚くすることにより相応しい人材を安定的に確保する必要があるとされた。</text>
+</svg>
+<figcaption>東京高判令和2年6月24日労経速2429号17頁が比較した義務と責任</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>比較の対象になるのは、実際にこなしている仕事量ではなく、労働契約上どのような義務と責任を負っているかである。同じだけ働いているという主張が、そのまま待遇差の不合理につながるわけではない。</li>
@@ -4407,6 +5001,30 @@ HANREI = [
 <p>もっとも、差別禁止規定の根底には、人はその労働に対し等しく報われなければならないという均等待遇の理念があるとして、その理念に反する賃金格差は使用者に許された裁量を逸脱したものとして公序良俗違反となる場合があるとした。本件では、提供する労働の内容が外形的にも帰属意識の面でも女性正社員と同一であったことから、一定年月以上勤務した臨時社員には正社員となる道を用意するか、正社員に準じた年功的な賃金体系を設ける必要があったと指摘した。</p>
 <blockquote>「同じ勤続年数の女性正社員の八割以下となるときは、許容される賃金格差の範囲を明らかに越え」（長野地上田支判平成8年3月15日労判690号32頁）</blockquote>
 <p>こうして、同じ勤続年数の正社員の賃金の8割との差額が損害と認められ、原告ごとに算定された金額の支払が命じられた。退職者については退職金の差額も認められた。他方、慰謝料と弁護士費用の請求は、経済的損害が補われれば足りるとして退けられた。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 409" role="img" aria-label="有期契約社員との賃金格差が公序良俗違反とされるまでの筋道を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">賃金格差が公序良俗違反とされるまでの筋道</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①臨時社員制度自体は名目的なものとはいえない</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">受注の変動に対応する雇用調整の必要があることなどから、</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">制度の存在意義が認められた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②主張された差別禁止の規定はいずれも適用されない</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">「正社員」「臨時社員」の区別は労働基準法3条の社会的身分に</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">当たらず、同一労働同一賃金の原則を定める実定法の規定もない</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③均等待遇の理念に反する格差は公序良俗違反となりうる</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">同じ勤続年数の女性正社員の8割以下となるときは、許容される</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">賃金格差の範囲を明らかに越えるとされた</text>
+<rect x="20" y="328" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">提供する労働の内容が外形的にも帰属意識の面でも女性正社員と同一であったことから、</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">一定年月以上勤務した臨時社員には、正社員となる道を用意するか正社員に準じた年功的</text>
+<text x="350.0" y="386" font-size="11.5" fill="#24313f" text-anchor="middle">な賃金体系を設ける必要があったと指摘されている。</text>
+</svg>
+<figcaption>長野地上田支判平成8年3月15日労判690号32頁が示した判断</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -4485,6 +5103,16 @@ HANREI = [
 <p>翌年度の<strong>さらなる減給</strong>については、行員が目標シートの提出を拒んだことは事実としつつ、当時与えられていた業務は与えられたテーマについてレポートを作成する受動的なものにとどまり、主体的に目標を立てること自体が困難であったこと、レポートは期限内に提出され各部署で活用されていたことを指摘した。そして、シートの不提出は行動特性を評価する項目を低くする理由にはなり得ても、業績の達成度を評価する項目を低くする理由にはなり得ないとして、この減給も無効とされた。</p>
 <p><strong>別室への配置</strong>について、裁判所は、職種を限定する合意がないため配置転換には広範な裁量が認められるとしながら、パワーハラスメントの指針が挙げる人間関係からの切離しと過小な要求の例に照らして検討した。執務に必要な備品が整備され、他の行員の執務スペースへの出入りも禁じられておらず、窓口となる担当者との面談も行われていたとしても、業務中に他の行員と連絡を取り合ったり打合せをすることは事実上不可能であり、3年3か月もの長期間にわたり1人で別室に隔離されて人間関係から切り離されていたと評価した。また、与えられたレポートのテーマは、それまでの業務で培った能力・知識・経験とは無関係なものがほとんどであったことから、退職に追い込むために誰でも遂行可能な業務を与えられたものであり、就業するうえで看過できない程度の支障が生じていたとされた。これらは人格権を侵害する不法行為に当たるとして、慰謝料100万円と弁護士費用10万円の合計110万円の賠償が命じられた。遅延損害金の起算日は、一連の継続した行為が終了した日、すなわち出向日の前日とされた。</p>
 <p>もっとも、内部通報への報復目的や組合活動を理由とする目的は認められないとされた。懲戒事由とされた事実は全く裏付けを欠くものではなく、管理職の言動として適切でないものも含まれていたこと、通報の対象とされた取扱いについては会社の部門が降格のかなり前に問題がないとの結論に達していたことなどが理由である。懲戒処分と降格それ自体についても、差額賃金の支払によって償うことができない特段の精神的苦痛を認める証拠はないとして、慰謝料は認められなかった。別室への配置は会社が組織として決定したものであり、元代表者・上司・人事部長はパワーハラスメントに当たる具体的な言動をしていないとして、賠償責任は会社のみが負うとされた。</p>
+
+<table class="wrap1">
+<tr><th>争われた措置</th><th>裁判所の判断</th></tr>
+<tr><td>懲戒処分</td><td>10項目の懲戒事由を1つずつ検討し、いずれも認められないとして無効とされた。当時の人事評価が標準的で特段の指導もされていなかったこと、1年以上経ってから作成された備忘記録は裏付けにならないこと、弁明の手続を経ていない事由は懲戒の理由にできないことが挙げられた</td></tr>
+<tr><td>降格と減給</td><td>就業規則上の根拠自体は認められたが、会社が自ら周知した2年連続で下位の評価となった場合に降格の検討対象とするという基準に合致しないこと、配置転換に伴う等級の引下げに明示の根拠も個別の同意もないこと、前提となる人事評価自体が適正とはいえないことから、裁量の逸脱・濫用として無効とされた</td></tr>
+<tr><td>翌年度のさらなる減給</td><td>目標シートの不提出は事実としつつ、与えられていたのはテーマに沿ってレポートを作成する受動的な業務にとどまり主体的に目標を立てること自体が困難であったこと、レポートは期限内に提出され活用されていたことから、業績の達成度を評価する項目を低くする理由にはなり得ないとして無効とされた</td></tr>
+<tr><td>別室への配置</td><td>3年3か月にわたり1人で別室に配置され、業務中に他の行員と連絡を取り合ったり打合せをすることが事実上不可能であったこと、与えられたテーマがそれまでの能力・知識・経験と無関係なものがほとんどであったことから、人格権を侵害する不法行為とされ、慰謝料100万円と弁護士費用10万円が認められた</td></tr>
+<tr><td>認められなかった請求</td><td>内部通報への報復目的や組合活動を理由とする目的は認められず、懲戒処分と降格それ自体についての慰謝料も認められなかった。別室への配置は会社の組織的な決定であるとして、元代表者・上司・人事部長個人の賠償責任は否定された</td></tr>
+</table>
+<p class="small">降格に伴う減給については、賃金を減額する事由と、その事由に対応する減額の幅が、それぞれ就業規則等によって具体的に明示されていることが必要であるとされた（東京高判令和8年1月22日LEX/DB25626777）。</p>
 
 <h2>実務のポイント</h2>
 <ul>
