@@ -1014,9 +1014,46 @@ body="""
 <h2>打工・兼職也有有給休假</h2>
 <p>日本勞動基準法39條的年次有給休假，適用於所有勞工。全職員工工作滿6個月（出勤率8成以上）就有10日，之後逐年增加，最多20日。</p>
 <p>打工・兼職等每週工作日數少的員工，依工作日數<strong>比例取得</strong>（勞動基準法39條3項）。例如每週工作3日的人，滿6個月有5日的有給休假。每週只工作1日的人也有（比例計算後的日數）。餐飲店・零售店的打工也完全適用。</p>
+<table class="wrap1">
+<tr><th>每週所定工作日數<br>（年間所定工作日數）</th><th>6個月</th><th>1年<br>6個月</th><th>2年<br>6個月</th><th>3年<br>6個月</th><th>4年<br>6個月</th><th>5年<br>6個月</th><th>6年6個月<br>以上</th></tr>
+<tr><td>每週4日（169〜216日）</td><td>7日</td><td>8日</td><td>9日</td><td><strong>10日</strong></td><td>12日</td><td>13日</td><td>15日</td></tr>
+<tr><td>每週3日（121〜168日）</td><td>5日</td><td>6日</td><td>6日</td><td>8日</td><td>9日</td><td><strong>10日</strong></td><td>11日</td></tr>
+<tr><td>每週2日（73〜120日）</td><td>3日</td><td>4日</td><td>4日</td><td>5日</td><td>6日</td><td>6日</td><td>7日</td></tr>
+<tr><td>每週1日（48〜72日）</td><td>1日</td><td>2日</td><td>2日</td><td>2日</td><td>3日</td><td>3日</td><td>3日</td></tr>
+</table>
+<p class="small">比例取得的對象是每週所定工作時間未滿30小時的員工（勞動基準法39條3項、勞基則24條の3）。粗體是付與日數達到10日的時點＝<strong>從這裡開始成為年5日取得義務（勞動基準法39條7項）的對象</strong>。每週2日・1日的工作達不到10日，所以不在年5日義務的範圍內。</p>
+
 <h2>年5日的取得義務——公司的義務，有罰則</h2>
 <p>2019年施行的修法引入了重要制度：<strong>年10日以上有給休假的員工，公司有義務讓他在1年內取得其中5日</strong>（勞動基準法39條7項）。員工自己指定取得的日數、計畫年休消化的日數可以扣除；不足5日的部分，公司要聽取本人意見後指定時季讓他休。</p>
 <p>違反有罰則（勞動基準法120條1號，30萬日圓以下罰金）。對象不只正式員工：<strong>週4日工作3年半以上、週3日工作5年半以上的打工</strong>等，比例付與達到10日的員工也包含在內——這是最容易漏掉的部分。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 492" role="img" aria-label="履行年5日年次有給休假取得義務的4個步驟示意圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">不漏掉年5日取得義務的4個步驟</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①找出對象員工</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">付與日數「年10日以上」的人是對象（勞基法39條7項）。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">比例付與達到10日的兼職一定要算進去。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②依基準日製作年休管理簿</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">逐人記錄時季・日數・基準日並保存</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">（勞基則24條の7）。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③期中確認取得狀況</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">本人請求取得的日數・計畫年休給的日數</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">可以從5日裡扣除（勞基法39條8項）。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④不足的人由公司指定時季</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">事先告知本人並聽取時季的意見，</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">並應努力尊重該意見（勞基則24條の6）。</text>
+<rect x="20" y="430" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="450" font-size="11.5" fill="#24313f" text-anchor="middle">只要漏掉1個人，對那1個人就構成違法。</text>
+<text x="350.0" y="469" font-size="11.5" fill="#24313f" text-anchor="middle">違反有30萬日圓以下罰金的規定（勞基法120條1號）。</text>
+</svg>
+<figcaption>年5日時季指定義務的實務流程（勞基法39條7項・8項，勞基則24條の6・24條の7）</figcaption></figure>
+
 <h2>給經營者的實務對應</h2>
 <ul>
 <li><strong>製作有給休假管理簿</strong>：每人的基準日、付與日數、取得日數。這也是法令上的保存義務。</li>
@@ -1031,9 +1068,46 @@ ja="""
 <p>「有休は正社員のもの。アルバイトにはない」——これは日本では明確な誤解で、しかも罰則のある誤解です。</p>
 <h3>パート・アルバイトにも有休はある</h3>
 <p>労基法39条の年次有給休暇はすべての労働者に適用されます。フルタイムなら6か月勤続（出勤率8割以上）で10日、以後逓増して最大20日。週の労働日数が少ないパート・アルバイトには、労働日数に応じた<strong>比例付与</strong>があります（労基法39条3項）。たとえば週3日勤務なら6か月で5日。週1日勤務でも比例計算分があります。</p>
+<table class="wrap1">
+<tr><th>週所定労働日数<br>（年間の所定労働日数）</th><th>6か月</th><th>1年<br>6か月</th><th>2年<br>6か月</th><th>3年<br>6か月</th><th>4年<br>6か月</th><th>5年<br>6か月</th><th>6年6か月<br>以上</th></tr>
+<tr><td>週4日（169〜216日）</td><td>7日</td><td>8日</td><td>9日</td><td><strong>10日</strong></td><td>12日</td><td>13日</td><td>15日</td></tr>
+<tr><td>週3日（121〜168日）</td><td>5日</td><td>6日</td><td>6日</td><td>8日</td><td>9日</td><td><strong>10日</strong></td><td>11日</td></tr>
+<tr><td>週2日（73〜120日）</td><td>3日</td><td>4日</td><td>4日</td><td>5日</td><td>6日</td><td>6日</td><td>7日</td></tr>
+<tr><td>週1日（48〜72日）</td><td>1日</td><td>2日</td><td>2日</td><td>2日</td><td>3日</td><td>3日</td><td>3日</td></tr>
+</table>
+<p class="small">比例付与の対象は、週所定労働時間が30時間未満の労働者です（労基法39条3項、労基則24条の3）。太字は付与日数が10日に達する時点＝<strong>そこから年5日の取得義務（労基法39条7項）の対象</strong>になります。週2日・週1日の勤務では10日に達しないため、年5日義務の対象外です。</p>
+
 <h3>年5日の取得義務——罰則あり</h3>
 <p>2019年施行の改正で、<strong>年10日以上の有休が付与される労働者には、年5日を取得させる義務</strong>が会社に課されました（労基法39条7項）。本人の時季指定や計画年休で取得した日数は控除でき、不足分は本人の意見を聴いたうえで会社が時季を指定して取得させます。違反には罰則があります（労基法120条1号・30万円以下の罰金）。</p>
 <p>対象は正社員だけではありません。<strong>週4日勤務で3年半以上、週3日勤務で5年半以上</strong>など、比例付与で10日に達したパート・アルバイトも含まれます——ここが最も見落とされやすいポイントです。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 492" role="img" aria-label="年5日の年次有給休暇の取得義務を履行するための4つのステップを示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">年5日の取得義務を落とさないための4ステップ</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①対象者を洗い出す</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">付与日数が「年10日以上」の人が対象（労基法39条7項）。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">比例付与で10日に達したパートも必ず入れる。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②基準日ごとに年休管理簿を作る</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">時季・日数・基準日を労働者ごとに記録して保存する</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">（労基則24条の7）。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③期中に取得状況を確認する</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">本人が請求して取得した日数・計画年休で与えた日数は</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">5日から控除できる（労基法39条8項）。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④不足する人は会社が時季を指定する</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">あらかじめ本人に伝えて時季の意見を聴き、</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">その意見を尊重するよう努める（労基則24条の6）。</text>
+<rect x="20" y="430" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="450" font-size="11.5" fill="#24313f" text-anchor="middle">対象者を1人でも取りこぼすと、その1人について法違反になります。</text>
+<text x="350.0" y="469" font-size="11.5" fill="#24313f" text-anchor="middle">違反には30万円以下の罰金が定められています（労基法120条1号）。</text>
+</svg>
+<figcaption>年5日の時季指定義務の実務フロー（労基法39条7項・8項、労基則24条の6・24条の7）</figcaption></figure>
+
 <h3>実務対応</h3>
 <ul>
 <li><strong>年休管理簿の作成</strong>：基準日・付与日数・取得日数。法令上の保存義務もあります。</li>
@@ -5954,6 +6028,17 @@ body="""
 <li><strong>所定外勞動的免除（殘業免除）</strong>・深夜業制限・時間外勞動的制限。</li>
 <li><strong>時短等措置</strong>：時短勤務・フレックス・錯時出勤・費用援助等，公司必須準備其中之一（利用開始起3年以上）。</li>
 </ul>
+<table class="wrap1">
+<tr><th>制度</th><th>內容</th><th>根據</th></tr>
+<tr><td>介護休業</td><td>對象家族1人通算最多93天，可以分成3次取得。雇用保險會給介護休業給付金（休業開始時賃金日額×支給日數的67%）</td><td>育介法11條・15條<br>雇保法61條の4・附則12條</td></tr>
+<tr><td>介護休暇</td><td>1年度5個工作日（對象家族2人以上10個工作日）。也可以用未滿1日的單位取得</td><td>育介法16條の5</td></tr>
+<tr><td>所定外勞動的制限</td><td>有請求時，不能讓他工作超過所定工作時間</td><td>育介法16條の9</td></tr>
+<tr><td>時間外勞動的制限</td><td>有請求時，不能讓他做超過1個月24小時・1年150小時的時間外勞動</td><td>育介法18條</td></tr>
+<tr><td>深夜業的制限</td><td>有請求時，不能讓他在晚上10點到早上5點之間工作</td><td>育介法20條</td></tr>
+<tr><td>所定勞動時間的<br>短縮等措置</td><td>公司有義務準備短時間勤務等措置，讓員工依申出在連續3年以上的期間內利用</td><td>育介法23條3項</td></tr>
+</table>
+<p class="small">對象家族是配偶（含事實婚）・父母・子女・配偶的父母，以及祖父母・兄弟姊妹・孫（育介法2條4號、育介則3條）。<strong>法律沒有要求家族住在日本國內。</strong>「要介護狀態」指因負傷・疾病・障害而在2週以上的期間需要經常照護的狀態（育介法2條3號、育介則2條）。</p>
+
 <h2>2025年4月的改正——公司的新義務</h2>
 <ul>
 <li>員工<strong>申出家族需要介護時</strong>：介護休業・兩立支援制度的<strong>個別周知・意向確認義務</strong>。</li>
@@ -5962,12 +6047,36 @@ body="""
 <li>テレワーク的努力義務。</li>
 </ul>
 <p>「員工自己沒說所以不知道」不再是藉口——制度說明是公司的法定義務。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="2025年4月起公司被課予的3項介護相關義務示意圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#1f6b3a" text-anchor="middle" font-weight="bold">2025年4月起公司被課予的介護義務</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<text x="350.0" y="57" font-size="13" fill="#1f6b3a" text-anchor="middle" font-weight="bold">①員工申出面臨家族介護時</text>
+<text x="350.0" y="77" font-size="11.5" fill="#24313f" text-anchor="middle">個別告知介護休業與介護兩立支援制度等，</text>
+<text x="350.0" y="96" font-size="11.5" fill="#24313f" text-anchor="middle">並確認利用的意向（育介法21條4項）。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fbf9f" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fbf9f"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<text x="350.0" y="159" font-size="13" fill="#1f6b3a" text-anchor="middle" font-weight="bold">②員工滿40歲所屬年度等期間</text>
+<text x="350.0" y="179" font-size="11.5" fill="#24313f" text-anchor="middle">在該期間內提供介護休業・介護兩立支援</text>
+<text x="350.0" y="198" font-size="11.5" fill="#24313f" text-anchor="middle">制度等的資訊（育介法21條5項）。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fbf9f" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fbf9f"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<text x="350.0" y="261" font-size="13" fill="#1f6b3a" text-anchor="middle" font-weight="bold">③為使申出順利進行的環境整備</text>
+<text x="350.0" y="281" font-size="11.5" fill="#24313f" text-anchor="middle">實施研修・整備諮詢體制等，</text>
+<text x="350.0" y="300" font-size="11.5" fill="#24313f" text-anchor="middle">至少採行其中之一（育介法22條2項・4項）。</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">以提出申出為理由的解僱或其他不利益取扱是被禁止的</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">（育介法21條6項；介護休業的申出・取得則是同法16條）。</text>
+</svg>
+<figcaption>介護的個別周知・意向確認與雇用環境整備義務（2025年4月1日施行）</figcaption></figure>
+
 <h2>不利益取扱的禁止</h2>
 <p>以介護休業等的申出・取得為理由的解僱・降格・減薪，違法（育介法16條）。「要休93天的話就辭職吧」這句話本身就是違法勸退的證據。</p>
 <h2>實務的提示</h2>
 <ul>
-<li>員工端：93天是「安排體制的期間」——用來找介護服務・調整遠距照顧，不是自己全程照顧。地域包括支援センター是第一站。</li>
-<li>公司端：突然的介護離職損失遠大於93天的休業。先把制度表交給員工，再談工作安排。</li>
+<li>突然的介護離職，損失遠大於93天的休業。先把制度一覽表交給員工，再談工作安排，才是對公司有利的順序。</li>
+<li>93天的定位是「讓員工安排照護體制的期間」，不是讓員工自己全程照顧的期間。公司可以把它當成復職為前提的期間來設計業務的代替體制。</li>
+<li>員工提出諮詢時，不要用「要休那麼久不如辭職」這種回應。這在介護休業的場合會成為違法勸退的證據（育介法16條、21條6項）。</li>
 </ul>
 """,
 ja="""<h2>【日本語版】「親の介護で働けない」——辞める前に。介護休業93日と2025年の新義務</h2>
@@ -5979,6 +6088,17 @@ ja="""<h2>【日本語版】「親の介護で働けない」——辞める前�
 <li><strong>所定外労働の免除（残業免除）</strong>・深夜業の制限・時間外労働の制限。</li>
 <li><strong>選択的措置義務</strong>：時短・フレックス・時差出勤・費用援助のいずれかを会社は用意する義務（利用開始から3年以上）。</li>
 </ul>
+<table class="wrap1">
+<tr><th>制度</th><th>内容</th><th>根拠</th></tr>
+<tr><td>介護休業</td><td>対象家族1人につき通算93日まで、3回まで分割して取得できる。雇用保険から介護休業給付金（休業開始時賃金日額×支給日数の67%）</td><td>育介法11条・15条<br>雇保法61条の4・附則12条</td></tr>
+<tr><td>介護休暇</td><td>1年度に5労働日（対象家族が2人以上なら10労働日）。1日未満の単位でも取得できる</td><td>育介法16条の5</td></tr>
+<tr><td>所定外労働の制限</td><td>請求があれば、所定労働時間を超えて労働させられない</td><td>育介法16条の9</td></tr>
+<tr><td>時間外労働の制限</td><td>請求があれば、1か月24時間・1年150時間を超える時間外労働をさせられない</td><td>育介法18条</td></tr>
+<tr><td>深夜業の制限</td><td>請求があれば、午後10時から午前5時までの間に労働させられない</td><td>育介法20条</td></tr>
+<tr><td>所定労働時間の<br>短縮等の措置</td><td>短時間勤務などの措置を、申出に基づき連続する3年以上の期間で利用できるように用意する義務</td><td>育介法23条3項</td></tr>
+</table>
+<p class="small">対象家族は、配偶者（事実婚を含む）・父母・子・配偶者の父母、および祖父母・兄弟姉妹・孫です（育介法2条4号、育介則3条）。<strong>家族が日本国内に居住していることは要件ではありません。</strong>「要介護状態」は、負傷・疾病・障害により2週間以上の期間にわたり常時介護を必要とする状態をいいます（育介法2条3号、育介則2条）。</p>
+
 <h3>2025年4月改正——会社の新しい義務</h3>
 <ul>
 <li>従業員から<strong>家族の介護の申出があったとき</strong>の、介護休業・両立支援制度の<strong>個別周知・意向確認義務</strong>。</li>
@@ -5987,12 +6107,36 @@ ja="""<h2>【日本語版】「親の介護で働けない」——辞める前�
 <li>テレワークの努力義務。</li>
 </ul>
 <p>「本人が言わなかったから知らなかった」はもう通りません——制度説明は会社の法定義務です。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="2025年4月から会社に課された介護に関する3つの義務を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#1f6b3a" text-anchor="middle" font-weight="bold">2025年4月から会社に課された介護の義務</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<text x="350.0" y="57" font-size="13" fill="#1f6b3a" text-anchor="middle" font-weight="bold">①介護に直面した旨の申出があったとき</text>
+<text x="350.0" y="77" font-size="11.5" fill="#24313f" text-anchor="middle">介護休業と介護両立支援制度等を個別に知らせ、</text>
+<text x="350.0" y="96" font-size="11.5" fill="#24313f" text-anchor="middle">利用の意向を確認する（育介法21条4項）。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fbf9f" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fbf9f"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<text x="350.0" y="159" font-size="13" fill="#1f6b3a" text-anchor="middle" font-weight="bold">②40歳に達した日の属する年度などに</text>
+<text x="350.0" y="179" font-size="11.5" fill="#24313f" text-anchor="middle">介護休業・介護両立支援制度等の情報を</text>
+<text x="350.0" y="198" font-size="11.5" fill="#24313f" text-anchor="middle">期間内に提供する（育介法21条5項）。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fbf9f" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fbf9f"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<text x="350.0" y="261" font-size="13" fill="#1f6b3a" text-anchor="middle" font-weight="bold">③申出が円滑に行われるための環境整備</text>
+<text x="350.0" y="281" font-size="11.5" fill="#24313f" text-anchor="middle">研修の実施・相談体制の整備などのいずれかを</text>
+<text x="350.0" y="300" font-size="11.5" fill="#24313f" text-anchor="middle">講じる（育介法22条2項・4項）。</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">申出をしたことを理由とする解雇その他不利益な取扱いは禁止されています</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">（育介法21条6項、介護休業の申出・取得については同法16条）。</text>
+</svg>
+<figcaption>介護に関する個別周知・意向確認と雇用環境整備の義務（2025年4月1日施行）</figcaption></figure>
+
 <h3>不利益取扱いの禁止</h3>
 <p>介護休業等の申出・取得を理由とする解雇・降格・減給は違法です（育介法16条）。「93日も休むなら辞めたら」という発言自体が違法な退職勧奨の証拠になります。</p>
 <h3>実務のヒント</h3>
 <ul>
-<li>労働者側：93日は「介護体制を整えるための期間」です——介護サービス探しや遠距離介護の段取りに使い、自分で全部介護しようとしないこと。地域包括支援センターが最初の窓口です。</li>
-<li>会社側：突然の介護離職の損失は93日の休業よりはるかに大きい。まず制度の一覧表を渡し、それから業務の調整を話し合うのが得策です。</li>
+<li>突然の介護離職による損失は、93日の休業よりはるかに大きいのが通常です。まず制度の一覧表を渡し、それから業務の調整を話し合う、という順序が会社にとっても得策です。</li>
+<li>93日は「従業員が介護体制を整えるための期間」という位置づけで、従業員が自分で介護を抱え込むための期間ではありません。復職を前提とした期間ととらえ、代替体制を設計するのが実務的です。</li>
+<li>相談を受けたときに「そんなに休むなら辞めたら」という返し方をしないこと。介護休業の場面では、その発言自体が違法な退職勧奨の証拠になります（育介法16条・21条6項）。</li>
 </ul>
 """),
 dict(slug="kotsu-jiko",
@@ -12281,6 +12425,12 @@ body="""
 <li>剛好6小時以內的班（例如5.5小時的兼職）：法律上可以沒有休憩。</li>
 <li>8小時勞動＋殘業的日子：超過8小時的時點，休憩合計要有1小時——只給45分的公司要補15分。</li>
 </ul>
+<table class="wrap1">
+<tr><th>當天的勞動時間</th><th>必須給的休憩</th><th>例</th></tr>
+<tr><td>6小時以內</td><td>法律上不需要</td><td>5.5小時的班，沒有休憩也合規</td></tr>
+<tr><td>超過6小時、8小時以內</td><td>45分以上</td><td>7小時勤務＝45分</td></tr>
+<tr><td>超過8小時</td><td>1小時以上</td><td>8小時＋殘業2小時＝60分（45分還差15分）</td></tr>
+</table>
 <h2>三原則</h2>
 <ol>
 <li><strong>途中付與</strong>：休憩要在勞動時間的「中間」。「最後1小時當休憩提早回家」「上班前算休憩」都不符合。</li>
@@ -12289,6 +12439,27 @@ body="""
 </ol>
 <h2>最常見的違法：手待時間</h2>
 <p>「午休時留在座位接電話」「沒客人時在店裡待機」——這些是<strong>手待時間</strong>，法律上是勞動時間，不是休憩。被指示電話當番的午休＝沒有休憩，公司要①另給休憩②該時間付工資，兩者都要。「吃飯中途被叫去對應」也一樣——對應後重新給完整休憩才合規。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 205" role="img" aria-label="比較算休憩的時間與屬於手待時間的勞動時間的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">那段時間是休憩，還是勞動時間</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">算休憩</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">完全從業務中解放</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">沒有被指示接電話・接待客人</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">外出原則自由（到報備制為止可以）</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">是在勞動時間的中間給的</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">不算休憩（手待時間）</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">午休留在座位接電話</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">沒客人時在店裡待機</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">吃飯中途被叫去對應</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">在上班前・下班前一次給完</text>
+<rect x="20" y="162" width="660" height="33" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">休憩要在勞動時間的中間給（勞基法34條1項），並且要讓勞動者自由利用（同條3項）。</text>
+</svg>
+<figcaption>右邊的情形休憩算零。公司要①另外給休憩②付該時間的工資，兩者都要。</figcaption></figure>
 <h2>違反時</h2>
 <p>34條違反是6個月以下拘禁刑或30萬日圓以下罰金（119條）。「沒休到的休憩」本身不能請求金錢，但該時間是勞動時間——<strong>作為工資・殘業代請求</strong>。紀錄（實際休憩時間的筆記・訊息紀錄）是關鍵。</p>
 """,
@@ -12300,6 +12471,12 @@ ja="""<h2>【日本語版】昼休みに電話番・「忙しくて休憩が取�
 <li>ちょうど6時間以内のシフト（例：5.5時間のパート）は、法律上は休憩なしでも適法です。</li>
 <li>8時間労働＋残業の日：8時間を超えた時点で休憩は合計1時間必要——45分しか与えていない会社は15分の追加が必要です。</li>
 </ul>
+<table class="wrap1">
+<tr><th>その日の労働時間</th><th>与えなければならない休憩</th><th>例</th></tr>
+<tr><td>6時間以内</td><td>法律上は不要</td><td>5.5時間のシフトは休憩なしでも適法</td></tr>
+<tr><td>6時間を超え8時間以内</td><td>45分以上</td><td>7時間勤務なら45分</td></tr>
+<tr><td>8時間を超える</td><td>1時間以上</td><td>8時間＋残業2時間なら60分（45分では15分不足）</td></tr>
+</table>
 <h3>三原則</h3>
 <ol>
 <li><strong>途中付与</strong>：休憩は労働時間の「途中」に。「最後の1時間を休憩扱いにして早帰り」「始業前を休憩扱い」は認められません。</li>
@@ -12308,6 +12485,27 @@ ja="""<h2>【日本語版】昼休みに電話番・「忙しくて休憩が取�
 </ol>
 <h3>最も多い違法：手待時間</h3>
 <p>「昼休みに席で電話番」「客が来ない間の店内待機」——これらは<strong>手待時間</strong>で、法律上は労働時間であり休憩ではありません。電話番を命じられた昼休みは休憩ゼロ扱いになり、会社は①別途休憩を与え、②その時間分の賃金を払う、の両方が必要です。「食事中に呼び出されて対応」も同じで、対応後に改めて完全な休憩を与えて初めて適法になります。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 205" role="img" aria-label="休憩として認められる時間と、手待時間として労働時間になる時間を左右に並べた比較図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">その時間は休憩か、それとも労働時間か</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">休憩として認められる</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">業務から完全に解放されている</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">電話・来客の対応を命じられていない</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">外出も原則自由（届出制までは可）</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">労働時間の途中に与えられている</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">休憩にならない（手待時間）</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">昼休みに席で電話番をさせる</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">客が来ない間の店内待機</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">食事中に呼ばれて対応する</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">始業前・終業前にまとめて取らせる</text>
+<rect x="20" y="162" width="660" height="33" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">休憩時間は労働時間の途中に与え（労基法34条1項）、自由に利用させなければなりません（同条3項）。</text>
+</svg>
+<figcaption>右側は休憩ゼロの扱いになります。会社は①別途休憩を与え、②その時間分の賃金を払う、の両方が必要です。</figcaption></figure>
 <h3>違反があったら</h3>
 <p>34条違反は6か月以下の拘禁刑または30万円以下の罰金です（119条）。「取れなかった休憩」自体の金銭請求はできませんが、その時間は労働時間です——<strong>賃金・残業代として請求</strong>します。実際の休憩時間のメモ・メッセージ履歴などの記録が鍵になります。</p>
 """),
@@ -12324,6 +12522,27 @@ body="""
 <li><strong>所定休日</strong>：公司在就業規則自定的休日（週休二日的另一天・國定假日等）。這天勞動不是「休日勞動」——但通常使週勞動時間超過40小時，產生<strong>25%</strong>的時間外割增。</li>
 </ul>
 <p>例：週休六日・日，就業規則指定日曜為法定休日。星期六出勤8小時→週40小時超的部分25%；星期日出勤→全部35%。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 205" role="img" aria-label="比較法定休日與所定休日割增率差異的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">同樣是「休日出勤」，割增率差10%</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">法定休日（每週1日）</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">勞基法35條要求的最低限休日</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">這天的勞動＝休日勞動</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">割增35%以上</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">需要36協定「休日勞動」欄的記載</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">所定休日（週休二日的另一天）</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">公司在就業規則自定的休日</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">這天的勞動不是休日勞動</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">超過週40小時的部分25%以上</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">會算入月60小時超的計數</text>
+<rect x="20" y="162" width="660" height="33" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">就業規則沒有特定哪一天是法定休日的話，這個分類本身就會變成爭點。</text>
+</svg>
+<figcaption>割增率的根據是勞基法37條1項與割增賃金令（時間外2成5分・休日3成5分）。</figcaption></figure>
 <h2>沒指定法定休日是哪天時</h2>
 <p>就業規則沒寫哪天是法定休日的公司很多。行政解釋上，此時以<strong>曆週（日〜土）中實際休到的休日</strong>來判斷，兩天都出勤的場合實務上以後順位的休日（土曜起算則週末側）作法定休日處理的例子多——計算殘業代時，這個認定直接影響金額，是爭點。</p>
 <h2>相關規則</h2>
@@ -12332,6 +12551,14 @@ body="""
 <li><strong>振替休日</strong>（事前把休日與勞動日對調）：事前指定替代休日→原休日變成勞動日，<strong>35%不發生</strong>（但跨週造成40小時超則25%發生）。</li>
 <li><strong>代休</strong>（事後補休）：休日勞動的事實已發生→<strong>35%的割增部分仍要付</strong>，代休只抵掉100%的本體部分。「給你補休所以不付加班費」是常見違法。</li>
 </ol>
+<table class="wrap1">
+<tr><th></th><th>振替休日</th><th>代休</th></tr>
+<tr><td>手續的時點</td><td><strong>事前</strong>把休日與勞動日對調</td><td><strong>事後</strong>再讓員工補休</td></tr>
+<tr><td>那天的性質</td><td>原本的休日變成勞動日</td><td>休日勞動的事實還在</td></tr>
+<tr><td>35%的割增</td><td>不發生</td><td><strong>仍然要付</strong></td></tr>
+<tr><td>需要的準備</td><td>就業規則的根據＋事前特定替代的日子（昭和23年4月19日基收1397號・昭和63年3月14日基發150號）</td><td>看就業規則怎麼寫。抵掉的只有工資的本體部分</td></tr>
+<tr><td>容易漏掉的點</td><td>跨週對調會造成週40小時超，產生25%</td><td>「給你補休所以不用付割增」是違法</td></tr>
+</table>
 """,
 ja="""<h2>【日本語版】土曜出勤は35%か25%か——「法定休日」と「所定休日」の違い</h2>
 <p>「土曜日に呼び出された。割増は35%？」——そうとは限りません。その日が「法定休日」か「所定休日」かで、金額は10%違います。</p>
@@ -12341,6 +12568,27 @@ ja="""<h2>【日本語版】土曜出勤は35%か25%か——「法定休日」�
 <li><strong>所定休日</strong>：会社が就業規則で定めた休日（週休二日のもう一方・祝日など）。この日の労働は「休日労働」ではありません——ただし通常は週40時間を超えるため、<strong>25%</strong>の時間外割増が発生します。</li>
 </ul>
 <p>例：土日休みで、就業規則が日曜を法定休日と指定している場合。土曜に8時間出勤→週40時間超の部分が25%。日曜出勤→全部35%です。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 205" role="img" aria-label="法定休日と所定休日の割増率の違いを左右に並べた比較図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">同じ「休日出勤」でも割増率が10%違う</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">法定休日（週1日）</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">労基法35条が最低限として要求する休日</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">この日の労働＝休日労働</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">割増は35%以上</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">36協定の「休日労働」欄の記載が必要</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">所定休日（週休2日のもう1日）</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">会社が就業規則で定めた休日</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">この日の労働は休日労働ではない</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">週40時間を超えた部分が25%以上</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">月60時間超のカウントには算入される</text>
+<rect x="20" y="162" width="660" height="33" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">就業規則でどの曜日が法定休日かを特定していないと、この振り分け自体が争点になります。</text>
+</svg>
+<figcaption>割増率の根拠は労基法37条1項と割増賃金令（時間外2割5分・休日3割5分）です。</figcaption></figure>
 <h3>法定休日がどの日か指定していないとき</h3>
 <p>就業規則に法定休日の特定がない会社は少なくありません。行政解釈では、この場合<strong>暦週（日〜土）の中で実際に休めた休日</strong>で判断し、両方出勤した場合は後順位の休日を法定休日として扱う例が多い——残業代計算ではこの認定が金額に直結する争点になります。</p>
 <h3>関連ルール</h3>
@@ -12349,6 +12597,14 @@ ja="""<h2>【日本語版】土曜出勤は35%か25%か——「法定休日」�
 <li><strong>振替休日</strong>（事前に休日と労働日を入れ替え）：事前に代わりの休日を指定すれば、元の休日は労働日になり<strong>35%は発生しません</strong>（ただし週をまたいで40時間を超えれば25%は発生）。</li>
 <li><strong>代休</strong>（事後の埋め合わせ）：休日労働の事実は既に発生しているので、<strong>35%の割増部分は支払いが必要</strong>です。代休で消えるのは100%の本体部分だけ——「代休をあげるから割増なし」はよくある違法例です。</li>
 </ol>
+<table class="wrap1">
+<tr><th></th><th>振替休日</th><th>代休</th></tr>
+<tr><td>手続のタイミング</td><td><strong>事前</strong>に休日と労働日を入れ替える</td><td><strong>事後</strong>に別の日を休ませる</td></tr>
+<tr><td>その日の性質</td><td>元の休日が労働日に変わる</td><td>休日労働をした事実は残る</td></tr>
+<tr><td>35%の割増</td><td>発生しない</td><td><strong>支払いが必要</strong></td></tr>
+<tr><td>必要な準備</td><td>就業規則の根拠＋事前に振替日を特定（昭和23年4月19日基収1397号・昭和63年3月14日基発150号）</td><td>就業規則等の定め方次第。消えるのは賃金の本体部分だけ</td></tr>
+<tr><td>見落としやすい点</td><td>週をまたいで振り替えると週40時間超で25%が発生する</td><td>「代休をあげるから割増は不要」は違法</td></tr>
+</table>
 """),
 dict(slug="shinya-rodo",
 cat="勞動時間",
@@ -12363,6 +12619,42 @@ body="""
 <li>重疊時加算：時間外（25%）＋深夜＝<strong>50%</strong>；法定休日（35%）＋深夜＝<strong>60%</strong>；月60小時超的時間外（50%）＋深夜＝<strong>75%</strong>。</li>
 <li>深夜時段的兼職時薪，廣告寫的「時薪1,500圓」如果是包含深夜割增的表示，基礎時薪是1,500÷1.25=1,200圓——求人票的記載方式要確認。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 155" role="img" aria-label="顯示凌晨0時到5時與晚上10時到24時為深夜勞動時段的24小時帶狀圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">會發生深夜割增的時段（勞基法37條4項）</text>
+<rect x="40" y="38" width="620" height="40" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="40.0" y="38" width="129.2" height="40" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="104.58333333333333" y="63" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">深夜 25%以上</text>
+<rect x="169.2" y="38" width="439.2" height="40" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="388.75" y="63" font-size="12" fill="#24313f" text-anchor="middle" font-weight="bold">一般時段</text>
+<rect x="608.3" y="38" width="51.7" height="40" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="634.1666666666667" y="63" font-size="11" fill="#8c2f22" text-anchor="middle" font-weight="bold">深夜</text>
+<path d="M40.0 78 L40.0 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="40.0" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">0:00</text>
+<path d="M169.2 78 L169.2 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="169.2" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">5:00</text>
+<path d="M298.3 78 L298.3 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="298.3" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">10:00</text>
+<path d="M479.2 78 L479.2 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="479.2" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">17:00</text>
+<path d="M608.3 78 L608.3 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="608.3" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">22:00</text>
+<path d="M660.0 78 L660.0 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="660.0" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">0:00</text>
+<rect x="20" y="112" width="660" height="33" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="132" font-size="11.5" fill="#24313f" text-anchor="middle">厚生勞動大臣認為必要的地域・期間，會讀替成晚上11時〜早上6時（37條4項）。</text>
+</svg>
+<figcaption>深夜時段在一天的兩端。跨過22時的班，當天的殘業與翌日清晨5時前都算深夜。</figcaption></figure>
+<table class="wrap1">
+<tr><th>工作時間的性質</th><th>割增率</th><th>根據</th></tr>
+<tr><td>只有深夜（所定勞動時間內的22時〜5時）</td><td>25%以上</td><td>勞基法37條4項</td></tr>
+<tr><td>時間外（月60小時以內）</td><td>25%以上</td><td>37條1項・割增賃金令</td></tr>
+<tr><td>時間外＋深夜</td><td><strong>50%以上</strong></td><td>37條1項＋4項</td></tr>
+<tr><td>法定休日勞動</td><td>35%以上</td><td>37條1項・割增賃金令</td></tr>
+<tr><td>法定休日勞動＋深夜</td><td><strong>60%以上</strong></td><td>37條1項＋4項</td></tr>
+<tr><td>月60小時超的時間外</td><td>50%以上</td><td>37條1項但書</td></tr>
+<tr><td>月60小時超的時間外＋深夜</td><td><strong>75%以上</strong></td><td>37條1項但書＋4項</td></tr>
+</table>
 <h2>容易被騙的點</h2>
 <ol>
 <li><strong>管理職也有深夜割增</strong>：管理監督者（勞基法41條2號）不適用時間外・休日割增，但<strong>深夜割增照樣適用</strong>——「店長沒有任何加班費」之中，深夜部分一定可以請求。</li>
@@ -12385,6 +12677,42 @@ ja="""<h2>【日本語版】夜10時以降の仕事は一律25%増し——深�
 <li>重なったら加算：時間外（25%）＋深夜＝<strong>50%</strong>、法定休日（35%）＋深夜＝<strong>60%</strong>、月60時間超の時間外（50%）＋深夜＝<strong>75%</strong>。</li>
 <li>深夜帯のアルバイト時給：広告の「時給1,500円」が深夜割増込みの表示なら、基礎時給は1,500÷1.25＝1,200円です——求人票の記載方法を確認してください。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 155" role="img" aria-label="午前0時から5時までと午後10時から24時までが深夜労働の時間帯であることを示す24時間の帯図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">深夜割増が発生する時間帯（労基法37条4項）</text>
+<rect x="40" y="38" width="620" height="40" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="40.0" y="38" width="129.2" height="40" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="104.58333333333333" y="63" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">深夜 25%以上</text>
+<rect x="169.2" y="38" width="439.2" height="40" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="388.75" y="63" font-size="12" fill="#24313f" text-anchor="middle" font-weight="bold">通常の時間帯</text>
+<rect x="608.3" y="38" width="51.7" height="40" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="634.1666666666667" y="63" font-size="11" fill="#8c2f22" text-anchor="middle" font-weight="bold">深夜</text>
+<path d="M40.0 78 L40.0 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="40.0" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">0:00</text>
+<path d="M169.2 78 L169.2 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="169.2" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">5:00</text>
+<path d="M298.3 78 L298.3 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="298.3" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">10:00</text>
+<path d="M479.2 78 L479.2 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="479.2" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">17:00</text>
+<path d="M608.3 78 L608.3 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="608.3" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">22:00</text>
+<path d="M660.0 78 L660.0 84" stroke="#c4cfdb" stroke-width="1" fill="none"/>
+<text x="660.0" y="98" font-size="10.5" fill="#6b7a8c" text-anchor="middle">0:00</text>
+<rect x="20" y="112" width="660" height="33" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="132" font-size="11.5" fill="#24313f" text-anchor="middle">厚生労働大臣が必要と認める地域・期間は午後11時〜午前6時に読み替えられます（37条4項）。</text>
+</svg>
+<figcaption>深夜帯は1日の両端にあります。22時をまたぐ勤務は、その日の残業と翌朝5時までの両方が深夜になります。</figcaption></figure>
+<table class="wrap1">
+<tr><th>働いた時間の性質</th><th>割増率</th><th>根拠</th></tr>
+<tr><td>深夜のみ（所定労働時間内の22時〜5時）</td><td>25%以上</td><td>労基法37条4項</td></tr>
+<tr><td>時間外（月60時間以内）</td><td>25%以上</td><td>37条1項・割増賃金令</td></tr>
+<tr><td>時間外＋深夜</td><td><strong>50%以上</strong></td><td>37条1項＋4項</td></tr>
+<tr><td>法定休日労働</td><td>35%以上</td><td>37条1項・割増賃金令</td></tr>
+<tr><td>法定休日労働＋深夜</td><td><strong>60%以上</strong></td><td>37条1項＋4項</td></tr>
+<tr><td>月60時間超の時間外</td><td>50%以上</td><td>37条1項ただし書</td></tr>
+<tr><td>月60時間超の時間外＋深夜</td><td><strong>75%以上</strong></td><td>37条1項ただし書＋4項</td></tr>
+</table>
 <h3>だまされやすいポイント</h3>
 <ol>
 <li><strong>管理職にも深夜割増はある</strong>：管理監督者（労基法41条2号）には時間外・休日割増が適用されませんが、<strong>深夜割増は適用されます</strong>——「店長は残業代が一切ない」のうち、深夜分は必ず請求できます。</li>
@@ -12590,13 +12918,41 @@ body="""
 <li><strong>產後休業</strong>：產後<strong>8週</strong>——<strong>強制</strong>。即使本人想提早回來，產後6週內絕對不能使其就業；6週過後本人請求＋醫師認可的業務才可以（65條2項）。</li>
 <li>對象：正社員・契約社員・兼職・派遣——<strong>全部適用</strong>。在留資格也不問。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 208" role="img" aria-label="產前6週・產後8週禁止就業的結構時間軸圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">產前產後休業的時間軸（勞基法65條・19條1項）</text>
+<rect x="24" y="52" width="279.4" height="46" rx="5" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="163.71428571428572" y="72" font-size="12" fill="#22384f" text-anchor="middle" font-weight="bold">產前6週</text>
+<text x="163.71428571428572" y="89" font-size="11" fill="#44596f" text-anchor="middle">本人請求制</text>
+<rect x="303.42857142857144" y="52" width="279.4" height="46" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="443.14285714285717" y="72" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">產後6週</text>
+<text x="443.14285714285717" y="89" font-size="11" fill="#24313f" text-anchor="middle">絕對禁止就業</text>
+<rect x="582.8571428571429" y="52" width="93.1" height="46" rx="5" fill="#fbf3e2" stroke="#d8b877"/>
+<text x="629.4285714285714" y="72" font-size="12" fill="#7a5a16" text-anchor="middle" font-weight="bold">產後6〜8週</text>
+<text x="629.4285714285714" y="89" font-size="11" fill="#24313f" text-anchor="middle">醫師許可才可以</text>
+<rect x="20" y="108" width="660" height="90" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="128" font-size="11.5" fill="#24313f" text-anchor="middle">產前6週（雙胞胎以上14週）如果本人沒有請求，讓她工作並不違法。</text>
+<text x="350.0" y="147" font-size="11.5" fill="#24313f" text-anchor="middle">產後8週當中最初的6週，即使本人希望也不能讓她就業（65條2項本文）。</text>
+<text x="350.0" y="166" font-size="11.5" fill="#24313f" text-anchor="middle">6週過後，限於本人請求＋醫師認為無礙的業務才可以就業（同項但書）。</text>
+<text x="350.0" y="185" font-size="11.5" fill="#24313f" text-anchor="middle">解雇禁止的範圍是「休業期間＋其後30日間」（勞基法19條1項）。</text>
+</svg>
+<figcaption>產前要有請求才禁止就業，產後6週即使沒有請求也禁止就業（勞基法65條）</figcaption></figure>
+
 <h2>錢的流向</h2>
 <ol>
 <li><strong>出產手當金</strong>（健康保險）：休業中工資的約<strong>3分之2</strong>（標準報酬日額×2/3×休業日數）。公司不付工資為前提——國民健康保險原則沒有這一項，兼職若在社保適用範圍外要注意。</li>
 <li><strong>出產育兒一時金</strong>：一兒<strong>50萬日圓</strong>（產科醫療補償制度對象外48.8萬）——健保・國保都有。直接支付制度下醫院直接收取。</li>
-<li><strong>社會保險料免除</strong>：產前產後休業期間，健保・厚生年金保險料<strong>勞資雙方免除</strong>（健保法159條の3・厚年法81條の2）——免除期間年金照算。國民年金的產前產後免除（4個月）也有。</li>
+<li><strong>社會保險料免除</strong>：產前產後休業期間，健保・厚生年金保險料<strong>勞資雙方免除</strong>（健保法159條の3・厚年法81條の2の2）——免除期間年金照算。國民年金的產前產後免除（4個月）也有。</li>
 <li>之後接<strong>育兒休業</strong>（原則1歲・最長2歲）＋育兒休業給付（最初180日67%）——與產後休業無縫銜接。</li>
 </ol>
+<table class="wrap1">
+<tr><th>名稱</th><th>內容</th><th>根據</th></tr>
+<tr><td>出產手當金<br>（健康保險）</td><td>以支給開始日以前最近12個月標準報酬月額的平均額的30分之1為基礎，支給其3分之2相當額；對象期間是出產日（晚於預產期時以預產期）以前42日（多胎98日）起到出產日後56日之間未服勞務的期間</td><td>健保法102條<br>（準用99條2項）</td></tr>
+<tr><td>出產育兒一時金</td><td>48萬8,000日圓。符合產科醫療補償制度要件的醫學管理下的生產，再加算保險者所定的金額（上限3萬日圓，實務上合計50萬日圓）</td><td>健保法101條<br>健保法施行令36條</td></tr>
+<tr><td>社會保險料免除</td><td>從產前產後休業開始的月到結束日翌日所屬月的前一個月，健康保險・厚生年金的保險料不徵收（勞資雙方）。需要事業主提出申出</td><td>健保法159條の3<br>厚年法81條の2の2</td></tr>
+<tr><td>育兒休業給付金<br>（雇用保險）</td><td>休業開始時賃金日額×支給日數的67%（休業日數通算到180日為止）。之後是50%</td><td>雇保法61條の7第5項</td></tr>
+</table>
+
 <h2>解雇的保護</h2>
 <p>產前產後休業期間＋其後<strong>30日間</strong>，解雇絕對禁止（勞基法19條）——打切補償等極狹例外以外，即使有懲戒事由也不能解雇。此外，以妊娠・出產・休業請求為理由的解雇・不利益取扱是均等法9條違反。雇止め（契約不更新）也同樣受9條3項的審查。</p>
 <h2>手續清單</h2>
@@ -12615,13 +12971,41 @@ ja="""<h2>【日本語版】産前6週・産後8週——産前産後休業の�
 <li><strong>産後休業</strong>：産後<strong>8週間</strong>——<strong>強制</strong>です。本人が早く復帰したくても、産後6週間は絶対に就業させられません。6週間経過後は、本人の請求＋医師が認めた業務に限り可能です（65条2項）。</li>
 <li>対象：正社員・契約社員・パート・派遣——<strong>すべて適用</strong>。在留資格も問いません。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 208" role="img" aria-label="産前6週間・産後8週間の就業禁止の構造を時間軸で示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">産前産後休業の時間軸（労基法65条・19条1項）</text>
+<rect x="24" y="52" width="279.4" height="46" rx="5" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="163.71428571428572" y="72" font-size="12" fill="#22384f" text-anchor="middle" font-weight="bold">産前6週間</text>
+<text x="163.71428571428572" y="89" font-size="11" fill="#44596f" text-anchor="middle">本人の請求制</text>
+<rect x="303.42857142857144" y="52" width="279.4" height="46" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="443.14285714285717" y="72" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">産後6週間</text>
+<text x="443.14285714285717" y="89" font-size="11" fill="#24313f" text-anchor="middle">絶対的に就業禁止</text>
+<rect x="582.8571428571429" y="52" width="93.1" height="46" rx="5" fill="#fbf3e2" stroke="#d8b877"/>
+<text x="629.4285714285714" y="72" font-size="12" fill="#7a5a16" text-anchor="middle" font-weight="bold">産後6〜8週</text>
+<text x="629.4285714285714" y="89" font-size="11" fill="#24313f" text-anchor="middle">医師の許可で可</text>
+<rect x="20" y="108" width="660" height="90" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="128" font-size="11.5" fill="#24313f" text-anchor="middle">産前6週間（多胎妊娠は14週間）は、請求がなければ就業させても違法ではありません。</text>
+<text x="350.0" y="147" font-size="11.5" fill="#24313f" text-anchor="middle">産後8週間のうち最初の6週間は、本人が希望しても就業させられません（65条2項本文）。</text>
+<text x="350.0" y="166" font-size="11.5" fill="#24313f" text-anchor="middle">6週間経過後は、本人の請求＋医師が支障がないと認めた業務に限って就業できます（同項ただし書）。</text>
+<text x="350.0" y="185" font-size="11.5" fill="#24313f" text-anchor="middle">解雇禁止は「休業の期間＋その後30日間」です（労基法19条1項）。</text>
+</svg>
+<figcaption>産前は請求があって初めて就業禁止になり、産後6週間は請求がなくても就業禁止です（労基法65条）</figcaption></figure>
+
 <h3>お金の流れ</h3>
 <ol>
 <li><strong>出産手当金</strong>（健康保険）：休業中、賃金の約<strong>3分の2</strong>（標準報酬日額×2/3×休業日数）。国民健康保険には原則この給付がなく、社保の適用外のパートは注意が必要です。</li>
 <li><strong>出産育児一時金</strong>：1児につき<strong>50万円</strong>（産科医療補償制度の対象外は48.8万円）——健保・国保どちらにもあります。直接支払制度で病院が直接受け取ります。</li>
-<li><strong>社会保険料の免除</strong>：産前産後休業中は健保・厚生年金の保険料が<strong>労使とも免除</strong>（健保法159条の3・厚年法81条の2）——免除期間も年金額に反映されます。国民年金の産前産後免除（4か月）もあります。</li>
+<li><strong>社会保険料の免除</strong>：産前産後休業中は健保・厚生年金の保険料が<strong>労使とも免除</strong>（健保法159条の3・厚年法81条の2の2）——免除期間も年金額に反映されます。国民年金の産前産後免除（4か月）もあります。</li>
 <li>その後は<strong>育児休業</strong>（原則1歳・最長2歳）＋育児休業給付（最初の180日は67%）に切れ目なくつながります。</li>
 </ol>
+<table class="wrap1">
+<tr><th>名称</th><th>内容</th><th>根拠</th></tr>
+<tr><td>出産手当金<br>（健康保険）</td><td>支給開始日以前の直近12か月の標準報酬月額の平均額の30分の1について、その3分の2に相当する額を、出産日（予定日後の出産は予定日）以前42日（多胎98日）から出産日後56日までの労務に服さなかった期間について支給</td><td>健保法102条<br>（99条2項を準用）</td></tr>
+<tr><td>出産育児一時金</td><td>48万8,000円。産科医療補償制度の要件を満たす医学的管理の下での出産は、3万円を超えない範囲で保険者が定める額を加算（実務上は合計50万円）</td><td>健保法101条<br>健保法施行令36条</td></tr>
+<tr><td>社会保険料の免除</td><td>産前産後休業を開始した月から終了日の翌日が属する月の前月までの期間、健康保険・厚生年金の保険料を徴収しない（労使とも）。事業主の申出が必要</td><td>健保法159条の3<br>厚年法81条の2の2</td></tr>
+<tr><td>育児休業給付金<br>（雇用保険）</td><td>休業開始時賃金日額×支給日数の67%（休業日数が通算180日に達するまで）。それ以降は50%</td><td>雇保法61条の7第5項</td></tr>
+</table>
+
 <h3>解雇からの保護</h3>
 <p>産前産後休業の期間＋その後<strong>30日間</strong>は解雇が絶対的に禁止されます（労基法19条）——打切補償などの極めて狭い例外を除き、懲戒事由があっても解雇できません。さらに、妊娠・出産・休業請求を理由とする解雇・不利益取扱いは均等法9条違反です。雇止め（契約の不更新）も同様に9条3項の審査を受けます。</p>
 <h3>手続リスト</h3>
@@ -24834,6 +25218,57 @@ body="""
 <li>會社側的鐵則：<strong>第1次期日前全力投入</strong>——答辯書把事實關係・證據（タイムカード・指導紀錄・郵件）全部出齊＋<strong>讓了解情況的上司・人事出席</strong>（期日當場的口頭問答會左右心證）。第2次之後很難挽回。</li>
 <li>聲請的典型：解僱無效（地位確認）・未付殘業代・ハラスメント損害賠償。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 760" role="img" aria-label="勞働審判從聲請到移行訴訟的程序流程示意圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">勞働審判的流程——勝負在第1次期日之前就決定了</text>
+<rect x="90.0" y="36" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①聲請（提出聲請書・證據）</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">勞工方向地方法院提出聲請書。</text>
+<path d="M350.0 93 L350.0 109" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,109 355.0,109 350.0,117" fill="#8fa6c6"/>
+<rect x="90.0" y="119" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="140" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②指定第1次期日・傳喚</text>
+<text x="350.0" y="160" font-size="11.5" fill="#44596f" text-anchor="middle">期日原則上在聲請日起40日以內指定</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">（勞働審判規則13條）。</text>
+<path d="M350.0 195 L350.0 211" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,211 355.0,211 350.0,219" fill="#8fa6c6"/>
+<rect x="90.0" y="221" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="242" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③會社側提出答辯書・證據</text>
+<text x="350.0" y="262" font-size="11.5" fill="#44596f" text-anchor="middle">在這裡把事實與證據全部出齊。也要安排</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">了解情況的上司・人事出席期日。</text>
+<path d="M350.0 297 L350.0 313" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,313 355.0,313 350.0,321" fill="#8fa6c6"/>
+<rect x="90.0" y="323" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="344" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④第1次期日（爭點整理・聽取當事人）</text>
+<text x="350.0" y="364" font-size="11.5" fill="#44596f" text-anchor="middle">口頭往來會形成心證。</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">第2次以後很難挽回。</text>
+<path d="M350.0 399 L350.0 415" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,415 355.0,415 350.0,423" fill="#8fa6c6"/>
+<rect x="90.0" y="425" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="446" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤原則3次期日以內終結審理</text>
+<text x="350.0" y="466" font-size="11.5" fill="#44596f" text-anchor="middle">除有特別情事外以3次為限</text>
+<text x="350.0" y="485" font-size="11.5" fill="#44596f" text-anchor="middle">（勞働審判法15條2項）。</text>
+<path d="M350.0 501 L350.0 517" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,517 355.0,517 350.0,525" fill="#8fa6c6"/>
+<rect x="90.0" y="527" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="548" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑥調停成立／不成立則作出勞働審判</text>
+<text x="350.0" y="568" font-size="11.5" fill="#44596f" text-anchor="middle">以調停解決為中心。不成立時</text>
+<text x="350.0" y="587" font-size="11.5" fill="#44596f" text-anchor="middle">會作出勞働審判（同法20條）。</text>
+<path d="M350.0 603 L350.0 619" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,619 355.0,619 350.0,627" fill="#8fa6c6"/>
+<rect x="90.0" y="629" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="650" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑦2週內有異議就進入訴訟</text>
+<text x="350.0" y="670" font-size="11.5" fill="#44596f" text-anchor="middle">異議使審判失效，並視為在聲請時</text>
+<text x="350.0" y="689" font-size="11.5" fill="#44596f" text-anchor="middle">已提起訴訟（同法21條・22條1項）。</text>
+<rect x="20" y="717" width="660" height="33" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="737" font-size="11.5" fill="#24313f" text-anchor="middle">如果沒有異議的聲明，勞働審判具有與裁判上和解相同的效力（同法21條4項）。</text>
+</svg>
+<figcaption>勞働審判程序的流程（勞働審判法7條・15條2項・20條・21條・22條1項，勞働審判規則13條）</figcaption></figure>
+
+<table class="wrap1">
+<tr><th>比較的項目</th><th>勞働審判</th><th>通常訴訟</th></tr>
+<tr><td>作判斷的人</td><td>裁判官1名（勞働審判官）與勞働審判員2名組成的勞働審判委員會（勞働審判法7條）</td><td>裁判官</td></tr>
+<tr><td>期日的次數</td><td>除有特別情事外以3次為限（同法15條2項）</td><td>沒有次數上限</td></tr>
+<tr><td>程序的公開</td><td>不公開（同法16條本文）。委員會認為適當的人可以旁聽</td><td>在公開的法庭進行</td></tr>
+<tr><td>解決的形式</td><td>以調停成立為中心。不成立則作出勞働審判（同法20條）</td><td>和解或判決</td></tr>
+<tr><td>不服的時候</td><td>送達・告知後2週的不變期間內聲明異議。審判失效並移行訴訟（同法21條・22條1項）</td><td>上訴・上告</td></tr>
+<tr><td>會社側的勝負點</td><td>第1次期日前的答辯書與證據，以及讓了解情況的人員出席</td><td>以書面累積主張立證，加上人證</td></tr>
+</table>
+
 <h2>通常訴訟：長期戰的金額構造</h2>
 <ul>
 <li>期間<strong>1年前後</strong>（上訴則更長）。解僱無效的最大風險是<strong>「バックペイ」</strong>——到判決為止的工資持續累積（月30萬日圓×18個月＝540萬日圓＋遲延利息）。以「越拖越大」的構造為前提做和解判斷。</li>
@@ -24855,6 +25290,57 @@ ja="""<h2>【日本語版】従業員から訴えられたらどうなるか—�
 <li>会社側の鉄則は<strong>第1回期日前の全力投球</strong>です。答弁書で事実関係と証拠（タイムカード、指導記録、電子メール）を出し切ったうえで、<strong>事情を知っている上司・人事担当者を出席させること</strong>。期日の場での口頭の質疑応答が心証を左右します。第2回以降での挽回は困難です。</li>
 <li>申立ての典型は、解雇の無効（地位確認）、未払割増賃金、ハラスメントに基づく損害賠償です。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 760" role="img" aria-label="労働審判の申立てから訴訟移行までの手続の流れを示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">労働審判の流れ——勝負は第1回期日の前に決まる</text>
+<rect x="90.0" y="36" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①申立て（申立書・証拠の提出）</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">労働者側から申立書が地方裁判所に出される。</text>
+<path d="M350.0 93 L350.0 109" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,109 355.0,109 350.0,117" fill="#8fa6c6"/>
+<rect x="90.0" y="119" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="140" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②第1回期日の指定・呼出し</text>
+<text x="350.0" y="160" font-size="11.5" fill="#44596f" text-anchor="middle">期日は原則として申立ての日から40日以内に</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">指定される（労働審判規則13条）。</text>
+<path d="M350.0 195 L350.0 211" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,211 355.0,211 350.0,219" fill="#8fa6c6"/>
+<rect x="90.0" y="221" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="242" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③会社側の答弁書・証拠の提出</text>
+<text x="350.0" y="262" font-size="11.5" fill="#44596f" text-anchor="middle">ここで事実と証拠を出し切る。事情を知る上司・</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">人事担当者を期日に出席させる段取りも必要。</text>
+<path d="M350.0 297 L350.0 313" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,313 355.0,313 350.0,321" fill="#8fa6c6"/>
+<rect x="90.0" y="323" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="344" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④第1回期日（争点整理・当事者からの聴取）</text>
+<text x="350.0" y="364" font-size="11.5" fill="#44596f" text-anchor="middle">口頭のやり取りで心証が形成される。</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">第2回以降での挽回は難しい。</text>
+<path d="M350.0 399 L350.0 415" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,415 355.0,415 350.0,423" fill="#8fa6c6"/>
+<rect x="90.0" y="425" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="446" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤原則3回以内の期日で審理終結</text>
+<text x="350.0" y="466" font-size="11.5" fill="#44596f" text-anchor="middle">特別の事情がある場合を除き3回以内</text>
+<text x="350.0" y="485" font-size="11.5" fill="#44596f" text-anchor="middle">（労働審判法15条2項）。</text>
+<path d="M350.0 501 L350.0 517" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,517 355.0,517 350.0,525" fill="#8fa6c6"/>
+<rect x="90.0" y="527" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="548" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑥調停成立／不成立なら労働審判</text>
+<text x="350.0" y="568" font-size="11.5" fill="#44596f" text-anchor="middle">調停での解決が中心。不成立の場合は</text>
+<text x="350.0" y="587" font-size="11.5" fill="#44596f" text-anchor="middle">労働審判が行われる（同法20条）。</text>
+<path d="M350.0 603 L350.0 619" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,619 355.0,619 350.0,627" fill="#8fa6c6"/>
+<rect x="90.0" y="629" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="650" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑦2週間以内に異議があれば訴訟へ</text>
+<text x="350.0" y="670" font-size="11.5" fill="#44596f" text-anchor="middle">異議で審判は失効し、申立ての時に訴えの提起が</text>
+<text x="350.0" y="689" font-size="11.5" fill="#44596f" text-anchor="middle">あったものとみなされる（同法21条・22条1項）。</text>
+<rect x="20" y="717" width="660" height="33" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="737" font-size="11.5" fill="#24313f" text-anchor="middle">異議の申立てがなければ、労働審判は裁判上の和解と同一の効力を持ちます（同法21条4項）。</text>
+</svg>
+<figcaption>労働審判の手続の流れ（労働審判法7条・15条2項・20条・21条・22条1項、労働審判規則13条）</figcaption></figure>
+
+<table class="wrap1">
+<tr><th>比べる点</th><th>労働審判</th><th>通常訴訟</th></tr>
+<tr><td>判断する人</td><td>裁判官1名（労働審判官）と労働審判員2名で組織する労働審判委員会（労働審判法7条）</td><td>裁判官</td></tr>
+<tr><td>期日の回数</td><td>特別の事情がある場合を除き3回以内（同法15条2項）</td><td>回数の上限はない</td></tr>
+<tr><td>手続の公開</td><td>公開しない（同法16条本文）。委員会が相当と認める者の傍聴は許される</td><td>公開の法廷で行われる</td></tr>
+<tr><td>解決の形</td><td>調停の成立が中心。不成立なら労働審判（同法20条）</td><td>和解または判決</td></tr>
+<tr><td>不服のとき</td><td>送達・告知から2週間の不変期間内に異議。審判は失効し訴訟に移行（同法21条・22条1項）</td><td>控訴・上告</td></tr>
+<tr><td>会社側の勝負所</td><td>第1回期日前の答弁書と証拠、および事情を知る担当者の出席</td><td>書面による主張立証の積み上げと人証</td></tr>
+</table>
+
 <h3>通常訴訟——長期戦の金額構造</h3>
 <ul>
 <li>期間は<strong>1年前後</strong>（控訴すればさらに長くなります）。解雇無効の最大のリスクは<strong>バックペイ</strong>——判決までの賃金が累積し続けることです（月30万円×18か月＝540万円に遅延損害金が加わります）。「長引けば長引くほど金額が膨らむ」構造を前提に和解の判断をする必要があります。</li>
@@ -30371,6 +30857,25 @@ body="""
 <li><strong>不算入</strong>：<strong>法定休日勞動</strong>（35%割增的世界）。法定休日的勞動不是「時間外勞動」，所以不進60小時的計數。</li>
 </ul>
 <p>也就是說，週休2日的公司如果就業規則沒有特定「哪一天是法定休日」，60小時的計數本身會變得不穩定。<strong>就業規則明定法定休日（例：星期日）</strong>，是這個制度的前提整備。</p>
+<table class="wrap1">
+<tr><th>該勞動</th><th>60小時的計數</th><th>當天的割增</th></tr>
+<tr><td>超過1日8小時・週40小時的勞動</td><td><strong>算入</strong></td><td>25%以上（超過60小時的部分50%以上）</td></tr>
+<tr><td>所定休日（不是法定休日的休日）勞動中超過週40小時的部分</td><td><strong>算入</strong></td><td>同上</td></tr>
+<tr><td>法定休日的勞動</td><td><strong>不算入</strong></td><td>35%以上（與深夜重疊則60%以上）</td></tr>
+</table>
+<figure class="hfig">
+<svg viewBox="0 0 700 151" role="img" aria-label="顯示1個月時間外勞動60小時以內為25%、超過60小時部分為50%的帶狀圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">1個月的時間外勞動與法定割增率</text>
+<rect x="24" y="52" width="391.2" height="46" rx="5" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="219.6" y="72" font-size="12" fill="#22384f" text-anchor="middle" font-weight="bold">0〜60小時</text>
+<text x="219.6" y="89" font-size="11" fill="#44596f" text-anchor="middle">25%以上（37條1項）</text>
+<rect x="415.2" y="52" width="260.8" height="46" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="545.6" y="72" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">超過60小時的部分</text>
+<text x="545.6" y="89" font-size="11" fill="#24313f" text-anchor="middle">50%以上（37條1項但書）</text>
+<rect x="20" y="108" width="660" height="33" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="128" font-size="11.5" fill="#24313f" text-anchor="middle">在22時〜翌5時進行的60小時超殘業，會加算深夜25%，合計75%。</text>
+</svg>
+<figcaption>60小時是當月時間外勞動的累計。只有超過的時間變成50%。</figcaption></figure>
 <h2>與深夜的重疊——75%</h2>
 <p>60小時超的時間外（50%）在22時〜翌5時進行時，加算深夜割增25%——合計<strong>75%</strong>。長時間殘業體質的公司，深夜帶的殘業單價幾乎是平日時薪的1.75倍。</p>
 <h2>公司端的點檢清單</h2>
@@ -30391,6 +30896,25 @@ ja="""<h2>【日本語版】月60時間超の残業は割増率50%——中小�
 <li><strong>算入しない</strong>：<strong>法定休日労働</strong>（35%割増の世界）。法定休日の労働は「時間外労働」ではないため、60時間のカウントに入りません。</li>
 </ul>
 <p>したがって、就業規則でどの日が法定休日か特定していない会社は、60時間のカウント自体が不安定になります。<strong>法定休日の特定（例：日曜日）</strong>がこの制度の前提整備です。</p>
+<table class="wrap1">
+<tr><th>その労働</th><th>60時間のカウント</th><th>その日の割増</th></tr>
+<tr><td>1日8時間・週40時間を超える労働</td><td><strong>算入する</strong></td><td>25%以上（60時間超の部分は50%以上）</td></tr>
+<tr><td>所定休日（法定休日でない休日）の労働で週40時間を超える部分</td><td><strong>算入する</strong></td><td>同上</td></tr>
+<tr><td>法定休日の労働</td><td><strong>算入しない</strong></td><td>35%以上（深夜が重なれば60%以上）</td></tr>
+</table>
+<figure class="hfig">
+<svg viewBox="0 0 700 151" role="img" aria-label="1か月の時間外労働のうち60時間までが25%、60時間を超えた部分が50%になることを示す帯図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">1か月の時間外労働と法定割増率</text>
+<rect x="24" y="52" width="391.2" height="46" rx="5" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="219.6" y="72" font-size="12" fill="#22384f" text-anchor="middle" font-weight="bold">0〜60時間</text>
+<text x="219.6" y="89" font-size="11" fill="#44596f" text-anchor="middle">25%以上（37条1項）</text>
+<rect x="415.2" y="52" width="260.8" height="46" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="545.6" y="72" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">60時間を超えた部分</text>
+<text x="545.6" y="89" font-size="11" fill="#24313f" text-anchor="middle">50%以上（37条1項ただし書）</text>
+<rect x="20" y="108" width="660" height="33" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="128" font-size="11.5" fill="#24313f" text-anchor="middle">22時〜翌5時に行われた60時間超の残業は深夜25%が加算され、合計75%になります。</text>
+</svg>
+<figcaption>60時間はその月の時間外労働の累計です。超えた時間だけが50%になります。</figcaption></figure>
 <h3>深夜との重複——75%</h3>
 <p>60時間超の時間外（50%）が22時〜翌5時に行われると深夜割増25%が加算され、合計<strong>75%</strong>になります。</p>
 <h3>会社側の点検リスト</h3>
@@ -31429,9 +31953,10 @@ ja="""<h2>【日本語版】派遣社員の受入れは何年までか——事�
 <text x="40" y="164" font-size="11" fill="#22384f" font-weight="bold">空白が「3か月超」</text>
 <rect x="190" y="152" width="410" height="22" fill="#dff0e3" stroke="#9cc9a7" rx="3"/>
 <text x="395" y="167" font-size="10.5" fill="#1f5c33" text-anchor="middle">新たな受入開始日から<tspan font-weight="bold">改めて3年をカウント</tspan></text>
-<rect x="40" y="190" width="560" height="42" fill="#fff7e6" stroke="#e0c388" rx="4"/>
+<rect x="40" y="190" width="560" height="58" fill="#fff7e6" stroke="#e0c388" rx="4"/>
 <text x="52" y="206" font-size="10.5" fill="#8a6414" font-weight="bold">※ ただし——</text>
-<text x="52" y="222" font-size="10.5" fill="#8a6414">3年継続受入れ後、延長手続の回避を目的に3か月空けて再開する行為は、指針上「法の趣旨に反する」とされ指導の対象。</text>
+<text x="52" y="222" font-size="10.5" fill="#8a6414">3年継続受入れ後、延長手続の回避を目的に3か月空けて再開する行為は、</text>
+<text x="52" y="238" font-size="10.5" fill="#8a6414">指針上「法の趣旨に反する」とされ、指導の対象になります。</text>
 </svg>
 <figcaption>派遣先指針第2の14(3)(4)(5)。個人単位の中断も同じ3か月が基準で、派遣元を替えてもリセットされません。</figcaption>
 </figure>
@@ -34475,26 +35000,25 @@ ARTICLES.append(dict(
 <rect x="490" y="55" width="100" height="40" fill="#b8d4f0" rx="4"/>
 <text x="540" y="78" font-size="11" fill="#1a3a5c" text-anchor="middle">第5年</text>
 <rect x="600" y="40" width="80" height="58" fill="#f4a261" rx="4" stroke="#c26a1a" stroke-width="1.5"/>
-<text x="640" y="66" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">第6年目</text>
-<text x="640" y="80" font-size="10" fill="#fff" text-anchor="middle">以後更新時</text>
-<text x="640" y="94" font-size="10" fill="#fff" text-anchor="middle">↓可申請</text>
-<text x="600" y="118" font-size="9" fill="#c26a1a" text-anchor="middle">無期轉換</text>
-<text x="600" y="130" font-size="9" fill="#c26a1a" text-anchor="middle">申込權發生</text>
-<text x="590" y="50" font-size="9" fill="#22384f" text-anchor="middle">↑在此前</text>
-<text x="590" y="43" font-size="9" fill="#22384f" text-anchor="middle">就可申請</text>
-<line x1="590" y1="55" x2="590" y2="80" stroke="#c26a1a" stroke-width="1.5" stroke-dasharray="4,2"/>
-<text x="310" y="145" font-size="10" fill="#888" text-anchor="middle">通算契約期間 1年＋1年＋1年＋1年＋1年＝5年　→　第5年更新時或第6年目以後的更新時在期滿前提出申請</text>
-<text x="310" y="160" font-size="10" fill="#888" text-anchor="middle">（申請時點：目前有期契約的期滿日之前）</text>
+<text x="640" y="60" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">第6份契約</text>
+<text x="640" y="74" font-size="10" fill="#fff" text-anchor="middle">通算超過5年</text>
+<text x="640" y="90" font-size="10" fill="#fff" text-anchor="middle">初日起可申請</text>
+<line x1="600" y1="98" x2="600" y2="114" stroke="#c26a1a" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="600" y="128" font-size="9" fill="#c26a1a" text-anchor="middle">申込權發生日</text>
+<text x="330" y="148" font-size="10" fill="#888" text-anchor="middle">1年＋1年＋1年＋1年＋1年＝通算5年（尚未「超過」5年）→ 第6份契約的初日起，申込權發生</text>
+<text x="330" y="164" font-size="10" fill="#888" text-anchor="middle">行使期限＝該份有期契約的期滿日當日為止（勞契法18條1項）</text>
 </svg>
 </figure>
 
-<p>申請可以在<strong>5年超過後的任一更新期間內提出</strong>，不必在5年剛滿時立即申請。若5年後員工繼續沉默更新，申込權是存在的，只是尚未行使——下次更新時仍可提出申請。</p>
+<p>這裡的「契約期間」指的是<strong>契約上所訂的期間</strong>，不以實際存續滿5年為必要。例如「3年契約＋更新3年」，在第2份契約的初日，所訂期間通算已達6年，因此即使實際只經過3年，當天起就可以提出申請。</p>
+
+<p>另外，申込權是<strong>按每一份有期契約分別發生、分別消滅</strong>的。某份契約在期滿日之前沒有行使，該份契約的申込權雖然消滅，但只要契約被更新，下一份契約又會重新發生申込權，員工仍可在新契約的期滿日之前提出申請。因此公司不能認為「5年一過沒有人申請就安全了」。</p>
 
 <h2>「通算」的計算方式與冷卻期間</h2>
 <p>「通算契約期間」是指與同一使用者之間，依序締結的有期勞動契約的契約期間之<strong>合計</strong>。若中途有以下空白期間（無契約期間），該空白前的期間不算入通算（勞契法18條第2項）：</p>
 <ul>
 <li><strong>前一份有期契約的期間為1年以上：</strong>空白期間達6個月以上，通算重置。</li>
-<li><strong>前一份有期契約的期間未滿1年：</strong>空白期間達「前份契約期間×1/2」以上（由省令規定具體日數），通算重置。例如6個月契約→3個月空白，2個月契約→1個月空白。</li>
+<li><strong>前一份有期契約的期間未滿1年：</strong>空白期間達「前份契約期間×½」以上時通算重置（未滿1個月的零數進位為1個月。勞契法18條1項的通算契約期間基準省令2條）。例如6個月契約→空白3個月以上，2個月契約→空白1個月以上。</li>
 </ul>
 
 <figure class="hfig">
@@ -34511,76 +35035,144 @@ ARTICLES.append(dict(
 <text x="208" y="104" font-size="10" fill="#888" text-anchor="middle">（6個月以上）</text>
 <text x="20" y="118" font-size="11" fill="#22384f">●前份契約未滿1年</text>
 <text x="400" y="118" font-size="10" fill="#888">空白達「前份契約期間×½」以上即可重置</text>
-<text x="400" y="132" font-size="10" fill="#888">例：前份6個月契約→空白3個月以上で重置</text>
+<text x="400" y="132" font-size="10" fill="#888">例：前份6個月契約→空白3個月以上即重置</text>
 </svg>
 </figure>
 
-<p>注意：這個「冷卻期間」是雙面刃。若公司刻意在5年前讓契約中斷6個月，之後再重新僱用，表面上可重置通算——但這種做法若被認定為以規避無期轉換申込權為目的的不誠實行為，依實務見解有被認定為違法雇止め（勞契法19條）的風險。</p>
+<p>注意：這個「冷卻期間」並非萬能。若員工對契約更新已經產生合理的期待，公司刻意安插空白期間以規避無期轉換，仍可能被認定為欠缺客觀合理理由的違法雇止め（契約不更新。勞契法19條），結果契約被視為已經更新。</p>
 
 <h2>無期轉換後的勞動條件</h2>
 <p>無期轉換後的勞動條件，原則上與轉換前的有期契約<strong>相同</strong>（契約期間除外），因此工資・工時・職務等不會因轉換本身而自動改變（勞契法18條第1項後段）。</p>
 <table>
 <tr><th>項目</th><th>原則</th><th>例外</th></tr>
-<tr><td>工資・工時・職務等</td><td>與有期契約時相同</td><td>就業規則・個別合意で別段の定め可</td></tr>
+<tr><td>工資・工時・職務等</td><td>與有期契約時相同</td><td>可在就業規則或個別契約中另行約定（勞契法18條1項所稱「別段の定め」＝個別約定）</td></tr>
 <tr><td>契約期間</td><td>無期（無終了期限）</td><td>─</td></tr>
 <tr><td>解僱規制</td><td>正式員工同等（需客觀合理的理由）</td><td>─</td></tr>
 <tr><td>年次有給休假・社會保險</td><td>原本即應適用（獨立規定）</td><td>─</td></tr>
 </table>
-<p>換言之，無期轉換は「正社員化」ではありません（原則として待遇は変わらない）。ただし、<strong>解雇規制は正社員と同様</strong>に適用されるため、一度無期転換が成立すると、会社が雇用を終了させるには客観的に合理的な理由と社会通念上の相当性が必要になります（勞契法16條）。</p>
+<p>換言之，無期轉換並不等於「正式員工化」，待遇原則上不會改變。但<strong>解僱規制會與正式員工相同地適用</strong>——一旦無期契約成立，公司要終止僱用就必須具備客觀合理的理由與社會通念上的相當性（勞契法16條）。另外，以員工提出無期轉換申請為理由而解僱或給予不利待遇，原則上是無效的。</p>
 
-<h2>会社が事前に設定できる「更新上限」</h2>
-<p>使用者は、有期労働契約の更新回数・通算期間に上限を設定することができます。たとえば「本契約の更新は通算4年を上限とする」と定めれば、5年の申込権が発生する前に雇用関係が終了します。ただし、<strong>2024年4月以降は、更新上限を設ける場合は労働条件の明示事項として書面で伝えることが義務</strong>づけられました（労基法施行規則5条・改正）。途中から上限を追加・短縮することも認められますが、特段の合理的理由がない限り、既存の有期契約の内容を不利益に変更することには当たらないかを慎重に検討する必要があります。</p>
-<p>また、2024年4月からは、無期転換申込権が発生する更新時期の有期契約の締結・更新の際に、<strong>無期転換を申し込める権利があること</strong>と、<strong>無期転換後の労働条件</strong>を書面で明示する義務も追加されました（詳細は「<a href="/ja/articles/rodo-joken-meiji.html">外国人雇用時の労働条件明示義務</a>」参照）。</p>
-
-<h2>特例：高度専門職・定年後高齢者</h2>
-<p>「専門的知識等を有する有期雇用労働者等に関する特別措置法」（有期特措法・2015年施行）により、以下の2類型は無期転換申込権が発生する時期が異なります。</p>
-<table>
-<tr><th>対象</th><th>要件</th><th>特例内容</th></tr>
-<tr><td>高度専門職<br>（第一種特定有期雇用労働者）</td><td>年収1,075万円以上・高度な専門知識を有し・5年を超える有期プロジェクト業務に従事</td><td>厚生労働大臣の認定（第一種計画）を受けた場合、業務完了まで（上限10年）は無期転換申込権が発生しない</td></tr>
-<tr><td>定年後継続雇用の高齢者<br>（第二種特定有期雇用労働者）</td><td>定年後に同一事業主等に引き続き雇用される者</td><td>厚生労働大臣の認定（第二種計画）を受けた場合、継続雇用期間中は無期転換申込権が発生しない</td></tr>
-</table>
-<p>これらの特例を利用するには、使用者が「第一種計画」または「第二種計画」を作成し、ハローワーク（公共職業安定所）経由で厚生労働大臣の認定を受ける必要があります。認定なしで特例の適用はできません。</p>
-
-<h2>華人企業の注意点</h2>
+<h2>公司可以事先設定的「更新上限」</h2>
+<p>使用者可以就有期契約的更新次數或通算期間設定上限。例如約定「本契約的更新以通算4年為上限」，便會在5年的申込權發生之前結束僱用關係。法院也肯定過這種做法：<strong>國立大學法人東北大學事件</strong>（仙台高判令和5年1月25日・勞動判例1286號17頁）認為，將通算契約期間原則上限定為5年以內的上限條項，其內容本身並不當然牴觸勞契法18條，也不足以認定為脫法行為或違反公序良俗。</p>
+<p>但反方向的裁判例也存在。<strong>放送大學學園事件</strong>（德島地判令和3年10月25日・勞動判例1315號71頁）中，法院指出公司在決定上限規定時，對於已經反覆更新多次、更新的合理期待早已產生的職員應如何處理，並未留下具體檢討的痕跡；因此該上限規定對長期更新的原告而言，具有脫法勞契法18條趣旨・目的的目的，依該規定所為的雇止め欠缺客觀合理的理由，也不具社會通念上的相當性。<strong>實務結論是：上限要在招聘之初就設定，不要等到更新的合理期待已經形成之後才追加或縮短。</strong></p>
+<p>此外，2024年4月以後的明示義務也要留意：</p>
 <ul>
-<li><strong>技術・人文・国際業務（技人国）ビザの外国人従業員も5年ルールの対象</strong>です。ビザの有効期間（例：1年）ごとに有期契約を更新していると、5回の更新で申込権が発生します。</li>
-<li><strong>無期転換後の解雇は正社員の解雇と同じ難しさ</strong>です。「有期だから使いやすい」という前提が崩れます。転換前に労働条件を整理・明文化しておくことが重要です。</li>
-<li><strong>更新上限を設けるか否かは、採用戦略として早期に決定</strong>してください。法律上は上限設定自体は可能ですが、設定後は書面での明示義務があり、途中変更はリスクを伴います。</li>
-<li><strong>高度専門職の特例（年収1,075万円以上）</strong>を利用したい場合は、事業計画認定の手続を採用前に済ませる必要があります。事後の申請は認められません。</li>
+<li>設有更新次數・通算期間上限時，該上限屬於<strong>勞動條件的明示事項</strong>，須於締結・更新時以書面明示（勞基法施行規則5條1項1號之2）。</li>
+<li>員工將在該契約期間內取得無期轉換申込權時，該次締結・更新須明示<strong>①可以提出無期轉換申請這件事</strong>與<strong>②無期轉換後的勞動條件</strong>（同條5項、6項。詳見「<a href="/articles/rodo-joken-meiji.html">僱用外國人時的勞動條件明示義務</a>」）。</li>
+<li>契約締結後，在變更或更新契約時才要新設上限或下調上限時，須<strong>事先向員工說明理由</strong>（「有期労働契約の締結、更新、雇止め等に関する基準」＝平成15年厚勞告357號1條。由令和5年厚勞告114號新增，自令和6年4月1日適用）。這一條與雇止め的預告（同基準2條）不同，<strong>沒有更新次數或在職年數的限制</strong>，任何有期員工都適用。</li>
+<li>明示上述無期轉換後的勞動條件時，還應<strong>努力就「考慮了工作實態的均衡」的事項向員工說明</strong>（同基準5條。屬努力義務，非強制）。</li>
+</ul>
+
+<h2>特例：高度專門職・定年後的高齡者</h2>
+<p>依「專門的知識等を有する有期雇用労働者等に関する特別措置法」（簡稱有期特措法，2015年4月1日施行），下列兩類員工的無期轉換申込權發生時期與原則不同。</p>
+<table>
+<tr><th>對象</th><th>要件</th><th>特例內容</th></tr>
+<tr><td>高度專門職<br>（第一種特定有期僱用勞動者）</td><td>年薪1,075萬日圓以上（同法施行規則1條），具高度的專門知識・技術或經驗，從事在5年以上的一定期間內完成的業務（具體業務由厚生勞動大臣告示＝平成27年3月18日厚勞告67號訂定）</td><td>取得第一種計畫的認定後，自該業務開始日至完成日（超過10年者以10年為限）不發生無期轉換申込權（同法8條1項）</td></tr>
+<tr><td>定年後繼續僱用的高齡者<br>（第二種特定有期僱用勞動者）</td><td>定年後由同一事業主，或高年齡者僱用安定法9條2項的特殊關係事業主繼續僱用者</td><td>取得第二種計畫的認定後，定年後繼續僱用的期間不計入通算契約期間（同法8條2項）</td></tr>
+</table>
+<p>申請手續要特別注意窗口。計畫的認定權限在法律上屬於厚生勞動大臣，但已依同法施行規則6條<strong>委任給都道府縣勞動局長</strong>。因此事業主應將申請書1份及其副本1份，提交給<strong>主要事業所所在地所轄的都道府縣勞動局長</strong>（同規則2條1項、4條1項）。第二種計畫還必須附上可證明公司現已採取高年齡者僱用確保措施（高年法9條1項）的就業規則等文件（同規則4條2項2號）。<strong>沒有取得認定就無法適用特例。</strong></p>
+
+<h2>華人企業的注意事項</h2>
+<ul>
+<li><strong>持技術・人文知識・國際業務（技人國）簽證的外國員工同樣適用5年規則。</strong>若配合簽證效期（例如1年）逐年更新有期契約，到第6份契約的初日就會發生申込權。</li>
+<li><strong>通算期間要用名冊管理。</strong>勞契法18條只適用於以2013年4月1日以後之日為契約期間初日的有期契約（2012年改正法附則2項），請把每位員工的契約初日・更新次數・通算期間記錄下來，事先掌握會超過5年的時點。</li>
+<li><strong>無期轉換後要解僱，難度與正式員工相同。</strong>「有期契約比較有彈性」的前提會消失。轉換前先把勞動條件整理成文字（在就業規則中訂明「無期轉換後適用第○條」），可以避免事後逐一個別交涉。</li>
+<li><strong>要不要設更新上限，請在招聘階段就決定。</strong>法律上設定上限本身是可以的，但須書面明示；等到員工已經產生更新的合理期待之後才追加或縮短，風險很高。</li>
+<li><strong>想利用高度專門職特例（年薪1,075萬日圓以上），要在僱用前先取得計畫認定。</strong>事後補申請無法溯及適用。</li>
 </ul>''',
     ja=r'''<h2>【日本語版】有期労働契約の無期転換——労契法18条の5年ルールと実務対応</h2>
 <h3>無期転換とは</h3>
 <p>同一の使用者との間で締結された有期労働契約の通算契約期間が<strong>5年を超えた</strong>場合、労働者は、現に締結している有期労働契約の契約期間が満了する日までの間に、使用者に対して無期労働契約の締結を申し込むことができます（労働契約法18条1項）。使用者はこの申込みを断ることができず、<strong>法律上、承諾したものとみなされます</strong>。</p>
-<h3>申込権の発生タイミング</h3>
-<p>申込権は通算5年超後の最初の更新時から発生し、以降のすべての更新期間中に行使できます。5年経過後に黙って更新しても申込権は消えず、次の更新時にも行使できます。申込みは現在の有期契約の<strong>満了日の前日まで</strong>に行う必要があります。</p>
+<h3>申込権の発生タイミングと行使期限</h3>
+<p>無期転換申込権は、<strong>その契約期間中に通算契約期間が5年を超えることとなる有期労働契約の契約期間の初日</strong>に発生し、<strong>当該有期労働契約の契約期間が満了する日までの間</strong>に行使することができます（労契法18条1項、改正法施行通達第5の4(2)エ）。満了日の前日までではなく満了日当日までである点に注意してください。</p>
+<p>また、ここでいう契約期間は<strong>契約で定められた期間</strong>であり、実際に5年を超えて存続したことは必要ありません。したがって、期間3年の契約が1回更新された場合、更新時点で通算すると6年になるため、当初契約から5年を経過していなくても、更新後の契約の初日から申込みが可能になります。</p>
+<p>申込権は<strong>有期労働契約ごとに発生して消滅する</strong>と理解されています。当該契約の満了日までに行使しなければその契約についての申込権は消滅しますが、契約が更新されれば次の契約について改めて申込権が発生し、その満了日までに行使できます。「5年を過ぎても誰も申し込まなかったから安全」という理解は誤りです。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 720 180" role="img" aria-label="無期転換申込権の発生時期の図" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="jarr1" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#22384f"/></marker></defs>
+<text x="360" y="18" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">無期転換申込権はいつ発生し、いつまでに行使できるか（1年契約を5回更新した例）</text>
+<line x1="40" y1="80" x2="690" y2="80" stroke="#bbb" stroke-width="1.5" marker-end="url(#jarr1)"/>
+<rect x="50" y="55" width="100" height="40" fill="#b8d4f0" rx="4"/>
+<text x="100" y="78" font-size="11" fill="#1a3a5c" text-anchor="middle">1年目</text>
+<rect x="160" y="55" width="100" height="40" fill="#b8d4f0" rx="4"/>
+<text x="210" y="78" font-size="11" fill="#1a3a5c" text-anchor="middle">2年目</text>
+<rect x="270" y="55" width="100" height="40" fill="#b8d4f0" rx="4"/>
+<text x="320" y="78" font-size="11" fill="#1a3a5c" text-anchor="middle">3年目</text>
+<rect x="380" y="55" width="100" height="40" fill="#b8d4f0" rx="4"/>
+<text x="430" y="78" font-size="11" fill="#1a3a5c" text-anchor="middle">4年目</text>
+<rect x="490" y="55" width="100" height="40" fill="#b8d4f0" rx="4"/>
+<text x="540" y="78" font-size="11" fill="#1a3a5c" text-anchor="middle">5年目</text>
+<rect x="600" y="40" width="80" height="58" fill="#f4a261" rx="4" stroke="#c26a1a" stroke-width="1.5"/>
+<text x="640" y="60" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">6本目の契約</text>
+<text x="640" y="74" font-size="10" fill="#fff" text-anchor="middle">通算5年超</text>
+<text x="640" y="90" font-size="10" fill="#fff" text-anchor="middle">初日から行使可</text>
+<line x1="600" y1="98" x2="600" y2="114" stroke="#c26a1a" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="600" y="128" font-size="9" fill="#c26a1a" text-anchor="middle">申込権の発生日</text>
+<text x="330" y="148" font-size="10" fill="#888" text-anchor="middle">1年×5＝通算5年（まだ「超えて」いない）→ 6本目の契約期間の初日に申込権が発生</text>
+<text x="330" y="164" font-size="10" fill="#888" text-anchor="middle">行使期限＝その有期契約の契約期間が満了する日まで（満了日当日を含む）</text>
+</svg>
+</figure>
+
 <h3>クーリング期間（リセット）</h3>
 <p>前の有期契約との間に一定以上の空白期間（クーリング期間）があると、空白前の通算期間はリセットされます（18条2項）。クーリング期間は次のとおりです。</p>
 <table>
 <tr><th>前の有期契約の期間</th><th>クーリング期間（リセットに必要な空白）</th></tr>
 <tr><td>1年以上</td><td>6か月以上</td></tr>
-<tr><td>1年未満（例：6か月）</td><td>前の契約期間×½以上（省令で日数を規定）<br>例：6か月契約→3か月以上、2か月契約→1か月以上</td></tr>
+<tr><td>1年未満（例：6か月）</td><td>前の契約期間×½以上（1か月未満の端数は1か月に切上げ）<br>例：6か月契約→3か月以上、2か月契約→1か月以上</td></tr>
 </table>
-<p>ただし、無期転換を回避する目的で意図的にクーリング期間を設けることは、雇止め法理（労契法19条）違反と評価されるリスクがあります。</p>
+<p>なお、18条2項の「厚生労働省令で定める期間」は、当該一の有期労働契約の契約期間に2分の1を乗じて得た期間（1か月未満の端数は1か月として計算）と定められています（労働契約法第18条第1項の通算契約期間に関する基準を定める省令2条）。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 720 140" role="img" aria-label="クーリング期間による通算リセットの図" xmlns="http://www.w3.org/2000/svg">
+<text x="360" y="16" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">クーリング期間（空白期間）による通算リセット</text>
+<text x="20" y="50" font-size="11" fill="#22384f">●前の契約が1年以上</text>
+<rect x="20" y="58" width="140" height="28" fill="#b8d4f0" rx="3"/>
+<text x="90" y="77" font-size="10" fill="#1a3a5c" text-anchor="middle">有期（例：3年）</text>
+<rect x="168" y="58" width="80" height="28" fill="#ffe5b4" rx="3" stroke="#f4a261" stroke-width="1.5"/>
+<text x="208" y="77" font-size="10" fill="#c26a1a" text-anchor="middle">空白6か月以上</text>
+<rect x="256" y="58" width="140" height="28" fill="#b8d4f0" rx="3"/>
+<text x="326" y="77" font-size="10" fill="#1a3a5c" text-anchor="middle">有期（新契約）</text>
+<text x="430" y="77" font-size="11" fill="#2e7d32">→ 通算がリセット</text>
+<text x="208" y="104" font-size="10" fill="#888" text-anchor="middle">（6か月以上）</text>
+<text x="20" y="118" font-size="11" fill="#22384f">●前の契約が1年未満</text>
+<text x="400" y="118" font-size="10" fill="#888">空白が「前の契約期間×½」以上あればリセット</text>
+<text x="400" y="132" font-size="10" fill="#888">例：前の契約が6か月→空白3か月以上でリセット</text>
+</svg>
+</figure>
+
+<p>また、労契法18条の通算は、<strong>施行日である2013年4月1日以後の日を契約期間の初日とする有期労働契約</strong>について適用され、施行日前の日が初日である契約期間は通算されません（2012年改正附則2項）。</p>
+<p>ただし、更新への合理的期待が生じている労働者について、無期転換を回避する目的で意図的にクーリング期間を設けることは、雇止め法理（労契法19条）のもとで客観的に合理的な理由を欠くと評価されるリスクがあります。</p>
 <h3>無期転換後の労働条件</h3>
-<p>無期転換後の労働条件は、<strong>転換前の有期契約と原則同一</strong>です（賃金・労働時間・職務等。契約期間のみ変更）。「正社員と同等の待遇になる」わけではありません。ただし、就業規則または個別の労働契約で「無期転換後の労働条件」を別に定めておくことは可能です。なお、無期転換後は解雇規制（労契法16条）が通常の正社員と同様に適用され、客観的に合理的な理由と社会通念上の相当性が必要になります。</p>
+<p>無期転換後の労働条件は、現に締結している有期労働契約の労働条件（契約期間を除く）と<strong>同一</strong>とされ、「別段の定めがある部分」のみ例外となります（労契法18条1項後段）。したがって賃金・労働時間・職務等は転換それ自体では変わらず、「正社員と同等の待遇になる」わけではありません。就業規則または個別の労働契約で「無期転換後の労働条件」を別に定めておくことは可能です。</p>
+<p>他方で、無期転換後は解雇規制（労契法16条）が通常の正社員と同様に適用され、客観的に合理的な理由と社会通念上の相当性が必要になります。また、無期転換の申込みをしたことを理由とする解雇その他の不利益取扱いは、原則として無効と解されています。</p>
 <h3>更新上限の設定（2024年4月以降は明示義務あり）</h3>
-<p>会社は有期労働契約の更新回数・通算期間に上限（例：「通算4年まで」）を設定することができます。これにより5年の申込権が発生する前に雇用関係を終了させることが可能です。ただし2024年4月以降、更新上限を設ける場合は<strong>労働条件の明示事項として書面での交付が義務</strong>づけられています（労基法施行規則5条）。また同日以降、無期転換申込権が生じる更新時期には、①無期転換申込機会と②無期転換後の労働条件を書面で明示する義務も追加されました。</p>
+<p>会社は有期労働契約の更新回数・通算期間に上限（例：「通算4年まで」）を設定することができます。これにより5年の申込権が発生する前に雇用関係を終了させることが可能です。<strong>国立大学法人東北大学事件</strong>（仙台高判令和5年1月25日・労働判例1286号17頁）は、通算契約期間を原則として5年以内とする上限条項の内容自体が直ちに労契法18条に抵触するものとはいえず、脱法行為ないし公序良俗違反に当たるとも認められないとして、雇止めを有効としました。</p>
+<p>もっとも、<strong>放送大学学園事件</strong>（徳島地判令和3年10月25日・労働判例1315号71頁）は、上限規定の導入を決定した当時、すでに相当回数更新され更新への合理的期待が生じていた職員の取扱いについて具体的に検討された形跡がないことなどから、当該上限規定は長期間更新を続けてきた原告との関係では「労契法18条の趣旨・目的を潜脱する目的があった」と評価されてもやむを得ないとし、これを根拠とする雇止めは客観的に合理的な理由を欠き、社会通念上の相当性も欠くとしました。<strong>上限は採用時に設定し、合理的期待が形成された後に追加・短縮しないことが要点です。</strong></p>
+<p>明示義務の根拠条文は次のとおりです。</p>
+<ul>
+<li><strong>更新上限：</strong>「有期労働契約を更新する場合の基準に関する事項」に通算契約期間または更新回数の上限の定めを含めるものとされ、締結・更新時の明示事項となりました（労基法施行規則5条1項1号の2）。</li>
+<li><strong>無期転換申込機会・転換後の労働条件：</strong>その契約期間内に無期転換申込みができることとなる有期契約の締結時には、無期転換申込みに関する事項と転換後の無期労働契約の労働条件も明示しなければなりません（同条5項。書面交付の対象は同条6項）。</li>
+<li><strong>上限の新設・引下げ時の理由説明：</strong>有期労働契約の締結後、その変更または更新に際して通算契約期間または更新回数の上限を定め、またはこれを引き下げようとするときは、あらかじめその理由を労働者に説明しなければなりません（有期労働契約の締結、更新、雇止め等に関する基準＝平成15年厚労告357号1条。令和5年厚労告114号で追加され、令和6年4月1日から適用）。雇止めの予告（同基準2条）とは違い、更新回数や勤続年数による限定はありません。</li>
+<li><strong>無期転換後の労働条件についての説明（努力義務）：</strong>労基則5条5項の事項を明示する際は、無期転換後の労働条件を定めるにあたって、労契法3条2項の趣旨を踏まえ就業の実態に応じて均衡を考慮した事項について労働者に説明するよう努めることとされています（同基準5条）。</li>
+</ul>
 <h3>有期特措法の特例</h3>
 <table>
 <tr><th>対象</th><th>要件（概要）</th><th>特例</th></tr>
-<tr><td>高度専門職<br>（第一種）</td><td>年収1,075万円以上・高度専門業務・5年超の有期プロジェクト業務</td><td>第一種計画＋厚生労働大臣認定→業務完了まで（上限10年）申込権なし</td></tr>
-<tr><td>定年後継続雇用の高齢者<br>（第二種）</td><td>定年後に同一事業主等に継続雇用</td><td>第二種計画＋厚生労働大臣認定→継続雇用期間中は申込権なし</td></tr>
+<tr><td>高度専門職<br>（第一種特定有期雇用労働者）</td><td>年収1,075万円以上（有期特措法施行規則1条）・高度の専門的知識等を有し・5年を超える一定の期間内に完了する業務に従事（対象業務は平成27年3月18日厚労告67号）</td><td>第一種計画の認定→当該業務の開始日から完了日まで（10年を超える場合は10年）申込権が発生しない（同法8条1項）</td></tr>
+<tr><td>定年後継続雇用の高齢者<br>（第二種特定有期雇用労働者）</td><td>定年後に同一の事業主または高年法9条2項の特殊関係事業主に引き続き雇用される者</td><td>第二種計画の認定→定年後引き続き雇用されている期間は通算契約期間に算入しない（同法8条2項）</td></tr>
 </table>
+<p>認定の権限は法律上は厚生労働大臣ですが、有期特措法施行規則6条により<strong>都道府県労働局長に委任</strong>されています。申請は、申請書1通およびその写し1通を<strong>主たる事業所の所在地を管轄する都道府県労働局長</strong>に提出して行います（同規則2条1項・4条1項）。第二種計画では、高年法9条1項の高年齢者雇用確保措置を現に講じていることを明らかにする就業規則等の添付も必要です（同規則4条2項2号）。</p>
 <h3>実務上の対応ポイント</h3>
 <ul>
-<li><strong>有期契約労働者の通算年数の管理：</strong>人事台帳等で入社日・更新回数・通算期間を管理し、5年超となる更新時期を事前に把握する。</li>
+<li><strong>有期契約労働者の通算年数の管理：</strong>人事台帳等で契約初日・更新回数・通算期間を管理し、通算5年を超えることとなる契約の初日を事前に把握する。</li>
 <li><strong>無期転換後の労働条件を就業規則に規定：</strong>「無期転換後は就業規則○条を適用する」と定めておかないと、個別交渉になる可能性がある。</li>
-<li><strong>更新上限の書面明示：</strong>上限を設けるなら採用時から書面で明示（2024年4月以降は義務）。途中変更は労働条件の不利益変更の問題が生じうる。</li>
-<li><strong>高度専門職の特例利用：</strong>採用前に第一種計画認定を取得しておく（事後の申請は不可）。</li>
+<li><strong>更新上限の書面明示：</strong>上限を設けるなら採用時から書面で明示（2024年4月以降は義務）。締結後の新設・引下げには理由の事前説明が必要で、不利益変更の問題も生じうる。</li>
+<li><strong>高度専門職の特例利用：</strong>採用前に都道府県労働局長へ第一種計画認定を申請しておく（事後の申請では遡及適用されない）。</li>
 </ul>'''
 ))
 
-JA_SUMMARY.update({'mukitenkan': '同一使用者との有期労働契約が通算5年を超えて更新された場合、労働者は無期労働契約への転換を申し込む権利を持ちます（労働契約法18条）。使用者はこの申込みを拒否できず、法律上承諾したものとみなされます。転換後の労働条件は有期契約と原則同一（賃金・労働時間等は変わらない）ですが、解雇規制は正社員と同様に適用されます。クーリング期間（前契約1年以上なら6か月・未満なら前契約期間×½以上の空白）があると通算がリセットされますが、無期転換を回避する目的の意図的なクーリングは雇止め法理（19条）違反のリスクがあります。2024年4月以降は、更新上限を設ける場合の書面明示義務と、無期転換申込機会・転換後労働条件の明示義務が追加されました。高度専門職（年収1,075万円以上の有期プロジェクト業務従事者）は第一種計画＋厚労大臣認定で10年まで特例延長可。定年後継続雇用の高齢者は第二種計画＋認定で継続雇用期間中は申込権なし。'})
+JA_SUMMARY.update({'mukitenkan': '同一使用者との有期労働契約が通算5年を超えて更新された場合、労働者は無期労働契約への転換を申し込む権利を持ちます（労働契約法18条）。使用者はこの申込みを拒否できず、法律上承諾したものとみなされます。転換後の労働条件は有期契約と原則同一（賃金・労働時間等は変わらない）ですが、解雇規制は正社員と同様に適用されます。クーリング期間（前契約1年以上なら6か月・未満なら前契約期間×½以上の空白）があると通算がリセットされますが、無期転換を回避する目的の意図的なクーリングは雇止め法理（19条）違反のリスクがあります。2024年4月以降は、更新上限を設ける場合の書面明示義務と、無期転換申込機会・転換後労働条件の明示義務が追加されました。高度専門職（年収1,075万円以上）は第一種計画の認定で業務完了まで（上限10年）申込権が発生せず、定年後継続雇用の高齢者は第二種計画の認定で継続雇用期間が通算されません。認定の申請先は主たる事業所の所在地を管轄する都道府県労働局長です。'})
 
 RELATED.update({'mukitenkan': ['rodo-joken-meiji', 'koyokeiyakusho-nai', 'kaiko-yokoku-teate']})
 
