@@ -876,6 +876,38 @@ body="""
 <h2>勞基署是什麼、為什麼來</h2>
 <p>勞基署是監督勞動基準法等法令遵守狀況的行政機關。調查（臨檢監督）大致有兩種：定期・計畫性的調查，以及<strong>員工（或離職員工）向勞基署申告而啟動的調查</strong>。突然來的調查，不少是後者。</p>
 <p>要注意的是，監督官不只是行政人員：有進入事業場、要求提交帳簿、詢問的權限，對惡質的違反案件還有作為司法警察職員送檢（移送檢察官・刑事程序）的權限。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 575" role="img" aria-label="勞動基準監督署的調查從臨檢監督走到送檢的流程示意圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">勞基署的調查會走到哪裡</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①臨檢監督（進場調查）</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">監督官可以進入事業場、要求提出帳簿書類，</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">並對雇主・員工詢問（勞基法101條1項）。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②交付是正勧告書・指導票</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">認定有違反就會交付要求改正的文書。</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">法律性質是行政指導（行政手續法2條6號）。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③期限內提出是正報告書</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">報告改正的內容。來不及的時候要事先商量，</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">以是正計畫報告進度。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④再監督</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">可能再來一次調查，確認改善的狀況。</text>
+<path d="M350.0 399 L350.0 415" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,415 355.0,415 350.0,423" fill="#8fa6c6"/>
+<rect x="90.0" y="425" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="446" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤送檢（刑事程序）</text>
+<text x="350.0" y="466" font-size="11.5" fill="#44596f" text-anchor="middle">監督官就勞基法違反之罪行使司法警察官的職務</text>
+<text x="350.0" y="485" font-size="11.5" fill="#44596f" text-anchor="middle">（勞基法102條）。放著不改正是典型。</text>
+<rect x="20" y="513" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="533" font-size="11.5" fill="#24313f" text-anchor="middle">是正勧告書是行政指導，不得以公司沒有遵從為理由作不利益的對待</text>
+<text x="350.0" y="552" font-size="11.5" fill="#24313f" text-anchor="middle">（行政手續法32條2項）。但放著不改正會成為送檢的開端，這一點不變。</text>
+</svg>
+<figcaption>勞基署從臨檢監督到送檢的流程（勞基法101條・102條，行政手續法2條6號）</figcaption></figure>
+
 <h2>調查後收到的文書：是正勧告書</h2>
 <p>調查發現違反，公司會收到「是正勧告書」（要求改正的文書）。它的法律性質是行政指導，不是強制處分。但這不代表可以輕視：</p>
 <ul>
@@ -883,6 +915,16 @@ body="""
 <li>做虛假的是正報告——同樣有送檢風險，而且會完全失去監督官的信任。</li>
 <li>改正之後，要在期限內提交「是正報告書」。之後也可能有確認改正狀況的「再監督」。</li>
 </ul>
+<table class="wrap1">
+<tr><th>調查場合容易做錯的行為</th><th>罰則</th><th>根據</th></tr>
+<tr><td>拒絕、妨害或規避臨檢</td><td>30萬日圓以下罰金</td><td>勞基法120條4號</td></tr>
+<tr><td>對詢問不陳述，或作虛偽陳述</td><td>30萬日圓以下罰金</td><td>勞基法120條4號</td></tr>
+<tr><td>不提出帳簿書類，或提出記載虛偽的帳簿書類</td><td>30萬日圓以下罰金</td><td>勞基法120條4號</td></tr>
+<tr><td>不報告、虛偽報告，或不出頭</td><td>30萬日圓以下罰金</td><td>勞基法120條5號</td></tr>
+<tr><td>以員工有申告為理由，解僱或作其他不利益對待</td><td>6個月以下拘禁刑或30萬日圓以下罰金</td><td>勞基法104條2項・119條1號</td></tr>
+</table>
+<p class="small">員工可以向行政官廳或勞動基準監督官申告違法的事實（勞基法104條1項）。去查出是誰申告再反映到待遇上，直接撞上上表最後一行。調查前改寫出勤紀錄，也會以提出虛偽記載的帳簿書類適用同樣的罰則。</p>
+
 <h2>正確的應對</h2>
 <ul>
 <li><strong>誠實應對</strong>：資料按要求準備，不隱匿、不加工。態度合作，主張該主張的事實。</li>
@@ -897,6 +939,38 @@ ja="""
 <p>ある日、労働基準監督署から連絡が入る。「調査に伺います。出勤記録と賃金台帳を準備してください」——。</p>
 <h3>労基署の調査とは</h3>
 <p>調査（臨検監督）には、定期的・計画的なものと、<strong>従業員（元従業員を含む）の申告を端緒とするもの</strong>があります。突然の調査は後者であることが少なくありません。監督官には事業場への立入り、帳簿の提出要求、尋問の権限があり、悪質な違反については司法警察職員として送検する権限もあります。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 575" role="img" aria-label="労働基準監督署の調査が臨検監督から送検まで進む流れを示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">労基署の調査はどこまで進むのか</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①臨検監督（立入調査）</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">監督官は事業場に臨検し、帳簿書類の提出を求め、</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">使用者・労働者に尋問できる（労基法101条1項）。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②是正勧告書・指導票の交付</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">違反が認められれば是正を求める文書が交付される。</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">法的性質は行政指導（行政手続法2条6号）。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③期限内に是正報告書を提出</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">是正の内容を報告する。期限に間に合わないときは</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">事前に相談し、是正計画で経過を報告する。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④再監督</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">改善状況を確認するための調査が行われることがある。</text>
+<path d="M350.0 399 L350.0 415" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,415 355.0,415 350.0,423" fill="#8fa6c6"/>
+<rect x="90.0" y="425" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="446" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤送検（刑事手続）</text>
+<text x="350.0" y="466" font-size="11.5" fill="#44596f" text-anchor="middle">監督官は労基法違反の罪について司法警察官の職務を</text>
+<text x="350.0" y="485" font-size="11.5" fill="#44596f" text-anchor="middle">行う（労基法102条）。是正しないまま放置が典型。</text>
+<rect x="20" y="513" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="533" font-size="11.5" fill="#24313f" text-anchor="middle">是正勧告書は行政指導であり、従わなかったことを理由に不利益な取扱いをすることは</text>
+<text x="350.0" y="552" font-size="11.5" fill="#24313f" text-anchor="middle">禁じられています（行政手続法32条2項）。それでも放置が送検の端緒になる点は変わりません。</text>
+</svg>
+<figcaption>労基署の臨検監督から送検までの流れ（労基法101条・102条、行政手続法2条6号）</figcaption></figure>
+
 <h3>是正勧告書の法的性質</h3>
 <p>違反が認められると「是正勧告書」が交付されます。法的性質は行政指導であり強制処分ではありませんが、軽視は禁物です。</p>
 <ul>
@@ -904,6 +978,16 @@ ja="""
 <li>虚偽の是正報告も同様に送検リスクがあり、監督官の信頼を完全に失います。</li>
 <li>是正後は期限内に是正報告書を提出します。後日、改善状況を確認する再監督もあり得ます。</li>
 </ul>
+<table class="wrap1">
+<tr><th>調査の場面でやってしまいがちな行為</th><th>罰則</th><th>根拠</th></tr>
+<tr><td>臨検を拒み、妨げ、又は忌避する</td><td>30万円以下の罰金</td><td>労基法120条4号</td></tr>
+<tr><td>尋問に対して陳述をせず、又は虚偽の陳述をする</td><td>30万円以下の罰金</td><td>労基法120条4号</td></tr>
+<tr><td>帳簿書類を提出せず、又は虚偽の記載をした帳簿書類を提出する</td><td>30万円以下の罰金</td><td>労基法120条4号</td></tr>
+<tr><td>報告をせず、虚偽の報告をし、又は出頭しない</td><td>30万円以下の罰金</td><td>労基法120条5号</td></tr>
+<tr><td>申告をしたことを理由に労働者を解雇その他不利益に取り扱う</td><td>6か月以下の拘禁刑又は30万円以下の罰金</td><td>労基法104条2項・119条1号</td></tr>
+</table>
+<p class="small">労働者は、法違反の事実を行政官庁又は労働基準監督官に申告することができます（労基法104条1項）。申告した者が誰かを突き止めて処遇に反映させることは、上の表の最後の行に直結します。出勤記録を調査前に書き換える行為も、虚偽記載の帳簿書類の提出として同じ罰則の対象です。</p>
+
 <h3>正しい対応</h3>
 <ul>
 <li><strong>誠実に対応する</strong>：資料は求めに応じて提出し、隠さない・加工しない。</li>
@@ -923,6 +1007,32 @@ body="""
 <p>之前的文章介紹過：在日本，解僱有效的門檻非常高。那麼，想和合不來的員工分開時，日本的公司實際上怎麼做？答案是「退職勧奨」——勸說合意離職的協商。</p>
 <h2>退職勧奨本身是合法的</h2>
 <p>向員工說明狀況、提示條件、請他考慮是否自願離職——這本身是合法的。因為最終決定權在員工手上。雙方合意、簽訂合意書離職的話，之後的紛爭風險大幅下降。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 262" role="img" aria-label="合法的退職勧奨與違法的退職強要對比圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">同樣一場面談，差別就在這條線</text>
+<rect x="20.0" y="36" width="322.0" height="133" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">合法的退職勧奨</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">說明公司的想法與條件</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">辭不辭由員工自己決定</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">被拒絕就先中斷</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">給了考慮時間才簽字</text>
+<text x="181.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">合意書寫明離職日與清算條項</text>
+<rect x="358.0" y="36" width="322.0" height="133" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">違法的退職強要</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">說「不答應就解僱」</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">為了逼走而調職・抽掉工作</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">拒絕後仍反覆長時間面談</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">當場逼他簽退職届</text>
+<text x="519.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">當眾羞辱・人格攻擊</text>
+<rect x="20" y="181" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">在沒有可解僱的理由下說「不答應就解僱」而取得的辭職意思表示，</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">可能以錯誤（民法95條1項）或脅迫（同法96條）為由被撤銷。</text>
+<text x="350.0" y="239" font-size="11.5" fill="#24313f" text-anchor="middle">撤銷一旦被認可，勞動契約仍然存續，爭訟期間的工資也要付。</text>
+</svg>
+<figcaption>退職勧奨變成違法退職強要的分界線</figcaption></figure>
+
 <h2>但做錯就變成「退職強要」</h2>
 <p>方法錯誤，合法的勸說會變成違法的強要，公司可能被命令支付賠償：</p>
 <ul>
@@ -939,6 +1049,39 @@ body="""
 <li><strong>給考慮時間</strong>：當場逼他簽字是典型的敗因。</li>
 <li><strong>簽訂合意書</strong>：離職日、補償額、清算條項（雙方確認再無其他債權債務）。這一紙防止之後的紛爭。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 594" role="img" aria-label="退職勧奨的進行方式分5個階段的示意圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">退職勧奨怎麼進行——5個階段</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①整理事實</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">把指導紀錄・評價・面談紀錄按時間排好，</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">只使用公司能說明清楚的事實。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②設計面談</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">公司方2人。每次控制在30分鐘到1小時，</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">進行方式與記錄方法事先決定。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③提示條件</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">提出離職日・補償額・年休的處理方式。</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">和走到解僱紛爭的成本比較後判斷。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④給考慮時間</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">不當場要求簽字。訂一個回覆期限，</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">讓他帶回去想。</text>
+<path d="M350.0 418 L350.0 434" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,434 355.0,434 350.0,442" fill="#8fa6c6"/>
+<rect x="90.0" y="444" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="465" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤簽訂合意書</text>
+<text x="350.0" y="485" font-size="11.5" fill="#44596f" text-anchor="middle">把離職日・離職事由・補償額・清算條項・</text>
+<text x="350.0" y="504" font-size="11.5" fill="#44596f" text-anchor="middle">口外禁止條項寫成書面。</text>
+<rect x="20" y="532" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="552" font-size="11.5" fill="#24313f" text-anchor="middle">已經被拒絕還反覆面談，勸說本身就有被認定為侵權行為的空間。</text>
+<text x="350.0" y="571" font-size="11.5" fill="#24313f" text-anchor="middle">被拒絕的時點留下紀錄並中斷，下一步改以配置與業務的檢討另行處理。</text>
+</svg>
+<figcaption>讓退職勧奨成立為合意離職的步驟</figcaption></figure>
+
 <p>重點：退職勧奨的目標不是「贏」，而是雙方都能接受地結束。善意和禮貌，既是法律風險對策，也是談成的秘訣。</p>
 """,
 ja="""
@@ -946,6 +1089,32 @@ ja="""
 <p>日本では解雇が有効となるハードルが非常に高い——では、合わない従業員と別れたいとき、実務ではどうするか。答えが「退職勧奨」（合意退職の協議）です。</p>
 <h3>退職勧奨自体は適法</h3>
 <p>状況を説明し、条件を提示し、自発的な退職を検討してもらうこと自体は適法です。最終的な決定権は従業員にあります。合意書を交わして退職すれば、その後の紛争リスクは大きく下がります。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 262" role="img" aria-label="適法な退職勧奨と違法な退職強要の分かれ目を対比した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">同じ面談でも、この一線で結論が変わる</text>
+<rect x="20.0" y="36" width="322.0" height="133" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">適法な退職勧奨</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">会社の考えと条件を説明する</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">辞めるかどうかは本人が決める</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">断られたらいったん中断する</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">考える時間を渡してから署名</text>
+<text x="181.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">合意書に退職日と清算条項</text>
+<rect x="358.0" y="36" width="322.0" height="133" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">違法な退職強要</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">「応じなければ解雇」と告げる</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">退職させる目的の配転・仕事外し</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">拒否後も繰り返す長時間の面談</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">その場で退職届の署名を迫る</text>
+<text x="519.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">見せしめ的な扱い・人格攻撃</text>
+<rect x="20" y="181" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">解雇できる理由がないのに「応じなければ解雇」と告げて得た退職の意思表示は、</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">錯誤（民法95条1項）又は強迫（同法96条）として取り消され得ます。</text>
+<text x="350.0" y="239" font-size="11.5" fill="#24313f" text-anchor="middle">取消しが認められれば労働契約は続き、係争期間中の賃金の支払義務が残ります。</text>
+</svg>
+<figcaption>退職勧奨が違法な退職強要に転じる分かれ目</figcaption></figure>
+
 <h3>やり方を誤ると「退職強要」に</h3>
 <ul>
 <li><strong>禁句は「応じなければ解雇」</strong>：解雇を背景に取得した退職の意思表示は、錯誤・強迫を理由に取消し等が認められ得ます。振出しに戻るうえ、係争期間中の賃金リスクも生じます。</li>
@@ -961,6 +1130,39 @@ ja="""
 <li><strong>考える時間を与える</strong>：その場で署名を迫るのは典型的な敗因。</li>
 <li><strong>合意書の締結</strong>：退職日・補償額・清算条項。この1枚が後日の紛争を防ぎます。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 594" role="img" aria-label="退職勧奨の進め方を5つの段階に分けて示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">退職勧奨の進め方——5つの段階</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①事実を整理する</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">指導記録・評価・面談記録を時系列に並べ、</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">会社として説明できる事実だけを使う。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②面談を設計する</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">会社側は2名。1回30分から1時間程度にとどめ、</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">進め方と記録の方法を先に決める。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③条件を提示する</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">退職日・補償額・年次有給休暇の取扱いを示す。</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">解雇紛争になった場合のコストと比べて判断する。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④考える時間を渡す</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">その場で署名を求めない。回答期限を定めて</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">持ち帰ってもらう。</text>
+<path d="M350.0 418 L350.0 434" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,434 355.0,434 350.0,442" fill="#8fa6c6"/>
+<rect x="90.0" y="444" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="465" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤合意書を締結する</text>
+<text x="350.0" y="485" font-size="11.5" fill="#44596f" text-anchor="middle">退職日・退職事由・補償額・清算条項・</text>
+<text x="350.0" y="504" font-size="11.5" fill="#44596f" text-anchor="middle">口外禁止条項を書面にする。</text>
+<rect x="20" y="532" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="552" font-size="11.5" fill="#24313f" text-anchor="middle">拒否されたのに面談を繰り返すと、勧奨そのものが不法行為と評価される余地が生じます。</text>
+<text x="350.0" y="571" font-size="11.5" fill="#24313f" text-anchor="middle">断られた時点で記録を残して中断し、次の一手は配置や業務の見直しとして別に検討します。</text>
+</svg>
+<figcaption>退職勧奨を合意退職として成立させるための手順</figcaption></figure>
+
 <p>退職勧奨のゴールは「勝つ」ことではなく、双方が納得して終えることです。</p>
 """),
 dict(
@@ -2050,6 +2252,42 @@ body="""
 <li><strong>第4階：較重懲戒（減給・出勤停止）</strong>——減給有法定上限（勞動基準法91條）。</li>
 <li><strong>第5階：解僱的檢討</strong>——有了上述累積，解僱的有效性才站得住。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 556" role="img" aria-label="顯示對反覆遲到曠職的員工的對應的5個階梯的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">解僱之前要走完的5個階梯</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①口頭注意＋留下紀錄</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">把注意過的事實留在郵件・日報裡。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">沒有紀錄的指導，在法庭上等於不存在。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②書面的指導・警告</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">特定日期・次數等事實，具體寫出要改善的內容。</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">並明記再犯時可能成為處分的對象。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③輕度懲戒（譴責・戒告）</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">出示就業規則的根據條款，給予辯明機會。</text>
+<path d="M350.0 297 L350.0 313" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,313 355.0,313 350.0,321" fill="#8fa6c6"/>
+<rect x="90.0" y="323" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="344" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④較重懲戒（減給・出勤停止）</text>
+<text x="350.0" y="364" font-size="11.5" fill="#44596f" text-anchor="middle">減給有勞動基準法91條的上限。</text>
+<path d="M350.0 380 L350.0 396" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,396 355.0,396 350.0,404" fill="#8fa6c6"/>
+<rect x="90.0" y="406" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="427" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤檢討解僱</text>
+<text x="350.0" y="447" font-size="11.5" fill="#44596f" text-anchor="middle">有了①〜④的累積，有效性才站得住。</text>
+<text x="350.0" y="466" font-size="11.5" fill="#44596f" text-anchor="middle">先確認曠職背後有沒有身心不調。</text>
+<rect x="20" y="494" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="514" font-size="11.5" fill="#24313f" text-anchor="middle">懲戒處分與解僱都需要客觀上合理的理由與社會通念上的相當性</text>
+<text x="350.0" y="533" font-size="11.5" fill="#24313f" text-anchor="middle">（勞動契約法15條・16條）。跳過階梯的重處分，容易被認定欠缺相當性。</text>
+</svg>
+<figcaption>對遲到・曠職的對應的5個階梯</figcaption></figure>
+<table class="wrap1">
+<tr><th>限制</th><th>勞動基準法91條的內容</th><th>平均工資1萬日圓・一個工資支付期的工資總額30萬日圓時</th></tr>
+<tr><td>1次的金額</td><td>不得超過平均工資1日份的半額</td><td>最多5,000日圓</td></tr>
+<tr><td>總額</td><td>不得超過一個工資支付期的工資總額的10分之1</td><td>最多3萬日圓</td></tr>
+</table>
+<p class="small">平均工資是指，應計算的事由發生日之前3個月間支付給該勞工的工資總額，除以該期間的總日數所得的金額（勞動基準法12條1項）。</p>
 <h2>紀錄是一切</h2>
 <p>日本的解僱訴訟，法院看的是「公司給過改善機會嗎」「有證據嗎」。出勤紀錄、警告書、本人的回應——沒有紀錄的指導，在法庭上等於不存在。</p>
 <h2>注意：曠職的「理由」要先查</h2>
@@ -2067,6 +2305,42 @@ ja="""<h2>【日本語版】遅刻・無断欠勤を繰り返す社員——解�
 <li><strong>④重めの懲戒（減給・出勤停止）</strong>——減給には法定の上限があります（労基法91条）</li>
 <li><strong>⑤解雇の検討</strong>——この積み上げがあって初めて有効性が支えられます</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 556" role="img" aria-label="遅刻や無断欠勤を繰り返す社員への対応を5段階で示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">解雇の前に踏む5段階</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①口頭注意＋記録化</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">注意した事実をメール・日報に残す。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">記録のない指導は、法廷では存在しないのと同じです。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②書面での指導・警告</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">日時・回数など事実を特定し、改善事項を具体的に書く。</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">再び繰り返せば処分の対象となることも明記する。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③軽い懲戒（けん責・戒告）</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">就業規則の根拠条項を示し、弁明の機会を与える。</text>
+<path d="M350.0 297 L350.0 313" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,313 355.0,313 350.0,321" fill="#8fa6c6"/>
+<rect x="90.0" y="323" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="344" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④重めの懲戒（減給・出勤停止）</text>
+<text x="350.0" y="364" font-size="11.5" fill="#44596f" text-anchor="middle">減給には労基法91条の上限がある。</text>
+<path d="M350.0 380 L350.0 396" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,396 355.0,396 350.0,404" fill="#8fa6c6"/>
+<rect x="90.0" y="406" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="427" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤解雇の検討</text>
+<text x="350.0" y="447" font-size="11.5" fill="#44596f" text-anchor="middle">①〜④の積み上げがあって初めて、有効性が支えられる。</text>
+<text x="350.0" y="466" font-size="11.5" fill="#44596f" text-anchor="middle">欠勤の背後に不調がないかを先に確認しておく。</text>
+<rect x="20" y="494" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="514" font-size="11.5" fill="#24313f" text-anchor="middle">懲戒処分も解雇も、客観的に合理的な理由と社会通念上の相当性が必要です</text>
+<text x="350.0" y="533" font-size="11.5" fill="#24313f" text-anchor="middle">（労働契約法15条・16条）。段階を飛ばした重い処分は、相当性を欠くと判断されやすくなります。</text>
+</svg>
+<figcaption>遅刻・無断欠勤への対応の5段階</figcaption></figure>
+<table class="wrap1">
+<tr><th>制限</th><th>労基法91条の内容</th><th>平均賃金1万円・一賃金支払期の賃金総額30万円の場合</th></tr>
+<tr><td>1回の額</td><td>平均賃金の1日分の半額を超えてはならない</td><td>5,000円まで</td></tr>
+<tr><td>総額</td><td>一賃金支払期における賃金の総額の10分の1を超えてはならない</td><td>3万円まで</td></tr>
+</table>
+<p class="small">平均賃金は、算定すべき事由の発生した日以前3か月間に支払われた賃金の総額を、その期間の総日数で除した金額です（労基法12条1項）。</p>
 <h3>記録がすべて</h3>
 <p>裁判所が見るのは「改善の機会を与えたか」「証拠はあるか」。記録のない指導は法廷では存在しないのと同じです。</p>
 <h3>欠勤の「理由」を先に確認する</h3>
@@ -3203,6 +3477,17 @@ body="""
 <li><strong>雇用保險的被保險者資格喪失屆</strong>：離職日的<strong>翌翌日起10日以內</strong>向Hello Work（雇用保險法施行規則7條）。本人不希望交付離職票的場合以外，<strong>要附離職證明書</strong>。</li>
 <li>遲延的代價不是罰則而是紛爭：「離職票還沒來」「保險證沒處理所以看不了醫生」的電話，會把單純的退職變成感情對立，進而變成殘業代・解僱的爭訟。</li>
 </ul>
+<table class="wrap1">
+<tr><th>公司要辦的手續・交付的文件</th><th>期限</th><th>提出・交付對象</th><th>根據</th></tr>
+<tr><td>健康保險・厚生年金的被保險者資格喪失屆</td><td>資格喪失事實發生之日起5日以內</td><td>日本年金機構（健保組合）</td><td>健康保險法施行規則29條1項・厚生年金保險法施行規則22條1項</td></tr>
+<tr><td>雇用保險的被保險者資格喪失屆（附離職證明書）</td><td>不再是被保險者的事實發生之日的翌日起算10日以內</td><td>管轄事業所的Hello Work</td><td>雇用保險法施行規則7條1項</td></tr>
+<tr><td>薪資的源泉徵收票</td><td>退職日之後1個月以內</td><td>交付本人1通（1通給稅務署）</td><td>所得稅法226條1項</td></tr>
+<tr><td>退職所得的源泉徵收票（付了退職金的場合）</td><td>退職日之後1個月以內</td><td>交付本人1通（1通給稅務署）</td><td>所得稅法226條2項</td></tr>
+<tr><td>退職證明書</td><td>有請求時不得遲滯</td><td>本人</td><td>勞動基準法22條1項</td></tr>
+<tr><td>解僱理由證明書</td><td>有請求時不得遲滯</td><td>本人</td><td>勞動基準法22條2項</td></tr>
+<tr><td>未付工資・積立金等金品的返還</td><td>權利人請求後7日以內</td><td>權利人</td><td>勞動基準法23條1項</td></tr>
+</table>
+<p class="small">離職票不是公司直接交付的文件，而是公司把離職證明書附在資格喪失屆一起提出後，由Hello Work交付。本人不希望交付離職票時可以省略附離職證明書，但離職日當天已滿59歲的被保險者不能省略（雇用保險法施行規則7條3項）。</p>
 <h2>離職理由的記載——最危險的一欄</h2>
 <p>離職證明書的離職理由欄（自己都合／會社都合＝解僱・倒產等／正當理由的自己都合）會決定對方的給付制限與給付日數。本人可以向Hello Work申出異議，Hello Work會向公司照會並調查賃金台帳・出勤簿。</p>
 <ul>
@@ -3218,6 +3503,35 @@ body="""
 <li>失業給付：自己都合的給付制限2025年4月起從2個月縮短為原則1個月（5年內3次以上是3個月）。</li>
 <li>外國人員工：回國的場合有年金的脫退一時金（出國後2年以內）——這部分的案內請參照相關文章。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 224" role="img" aria-label="整理退職後本人要自己辦的健康保險與國民年金手續期限的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">退職後本人要自己辦的手續</text>
+<rect x="20.0" y="36" width="209.33333333333334" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="209.33333333333334" height="25" rx="7" fill="#8fa6c6"/>
+<text x="124.66666666666667" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">加入國民健康保險</text>
+<text x="124.66666666666667" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">14天以內</text>
+<text x="124.66666666666667" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">到市區町村窗口</text>
+<text x="124.66666666666667" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">國民健康保險法</text>
+<text x="124.66666666666667" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">施行規則3條</text>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="114" rx="7" fill="#fbf3e2" stroke="#d8b877"/>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="25" rx="7" fill="#d8b877"/>
+<text x="350.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">健康保險的任意繼續</text>
+<text x="350.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">20天以內</text>
+<text x="350.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">從資格喪失日起算</text>
+<text x="350.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">健康保險法37條1項</text>
+<text x="350.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">過期原則上不能選</text>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="25" rx="7" fill="#8fa6c6"/>
+<text x="575.3333333333334" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">國民年金的種別變更</text>
+<text x="575.3333333333334" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">14天以內</text>
+<text x="575.3333333333334" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">到市區町村窗口</text>
+<text x="575.3333333333334" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">國民年金法施行規則</text>
+<text x="575.3333333333334" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">6條之2第1項</text>
+<rect x="20" y="162" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">法律上公司沒有說明義務，但在退職面談時交付一張寫了期限的案內，</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">就能避免「公司沒告訴我害我損失」的糾纏。</text>
+</svg>
+<figcaption>退職後本人要自己辦的手續與期限</figcaption></figure>
 <h2>退職證明書：只能寫員工請求的事項</h2>
 <p>勞基法22條3項明定，證明書<strong>不得記入員工沒有請求的事項</strong>。員工只請求「使用期間・業務種類」時，公司擅自加上「懲戒解僱」的記載＝違法，而且會直接變成轉職妨害的損害賠償請求的材料。22條4項也禁止與第三者謀議、就國籍・信條・工會活動發送秘密記號（黑名單的禁止）。前職調查的照會來的時候，<strong>本人同意的範圍內・事實的範圍內</strong>回答是鐵則。</p>
 """,
@@ -3236,6 +3550,17 @@ ja="""<h2>【日本語版】従業員の退職時に会社が交付する書類�
 <li><strong>雇用保険の被保険者資格喪失届</strong>：離職日の<strong>翌々日から10日以内</strong>にハローワークへ（雇用保険法施行規則7条）。本人が離職票の交付を希望しない場合を除き、離職証明書を添付します。</li>
 <li>遅延の代償は罰則ではなく紛争です。「離職票が来ない」「保険証の処理がされず受診できない」という連絡が感情的対立を生み、やがて残業代や解雇の争訟に発展します。</li>
 </ul>
+<table class="wrap1">
+<tr><th>会社が行う手続・交付する書類</th><th>期限</th><th>提出・交付先</th><th>根拠</th></tr>
+<tr><td>健康保険・厚生年金保険の被保険者資格喪失届</td><td>資格喪失の事実があった日から5日以内</td><td>日本年金機構（健康保険組合）</td><td>健康保険法施行規則29条1項・厚生年金保険法施行規則22条1項</td></tr>
+<tr><td>雇用保険の被保険者資格喪失届（離職証明書を添付）</td><td>被保険者でなくなった事実のあった日の翌日から起算して10日以内</td><td>事業所を管轄するハローワーク</td><td>雇用保険法施行規則7条1項</td></tr>
+<tr><td>給与の源泉徴収票</td><td>退職の日以後1か月以内</td><td>本人に1通交付（1通は税務署）</td><td>所得税法226条1項</td></tr>
+<tr><td>退職所得の源泉徴収票（退職金を支払った場合）</td><td>退職の日以後1か月以内</td><td>本人に1通交付（1通は税務署）</td><td>所得税法226条2項</td></tr>
+<tr><td>退職証明書</td><td>請求があれば遅滞なく</td><td>本人</td><td>労働基準法22条1項</td></tr>
+<tr><td>解雇理由証明書</td><td>請求があれば遅滞なく</td><td>本人</td><td>労働基準法22条2項</td></tr>
+<tr><td>未払賃金・積立金その他の金品の返還</td><td>権利者の請求から7日以内</td><td>権利者</td><td>労働基準法23条1項</td></tr>
+</table>
+<p class="small">離職票は会社が直接交付する書類ではなく、資格喪失届に離職証明書を添えて提出し、ハローワークが交付します。本人が離職票の交付を希望しないときは離職証明書の添付を省略できますが、離職の日に59歳以上である被保険者については省略できません（雇用保険法施行規則7条3項）。</p>
 <h3>離職理由の記載——最も危険な一欄</h3>
 <p>離職証明書の離職理由欄（自己都合／会社都合＝解雇・倒産等／正当な理由のある自己都合）は、本人の給付制限と給付日数を左右します。本人はハローワークに異議を申し出ることができ、ハローワークは会社に照会し、賃金台帳・出勤簿を調査します。</p>
 <ul>
@@ -3251,6 +3576,35 @@ ja="""<h2>【日本語版】従業員の退職時に会社が交付する書類�
 <li>失業給付：自己都合の給付制限は2025年4月から原則1か月に短縮されました（5年内3回以上は3か月）。</li>
 <li>外国人従業員：帰国する場合は年金の脱退一時金（出国後2年以内）の案内を（関連記事参照）。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 224" role="img" aria-label="退職後に本人が行う健康保険・国民年金の手続と期限を並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">退職後に本人が自分で行う手続</text>
+<rect x="20.0" y="36" width="209.33333333333334" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="209.33333333333334" height="25" rx="7" fill="#8fa6c6"/>
+<text x="124.66666666666667" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">国民健康保険に加入</text>
+<text x="124.66666666666667" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">14日以内</text>
+<text x="124.66666666666667" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">市区町村の窓口へ</text>
+<text x="124.66666666666667" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">国民健康保険法</text>
+<text x="124.66666666666667" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">施行規則3条</text>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="114" rx="7" fill="#fbf3e2" stroke="#d8b877"/>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="25" rx="7" fill="#d8b877"/>
+<text x="350.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">健康保険の任意継続</text>
+<text x="350.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">20日以内</text>
+<text x="350.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">資格喪失日から数える</text>
+<text x="350.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">健康保険法37条1項</text>
+<text x="350.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">経過後は原則選べない</text>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="25" rx="7" fill="#8fa6c6"/>
+<text x="575.3333333333334" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">国民年金の種別変更</text>
+<text x="575.3333333333334" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">14日以内</text>
+<text x="575.3333333333334" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">市区町村の窓口へ</text>
+<text x="575.3333333333334" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">国民年金法施行規則</text>
+<text x="575.3333333333334" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">6条の2第1項</text>
+<rect x="20" y="162" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">会社に説明義務はありませんが、退職面談で期限を書いた案内を渡しておくと、</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">「会社が教えてくれなかった」という蒸し返しを防げます。</text>
+</svg>
+<figcaption>退職後に本人が自分で行う手続の期限</figcaption></figure>
 <h3>退職証明書は請求された事項だけ</h3>
 <p>労基法22条3項は、証明書に<strong>労働者が請求しない事項を記入してはならない</strong>と定めています。本人が「使用期間・業務の種類」だけを請求したときに、会社が勝手に「懲戒解雇」と書き加えるのは違法であり、転職妨害による損害賠償請求の材料に直結します。22条4項は第三者との謀議や、国籍・信条・組合活動に関する秘密の記号の記入（ブラックリストの禁止）も禁じています。前職調査の照会を受けたときは、本人の同意の範囲内・事実の範囲内で答えるのが鉄則です。</p>
 """),
@@ -4012,9 +4366,45 @@ body="""
 <li>逮捕只是偵查的開始，之後可能不起訴（日本的案件相當比例以不起訴終結）。不起訴後解僱無效的風險極高。</li>
 <li>先做的事：①事實確認（本人・律師・家屬聯繫）②缺勤的處理（逮捕羈押中無法上班→原則無薪缺勤）③對外・對內的資訊管理（在確定前擴散「他犯罪了」有名譽毀損風險）。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 492" role="img" aria-label="從逮捕到判決確定各階段公司對應的流程圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">從逮捕到判決確定公司的對應</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">① 逮捕・羈押</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">事實確認（本人・律師・家屬）與缺勤的處理</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">原則無薪缺勤。這個階段不要解僱</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">② 起訴（或不起訴）</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">不起訴的話，起訴休職的前提本身就崩了</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">被起訴才檢討就業規則的起訴休職要件</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③ 公判中</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">休職的長期化本身就是審查的對象</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">確認出庭能否用年休處理</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④ 判決確定</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">依有罪的內容與職務的關聯檢討懲戒可否</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">無罪的話，休職處分的效力本身會成問題</text>
+<rect x="20" y="430" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="450" font-size="11.5" fill="#24313f" text-anchor="middle">羈押中無法提供勞務，原則上不發生工資。</text>
+<text x="350.0" y="469" font-size="11.5" fill="#24313f" text-anchor="middle">但休職處分被認定無效時，依民法536條2項不喪失工資請求權。</text>
+</svg>
+<figcaption>逮捕・起訴各階段公司該做的對應</figcaption></figure>
 <h2>起訴之後：起訴休職制度</h2>
 <p>多數公司就業規則有「因刑事事件被起訴者，得令其休職」的規定。但法院對起訴休職做<strong>限定解釋</strong>：全日本空輸事件（東京地方裁判所平成11年2月15日判決・勞動判例760號46頁）認為，起訴的事實使<strong>職務遂行有支障</strong>，或使<strong>企業的對外信用・職場秩序受損</strong>的情形，起訴休職才有效；且預想的懲戒處分和休職的不利益不能顯失均衡。</p>
 <p>也就是：後勤職種・和業務無關的輕微私生活犯罪，「一律起訴休職」可能無效。起訴休職中原則無薪，但這段期間的長期化本身也會被審查。</p>
+<table class="wrap1">
+<thead><tr><th>要件</th><th>內容</th></tr></thead>
+<tbody>
+<tr><td>只有被起訴的事實不夠</td><td>不能形式地適用起訴休職的規定</td></tr>
+<tr><td>考慮諸般的事情</td><td>職務的性質、公訴事實的內容、有無身柄拘束等</td></tr>
+<tr><td>有產生障礙之虞</td><td>①對外信用的失墜或職場秩序的維持上的障礙，②勞務的繼續給付或企業活動的圓滑遂行上的障礙——有其中之一之虞</td></tr>
+<tr><td>不能顯失均衡</td><td>休職造成的不利益程度，與該起訴對象的事實被確定認定時可能做出的懲戒處分內容相比，不能顯失均衡</td></tr>
+</tbody></table>
+<p class="small">東京地方裁判所平成11年2月15日判決・勞動判例760號46頁〔全日本空輸事件〕。該案中，機長因私生活上的傷害事件被起訴後所受的無薪起訴休職處分，被認定不符上述要件而無效，並依民法536條2項認可休職期間中的工資請求。</p>
 <h2>懲戒處分的可否</h2>
 <ul>
 <li>私生活上的犯罪原則上不是懲戒對象，例外是對公司的信用・秩序有具體影響時（報導時公司名被連結・職務性質與犯罪類型相關等）。</li>
@@ -4029,9 +4419,45 @@ ja="""<h2>【日本語版】従業員が逮捕・起訴されたら——即時�
 <li>逮捕は捜査の入口にすぎず、不起訴で終わる事件も相当数あります。不起訴後に解雇無効を争われるリスクは重大です。</li>
 <li>先にすべきこと：①事実確認（本人・弁護人・家族との連絡）②欠勤の処理（身柄拘束中は労務提供不能→原則無給欠勤）③情報管理（確定前に「犯罪者だ」と社内外に広めると名誉毀損リスク）。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 492" role="img" aria-label="逮捕から判決確定までの各段階における会社の対応の流れ図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">逮捕から判決確定までの会社の対応</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">① 逮捕・身柄拘束</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">事実確認（本人・弁護人・家族）と欠勤の処理</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">原則として無給欠勤。この段階で解雇はしない</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">② 起訴（又は不起訴）</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">不起訴なら、起訴休職の前提そのものが崩れる</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">起訴されたら就業規則の起訴休職の要件を検討</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③ 公判中</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">休職の長期化自体が審査の対象になる</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">公判期日への出頭が年休で足りるかを確認する</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④ 判決確定</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">有罪の内容と職務との関連で懲戒の可否を検討</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">無罪なら、休職処分の効力自体が問題になる</text>
+<rect x="20" y="430" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="450" font-size="11.5" fill="#24313f" text-anchor="middle">身柄拘束中は労務の提供ができないため、原則として賃金は発生しません。</text>
+<text x="350.0" y="469" font-size="11.5" fill="#24313f" text-anchor="middle">他方、休職処分が無効とされた場合は、民法536条2項により賃金請求権を失いません。</text>
+</svg>
+<figcaption>逮捕・起訴の各段階で会社が行うべき対応</figcaption></figure>
 <h3>起訴後：起訴休職制度</h3>
 <p>多くの就業規則には「刑事事件で起訴された者は休職を命ずることがある」との定めがあります。ただし裁判所は起訴休職を<strong>限定解釈</strong>しています。全日本空輸事件（東京地判平成11年2月15日労働判例760号46頁）は、起訴された事実により<strong>職務遂行に支障</strong>が生じるか、<strong>企業の対外的信用・職場秩序が害される</strong>場合に限って有効とし、さらに想定される懲戒処分と休職の不利益が著しく不均衡でないことも要求しました。</p>
 <p>つまり、業務と無関係な軽微な私生活上の犯罪について「起訴されたら一律休職」は無効になり得ます。起訴休職中は原則無給ですが、その長期化自体も審査の対象です。</p>
+<table class="wrap1">
+<thead><tr><th>要件</th><th>内容</th></tr></thead>
+<tbody>
+<tr><td>起訴の事実だけでは足りない</td><td>形式的に起訴休職の規定を適用することはできない</td></tr>
+<tr><td>諸般の事情を考慮する</td><td>職務の性質、公訴事実の内容、身柄拘束の有無など</td></tr>
+<tr><td>障害が生ずるおそれ</td><td>①対外的信用の失墜又は職場秩序の維持への障害、②労務の継続的な給付又は企業活動の円滑な遂行への障害——いずれかのおそれがあること</td></tr>
+<tr><td>均衡を欠かないこと</td><td>休職による不利益の程度が、起訴の対象となった事実が確定的に認められた場合に行われる可能性のある懲戒処分の内容と比較して、明らかに均衡を欠く場合でないこと</td></tr>
+</tbody></table>
+<p class="small">東京地判平成11年2月15日労働判例760号46頁〔全日本空輸事件〕。同事件では、機長が私生活上の傷害事件で起訴された後の無給の起訴休職処分について、これらの要件を満たさないとして無効とされ、民法536条2項により休職期間中の賃金請求が認められました。</p>
 <h3>懲戒処分の可否</h3>
 <ul>
 <li>私生活上の犯罪は原則として懲戒の対象外。例外は会社の信用・秩序への具体的影響がある場合（報道で社名が結び付く、職務の性質と犯罪類型が関連する等）です。</li>
@@ -5416,6 +5842,32 @@ body="""
 <p>解僱無效＝勞動契約一直存續。員工不能上班是因為<strong>公司拒絕受領勞務</strong>（違法解僱），可歸責於公司，所以員工不喪失工資請求權（民法536條2項）。訴訟通常要1〜2年，月薪40萬日圓的員工就是500〜1000萬日圓——加上這段期間的社會保險・可能的賞與，金額更大。</p>
 <h2>員工在別處賺的錢可以扣嗎——あけぼのタクシー事件</h2>
 <p>解僱期間中員工在別處工作賺的收入（中間收入），公司可以從バックペイ扣除。但最高裁判所あけぼのタクシー事件（最高裁判所昭和62年4月2日判決・勞動判例506號20頁）設了限制：<strong>平均工資6成的部分不能扣</strong>（勞動基準法26條的休業手當保障趣旨）。可以扣的只有超過6成的部分，而且限於<strong>同一期間</strong>的中間收入。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 208" role="img" aria-label="顯示解僱期間中的工資裡能扣除中間收入的範圍的帶狀圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">中間收入可以扣到哪裡</text>
+<rect x="24" y="52" width="391.2" height="46" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="219.6" y="72" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">不能扣</text>
+<text x="219.6" y="89" font-size="11" fill="#24313f" text-anchor="middle">到平均工資6成為止</text>
+<rect x="415.2" y="52" width="260.8" height="46" rx="5" fill="#e9f3ec" stroke="#8fbf9f"/>
+<text x="545.6" y="72" font-size="12" fill="#1f6b3a" text-anchor="middle" font-weight="bold">可以扣</text>
+<text x="545.6" y="89" font-size="11" fill="#24313f" text-anchor="middle">超過6成的部分</text>
+<rect x="20" y="108" width="660" height="90" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="128" font-size="11.5" fill="#24313f" text-anchor="middle">可以扣的只限於與工資的支給對象期間在時期上對應的期間內所得的中間收入。</text>
+<text x="350.0" y="147" font-size="11.5" fill="#24313f" text-anchor="middle">中間收入超過平均工資4成時，還可以以賞與等（勞動基準法12條4項的工資）</text>
+<text x="350.0" y="166" font-size="11.5" fill="#24313f" text-anchor="middle">為對象，扣除超過的部分。</text>
+<text x="350.0" y="185" font-size="11.5" fill="#24313f" text-anchor="middle">最高裁判所第一小法庭昭和62年4月2日判決・勞動判例506號20頁</text>
+</svg>
+<figcaption>解僱期間中的工資能扣除中間收入的範圍</figcaption></figure>
+<table class="wrap1">
+<tr><th>項目</th><th>金額</th></tr>
+<tr><td>解僱期間中的工資（月40萬日圓×18個月）</td><td>720萬日圓</td></tr>
+<tr><td>禁止扣除的部分（平均工資6成＝月24萬日圓×18個月）</td><td>432萬日圓</td></tr>
+<tr><td>可扣除部分的上限（月16萬日圓×18個月）</td><td>288萬日圓</td></tr>
+<tr><td>在別處所得的中間收入（月20萬日圓×18個月）</td><td>360萬日圓</td></tr>
+<tr><td>實際可以扣除的金額</td><td>288萬日圓</td></tr>
+<tr><td>公司要支付的金額</td><td>432萬日圓</td></tr>
+</table>
+<p class="small">這是為了說明而單純化的例子。有賞與等的場合，中間收入超過平均工資4成的部分還會成為扣除的對象，需要另外計算。</p>
 <h2>公司端的風險管理</h2>
 <ul>
 <li>解僱前就要評估：敗訴時的バックペイ＝月薪×預計訴訟期間。這個數字應該放在「要不要用退職勧奨解決」的天秤上。</li>
@@ -5431,6 +5883,32 @@ ja="""<h2>【日本語版】解雇無効なら「その間の賃金全額」—�
 <p>解雇が無効なら労働契約は存続しています。従業員が働けなかったのは<strong>会社が労務の受領を拒んだ</strong>（違法解雇した）からであり、会社の帰責事由による履行不能として賃金請求権は失われません（民法536条2項）。訴訟は通常1〜2年。月給40万円なら500〜1,000万円に達し、社会保険や賞与も問題になります。</p>
 <h3>他社で稼いだ分は控除できるか——あけぼのタクシー事件</h3>
 <p>解雇期間中に従業員が他で得た収入（中間収入）は控除できますが、最高裁あけぼのタクシー事件（最一小判昭和62年4月2日労働判例506号20頁）は、<strong>平均賃金の6割に達するまでの部分は控除できない</strong>としました（労基法26条の休業手当の保障趣旨）。控除できるのは6割を超える部分のみで、かつ<strong>時期的に対応する期間</strong>の中間収入に限られます。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 208" role="img" aria-label="解雇期間中の賃金のうち中間収入を控除できる範囲を示した帯図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">中間収入はどこまで控除できるか</text>
+<rect x="24" y="52" width="391.2" height="46" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="219.6" y="72" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">控除できない</text>
+<text x="219.6" y="89" font-size="11" fill="#24313f" text-anchor="middle">平均賃金の6割に達するまで</text>
+<rect x="415.2" y="52" width="260.8" height="46" rx="5" fill="#e9f3ec" stroke="#8fbf9f"/>
+<text x="545.6" y="72" font-size="12" fill="#1f6b3a" text-anchor="middle" font-weight="bold">控除できる</text>
+<text x="545.6" y="89" font-size="11" fill="#24313f" text-anchor="middle">6割を超える部分</text>
+<rect x="20" y="108" width="660" height="90" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="128" font-size="11.5" fill="#24313f" text-anchor="middle">控除できるのは、賃金の支給対象期間と時期的に対応する期間内に得た中間収入に限られます。</text>
+<text x="350.0" y="147" font-size="11.5" fill="#24313f" text-anchor="middle">中間収入が平均賃金の4割を超えるときは、さらに賞与等（労基法12条4項の賃金）を</text>
+<text x="350.0" y="166" font-size="11.5" fill="#24313f" text-anchor="middle">対象として、超過分を控除することができます。</text>
+<text x="350.0" y="185" font-size="11.5" fill="#24313f" text-anchor="middle">最一小判昭和62年4月2日労働判例506号20頁</text>
+</svg>
+<figcaption>解雇期間中の賃金からの中間収入の控除の限界</figcaption></figure>
+<table class="wrap1">
+<tr><th>項目</th><th>金額</th></tr>
+<tr><td>解雇期間中の賃金（月40万円×18か月）</td><td>720万円</td></tr>
+<tr><td>控除が禁止される部分（平均賃金の6割＝月24万円×18か月）</td><td>432万円</td></tr>
+<tr><td>控除できる部分の上限（月16万円×18か月）</td><td>288万円</td></tr>
+<tr><td>他社で得た中間収入（月20万円×18か月）</td><td>360万円</td></tr>
+<tr><td>実際に控除できる額</td><td>288万円</td></tr>
+<tr><td>会社が支払う額</td><td>432万円</td></tr>
+</table>
+<p class="small">説明のために単純化した例です。賞与等がある場合は、中間収入が平均賃金の4割を超える部分についてさらに控除の対象となるため、別に計算が必要です。</p>
 <h3>会社側のリスク管理</h3>
 <ul>
 <li>解雇前に「敗訴時のバックペイ＝月給×想定訴訟期間」を試算し、退職勧奨による解決と比較する。</li>
@@ -5452,6 +5930,16 @@ body="""
 <li><strong>懲戒解僱</strong>：對企業秩序違反的<strong>制裁罰</strong>。需要就業規則的明文根據・該當事由・相當性・適正程序（弁明機會等）。通常伴隨退職金不支給・即時解僱。</li>
 <li><strong>普通解僱</strong>：以勞動契約的繼續困難為理由的<strong>契約解除</strong>。依勞動契約法16條，需要客觀合理的理由和社會通念上的相當性。</li>
 </ul>
+<table class="wrap1">
+<tr><th>比較的點</th><th>懲戒解僱</th><th>普通解僱</th></tr>
+<tr><td>法律性質</td><td>對企業秩序違反的制裁罰</td><td>勞動契約的解除</td></tr>
+<tr><td>就業規則的規定</td><td>要作為「表彰及制裁」的規定，定出種類與程度並屆出（勞動基準法89條9號）。沒有規定就不能懲戒</td><td>要作為「退職相關事項」定出解僱事由（同條3號）</td></tr>
+<tr><td>有效性的判斷</td><td>欠缺客觀合理的理由、社會通念上不被認為相當時，構成權利濫用而無效（勞動契約法15條）</td><td>相同的判斷框架（勞動契約法16條）</td></tr>
+<tr><td>會被檢視的程序</td><td>給予辯明機會、與過去同類案例的均衡、同一事由不二度處分</td><td>注意・指導的累積、給予改善機會、是否檢討過調職等迴避措施</td></tr>
+<tr><td>解僱預告</td><td>要即時解僱，須就「可歸責於勞工的事由」取得行政官廳的認定（勞動基準法20條1項但書・3項）</td><td>30日前預告，或支付30日份以上的平均工資（勞動基準法20條1項）</td></tr>
+<tr><td>退職金</td><td>不支給・減額規定的有效性與適用，是另一個爭點</td><td>通常照規定支給</td></tr>
+<tr><td>被判無效時</td><td>勞動契約存續，爭訟期間的工資支付義務仍留著</td><td>相同</td></tr>
+</table>
 <h2>高知放送事件——「有事由」不等於「可以解僱」</h2>
 <p>最高裁判所昭和52年1月31日判決（高知放送事件・勞動判例268號17頁）：播音員兩次睡過頭造成廣播事故，公司普通解僱。最高裁判所認為，解僱事由形式上存在，但考慮過失的態樣・本人的反省・其他員工的處分均衡等，解僱<strong>過於嚴苛、欠缺社會通念上的相當性</strong>而無效。這就是「解僱權濫用法理」的代表判例（現在明文化為勞動契約法16條）。</p>
 <h2>實務的選擇方法</h2>
@@ -5461,6 +5949,33 @@ body="""
 <li>迷惑時：懲戒解僱敗訴的風險比普通解僱高。先用退職勧奨談，談不成再普通解僱，是標準順序。</li>
 <li>「預備的普通解僱」：懲戒解僱時同時表明「即使懲戒無效也普通解僱」的做法，實務上常用但設計要精確。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 492" role="img" aria-label="顯示該選懲戒解僱還是普通解僱的檢討順序的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">決定「怎麼分手」的順序</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①確定事實與證據</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">用書面與紀錄特定「何時・誰・做了什麼」。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">無法立證的事實，就決定不用。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②先放退職勸獎</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">用合意收尾，就沒有無效風險，也沒有工資回溯。</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">被拒絕就中斷，並把經過留成紀錄。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③把普通解僱當標準線</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">用注意・指導的紀錄與改善機會的累積來組建。</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">30日前預告或預告手當就夠（勞動基準法20條1項）。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④懲戒解僱只在要件齊備時用</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">確認就業規則根據・辯明機會・與過去案例的均衡。</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">要即時解僱須有行政官廳的認定（同條3項）。</text>
+<rect x="20" y="430" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="450" font-size="11.5" fill="#24313f" text-anchor="middle">也有在懲戒解僱的同時預備性地表示普通解僱的設計，</text>
+<text x="350.0" y="469" font-size="11.5" fill="#24313f" text-anchor="middle">但理由與生效日沒有分開寫清楚，反而會增加爭點。</text>
+</svg>
+<figcaption>懲戒解僱與普通解僱的路線選擇順序</figcaption></figure>
 <h2>員工側律師會看的3點</h2>
 <p>被懲戒解僱的員工側律師，第一時間檢查的是：就業規則的根據規定・有沒有弁明機會・處分與過去案例的均衡。懲戒解僱被判無效的案例非常多——公司在處分前就要用同樣的3點自我檢證。</p>
 """,
@@ -5471,6 +5986,16 @@ ja="""<h2>【日本語版】懲戒解雇と普通解雇はどう違う——選�
 <li><strong>懲戒解雇</strong>：企業秩序違反に対する<strong>制裁罰</strong>。就業規則の明文の根拠・該当事由・相当性・適正手続（弁明の機会等）が必要。退職金不支給・即時解雇を伴うのが通例。</li>
 <li><strong>普通解雇</strong>：労働契約の継続困難を理由とする<strong>契約の解約</strong>。労契法16条により、客観的に合理的な理由と社会通念上の相当性が必要。</li>
 </ul>
+<table class="wrap1">
+<tr><th>比べる点</th><th>懲戒解雇</th><th>普通解雇</th></tr>
+<tr><td>法的性質</td><td>企業秩序違反に対する制裁罰</td><td>労働契約の解約</td></tr>
+<tr><td>就業規則の定め</td><td>表彰及び制裁の定めとして、その種類及び程度を定めて届け出る（労働基準法89条9号）。定めのない懲戒はできない</td><td>退職に関する事項として、解雇の事由を定める（同条3号）</td></tr>
+<tr><td>有効性の判断</td><td>客観的に合理的な理由を欠き、社会通念上相当と認められないときは権利の濫用として無効（労働契約法15条）</td><td>同じ判断枠組み（労働契約法16条）</td></tr>
+<tr><td>問われる手続</td><td>弁明の機会の付与、過去の同種事案との均衡、同一の事由で二度処分しないこと</td><td>注意・指導の積み重ね、改善の機会の付与、配置転換等による回避の検討</td></tr>
+<tr><td>解雇予告</td><td>即時解雇とするには、労働者の責に帰すべき事由について行政官庁の認定が必要（労働基準法20条1項ただし書・3項）</td><td>30日前の予告、又は30日分以上の平均賃金の支払（労働基準法20条1項）</td></tr>
+<tr><td>退職金</td><td>不支給・減額の定めの有効性と当てはめが別の争点になる</td><td>通常は規定どおり支給する</td></tr>
+<tr><td>無効とされたとき</td><td>労働契約は存続し、係争期間中の賃金の支払義務が残る</td><td>同じ</td></tr>
+</table>
 <h3>高知放送事件——「事由がある」と「解雇できる」は別</h3>
 <p>最二小判昭和52年1月31日（高知放送事件・労働判例268号17頁）は、アナウンサーが2度の寝過ごしで放送事故を起こした事案の普通解雇について、解雇事由は形式的に存在しても、過失の態様・本人の反省・他の従業員との処分の均衡などに照らし、<strong>苛酷にすぎ社会通念上相当性を欠く</strong>として無効としました。解雇権濫用法理（現・労契法16条）の代表判例です。</p>
 <h3>実務での選び方</h3>
@@ -5480,8 +6005,35 @@ ja="""<h2>【日本語版】懲戒解雇と普通解雇はどう違う——選�
 <li>迷ったら：懲戒解雇の敗訴リスクは普通解雇より高い。まず退職勧奨、まとまらなければ普通解雇が標準的な順序です。</li>
 <li>懲戒解雇と同時に予備的に普通解雇の意思表示をしておく実務もありますが、設計は精密に。</li>
 </ul>
-<h3>労働者側へのヒント</h3>
-<p>懲戒解雇されたら、就業規則の根拠規定・弁明の機会の有無・過去事例との均衡をまず確認してください。懲戒解雇が無効とされた裁判例は非常に多く、弁護士への相談に値します。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 492" role="img" aria-label="懲戒解雇と普通解雇のどちらを選ぶかの検討順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">別れ方を決める順序</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①事実と証拠を確定する</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">いつ・誰が・何をしたかを、書面と記録で特定する。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">立証できない事実は、使わないと決める。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②退職勧奨を先に置く</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">合意で終われば、無効リスクも賃金の遡り払いもない。</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">断られたら中断し、その経過を記録に残す。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③普通解雇を標準線にする</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">注意・指導の記録と改善の機会の積み重ねで組み立てる。</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">30日前の予告又は予告手当で足りる（労働基準法20条1項）。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④懲戒解雇は要件が揃うときに限る</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">就業規則の根拠・弁明の機会・過去事例との均衡を確認する。</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">即時解雇には行政官庁の認定が必要（同条3項）。</text>
+<rect x="20" y="430" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="450" font-size="11.5" fill="#24313f" text-anchor="middle">懲戒解雇と同時に予備的な普通解雇の意思表示をしておく設計もありますが、</text>
+<text x="350.0" y="469" font-size="11.5" fill="#24313f" text-anchor="middle">理由と効力発生日を書き分けないと、かえって争点を増やすことになります。</text>
+</svg>
+<figcaption>懲戒解雇と普通解雇の路線選択の順序</figcaption></figure>
+<h3>相手方の代理人が最初に見る3点</h3>
+<p>懲戒解雇を受けた側の代理人が最初に確認するのは、就業規則の根拠規定・弁明の機会の有無・過去の同種事案との均衡の3点です。懲戒解雇が無効とされた裁判例は非常に多いため、会社は処分を出す前に同じ3点で自己検証しておく必要があります。</p>
 """),
 dict(slug="yatoidome",
 cat="解僱・退職",
@@ -8348,6 +8900,30 @@ body="""
 <li><strong>代償措施</strong>：有無競業避止手當・較高退職金。<strong>無代償是最常見的致命傷</strong>。</li>
 </ol>
 <p>綜合判斷過廣者，違反公序良俗無效（民法90條）。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 205" role="img" aria-label="判斷競業避止特約合理範圍的3個視點的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">判斷合理範圍的3個視點</text>
+<rect x="20.0" y="36" width="209.33333333333334" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="209.33333333333334" height="25" rx="7" fill="#8fa6c6"/>
+<text x="124.66666666666667" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">公司的利益</text>
+<text x="124.66666666666667" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">有無應守護的</text>
+<text x="124.66666666666667" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">營業秘密・特殊技術</text>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="76" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="25" rx="7" fill="#e0a79e"/>
+<text x="350.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">本人的不利益</text>
+<text x="350.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">轉職・再就職</text>
+<text x="350.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">會有多不自由</text>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="76" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="25" rx="7" fill="#c4cfdb"/>
+<text x="575.3333333333334" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">社會的利害</text>
+<text x="575.3333333333334" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">獨占・集中之虞</text>
+<text x="575.3333333333334" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">對消費者的影響</text>
+<rect x="20" y="124" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="144" font-size="11.5" fill="#24313f" text-anchor="middle">奈良地方裁判所昭和45年10月23日判決（判例時報624號78頁〔フォセコ事件〕）</text>
+<text x="350.0" y="163" font-size="11.5" fill="#24313f" text-anchor="middle">認為：限制的期間・場所範圍・對象職種的範圍・代償的有無等，</text>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">應從這3個視點慎重檢討。</text>
+</svg>
+<figcaption>競業避止特約的合理範圍——公司的利益・本人的不利益・社會的利害3個視點（奈良地方裁判所昭和45年10月23日判決）</figcaption></figure>
 <h2>實際的風險感</h2>
 <ul>
 <li>即使特約無效，<strong>帶走客戶名單・營業秘密是另一回事</strong>——不正競爭防止法2條1項的差止・損害賠償對象，可能另涉刑事。</li>
@@ -8355,6 +8931,16 @@ body="""
 </ul>
 <h2>給經營者</h2>
 <p>想要有效的特約：對象限定於真正接觸機密的職位、期間1年・地域・行為範圍具體化、<strong>設置代償</strong>（在職中的機密保持手當等）。全員一律簽同一張紙，訴訟時反而全滅。</p>
+<table class="wrap1">
+<thead><tr><th>項目</th><th>較易有效的設計</th><th>較易無效的設計</th></tr></thead>
+<tbody>
+<tr><td>對象者</td><td>限定於現實接觸機密的職位</td><td>全體員工一律簽同一張</td></tr>
+<tr><td>期間</td><td>1年程度（最長2年）</td><td>3年以上・未定期間</td></tr>
+<tr><td>場所</td><td>以營業區域限定（技術秘密型可能無限定）</td><td>說不出理由的全國禁止</td></tr>
+<tr><td>禁止行為</td><td>禁止勸誘既存客戶・禁止特定業務</td><td>禁止同業就職的一切</td></tr>
+<tr><td>代償措施</td><td>機密保持手當・加發的退職金</td><td>無（最常見的敗因）</td></tr>
+</tbody></table>
+<p class="small">被認定超過合理範圍時，違反公序良俗而無效（民法90條）。另外，フォセコ事件的特約是期間2年・場所無限制，但綜合對象職種比較狹窄、在職中有支給機密保持手當等事情，被認為還不能說是無效。</p>
 """,
 ja="""<h2>【日本語版】「退職後2年間は同業に従事しない」という誓約書にサインした——この紙にどれだけの効力があるか</h2>
 <p>退職時に「2年間は同業他社に入らない・顧客に接触しない」という誓約書への署名を求められた。サインしたら本当に2年間、本業で働けないのでしょうか。</p>
@@ -8371,6 +8957,30 @@ ja="""<h2>【日本語版】「退職後2年間は同業に従事しない」と
 <li><strong>代償措置</strong>：競業避止手当や上乗せ退職金の有無。<strong>無代償は最も多い致命傷です</strong>。</li>
 </ol>
 <p>総合判断で過広とされれば、公序良俗違反で無効です（民法90条）。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 205" role="img" aria-label="競業避止特約の合理的範囲を判断する3つの視点の図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">合理的範囲を判断する3つの視点</text>
+<rect x="20.0" y="36" width="209.33333333333334" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="209.33333333333334" height="25" rx="7" fill="#8fa6c6"/>
+<text x="124.66666666666667" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">会社の利益</text>
+<text x="124.66666666666667" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">守るべき企業秘密・</text>
+<text x="124.66666666666667" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">特殊技術があるか</text>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="76" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="25" rx="7" fill="#e0a79e"/>
+<text x="350.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">本人の不利益</text>
+<text x="350.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">転職・再就職が</text>
+<text x="350.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">どれだけ不自由になるか</text>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="76" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="25" rx="7" fill="#c4cfdb"/>
+<text x="575.3333333333334" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">社会的利害</text>
+<text x="575.3333333333334" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">独占・集中のおそれ</text>
+<text x="575.3333333333334" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">消費者への影響</text>
+<rect x="20" y="124" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="144" font-size="11.5" fill="#24313f" text-anchor="middle">奈良地判昭和45年10月23日（判時624号78頁〔フォセコ事件〕）は、</text>
+<text x="350.0" y="163" font-size="11.5" fill="#24313f" text-anchor="middle">制限の期間・場所的範囲・対象職種の範囲・代償の有無等を、</text>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">この3つの視点から慎重に検討すべきものとしました。</text>
+</svg>
+<figcaption>競業避止特約の合理的範囲——会社の利益・本人の不利益・社会的利害の3視点（奈良地判昭和45年10月23日判時624号78頁）</figcaption></figure>
 <h3>実際のリスク感覚</h3>
 <ul>
 <li>特約が無効でも、<strong>顧客名簿・営業秘密の持ち出しは別問題</strong>——不正競争防止法2条1項の差止め・損害賠償の対象で、刑事事件にもなり得ます。</li>
@@ -8378,6 +8988,16 @@ ja="""<h2>【日本語版】「退職後2年間は同業に従事しない」と
 </ul>
 <h3>経営者の方へ</h3>
 <p>有効な特約にしたいなら：対象を本当に機密に接する職位に限定し、期間1年・地域・行為範囲を具体化し、<strong>代償を設ける</strong>（在職中の機密保持手当等）。全員に一律同じ紙へサインさせる運用は、訴訟でかえって全滅します。</p>
+<table class="wrap1">
+<thead><tr><th>項目</th><th>有効になりやすい設計</th><th>無効になりやすい設計</th></tr></thead>
+<tbody>
+<tr><td>対象者</td><td>機密に現に接する職位に限定する</td><td>全従業員に一律で署名させる</td></tr>
+<tr><td>期間</td><td>1年程度（長くても2年）</td><td>3年以上・期間の定めがない</td></tr>
+<tr><td>場所</td><td>営業区域で限定する（技術秘密型は無限定もあり得る）</td><td>限定しない理由を示せない全国禁止</td></tr>
+<tr><td>禁止行為</td><td>既存顧客への勧誘禁止・特定業務の禁止</td><td>同業への就職の一切を禁止</td></tr>
+<tr><td>代償措置</td><td>機密保持手当・上乗せ退職金</td><td>なし（最も多い敗因）</td></tr>
+</tbody></table>
+<p class="small">合理的範囲を超えると判断されれば、公序良俗違反で無効となります（民法90条）。なお、フォセコ事件は期間2年・場所的に無制限の特約でしたが、対象職種が比較的狭いこと、在職中に機密保持手当が支給されていたこと等を総合して、無効とはいえないとされています。</p>
 """),
 dict(slug="telework-hiyo",
 cat="勞動時間",
@@ -9342,6 +9962,28 @@ title="員工突然失聯・無斷欠勤——「自然退職」處理的正確�
 summary="失聯員工不能立即解雇處理——先安否確認（電話・自宅訪問・緊急聯絡人）、書面催告出勤，再按就業規則的「無斷欠勤○日以上時視為自然退職」條款處理。無條款時解雇的意思表示送達是難關（公示送達・民法98條）。外國人失聯的入管届出也解說。",
 body="""
 <p>員工連續一週無斷欠勤、電話LINE全部不通——「那就當他辭職了」的處理，之後被主張「解雇無效」的案例真實存在。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="顯示員工失聯時三個階段處理手續的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">失聯時的三個階段</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①先確認安否</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">留下電話・郵件的紀錄，並聯絡緊急聯絡人。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">自宅訪問要2人以上，不可擅自進入屋內。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②以書面催告出勤</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">用內容證明郵便寫明期限，以及不回應時的處理方式。</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">收件地址也一併確認住民票上的住所。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③進入契約終了的處理</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">依自然退職條款，還是依解僱，手續會分成兩條路。</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">解僱需要意思表示到達本人（民法97條1項）。</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">有急迫情形的跡象時，確認安否優先於勞務的處理。</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">從郵件堆積的程度或鄰居的說法看出異狀，就向警察相談。</text>
+</svg>
+<figcaption>無斷欠勤且聯絡不上時的手續</figcaption></figure>
 <h2>第一步：安否確認</h2>
 <ol>
 <li>電話・電子郵件・LINE（紀錄保留）。</li>
@@ -9355,6 +9997,31 @@ body="""
 <li><strong>自然退職條款</strong>（推薦）：就業規則「無斷欠勤14日以上且公司催告後仍無聯絡時，視為退職」——退職是當然發生（非解雇），不需解雇預告・不當解雇風險低。<strong>沒有這條的就業規則要立刻補</strong>。</li>
 <li><strong>懲戒解雇／普通解雇</strong>：無斷欠勤2週間以上是懲戒解雇的典型事由（判例上也承認），但問題是<strong>解雇的意思表示要到達本人</strong>（民法97條）——行方不明者無法送達。公示送達（民法98條：簡易裁判所揭示＋官報）可以解決但費時費力。自然退職條款正是為了迴避這個難關。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 262" role="img" aria-label="對比有自然退職條款與以解僱處理兩種情形手續的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">有沒有自然退職條款，差這麼多</text>
+<rect x="20.0" y="36" width="322.0" height="133" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">有自然退職條款</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">依就業規則的規定</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">經過所定期間與催告</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">退職的效果當然發生</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">不需要解僱的意思表示</text>
+<text x="181.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">也不需要解僱預告手當</text>
+<rect x="358.0" y="36" width="322.0" height="133" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">沒有條款而要解僱</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">需要解僱的意思表示</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">沒有到達就不生效力</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">（民法97條1項）</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">向最後住所地的簡易裁判所</text>
+<text x="519.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">揭示等起算2週間到達</text>
+<rect x="20" y="181" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">公示的意思表示，從最後刊載於官報之日或代替該刊載的揭示開始之日起</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">經過2週間時，視為已到達相對人（民法98條3項）。</text>
+<text x="350.0" y="239" font-size="11.5" fill="#24313f" text-anchor="middle">對於不知所在有過失時，不生到達的效力（同項但書）。</text>
+</svg>
+<figcaption>有無自然退職條款造成的手續輕重差異</figcaption></figure>
 <h2>善後</h2>
 <ul>
 <li>最後工資：支付義務不消滅——匯入登錄帳戶。退職金・私物同樣保管。</li>
@@ -9365,6 +10032,28 @@ body="""
 """,
 ja="""<h2>【日本語版】従業員が突然音信不通・無断欠勤——「自然退職」処理の正しい手順</h2>
 <p>従業員が1週間連続で無断欠勤、電話もLINEも通じない——「じゃあ辞めたものとして扱おう」という処理の後に「解雇は無効だ」と主張された例は、現実にあります。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="従業員が音信不通になったときの3段階の手順を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">音信不通になったときの3段階</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①安否の確認を先にする</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">電話・メールの記録を残し、緊急連絡先に連絡する。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">自宅訪問は2名以上で行い、室内には立ち入らない。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②書面で出勤を催告する</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">内容証明郵便で、期限と、応答がない場合の取扱いを示す。</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">宛先は住民票上の住所も併せて確認しておく。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③契約終了の処理に進む</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">自然退職条項によるか、解雇によるかで手順が分かれる。</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">解雇は意思表示の到達が必要になる（民法97条1項）。</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">急迫の事情がうかがわれるときは、労務の処理よりも安否の確認が先です。</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">郵便物のたまり具合や近隣の様子から異状が見えたら、警察に相談します。</text>
+</svg>
+<figcaption>無断欠勤で連絡が取れないときの手順</figcaption></figure>
 <h3>第一歩：安否確認</h3>
 <ol>
 <li>電話・メール・LINE（記録を残す）。</li>
@@ -9378,6 +10067,31 @@ ja="""<h2>【日本語版】従業員が突然音信不通・無断欠勤——�
 <li><strong>自然退職条項</strong>（推奨）：就業規則に「無断欠勤14日以上に及び、会社の催告後も連絡がないときは退職とする」——退職が当然に発生し（解雇ではない）、解雇予告が不要で不当解雇リスクも低い。<strong>この条項がない就業規則は直ちに補充すべきです</strong>。</li>
 <li><strong>懲戒解雇／普通解雇</strong>：無断欠勤2週間以上は懲戒解雇の典型事由です（判例上も承認）が、問題は<strong>解雇の意思表示が本人に到達する必要がある</strong>こと（民法97条）——行方不明者には送達できません。公示送達（民法98条：簡易裁判所の掲示＋官報）で解決できますが時間と手間がかかります。自然退職条項はまさにこの難関を回避するためのものです。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 262" role="img" aria-label="自然退職条項がある場合と解雇する場合の手続を対比した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">自然退職条項があるかどうかで、ここまで変わる</text>
+<rect x="20.0" y="36" width="322.0" height="133" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">自然退職条項がある</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">就業規則の定めにより</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">所定の期間と催告を経て</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">退職の効果が当然に生じる</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">解雇の意思表示は不要</text>
+<text x="181.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">解雇予告手当も不要</text>
+<rect x="358.0" y="36" width="322.0" height="133" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">条項がなく解雇する</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">解雇の意思表示が必要</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">到達しないと効力が生じない</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">（民法97条1項）</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">最後の住所地の簡易裁判所へ</text>
+<text x="519.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">掲示等から2週間で到達</text>
+<rect x="20" y="181" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">公示による意思表示は、最後に官報に掲載した日又はその掲載に代わる掲示を</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">始めた日から2週間を経過した時に到達したものとみなされます（民法98条3項）。</text>
+<text x="350.0" y="239" font-size="11.5" fill="#24313f" text-anchor="middle">所在を知らないことに過失があったときは、到達の効力を生じません（同項ただし書）。</text>
+</svg>
+<figcaption>自然退職条項の有無で分かれる手続の重さ</figcaption></figure>
 <h3>後始末</h3>
 <ul>
 <li>最後の給料：支払義務は消えません——登録口座へ振り込みます。退職金・私物も同様に保管。</li>
@@ -14841,6 +15555,28 @@ dict(slug="songai-baisho-seigen",
 <h2>最高裁判所：求償以「公平分擔」為限</h2>
 <p><strong>茨城石炭商事事件（最高裁判所昭和51年7月8日判決・民集30卷7號689頁）</strong>：油罐車司機因過失追撞，公司請求全額賠償。最高裁判所判示——使用者基於損害的公平分擔的見地，依信義則，只能在<strong>認為相當的限度</strong>內請求賠償（判決原文：「相当と認められる限度」）。考慮要素：事業的性格・規模・設施狀況、勞工的業務內容・勞動條件・勤務態度、加害行為的態樣、加害行為的預防・損失分散（保險）的程度等。該案最終只認了<strong>損害的4分之1</strong>。</p>
 <p>理由很簡單：公司透過勞工的勞動獲取利益，事業活動中通常發生的損失風險本來就該由公司吸收（報償責任・危險責任的思想）。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 243" role="img" aria-label="決定賠償・求償限度的公司側與勞工側事情的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">決定賠償・求償限度的考慮要素</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">公司側的事情</text>
+<text x="181.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">事業的性格・規模</text>
+<text x="181.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">設施的狀況</text>
+<text x="181.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">對加害行為的預防或損失分散</text>
+<text x="181.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">（保險）的配慮程度</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#c4cfdb"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">勞工側的事情</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">業務的內容</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">勞動條件・勤務態度</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">加害行為的態樣</text>
+<rect x="20" y="162" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">最高裁判所昭和51年7月8日判決（民集30卷7號689頁・茨城石炭商事事件）認為，</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">使用者只能在損害的公平分擔的見地上，依信義則在認為相當的限度內</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">請求賠償・求償，該案限定在損害額的4分之1。</text>
+</svg>
+<figcaption>限制使用者向勞工求償的考慮要素（最高裁判所昭和51年7月8日判決・民集30卷7號689頁）</figcaption></figure>
 <h2>實務上的相場</h2>
 <p>裁判例上，輕過失（普通的不注意）的場合求償被否定或限縮到數%〜25%程度，故意・重大過失（酒駕・明顯違規・侵占）才可能接近全額。「全額賠償」的要求在多數場面是過大的。</p>
 <h2>公司絕對不能做的三件事</h2>
@@ -14849,6 +15585,14 @@ dict(slug="songai-baisho-seigen",
 <li><strong>從薪水扣（24條1項）</strong>：賃金全額払原則之下，公司不能擅自從薪水相殺賠償金。員工同意的相殺也只在<strong>基於自由意思</strong>時才有效（日新製鋼事件・最高裁判所平成2年11月26日判決・民集44卷8號1085頁）——當場叫來簽的同意書，之後被主張無效而連本帶利（退職後年14.6%）追繳的案例不少。</li>
 <li><strong>靠身元保證人收尾</strong>：身元保證人的責任被身元保證法限制（期間・通知義務），且2020年4月以後的契約沒有定極度額的個人根保證<strong>無效</strong>（民法465條の2）。把舊版的身元保證書繼續沿用是常見的無效設計。</li>
 </ul>
+<table class="wrap1">
+<thead><tr><th>不能做的對應</th><th>根據・效果</th><th>該做的事</th></tr></thead>
+<tbody>
+<tr><td>放「弄壞一台賠10萬」等定額條款</td><td>違反勞基法16條而無效。同法119條1號有罰則（6個月以下拘禁刑或30萬日圓以下罰金）</td><td>就實際損害個別立證後請求</td></tr>
+<tr><td>擅自從薪水扣賠償金</td><td>違反勞基法24條1項（全額払原則）</td><td>以同意相殺時，要整備成能說是基於自由意思的形式（最高裁判所平成2年11月26日判決・民集44卷8號1085頁〔日新製鋼事件〕）</td></tr>
+<tr><td>靠舊版身元保證書回收</td><td>未定極度額的個人根保證不生效力（民法465條の2第2項）。責任範圍也受身元保證法限制</td><td>活用保險，並整備體制（複數人確認・上限設定・紀錄化）</td></tr>
+</tbody></table>
+<p class="small">勞基法16條禁止就勞動契約的不履行約定違約金或預定損害賠償額。同法24條1項規定，工資必須以通貨・直接・全額支付給勞工。</p>
 <h2>回收的正道——順序決定能拿回多少</h2>
 <ol>
 <li><strong>先確定事實與金額</strong>：事故報告書・修繕見積・現物的寫真・關係者聽取。金額的根據薄弱的請求，在訴訟中連4分之1都拿不到。</li>
@@ -14868,6 +15612,28 @@ dict(slug="songai-baisho-seigen",
 <h2>最高裁：求償は「公平な分担」の限度</h2>
 <p><strong>茨城石炭商事事件（最一小判昭和51年7月8日民集30巻7号689頁）</strong>は、タンクローリー運転手の追突事故につき、使用者は損害の公平な分担という見地から信義則上<strong>相当と認められる限度</strong>でのみ賠償を請求できると判示し、考慮要素として事業の性格・規模・施設の状況、労働者の業務内容・労働条件・勤務態度、加害行為の態様、予防・損失分散（保険）の程度等を挙げました。結論は<strong>損害の4分の1</strong>に限定。</p>
 <p>会社は労働者の労働で利益を得ている以上、事業活動に通常伴う損失リスクは会社が吸収すべき、という報償責任・危険責任の考え方です。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 243" role="img" aria-label="損害賠償・求償の限度を決める会社側と労働者側の事情の図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">賠償・求償の限度を決める考慮要素</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">会社側の事情</text>
+<text x="181.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">事業の性格・規模</text>
+<text x="181.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">施設の状況</text>
+<text x="181.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">加害行為の予防又は損失の分散</text>
+<text x="181.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">についての配慮の程度</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#c4cfdb"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">労働者側の事情</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">業務の内容</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">労働条件・勤務態度</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">加害行為の態様</text>
+<rect x="20" y="162" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">最一小判昭和51年7月8日民集30巻7号689頁〔茨城石炭商事事件〕は、これらの事情から</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">「損害の公平な分担という見地から信義則上相当と認められる限度」</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">でのみ賠償・求償を請求できるとし、同事件では損害額の4分の1に制限しました。</text>
+</svg>
+<figcaption>使用者から労働者への損害賠償・求償を制限する考慮要素（最一小判昭和51年7月8日民集30巻7号689頁）</figcaption></figure>
 <h2>実務の相場</h2>
 <p>裁判例では、軽過失なら請求否定〜25%程度への限定が多く、故意・重過失（飲酒運転・著しい違反・横領）の場合に全額に近づきます。「全額弁償」の要求は多くの場面で過大です。</p>
 <h2>会社が絶対にやってはいけない三つ</h2>
@@ -14876,6 +15642,14 @@ dict(slug="songai-baisho-seigen",
 <li><strong>給料からの控除（24条1項）</strong>：賃金全額払原則の下、賠償金を一方的に相殺することはできません。本人の同意による相殺も<strong>自由な意思に基づく</strong>場合に限って有効です（日新製鋼事件・最二小判平成2年11月26日民集44巻8号1085頁）。その場で呼んで署名させた同意書は、後に無効を主張され、遅延損害金（退職後は年14.6%）付きで追及される例が少なくありません。</li>
 <li><strong>身元保証人で回収を図る</strong>：身元保証人の責任は身元保証法で制限され（期間・通知義務）、2020年4月以降の契約は極度額の定めのない個人根保証が<strong>無効</strong>です（民法465条の2）。旧様式の身元保証書をそのまま使い続けているのは典型的な無効設計です。</li>
 </ul>
+<table class="wrap1">
+<thead><tr><th>やってはいけない対応</th><th>根拠・効果</th><th>代わりにすべきこと</th></tr></thead>
+<tbody>
+<tr><td>「1台壊したら10万円」等の定額条項を置く</td><td>労基法16条違反で無効。同法119条1号の罰則（6か月以下の拘禁刑又は30万円以下の罰金）</td><td>実損害を個別に立証して請求する</td></tr>
+<tr><td>賠償金を給料から一方的に差し引く</td><td>労基法24条1項（全額払）違反</td><td>同意による相殺は「自由な意思に基づく」といえる形を整える（最二小判平成2年11月26日民集44巻8号1085頁〔日新製鋼事件〕）</td></tr>
+<tr><td>旧様式の身元保証書で回収を図る</td><td>極度額の定めのない個人根保証は効力を生じない（民法465条の2第2項）。責任の範囲は身元保証法でも制限される</td><td>保険の活用と、体制側（複数人確認・上限設定・記録化）の整備</td></tr>
+</tbody></table>
+<p class="small">労基法16条は、労働契約の不履行について違約金を定め、又は損害賠償額を予定する契約を禁じています。同法24条1項は、賃金を通貨で、直接労働者に、その全額を支払うべきものとしています。</p>
 <h2>回収の正道——順序が回収額を決める</h2>
 <ol>
 <li><strong>事実と金額を先に確定する</strong>：事故報告書・修繕見積・現物の写真・関係者聴取。金額の根拠が薄い請求は、訴訟で4分の1も認められません。</li>
@@ -14952,6 +15726,14 @@ dict(slug="chokai-benmei",
 <li><strong>規則沒寫</strong>：不給也不會<strong>當然</strong>無效（日本ヒューレット・パッカード事件・東京地判平成17年1月31日・判タ1185號214頁）。但大和交通事件（大阪高判平成11年6月29日・勞判773號50頁）的基準是：<strong>聽取弁解有可能影響事實認定、進而影響處分內容時，不給就違法</strong>。事實有爭執、或員工可能有公司不知道的情由時，就落在這個範圍內。</li>
 </ul>
 <p>結論：規則有寫必給；沒寫也該給。重處分（懲戒解僱・諭旨解僱・諭旨退職）更是<strong>沒有例外</strong>。</p>
+<table class="wrap1">
+<tr><th>場面</th><th>沒給弁明機會時會被怎麼評價</th></tr>
+<tr><td>就業規則・懲戒規程<br>寫了弁明機會</td><td>等於自己訂的手續要件自己沒履行，瑕疵容易被認定為重大。無效的風險明顯升高</td></tr>
+<tr><td>沒有寫</td><td>只因為沒給並不會當然無效。但在「聽取弁解可能影響事實認定、進而影響處分內容」的案件，不給而做的處分有被評價為違法的空間</td></tr>
+<tr><td>懲戒解僱・諭旨解僱<br>等重處分</td><td>不問有沒有規定都要給。制裁罰的性格強，手續的瑕疵本身就可能成為無效原因</td></tr>
+</table>
+<p class="small">懲戒在客觀上缺乏合理理由、社會通念上不被認為相當時，構成權利濫用而無效（勞動契約法15條）。這個「相當性」不只看處分的輕重，也包括手續是否適正。</p>
+
 <h2>怎樣才算「給了機會」——公司要準備的5件事</h2>
 <ol>
 <li><strong>事前以書面告知被疑事實</strong>：何時・何地・什麼行為被問題化，具體寫出來。只說「關於你的態度問題」等於沒告知。</li>
@@ -14960,6 +15742,39 @@ dict(slug="chokai-benmei",
 <li><strong>也給書面弁明的選項</strong>：員工拒絕出席或沉默時，發「弁明書提出依賴書」並設期限。<strong>拒絕提出的事實本身要留紀錄</strong>——這是公司已盡機會付與義務的證據。</li>
 <li><strong>紀錄化</strong>：日時・出席者・告知的被疑事實・員工的回答、以及「還有沒有要補充的」這一問答，做成聽取紀錄並讓員工確認署名（拒簽就記「拒絕署名」）。爭訟時這份紀錄是公司唯一的手續證據。</li>
 </ol>
+<figure class="hfig">
+<svg viewBox="0 0 700 594" role="img" aria-label="適正給予弁明機會的5個步驟示意圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">怎樣才算「給了弁明機會」——5個步驟</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①以書面告知被疑事實</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">特定何時・何地・哪個行為被問題化。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">只說「關於你的態度」不算告知。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②留出準備時間</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">通知到聽取之間空數日。當天叫來當天聽完，</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">很難說是實質的弁明。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③由中立的人聽取</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">避免被害者本人或已做出結論的直屬上司單獨聽取，</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">由人事＋第三者2名以上進行。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④也給書面弁明的選項</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">拒絕出席時，訂期限請他提出弁明書，</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">並把拒絕提出這件事本身留成紀錄。</text>
+<path d="M350.0 418 L350.0 434" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,434 355.0,434 350.0,442" fill="#8fa6c6"/>
+<rect x="90.0" y="444" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="465" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤留下紀錄並反映到結論</text>
+<text x="350.0" y="485" font-size="11.5" fill="#44596f" text-anchor="middle">告知事實・回答・「還有沒有要補充的」都記錄下來，</text>
+<text x="350.0" y="504" font-size="11.5" fill="#44596f" text-anchor="middle">採用與不採用的理由留在決議文件裡。</text>
+<rect x="20" y="532" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="552" font-size="11.5" fill="#24313f" text-anchor="middle">辯明時沒有問到的事實，原則上事後不能再追加為懲戒事由。</text>
+<text x="350.0" y="571" font-size="11.5" fill="#24313f" text-anchor="middle">請當作懲戒事由在處分通知書的時點就被固定，據此設計告知的範圍。</text>
+</svg>
+<figcaption>懲戒處分中弁明機會的付與手續（勞動契約法15條的「相當性」包含手續的適正）</figcaption></figure>
+
 <h2>絕對不要做的4件事</h2>
 <ul>
 <li><strong>當場要求寫始末書</strong>：「現在馬上寫、承認、簽名」不是弁明機會，反而成為手續不當的證據。</li>
@@ -14985,6 +15800,14 @@ dict(slug="chokai-benmei",
 <li><strong>定めがない場合</strong>：与えなかったことだけで<strong>直ちに</strong>無効とはなりません（日本ヒューレット・パッカード事件・東京地判平成17年1月31日判タ1185号214頁）。もっとも大和交通事件（大阪高判平成11年6月29日労判773号50頁）は、<strong>弁解聴取の機会を与えることにより処分の基礎となる事実認定に影響し、ひいては処分内容に影響を及ぼす可能性があるときに限り、与えないでした処分が違法となる</strong>という枠組みを示しています。事実に争いがある、本人にしか分からない事情があり得る——という事案はここに入ります。</li>
 </ul>
 <p>結論は、定めがあれば必ず与える、定めがなくても与える。懲戒解雇・諭旨解雇・諭旨退職といった重い処分では<strong>例外はありません</strong>。</p>
+<table class="wrap1">
+<tr><th>場面</th><th>弁明の機会を与えなかった場合の評価</th></tr>
+<tr><td>就業規則・懲戒規程に<br>弁明の機会の定めがある</td><td>自ら定めた手続要件を履行していないことになり、瑕疵は重大と評価されやすい。無効リスクが明確に上がる</td></tr>
+<tr><td>定めがない</td><td>与えなかったことだけで直ちに無効とはならない。もっとも、弁解を聴くことで事実認定、ひいては処分内容に影響し得る事案では、与えないでした処分が違法と評価される余地がある</td></tr>
+<tr><td>懲戒解雇・諭旨解雇等<br>の重い処分</td><td>定めの有無を問わず与える。制裁罰としての性格が強く、手続の瑕疵それ自体が無効原因になり得る</td></tr>
+</table>
+<p class="small">懲戒は、客観的に合理的な理由を欠き、社会通念上相当であると認められない場合は、権利を濫用したものとして無効です（労働契約法15条）。この「相当性」には、処分の重さだけでなく手続の適正も含まれます。</p>
+
 <h2>「機会を与えた」といえるために会社が整える5点</h2>
 <ol>
 <li><strong>被疑事実を事前に書面で告知する</strong>：いつ・どこで・どの行為が問題とされているかを具体的に書く。「あなたの勤務態度について」だけでは告知になりません。</li>
@@ -14993,6 +15816,39 @@ dict(slug="chokai-benmei",
 <li><strong>書面での弁明の選択肢も与える</strong>：出席を拒否したり黙秘する場合は、期限を定めて弁明書提出依頼書を出す。<strong>提出を拒否した事実自体を記録に残す</strong>ことが、機会付与義務を尽くした証拠になります。</li>
 <li><strong>記録化する</strong>：日時・出席者・告知した被疑事実・本人の回答、そして「他に述べておきたいことはないか」という問答まで聴取記録にし、本人に確認・署名させる（拒否なら「署名拒否」と記載）。争訟になったとき、会社の手続を裏づけるのはこの記録だけです。</li>
 </ol>
+<figure class="hfig">
+<svg viewBox="0 0 700 594" role="img" aria-label="弁明の機会を適正に与えるための5つの手順を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">「弁明の機会を与えた」といえるための5手順</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①被疑事実を書面で告知する</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">いつ・どこで・どの行為が問題なのかを特定する。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">「勤務態度について」では告知にならない。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②準備の時間を置く</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">通知から聴取まで数日空ける。当日呼び出して</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">当日終えるのは実質的な弁明といえない。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③中立な聴取者で聴く</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">被害者本人や結論を出している直属上司の単独は避け、</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">人事＋第三者の2名以上で行う。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④書面で弁明する選択肢も示す</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">出席を拒む場合は期限を定めて弁明書の提出を求め、</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">拒否した事実そのものを記録に残す。</text>
+<path d="M350.0 418 L350.0 434" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,434 355.0,434 350.0,442" fill="#8fa6c6"/>
+<rect x="90.0" y="444" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="465" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤記録を残し、結論に反映する</text>
+<text x="350.0" y="485" font-size="11.5" fill="#44596f" text-anchor="middle">告知事実・回答・「他に述べたいことはないか」まで</text>
+<text x="350.0" y="504" font-size="11.5" fill="#44596f" text-anchor="middle">記録し、採用・不採用の理由を決議書類に残す。</text>
+<rect x="20" y="532" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="552" font-size="11.5" fill="#24313f" text-anchor="middle">弁明で尋ねていない事実を、後から懲戒事由として追加することは原則としてできません。</text>
+<text x="350.0" y="571" font-size="11.5" fill="#24313f" text-anchor="middle">懲戒事由は処分通知書の時点で固定されると考えて、告知の範囲を設計します。</text>
+</svg>
+<figcaption>懲戒処分における弁明の機会の付与手続（労働契約法15条の「相当性」には手続の適正が含まれる）</figcaption></figure>
+
 <h2>やってはいけない4つ</h2>
 <ul>
 <li><strong>その場で始末書を書かせる</strong>：「今すぐ書いて認めて署名しろ」は弁明の機会ではなく、手続の不当性を示す証拠になります。</li>
@@ -15017,6 +15873,41 @@ dict(slug="shimatsusho-kyosei",
 <li><strong>③弁明書・釋明書</strong>：懲戒手續中給予弁明機會時，本人寫下自己的說法的文書。</li>
 </ul>
 <p>公司在訴訟上真正需要的是①。理由在後面。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 300" role="img" aria-label="把始末書分為顛末書、含反省謝罪的始末書、弁明書三類並列可要求提出範圍的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">始末書的三種類型與可以要求提出的範圍</text>
+<rect x="20.0" y="36" width="209.33333333333334" height="152" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="209.33333333333334" height="25" rx="7" fill="#8fa6c6"/>
+<text x="124.66666666666667" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">①顛末書・報告書</text>
+<text x="124.66666666666667" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">客觀報告事實經過</text>
+<text x="124.66666666666667" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">目的是查明原因與防止再發</text>
+<text x="124.66666666666667" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">作為企業秩序違反的調查</text>
+<text x="124.66666666666667" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">可以要求提出</text>
+<text x="124.66666666666667" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">無正當理由的拒絕</text>
+<text x="124.66666666666667" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">可能成為懲戒事由</text>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="152" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="25" rx="7" fill="#e0a79e"/>
+<text x="350.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">②含反省・謝罪的始末書</text>
+<text x="350.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">含反省之情・謝罪・誓約</text>
+<text x="350.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">伴隨良心或內心的表明</text>
+<text x="350.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">以業務命令強制有困難</text>
+<text x="350.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">僅以不提出為由的</text>
+<text x="350.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">再處分應當避免</text>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="152" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="25" rx="7" fill="#c4cfdb"/>
+<text x="575.3333333333334" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">③弁明書・釋明書</text>
+<text x="575.3333333333334" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">在懲戒手續的弁明機會中</text>
+<text x="575.3333333333334" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">由本人寫下說法的文書</text>
+<text x="575.3333333333334" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">提不提出由本人判斷</text>
+<text x="575.3333333333334" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">不要求重寫</text>
+<text x="575.3333333333334" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">原樣收下並去調查</text>
+<rect x="20" y="200" width="660" height="90" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">中央計程車事件（德島地裁平成9年6月6日決定・勞判727號77頁）認為，始末書的提出命令</text>
+<text x="350.0" y="239" font-size="11.5" fill="#24313f" text-anchor="middle">並不屬於構成懲戒處分發動要件的業務上指示命令。丸十東鋼運輸倉庫事件（大阪地裁堺支部</text>
+<text x="350.0" y="258" font-size="11.5" fill="#24313f" text-anchor="middle">昭和53年1月11日決定・勞判304號61頁）也認為，對不願任意提出的員工，不能以業務命令</text>
+<text x="350.0" y="277" font-size="11.5" fill="#24313f" text-anchor="middle">強要提出，也不能以不提出為由作不利益的對待。</text>
+</svg>
+<figcaption>公司在訴訟上真正需要的是①的事實經過</figcaption></figure>
 <h2>能用業務命令強制的，只有①</h2>
 <p>①之所以能強制，是因為勞動者在僱用契約上負有信義則上的義務，對自己引起的企業秩序紊亂，有協力調查並報告具體內容的義務。因此<strong>無正當理由拒絕提出顛末書，可以成為懲戒事由</strong>。</p>
 <p>②則不同。反省與謝罪屬於個人內心的領域（憲法19條思想・良心自由的趣旨），強制提出有侵害良心自由之虞。<strong>即使就業規則的譴責規定寫著「提出始末書以戒將來」，結論也不改變</strong>（甲山福祉中心事件・神戶地裁尼崎支部判昭和58年3月17日・勞判412號76頁）。</p>
@@ -15047,6 +15938,34 @@ dict(slug="shimatsusho-kyosei",
 <li><strong>人事考課上的斟酌是允許的</strong>：升給・獎金・升格的評價中，將未提出作為負面評價要素考慮，沒有問題。</li>
 <li>同種非違行為再犯時，可將「前次未提出、未見反省之情」作為不利情狀，反映在下次處分的量定上。</li>
 </ol>
+<figure class="hfig">
+<svg viewBox="0 0 700 518" role="img" aria-label="呈現始末書未被提出時公司採取的5個步驟的流程圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">員工就是不提出時的收尾方式</text>
+<rect x="90.0" y="36" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①以書面再要求一次</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">不要只是口頭重複，要把要求本身留成紀錄</text>
+<path d="M350.0 93 L350.0 109" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,109 355.0,109 350.0,117" fill="#8fa6c6"/>
+<rect x="90.0" y="119" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="140" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②不提出就讓它不提出</text>
+<text x="350.0" y="160" font-size="11.5" fill="#44596f" text-anchor="middle">不強制，也不以不提出為由再課處分</text>
+<path d="M350.0 176 L350.0 192" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,192 355.0,192 350.0,200" fill="#8fa6c6"/>
+<rect x="90.0" y="202" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="223" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③把不提出的事實證據化</text>
+<text x="350.0" y="243" font-size="11.5" fill="#44596f" text-anchor="middle">交付記載未提出事實的書面給本人保留下來</text>
+<path d="M350.0 259 L350.0 275" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,275 355.0,275 350.0,283" fill="#8fa6c6"/>
+<rect x="90.0" y="285" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="306" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④在人事考課上斟酌</text>
+<text x="350.0" y="326" font-size="11.5" fill="#44596f" text-anchor="middle">在升給・獎金・升格的評價中作為負面要素考慮</text>
+<path d="M350.0 342 L350.0 358" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,358 355.0,358 350.0,366" fill="#8fa6c6"/>
+<rect x="90.0" y="368" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="389" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤反映在再犯時的量定上</text>
+<text x="350.0" y="409" font-size="11.5" fill="#44596f" text-anchor="middle">重複同種行為時，當作不利的情狀處理</text>
+<rect x="20" y="437" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="457" font-size="11.5" fill="#24313f" text-anchor="middle">上司為指導監督而斥責或要求作成始末書，本身並不違法；但逸脫權限範圍、欠缺合理性</text>
+<text x="350.0" y="476" font-size="11.5" fill="#24313f" text-anchor="middle">而達裁量權濫用的程度時即為違法（東芝府中工廠事件・東京地裁八王子支部</text>
+<text x="350.0" y="495" font-size="11.5" fill="#24313f" text-anchor="middle">平成2年2月1日判決・勞判558號68頁）。</text>
+</svg>
+<figcaption>不強制、不再處分，而是一步步留下紀錄</figcaption></figure>
 <h2>最後：不要為小事執拗地要反省文</h2>
 <p>上司為指導監督部下，必要時斥責或要求作成始末書，本身不違法；但<strong>逸脫權限範圍、欠缺合理性而達裁量權濫用時即為違法</strong>（東芝府中工廠事件・東京地裁八王子支部判平成2年2月1日・勞判558號68頁）。<strong>事由過於輕微時，安易地強制始末書・反省文，本身就會變成公司的違法行為</strong>——而且通常會被串進之後的職場騷擾主張裡。</p>""",
     ja="""<h2>【日本語版】従業員が始末書を出さないとき——強制できるのか、そして訴訟で本当に効く書かせ方</h2>
@@ -15058,6 +15977,41 @@ dict(slug="shimatsusho-kyosei",
 <li><strong>③弁明書・釈明書</strong>：懲戒手続で弁明の機会を与えた際に、本人が自分の言い分を記載して提出する文書。</li>
 </ul>
 <p>会社が訴訟で本当に必要とするのは①です。理由は後述します。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 300" role="img" aria-label="始末書を顛末書、反省・謝罪の始末書、弁明書の三類型に分け、提出を求められる範囲を並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">始末書の三類型と提出を求められる範囲</text>
+<rect x="20.0" y="36" width="209.33333333333334" height="152" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="209.33333333333334" height="25" rx="7" fill="#8fa6c6"/>
+<text x="124.66666666666667" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">①顛末書・報告書</text>
+<text x="124.66666666666667" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">事実経過の客観的な報告</text>
+<text x="124.66666666666667" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">原因究明と再発防止が目的</text>
+<text x="124.66666666666667" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">企業秩序違反の調査として</text>
+<text x="124.66666666666667" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">提出を求めることができる</text>
+<text x="124.66666666666667" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">正当な理由のない拒否は</text>
+<text x="124.66666666666667" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">懲戒事由になり得る</text>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="152" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="25" rx="7" fill="#e0a79e"/>
+<text x="350.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">②反省・謝罪の始末書</text>
+<text x="350.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">反省の情・謝罪・誓約を含む</text>
+<text x="350.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">良心や内心の表明を伴う</text>
+<text x="350.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">業務命令としての強制は困難</text>
+<text x="350.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">不提出だけを理由とする</text>
+<text x="350.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">再処分は避けるべき</text>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="152" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="25" rx="7" fill="#c4cfdb"/>
+<text x="575.3333333333334" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">③弁明書・釈明書</text>
+<text x="575.3333333333334" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">懲戒手続の弁明の機会に</text>
+<text x="575.3333333333334" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">本人が言い分を書く文書</text>
+<text x="575.3333333333334" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">出すかどうかは本人の判断</text>
+<text x="575.3333333333334" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">書き直しを求めない</text>
+<text x="575.3333333333334" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">そのまま受領して調査する</text>
+<rect x="20" y="200" width="660" height="90" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">中央タクシー事件（徳島地決平成9年6月6日労判727号77頁）は、始末書の提出命令は</text>
+<text x="350.0" y="239" font-size="11.5" fill="#24313f" text-anchor="middle">「懲戒処分発動の要件となるべき業務上の指示命令には当たらない」とした。丸十東鋼運輸倉庫</text>
+<text x="350.0" y="258" font-size="11.5" fill="#24313f" text-anchor="middle">事件（大阪地堺支決昭和53年1月11日労判304号61頁）も、任意に応じない従業員に対して</text>
+<text x="350.0" y="277" font-size="11.5" fill="#24313f" text-anchor="middle">業務命令として提出を強要することや、不提出を理由とする不利益取扱いはできないとした。</text>
+</svg>
+<figcaption>会社が訴訟で本当に必要とするのは①の事実経過</figcaption></figure>
 <h2>業務命令で強制できるのは①だけ</h2>
 <p>①を強制できるのは、労働者が雇用契約上の信義則上の義務として、自ら企業秩序を乱す行為をした場合にその具体的内容・事情の調査に応じ報告する義務を負うと解されるからです。したがって<strong>正当な理由なく顛末書の提出を拒否すれば、懲戒事由になり得ます</strong>。</p>
 <p>②は違います。反省・謝罪は個人の内面の領域であり（憲法19条の思想・良心の自由の趣旨）、提出の強制は良心の自由を侵害しかねません。<strong>就業規則のけん責規定に「始末書を提出させて将来を戒める」とあっても、結論は変わりません</strong>（甲山福祉センター事件・神戸地裁尼崎支部判昭和58年3月17日労判412号76頁）。</p>
@@ -15088,6 +16042,34 @@ dict(slug="shimatsusho-kyosei",
 <li><strong>人事考課での斟酌は許されます</strong>。昇給・賞与・昇格の評価において不提出をマイナスの評価要素として考慮することは問題ありません。</li>
 <li>同種の非違行為を再度行ったときは、「前回不提出で反省の情が見られない」ことを不利な情状として次の処分の量定に反映させることも可能です。</li>
 </ol>
+<figure class="hfig">
+<svg viewBox="0 0 700 518" role="img" aria-label="始末書が提出されないときに会社が取る5段階の手順を上から順に示した流れ図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">どうしても出さないときの収め方</text>
+<rect x="90.0" y="36" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①書面でもう一度求める</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">口頭で繰り返さず、求めたこと自体を記録に残す</text>
+<path d="M350.0 93 L350.0 109" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,109 355.0,109 350.0,117" fill="#8fa6c6"/>
+<rect x="90.0" y="119" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="140" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②出なければ不提出のままにする</text>
+<text x="350.0" y="160" font-size="11.5" fill="#44596f" text-anchor="middle">強制もしない、不提出を理由とする再処分もしない</text>
+<path d="M350.0 176 L350.0 192" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,192 355.0,192 350.0,200" fill="#8fa6c6"/>
+<rect x="90.0" y="202" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="223" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③不提出の事実を証拠化する</text>
+<text x="350.0" y="243" font-size="11.5" fill="#44596f" text-anchor="middle">提出がない旨を記載した書面を本人に交付しておく</text>
+<path d="M350.0 259 L350.0 275" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,275 355.0,275 350.0,283" fill="#8fa6c6"/>
+<rect x="90.0" y="285" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="306" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④人事考課で斟酌する</text>
+<text x="350.0" y="326" font-size="11.5" fill="#44596f" text-anchor="middle">昇給・賞与・昇格の評価でマイナス要素として考慮する</text>
+<path d="M350.0 342 L350.0 358" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,358 355.0,358 350.0,366" fill="#8fa6c6"/>
+<rect x="90.0" y="368" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="389" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤再犯時の量定に反映させる</text>
+<text x="350.0" y="409" font-size="11.5" fill="#44596f" text-anchor="middle">同種行為を繰り返したとき、不利な情状として扱う</text>
+<rect x="20" y="437" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="457" font-size="11.5" fill="#24313f" text-anchor="middle">上司が指導監督のために叱責したり始末書の作成を求めること自体は違法ではないが、</text>
+<text x="350.0" y="476" font-size="11.5" fill="#24313f" text-anchor="middle">「権限の範囲を逸脱したり合理性がないなど、裁量権の濫用にわたる場合」は違法となる</text>
+<text x="350.0" y="495" font-size="11.5" fill="#24313f" text-anchor="middle">（東芝府中工場事件・東京地八王子支判平成2年2月1日労判558号68頁）。</text>
+</svg>
+<figcaption>強制も再処分もせずに、記録として残していく手順</figcaption></figure>
 <h2>最後に：軽微な事由で執拗に反省文を求めない</h2>
 <p>上司が部下の指導監督のために必要に応じて叱責したり始末書の作成を求めること自体は違法ではないものの、<strong>権限の範囲を逸脱し、合理性を欠くなど裁量権の濫用にわたる場合は違法になる</strong>と判断されています（東芝府中工場事件・東京地裁八王子支判平成2年2月1日労判558号68頁）。<strong>事由が軽微なのに安易に始末書・反省文を強制すれば、それ自体が会社側の違法行為になります</strong>——しかも通常、後のハラスメント主張に組み込まれます。</p>"""),
 dict(slug="taishoku-shomeisho",
@@ -16209,6 +17191,28 @@ dict(slug="kaiko-riyu-shomeisho",
 <li>記載內容：行政通達要求<strong>就業規則該當條文+具體事實</strong>（平成11年1月29日基發45號——解僱理由必須具體表示）。</li>
 <li>注意：員工只請求部分事項時，不得記載其未請求的事項（22條3項）。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 224" role="img" aria-label="整理解僱理由證明書與退職時證明可請求時期及記載事項差異的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">可請求的時期與根據條文</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">解僱預告日至退職日</text>
+<text x="181.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">根據＝勞基法22條2項</text>
+<text x="181.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">可請求的範圍是解僱的理由</text>
+<text x="181.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">預告日至退職日之間</text>
+<text x="181.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">因他事由退職則不必交付</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#c4cfdb"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">退職後（含解僱後）</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">根據＝勞基法22條1項</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">使用期間・業務種類・地位</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">賃金・退職事由（解僱含理由）</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">時效2年（勞基法115條）</text>
+<rect x="20" y="162" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">兩者都必須不得遲延地交付，且不得記載員工未請求的事項（22條3項）。</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">違反22條1項至3項者處30萬日圓以下罰金（120條1號）。不交付會招來向勞基署的申告（104條）。</text>
+</svg>
+<figcaption>解僱理由證明書（勞基法22條2項）與退職時證明（同條1項）的差異</figcaption></figure>
 <h2>為什麼這張紙決定戰局</h2>
 <ol>
 <li><strong>理由被固定</strong>：解僱的有效性以「解僱時存在且公司依據的理由」為中心審查。證明書記載外的理由事後才追加，法院會嚴格看待其信用性（＝有事後編造之疑）。<strong>寫漏的理由，之後幾乎用不上</strong>。</li>
@@ -16222,6 +17226,15 @@ dict(slug="kaiko-riyu-shomeisho",
 <li><strong>解僱時依據的理由過不足なく寫齊</strong>：之後想追加很難；反之，寫了卻無證據支撐的理由會被逐個擊破。</li>
 <li>交付前讓律師確認——這張紙之後會原封不動出現在勞動審判・訴訟的證據中。</li>
 </ul>
+<table class="wrap1">
+<tr><th>記載項目</th><th>危險的寫法</th><th>站得住的寫法</th></tr>
+<tr><td>根據規定</td><td>不指出條文，只寫「違反就業規則」</td><td>特定普通解僱條款的第幾條第幾號</td></tr>
+<tr><td>事實的特定</td><td>只寫「欠缺協調性」「能力不足」</td><td>特定日時・行為・對象・結果而記載</td></tr>
+<tr><td>指導的經過</td><td>不寫</td><td>寫出指導書的日期與次數、未見改善的經過</td></tr>
+<tr><td>理由的範圍</td><td>把想得到的理由全部列上</td><td>解僱時實際依據的理由，不多不少寫齊</td></tr>
+<tr><td>證據支撐</td><td>連沒有證據的理由也寫進去</td><td>只寫指導紀錄・警告書・評價資料能支撐的事實</td></tr>
+</table>
+<p class="small">不得記載員工未請求的事項（勞基法22條3項），違反22條1項至3項者處30萬日圓以下罰金（同法120條1號）。理由寫不具體這件事本身，就說明解僱缺乏客觀合理的理由（勞動契約法16條）。</p>
 <h2>一併檢查</h2>
 <ul>
 <li>解僱預告（30日前）或預告手當（勞基法20條）處理了嗎？</li>
@@ -16237,6 +17250,28 @@ dict(slug="kaiko-riyu-shomeisho",
 <li>記載内容は<strong>就業規則の該当条文＋具体的事実</strong>を示す必要があります（平成11年1月29日基発45号）。</li>
 <li>注意：従業員が請求しない事項を記入してはなりません（22条3項）。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 224" role="img" aria-label="解雇理由証明書と退職時の証明について、請求できる時期と記載事項の違いを並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">請求できる時期と根拠条文</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">解雇予告日から退職日まで</text>
+<text x="181.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">根拠＝労基法22条2項</text>
+<text x="181.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">請求できる範囲は解雇の理由</text>
+<text x="181.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">予告日から退職日までの間</text>
+<text x="181.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">他の事由で退職したら交付不要</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#c4cfdb"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">退職後（解雇後を含む）</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">根拠＝労基法22条1項</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">使用期間・業務の種類・地位</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">賃金・退職の事由（解雇は理由）</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">時効2年（労基法115条）</text>
+<rect x="20" y="162" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">いずれも「遅滞なく」交付する義務があり、請求しない事項を記入してはならない（22条3項）。</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">22条1項から3項までの違反は30万円以下の罰金（120条1号）。不交付は労基署への申告（104条）を招く。</text>
+</svg>
+<figcaption>解雇理由証明書（労基法22条2項）と退職時の証明（同条1項）の違い</figcaption></figure>
 <h2>なぜこの一枚が戦局を決めるか</h2>
 <ol>
 <li><strong>理由が固定される</strong>：解雇の有効性は、解雇時に存在し会社が依拠した理由を中心に審査されます。証明書に書かなかった理由の事後追加は、後付けの疑いとして信用性を厳しく見られます。<strong>書き漏らした理由は、後からほぼ使えません</strong>。</li>
@@ -16250,6 +17285,15 @@ dict(slug="kaiko-riyu-shomeisho",
 <li><strong>解雇時に依拠した理由を過不足なく</strong>：後からの追加は困難。逆に、証拠のない理由を書けば各個撃破されます。</li>
 <li>交付前に弁護士のチェックを——この一枚は労働審判・訴訟にそのまま証拠として出てきます。</li>
 </ul>
+<table class="wrap1">
+<tr><th>記載項目</th><th>危ない書き方</th><th>通る書き方</th></tr>
+<tr><td>根拠規定</td><td>条文を示さず「就業規則違反」とだけ書く</td><td>普通解雇条項の第何条第何号かを特定する</td></tr>
+<tr><td>事実の特定</td><td>「協調性を欠く」「能力不足」で終わる</td><td>日時・行為・相手方・結果を特定して書く</td></tr>
+<tr><td>指導の経過</td><td>書かない</td><td>指導書の日付と回数、改善がなかった経過を書く</td></tr>
+<tr><td>理由の範囲</td><td>思い付く理由を網羅的に並べる</td><td>解雇時に実際に依拠した理由を過不足なく書く</td></tr>
+<tr><td>裏付け</td><td>証拠のない理由も書いてしまう</td><td>指導記録・警告書・評価資料で裏付けられる事実だけ書く</td></tr>
+</table>
+<p class="small">請求しない事項を記入してはならず（労基法22条3項）、22条1項から3項までの違反には30万円以下の罰金があります（同法120条1号）。理由を具体的に書けないこと自体が、解雇の客観的に合理的な理由（労働契約法16条）が足りていないことの表れです。</p>
 <h2>あわせて確認</h2>
 <ul>
 <li>解雇予告（30日前）または予告手当（労基法20条）は処理済みか。</li>
@@ -18175,12 +19219,46 @@ dict(slug="taishoku-goisho-seisan", cat="解僱・退職", date="2026-04-19",
 <li><strong>離職理由的處理</strong>（離職票的記載）</li>
 <li><strong>清算條項</strong>：本合意書所定者外，雙方確認相互無任何債權債務</li>
 </ol>
+<table class="wrap1">
+<tr><th>條項</th><th>寫法的要點</th></tr>
+<tr><td>合意退職的確認</td><td>明記退職日，以及依合意而退職的意旨</td></tr>
+<tr><td>金錢條件</td><td>特定特別退職金的金額・支付日・支付方法（匯入帳戶）</td></tr>
+<tr><td>年休・最終給與</td><td>寫出剩餘年休的處理，以及最終給與的計算期間・支付日</td></tr>
+<tr><td>祕密保持</td><td>以在職中知悉的資訊與本合意的內容雙方為對象</td></tr>
+<tr><td>誹謗中傷的禁止</td><td>訂為公司與本人雙方向的義務</td></tr>
+<tr><td>離職理由</td><td>先確認離職票的記載再寫</td></tr>
+<tr><td>清算條項</td><td>確認除本合意所定者外，相互無任何債權債務</td></tr>
+</table>
+<p class="small">競業避止不會從清算條項自動產生，需要時必須另外明確約定。在職中受傷等勞災・民事賠償可能殘存的案件，清算的範圍要特別精確地分開寫。</p>
 <h2>清算條項的極限</h2>
 <p>判例對<strong>賃金債權的放棄</strong>要求嚴格：放棄的意思表示須有<strong>基於勞工自由意思的明確根據</strong>（シンガー・ソーイング・メシーン事件・最高裁判所昭和48年1月19日判決・民集27卷1號27頁）。因此——</p>
 <ul>
 <li>簽署時<strong>雙方都沒意識到的未払殘業代</strong>，之後仍被請求的風險存在。下級審裁判例中，不乏將清算條項限定解釋、不及於簽署時未顯在化的殘業代債權的例子。</li>
 <li>要提高遮斷力：合意書中<strong>明示「包含未払賃金・割增賃金在內」</strong>、說明過程留紀錄、給付相應的對價（特別退職金）。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 243" role="img" aria-label="把退職合意書清算條項中提高遮斷力與減弱遮斷力的要素並列的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">清算條項的遮斷力由什麼決定</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">會提高遮斷力的要素</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">明示包含未払賃金・割增賃金</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">留有說明清算對象的紀錄</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">實際給付了相應的對價</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">本人確認內容後才簽署</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">會減弱遮斷力的要素</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">只有「相互無任何債權債務」的定型句</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">雙方都沒有意識到未払殘業代</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">有當場催促簽署的經過</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">沒有對價，或對價明顯過低</text>
+<rect x="20" y="162" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">退職金等賃金債權的放棄，須以放棄的意思表示明確基於勞工自由意思為前提，否則不被承認</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">效力（シンガー・ソーイング・メシーン事件・最高裁判所昭和48年1月19日判決・</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">民集27卷1號27頁）。簽署時雙方都未意識到的殘業代，容易留在清算範圍之外。</text>
+</svg>
+<figcaption>同樣的清算條項，作成方式會決定能否遮斷之後的請求</figcaption></figure>
 <h2>其他注意點</h2>
 <ul>
 <li>撤回防止：合意書當場簽署。「回去考慮」期間本人可能撤回退職願（承諾前）。</li>
@@ -18200,12 +19278,46 @@ dict(slug="taishoku-goisho-seisan", cat="解僱・退職", date="2026-04-19",
 <li><strong>離職理由の扱い</strong>（離職票の記載）</li>
 <li><strong>清算条項</strong>：本合意書に定めるもののほか、相互に何らの債権債務がないことを確認する</li>
 </ol>
+<table class="wrap1">
+<tr><th>条項</th><th>書き方の要点</th></tr>
+<tr><td>合意退職の確認</td><td>退職日と、合意により退職する旨を明記する</td></tr>
+<tr><td>金銭条件</td><td>特別退職金の金額・支払日・支払方法（振込先）を特定する</td></tr>
+<tr><td>年休・最終給与</td><td>残余年休の処理と、最終給与の計算期間・支払日を書く</td></tr>
+<tr><td>秘密保持</td><td>在職中に知った情報と、本合意の内容の双方を対象にする</td></tr>
+<tr><td>誹謗中傷の禁止</td><td>会社・本人の双方向の義務とする</td></tr>
+<tr><td>離職理由</td><td>離職票の記載をあらかじめ確認してから書く</td></tr>
+<tr><td>清算条項</td><td>本合意に定めるもののほか、相互に債権債務がないことを確認する</td></tr>
+</table>
+<p class="small">競業避止は清算条項からは生じないため、必要なら別に明確な合意が必要です。在職中の負傷など労災・民事賠償が残り得る事案では、清算の範囲を特に正確に書き分けます。</p>
 <h2>清算条項の限界</h2>
 <p>判例は<strong>賃金債権の放棄</strong>に厳格で、放棄の意思表示は<strong>労働者の自由な意思に基づくことが明確な根拠</strong>を要するとしています（シンガー・ソーイング・メシーン事件・最二小判昭和48年1月19日民集27巻1号27頁）。したがって——</p>
 <ul>
 <li>署名時に<strong>双方が認識していなかった未払残業代</strong>は、後から請求されるリスクが残ります。下級審には、清算条項を限定解釈し、署名時に顕在化していなかった残業代債権には及ばないとした裁判例もあります。</li>
 <li>遮断力を高めるには、合意書に<strong>「未払賃金・割増賃金を含む」と明示</strong>し、説明の経過を記録に残し、相応の対価（特別退職金）を支払うことです。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 243" role="img" aria-label="退職合意書の清算条項について遮断力が高まる要素と弱くなる要素を並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">清算条項の遮断力は何で決まるか</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">遮断力が高まる要素</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">未払賃金・割増賃金を含むと明示</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">清算の対象を説明した記録がある</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">相応の対価を実際に支払っている</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">本人が内容を確認して署名した</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">遮断力が弱くなる要素</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">「何らの債権債務なし」だけの定型文</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">双方が未払残業代を認識していない</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">その場で署名を急がせた経過がある</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">対価がない、または著しく低い</text>
+<rect x="20" y="162" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">退職金等の賃金債権の放棄は、放棄の意思表示が「自由な意思に基づくものであることが明確」</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">でなければ効力を認められない（シンガー・ソーイング・メシーン事件・最二小判昭和48年</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">1月19日民集27巻1号27頁）。署名時に双方が認識していなかった残業代は残りやすい。</text>
+</svg>
+<figcaption>同じ清算条項でも、作り方で後の請求を遮断できるかが変わる</figcaption></figure>
 <h2>その他の注意点</h2>
 <ul>
 <li>撤回の防止：合意書はその場で署名。「持ち帰って検討」の間に退職願を撤回される（承諾前）可能性があります。</li>
@@ -21440,6 +22552,38 @@ body="""
 <li>費用<strong>零</strong>、程序<strong>非公開</strong>、申請到期日約1〜2個月。</li>
 <li>斡旋案<strong>沒有強制力</strong>。公司表明不參加、或任一方不接受斡旋案時，委員會打切（同法15條）。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 575" role="img" aria-label="勞働局斡旋程序的流程示意圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">斡旋這樣進行——通知寄到之後</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①對方提出斡旋申請</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">都道府縣勞働局長認為解決上有必要時，</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">讓紛爭調整委員會進行斡旋（同法5條1項）。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②通知公司・確認參加意思</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">參加是任意的。回答不參加就會以沒有解決的見込み</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">為由打切（同法15條）。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③期日（原則1次・別席聽取）</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">3名斡旋委員確認雙方主張的要點（同法12條）。</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">實務上一般是雙方不碰面。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④提示斡旋案</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">由委員全員一致作成方案，提示給雙方</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">（同法13條1項・2項）。</text>
+<path d="M350.0 418 L350.0 434" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,434 355.0,434 350.0,442" fill="#8fa6c6"/>
+<rect x="90.0" y="444" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="465" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤雙方接受就解決</text>
+<text x="350.0" y="485" font-size="11.5" fill="#44596f" text-anchor="middle">成立民法上的和解契約。不接受就打切。</text>
+<rect x="20" y="513" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="533" font-size="11.5" fill="#24313f" text-anchor="middle">在收到打切通知起30日內就同一請求提起訴訟時，</text>
+<text x="350.0" y="552" font-size="11.5" fill="#24313f" text-anchor="middle">關於時效的完成猶豫，視為在斡旋申請的時點就已提起訴訟（同法16條）。</text>
+</svg>
+<figcaption>斡旋程序的流程（個別勞動關係紛爭解決促進法5條・12條・13條・15條）</figcaption></figure>
+
 <h2>參加・不參加的判斷——4個軸</h2>
 <ol>
 <li><strong>不參加的成本不是零。</strong>打切後對方的下一步通常是勞動審判或訴訟。到那個階段，律師費用、3次期日的對應、以及解決金的水準都會往上跳。斡旋是<strong>目前為止最便宜的出口</strong>。</li>
@@ -21447,6 +22591,18 @@ body="""
 <li><strong>就算是勝ち筋，非公開也有價值。</strong>申請人是在職員工時，在事情擴散到職場之前收束，本身就是利益。</li>
 <li><strong>不參加合理的場面</strong>：①請求的前提事實全面有爭執，需要證據的攻防②請求額大，1次期日無法收斂③同種請求還有多人在後面，輕易和解會變成先例。這些情況可以選擇不參加、或參加但不接受斡旋案——但<strong>要把判斷理由留成內部紀錄</strong>。</li>
 </ol>
+<table class="wrap1">
+<tr><th>比較的項目</th><th>斡旋（勞働局）</th><th>勞働審判</th><th>通常訴訟</th></tr>
+<tr><td>根據</td><td>個別勞動關係紛爭解決促進法5條</td><td>勞働審判法</td><td>民事訴訟法</td></tr>
+<tr><td>由誰進行</td><td>紛爭調整委員會的斡旋委員3名（同法12條1項）</td><td>裁判官1名與勞働審判員2名的勞働審判委員會（勞審法7條）</td><td>裁判官</td></tr>
+<tr><td>期日次數</td><td>原則1次</td><td>除有特別情事外3次以內（勞審法15條2項）</td><td>沒有上限</td></tr>
+<tr><td>公開</td><td>非公開</td><td>不公開（勞審法16條本文）</td><td>公開法庭（憲法82條1項）</td></tr>
+<tr><td>費用</td><td>免費</td><td>需要聲請手續費</td><td>需要起訴的手續費</td></tr>
+<tr><td>結論的強制力</td><td>斡旋案沒有強制力。雙方接受則成立和解契約</td><td>沒有異議就具有與裁判上和解相同的效力（勞審法21條4項）</td><td>確定判決有執行力</td></tr>
+<tr><td>談不成的時候</td><td>打切（同法15條）。收到通知起30日內提訴，時效的完成猶豫回溯到申請時（同法16條）</td><td>聲明異議即失效，並視為在聲請時已提起訴訟（勞審法21條・22條1項）</td><td>上訴・上告</td></tr>
+</table>
+<p class="small">從公司的角度看，斡旋的實務意義是：它可能以「非公開・1次期日・不花費用」結束，是最輕的入口。被打切也不等於對方的請求消失，下一步就是勞働審判或訴訟。</p>
+
 <h2>決定參加後，要準備的5件事</h2>
 <ol>
 <li><strong>自己算一次請求額。</strong>割增賃金的話就實際計算。對方計算的錯誤（基礎賃金的範圍、固定殘業代的處理、時效）若不能指出來，委員的心證就會以對方的數字為基準成形。</li>
@@ -21474,6 +22630,38 @@ ja="""<h2>【日本語版】労働局から「あっせん開始通知書」が�
 <li>費用<strong>無料</strong>・手続は<strong>非公開</strong>・申請から期日まで1〜2か月程度。</li>
 <li>あっせん案に<strong>強制力はありません</strong>。会社が参加しない意思を表明した場合や、いずれかがあっせん案を受諾しない場合は打切りとなります（同法15条）。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 575" role="img" aria-label="労働局のあっせん手続の流れを示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">あっせんはこう進む——通知が来てからの流れ</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①相手方からあっせんの申請</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">都道府県労働局長が解決のために必要と認めるときは、</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">紛争調整委員会にあっせんを行わせる（同法5条1項）。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②会社へ開始通知・参加意思の確認</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">参加は任意。不参加と答えれば解決の見込みがないとして</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">打切りになる（同法15条）。</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③期日（原則1回・別席で聴取）</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">あっせん委員3名が双方の主張の要点を確かめる</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">（同法12条）。双方が顔を合わせない運用が一般的。</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④あっせん案の提示</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">委員の全員一致で案を作成し、双方に提示する</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">（同法13条1項・2項）。</text>
+<path d="M350.0 418 L350.0 434" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,434 355.0,434 350.0,442" fill="#8fa6c6"/>
+<rect x="90.0" y="444" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="465" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤双方が受諾すれば解決</text>
+<text x="350.0" y="485" font-size="11.5" fill="#44596f" text-anchor="middle">民法上の和解契約が成立する。受諾しなければ打切り。</text>
+<rect x="20" y="513" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="533" font-size="11.5" fill="#24313f" text-anchor="middle">打切りの通知を受けた日から30日以内に同一の請求について訴えが提起されたときは、</text>
+<text x="350.0" y="552" font-size="11.5" fill="#24313f" text-anchor="middle">時効の完成猶予については、あっせんの申請の時に訴えの提起があったものとみなされます（同法16条）。</text>
+</svg>
+<figcaption>あっせん手続の流れ（個別労働関係紛争の解決の促進に関する法律5条・12条・13条・15条）</figcaption></figure>
+
 <h2>参加・不参加の判断——4つの軸</h2>
 <ol>
 <li><strong>不参加のコストはゼロではない。</strong>打切り後の相手方の次の一手は、通常は労働審判または訴訟です。その段階になれば弁護士費用、3期日の対応、そして解決金の水準がいずれも上がります。あっせんは<strong>現時点で最も安い出口</strong>です。</li>
@@ -21481,6 +22669,18 @@ ja="""<h2>【日本語版】労働局から「あっせん開始通知書」が�
 <li><strong>勝ち筋でも非公開であること自体に価値がある。</strong>申請人が在職中の従業員なら、職場に広がる前に収束させることが利益になります。</li>
 <li><strong>不参加が合理的な場面</strong>：①請求の前提事実が全面的に争われ、証拠の攻防が必要な場合②請求額が大きく1期日では収斂しない場合③同種請求が後に控えており、安易な和解が先例になる場合。この場合は不参加、または参加してもあっせん案を受諾しないという判断があり得ますが、<strong>その理由は内部記録に残してください</strong>。</li>
 </ol>
+<table class="wrap1">
+<tr><th>比べる点</th><th>あっせん（労働局）</th><th>労働審判</th><th>通常訴訟</th></tr>
+<tr><td>根拠</td><td>個別労働関係紛争の解決の促進に関する法律5条</td><td>労働審判法</td><td>民事訴訟法</td></tr>
+<tr><td>進める主体</td><td>紛争調整委員会のあっせん委員3名（同法12条1項）</td><td>裁判官1名と労働審判員2名の労働審判委員会（労審法7条）</td><td>裁判官</td></tr>
+<tr><td>期日の回数</td><td>原則1回</td><td>特別の事情がある場合を除き3回以内（労審法15条2項）</td><td>上限はない</td></tr>
+<tr><td>公開</td><td>非公開</td><td>公開しない（労審法16条本文）</td><td>公開法廷（憲法82条1項）</td></tr>
+<tr><td>費用</td><td>無料</td><td>申立手数料が必要</td><td>訴え提起の手数料が必要</td></tr>
+<tr><td>結論の強制力</td><td>あっせん案に強制力はない。双方が受諾すれば和解契約が成立</td><td>異議がなければ裁判上の和解と同一の効力（労審法21条4項）</td><td>確定判決に執行力</td></tr>
+<tr><td>まとまらないとき</td><td>打切り（同法15条）。通知から30日以内の提訴なら時効の完成猶予は申請時にさかのぼる（同法16条）</td><td>異議の申立てで失効し、申立ての時に訴えの提起があったものとみなされる（労審法21条・22条1項）</td><td>控訴・上告</td></tr>
+</table>
+<p class="small">会社から見た実務上の意味は、あっせんが「非公開・1回の期日・費用なし」で終わる可能性のある最も軽い入口だということです。打切りになっても相手方の請求が消えるわけではなく、次は労働審判か訴訟になります。</p>
+
 <h2>参加すると決めたら、準備すべき5点</h2>
 <ol>
 <li><strong>請求額を自社で一度計算する。</strong>割増賃金なら実際に計算します。相手方の計算の誤り（基礎賃金の範囲、固定残業代の扱い、時効）を指摘できなければ、委員の心証は相手方の数字を基準に固まります。</li>
@@ -22870,6 +24070,43 @@ body="""
 <li><strong>②作為懲戒處分的出勤停止</strong>：需要就業規則上的懲戒事由與手續（辯明機會等），<strong>無給可</strong>（這正是處分的本質）。但這必須是<strong>處分確定之後</strong>——調查前先「處分」是順序顛倒。</li>
 <li><strong>③經營上理由的休業</strong>（工作量減少等）：<strong>休業手當（平均工資6成以上）</strong>（勞基法26條）。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 224" role="img" aria-label="比較自宅待機命令的3個類型與工資處理的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">自宅待機分成三種</text>
+<rect x="20.0" y="36" width="209.33333333333334" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="209.33333333333334" height="25" rx="7" fill="#8fa6c6"/>
+<text x="124.66666666666667" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">①調查目的的待機</text>
+<text x="124.66666666666667" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">懲戒之前的事實調查</text>
+<text x="124.66666666666667" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">以業務命令的形式進行</text>
+<text x="124.66666666666667" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">工資原則上全額</text>
+<text x="124.66666666666667" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">（民法536條2項）</text>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="114" rx="7" fill="#fbf3e2" stroke="#d8b877"/>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="25" rx="7" fill="#d8b877"/>
+<text x="350.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">②作為懲戒的出勤停止</text>
+<text x="350.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">懲戒處分本身</text>
+<text x="350.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">需要就業規則的根據</text>
+<text x="350.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">與辯明的機會</text>
+<text x="350.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">可以無給</text>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="114" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="25" rx="7" fill="#c4cfdb"/>
+<text x="575.3333333333334" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">③經營上理由的休業</text>
+<text x="575.3333333333334" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">工作量減少等</text>
+<text x="575.3333333333334" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">可歸責於公司的休業</text>
+<text x="575.3333333333334" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">休業手當6成以上</text>
+<text x="575.3333333333334" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">（勞動基準法26條）</text>
+<rect x="20" y="162" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">以「為了調查」為名而無給長期放置的運用，可能被評價為人格權侵害或退職強要。</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">在命令書上寫明目的・期間・工資的處理比較安全。</text>
+</svg>
+<figcaption>自宅待機的3個類型與工資的處理</figcaption></figure>
+<table class="wrap1">
+<tr><th>記載事項</th><th>寫法</th></tr>
+<tr><td>目的</td><td>特定為「為了調查○○的事實關係」。避免「暫時的措置」這種曖昧的記載</td></tr>
+<tr><td>期間</td><td>放進始期與終期。有延長必要時，重新以書面更新</td></tr>
+<tr><td>工資的處理</td><td>明記期間中的工資全額支給</td></tr>
+<tr><td>待機中的義務</td><td>保持可以聯絡的狀態、應公司要求配合說明</td></tr>
+</table>
+<p class="small">調查目的的自宅待機是業務命令而非懲戒處分，因此原則上不能作成無給（民法536條2項）。</p>
 <h2>變成違法的類型</h2>
 <ul>
 <li><strong>以調查為名長期放置</strong>：超過必要期間的待機會被評價為人格權侵害・退職強要——數週就該查完的案件放置數個月＋期間只付低額工資，構成損害賠償事由。</li>
@@ -22895,6 +24132,43 @@ ja="""<h2>【日本語版】自宅待機命令と賃金——3つの類型で答
 <li><strong>②懲戒処分としての出勤停止</strong>：就業規則上の根拠と弁明機会等の手続が必要で、処分の本質として無給が可能です。ただし処分は調査・認定の<strong>後</strong>でなければ順序が逆です。</li>
 <li><strong>③経営上の理由による休業</strong>：<strong>休業手当（平均賃金6割以上）</strong>が必要です（労基法26条）。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 224" role="img" aria-label="自宅待機命令の3つの類型と賃金の扱いを比べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">自宅待機は3つに分かれる</text>
+<rect x="20.0" y="36" width="209.33333333333334" height="114" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="209.33333333333334" height="25" rx="7" fill="#8fa6c6"/>
+<text x="124.66666666666667" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">①調査目的の待機</text>
+<text x="124.66666666666667" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">懲戒の前の事実調査</text>
+<text x="124.66666666666667" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">業務命令として行う</text>
+<text x="124.66666666666667" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">賃金は原則として全額</text>
+<text x="124.66666666666667" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">（民法536条2項）</text>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="114" rx="7" fill="#fbf3e2" stroke="#d8b877"/>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="25" rx="7" fill="#d8b877"/>
+<text x="350.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">②懲戒としての出勤停止</text>
+<text x="350.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">懲戒処分そのもの</text>
+<text x="350.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">就業規則の根拠と</text>
+<text x="350.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">弁明の機会が必要</text>
+<text x="350.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">無給とすることが可能</text>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="114" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="25" rx="7" fill="#c4cfdb"/>
+<text x="575.3333333333334" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">③経営上の理由の休業</text>
+<text x="575.3333333333334" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">仕事量の減少など</text>
+<text x="575.3333333333334" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">会社の責に帰すべき休業</text>
+<text x="575.3333333333334" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">休業手当は6割以上</text>
+<text x="575.3333333333334" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">（労基法26条）</text>
+<rect x="20" y="162" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">「調査のため」としながら無給で長期間放置する運用は、人格権の侵害や退職の強要と</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">評価されるおそれがあります。命令書に目的・期間・賃金の扱いを書いておくのが安全です。</text>
+</svg>
+<figcaption>自宅待機の3類型と賃金の扱い</figcaption></figure>
+<table class="wrap1">
+<tr><th>記載事項</th><th>書き方</th></tr>
+<tr><td>目的</td><td>「○○の事実関係を調査するため」と特定する。「当面の措置」等の曖昧な記載は避ける</td></tr>
+<tr><td>期間</td><td>始期と終期を入れる。延ばす必要が生じたときは、改めて書面で更新する</td></tr>
+<tr><td>賃金の扱い</td><td>期間中の賃金は全額支給することを明記する</td></tr>
+<tr><td>待機中の義務</td><td>連絡が取れる状態を保つこと、会社の求めに応じて説明に応じること</td></tr>
+</table>
+<p class="small">調査目的の自宅待機は業務命令であって懲戒処分ではないため、原則として無給とすることはできません（民法536条2項）。</p>
 <h3>違法となる類型</h3>
 <ul>
 <li>調査名目での長期放置は人格権侵害・退職強要と評価され得ます。無給での調査待機は原則違法で全額請求が可能です。仕事外し目的の待機命令は権利濫用・ハラスメントに該当します。</li>
@@ -22918,6 +24192,34 @@ body="""
 <li>理由的核心：就業規則所謂「勞動能率低劣、無提升可能」是指<strong>顯著低劣</strong>的場合；<strong>相對評價的後段班</strong>永遠有人存在，不等於絕對的能力不足；且公司應先盡<strong>體系性的教育・指導・配置轉換</strong>等手段。</li>
 <li>一般化：長期僱用下的正社員（尤其新卒採用）＝公司承擔育成責任→解僱有效需要①顯著能力不足的<strong>客觀立證</strong>②<strong>給予改善機會</strong>（具體的指導紀錄）③<strong>配置轉換等迴避解僱的努力</strong>④仍然沒有改善——四段論證。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 511" role="img" aria-label="依序呈現以能力不足為理由解僱時公司所需的4個階段論證的流程圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">以能力不足為理由的解僱所需的4個階段</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①客觀地顯示顯著的能力不足</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">單純「未達平均水準」還不夠</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">相對評價的後段班並不等於絕對的能力不足</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②給予改善的機會</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">實施體系性的教育・指導，並把內容留成紀錄</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">不可能達成的目標・過短的期間・毫無支援會反過來不利</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③盡迴避解僱的努力</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">檢討配置轉換・職務變更的可能性</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">把尋找接受部門的經過留成書面</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④確認仍然沒有改善</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">對比指導前後，究竟哪些地方沒有改變</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">把解僱定位為最後手段</text>
+<rect x="20" y="430" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="450" font-size="11.5" fill="#24313f" text-anchor="middle">セガ・エンタープライゼス事件（東京地裁平成11年10月15日決定・勞判770號34頁）認為，</text>
+<text x="350.0" y="469" font-size="11.5" fill="#24313f" text-anchor="middle">就業規則所謂勞動能率低劣、無提升可能，是指顯著低劣且無提升可能的場合，</text>
+<text x="350.0" y="488" font-size="11.5" fill="#24313f" text-anchor="middle">並以此為由，將人事考課後段未滿10％的員工的解僱認定為無效。</text>
+</svg>
+<figcaption>能力不足解僱的論證順序（取自セガ・エンタープライゼス事件的框架）</figcaption></figure>
 <h2>例外：基準較緩的類型</h2>
 <ul>
 <li><strong>地位特定・高度專門職的中途採用</strong>（以部長職・即戰力身分被錄用）：欠缺被期待的特定能力＝有解僱有效方向的裁判例（以特定能力＋高待遇迎接的場合，配轉義務也縮小）。</li>
@@ -22928,6 +24230,28 @@ body="""
 <li>本來的意義：把「給予改善機會」證據化——適正運用對勞使雙方都合理。</li>
 <li>濫用型：不可能達成的目標・期間過短・毫無支援＝<strong>為解僱・退職強要鋪路的工具</strong>——這種PIP的存在反而成為解僱無效側的證據。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 224" role="img" aria-label="把PIP的運用分為會成為改善機會證據與反而對公司不利兩類並列的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">PIP（業務改善計畫）的兩張臉</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">會成為改善機會證據的運用</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">具體提示可以達到的目標</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">確保改善所需要的期間</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">把上司的支援與面談留成紀錄</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">把未達成的項目與理由具體化</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">反而對公司不利的運用</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">課以不可能達成的數值目標</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">1〜2個月就中止</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">既無支援也無面談地放置</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">只用「協調性」等抽象評價</text>
+<rect x="20" y="162" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">適正的PIP是給予改善機會的證據，濫用型的PIP則成為解僱無效一方的證據。</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">在特定職務與待遇的中途採用中，爭點是欠缺被期待的能力，配轉義務也相對縮小。</text>
+</svg>
+<figcaption>同樣是PIP，運用方式一變，證據的方向就反轉</figcaption></figure>
 <h2>雙方的行動</h2>
 <ul>
 <li>勞工端：請求開示指導紀錄・評價資料、以書面爭執PIP目標的達成可能性、PIP與退職勸奨成套出現時不要輕易簽名。被解僱後→地位確認＋請求解僱期間的工資。</li>
@@ -22942,6 +24266,34 @@ ja="""<h2>【日本語版】能力不足解雇はなぜ難しいか——セガ�
 <li>核心は、就業規則の「労働能率が劣り、向上の見込みがない」とは<strong>著しく劣る</strong>場合を指すこと、相対評価の下位は絶対的な能力不足を意味しないこと、体系的な教育・指導・配置転換を先に尽くすべきことです。</li>
 <li>一般化すると、①著しい能力不足の客観的立証②改善機会の付与③配転等の解雇回避努力④それでも改善しないこと、の4段階の論証が必要です。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 511" role="img" aria-label="能力不足を理由とする解雇で会社に求められる4段階の論証を上から順に示した流れ図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">能力不足を理由とする解雇で求められる4段階</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①著しい能力不足を客観的に示す</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">平均的な水準に達していないというだけでは足りない</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">相対評価で下位であることは絶対的な能力不足を示さない</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②改善の機会を与える</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">体系的な教育・指導を実施し、その内容を記録に残す</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">達成不能な目標・短い期間・支援なしの運用は逆効果</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③解雇を回避する努力を尽くす</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">配置転換・職務変更の可能性を検討する</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">受入れ先を探した経過を書面で残す</text>
+<path d="M350.0 316 L350.0 332" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,332 355.0,332 350.0,340" fill="#8fa6c6"/>
+<rect x="90.0" y="342" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="363" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④それでも改善しないことを確認する</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">指導の前後で何が変わらなかったのかを対比する</text>
+<text x="350.0" y="402" font-size="11.5" fill="#44596f" text-anchor="middle">解雇は最後の手段として位置づける</text>
+<rect x="20" y="430" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="450" font-size="11.5" fill="#24313f" text-anchor="middle">セガ・エンタープライゼス事件（東京地決平成11年10月15日労判770号34頁）は、就業規則の</text>
+<text x="350.0" y="469" font-size="11.5" fill="#24313f" text-anchor="middle">「労働能率が劣り、向上の見込みがない」に当たるには「著しく労働能率が劣り、しかも</text>
+<text x="350.0" y="488" font-size="11.5" fill="#24313f" text-anchor="middle">向上の見込みがないとき」でなければならないとし、考課下位10％未満の解雇を無効とした。</text>
+</svg>
+<figcaption>能力不足解雇の論証順序（セガ・エンタープライゼス事件の枠組みから）</figcaption></figure>
 <h3>例外：基準が緩む類型</h3>
 <ul>
 <li>地位・職務を特定した高待遇の中途採用（即戦力採用）では、期待された特定能力の欠如を理由とする解雇が有効とされやすく、配転義務も縮小します。外資系・年俸制でも日本法の解雇規制自体は適用されます。</li>
@@ -22950,6 +24302,28 @@ ja="""<h2>【日本語版】能力不足解雇はなぜ難しいか——セガ�
 <ul>
 <li>適正なPIPは改善機会付与の証拠になりますが、達成不能な目標・短期間・支援なしの濫用型PIPは、かえって解雇無効側の証拠になります。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 224" role="img" aria-label="PIPの運用のうち改善機会の証拠になるものと会社に不利に働くものを並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">PIP（業務改善計画）の二つの顔</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">改善機会の証拠になる運用</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">到達可能な目標を具体的に示す</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">改善に必要な期間を確保する</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">上司の支援と面談を記録に残す</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">未達の項目と理由を具体化する</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">かえって会社に不利に働く運用</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">達成不能な数値目標を課す</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">1〜2か月で打ち切る</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">支援も面談もなく放置する</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">「協調性」等の抽象評価で済ます</text>
+<rect x="20" y="162" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">適正なPIPは改善の機会を与えた証拠になるが、濫用型のPIPは解雇を無効とする側の証拠になる。</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">職務と待遇を特定した中途採用では期待された能力の欠如が問題になり、配転義務は相対的に縮む。</text>
+</svg>
+<figcaption>同じPIPでも、運用次第で証拠としての向きが逆になる</figcaption></figure>
 <h3>双方の動き方</h3>
 <ul>
 <li>労働者側は指導記録・評価の開示請求とPIP目標の達成可能性の争い、解雇後は地位確認＋バックペイ請求。会社側は評価の客観化・指導の書面化・配転検討を経て、解雇は最後の手段とすべきです。</li>
@@ -23126,12 +24500,52 @@ body="""
 <li>理由的核心：事件後長期間經過、職場秩序已經回復，<strong>企業秩序維持的觀點上處分的必要性已減弱</strong>；長期放置後突然重處分，欠缺客觀合理理由・社會通念上不相當。</li>
 <li>該案中公司以「等刑事處分結果」為由放置——最高裁判所認為事案內容上不需要等待（公司自己可以調查認定），不構成遲延的正當理由。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 189" role="img" aria-label="從事件到諭旨退職處分經過7年以上的經過帶圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">從事件到處分經過7年以上</text>
+<rect x="24" y="52" width="143.1" height="46" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="95.5609756097561" y="72" font-size="12" fill="#24313f" text-anchor="middle" font-weight="bold">暴行事件 H5.10</text>
+<text x="95.5609756097561" y="89" font-size="11" fill="#44596f" text-anchor="middle">→ 通告書 H7.7</text>
+<rect x="167.1219512195122" y="52" width="349.9" height="46" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="342.04878048780483" y="72" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">等待偵查結果</text>
+<text x="342.04878048780483" y="89" font-size="11" fill="#24313f" text-anchor="middle">→ 不起訴 H11.12</text>
+<rect x="516.9756097560976" y="52" width="159.0" height="46" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="596.4878048780488" y="72" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">等待他案判決</text>
+<text x="596.4878048780488" y="89" font-size="11" fill="#24313f" text-anchor="middle">→ 諭旨退職處分 H13.4</text>
+<rect x="20" y="108" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="128" font-size="11.5" fill="#24313f" text-anchor="middle">對本件各事件經過7年以上後才做的諭旨退職處分，最高裁判所平成18年10月6日判決</text>
+<text x="350.0" y="147" font-size="11.5" fill="#24313f" text-anchor="middle">（勞判925號11頁〔ネスレ日本（懲戒解雇）事件〕）認為：在處分時點上，</text>
+<text x="350.0" y="166" font-size="11.5" fill="#24313f" text-anchor="middle">從企業秩序維持的觀點已欠缺需要如此重處分的客觀合理理由，屬權利濫用而無效。</text>
+</svg>
+<figcaption>ネスレ日本（懲戒解雇）事件的經過——從事件到處分經過7年以上（最高裁判所平成18年10月6日判決）</figcaption></figure>
 <h2>一般化的整理</h2>
 <ul>
 <li>懲戒權本身<strong>沒有明文的時效</strong>——但處分必須在<strong>合理期間內</strong>行使，顯著遲延本身就是權利濫用的徵表（勞契法15條）。</li>
 <li>起算的實質：<strong>公司知道（可以知道）非行事實的時點</strong>。發覺後放置數年＝危險；數週〜數月內調查・處分＝正常。</li>
 <li>遲延有正當理由的例外：隱蔽工作導致發覺遲、被害人申告遲、調查確實需要時間——但「等刑事判決」不當然是正當理由（ネスレ日本事件）。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 243" role="img" aria-label="懲戒處分遲延可能是正當理由與難以成為正當理由的比較圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">能不能成為遲延的正當理由</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">可能是正當理由</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">因隱蔽導致發覺遲</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">被害人申告遲</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">調查確實需要時間</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">難以成為正當理由</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">等刑事處分結果</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">（自己能調查的事案）</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">等其他員工的訴訟結果</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">為了「觀察一下」而放置</text>
+<rect x="20" y="162" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">ネスレ日本（懲戒解雇）事件中，暴行發生在職場・就業時間中且有目擊者，</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">因此被認為不必等偵查結果也完全可以決定處分。</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">且已不起訴卻仍做重處分，也被指出對應欠缺一貫性。</text>
+</svg>
+<figcaption>懲戒處分遲延的理由中較易被正當化與較難被正當化的</figcaption></figure>
 <h2>員工側會這樣主張——公司要預先回答的4點</h2>
 <ul>
 <li>被翻舊帳處分的員工側，主張是定型的：①事實發生〜處分的期間②公司何時知情③這期間本人正常勤務・秩序已回復④期間中有無新的非行——全部指向「現在處分沒有必要性」。公司在處分前就要能對這4點給出說明。</li>
@@ -23149,10 +24563,50 @@ ja="""<h2>【日本語版】時機に遅れた懲戒処分——7年前の非違
 <ul>
 <li>ネスレ日本事件（最二小判平成18年10月6日労判925号11頁）は、7年以上前の職場内暴行事件を理由とする諭旨退職処分を権利濫用として無効としました。長期間の経過により職場秩序は回復しており、企業秩序維持の観点から処分の必要性が減弱していること、長期放置後の重い処分は客観的合理性・社会的相当性を欠くことが核心です。会社は刑事処分待ちを理由としましたが、事案の内容上、自ら調査・認定できるものであり遅延の正当理由にならないとされました。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 189" role="img" aria-label="事件から諭旨退職処分までに7年以上を要した経過を示す帯図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">事件から処分までに7年以上</text>
+<rect x="24" y="52" width="143.1" height="46" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="95.5609756097561" y="72" font-size="12" fill="#24313f" text-anchor="middle" font-weight="bold">暴行事件 H5.10</text>
+<text x="95.5609756097561" y="89" font-size="11" fill="#44596f" text-anchor="middle">→ 通告書 H7.7</text>
+<rect x="167.1219512195122" y="52" width="349.9" height="46" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="342.04878048780483" y="72" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">捜査の結果待ち</text>
+<text x="342.04878048780483" y="89" font-size="11" fill="#24313f" text-anchor="middle">→ 不起訴 H11.12</text>
+<rect x="516.9756097560976" y="52" width="159.0" height="46" rx="5" fill="#fdecea" stroke="#e0a79e"/>
+<text x="596.4878048780488" y="72" font-size="12" fill="#8c2f22" text-anchor="middle" font-weight="bold">他事件の判決待ち</text>
+<text x="596.4878048780488" y="89" font-size="11" fill="#24313f" text-anchor="middle">→ 諭旨退職処分 H13.4</text>
+<rect x="20" y="108" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="128" font-size="11.5" fill="#24313f" text-anchor="middle">本件各事件から7年以上が経過した後の諭旨退職処分について、最二小判平成18年10月6日</text>
+<text x="350.0" y="147" font-size="11.5" fill="#24313f" text-anchor="middle">労判925号11頁〔ネスレ日本（懲戒解雇）事件〕は、処分時点において企業秩序維持の観点から</text>
+<text x="350.0" y="166" font-size="11.5" fill="#24313f" text-anchor="middle">重い懲戒処分を必要とする客観的に合理的な理由を欠くとして、権利の濫用により無効としました。</text>
+</svg>
+<figcaption>ネスレ日本（懲戒解雇）事件の経過——事件から処分まで7年以上（最二小判平成18年10月6日労判925号11頁）</figcaption></figure>
 <h3>一般化</h3>
 <ul>
 <li>懲戒権に明文の時効はありませんが、合理的期間内に行使すべきであり、著しい遅延自体が権利濫用の徴表となります（労契法15条）。実質的な起算点は会社が非違行為を知った（知り得た）時点です。隠蔽による発覚遅れや調査に真に要した期間は正当理由になり得ますが、「刑事判決待ち」は当然には正当化されません。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 243" role="img" aria-label="懲戒処分の遅延の正当理由になり得るものとなりにくいものの比較図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">遅延の正当理由になるか</text>
+<rect x="20.0" y="36" width="322.0" height="114" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">正当理由になり得る</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">隠蔽により発覚が遅れた</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">被害者の申告が遅れた</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">調査に真に時間を要した</text>
+<rect x="358.0" y="36" width="322.0" height="114" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">正当理由になりにくい</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">刑事処分の結果待ち</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">（自社で調査できる事案）</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">他の従業員の訴訟の結果待ち</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">「様子を見る」ための放置</text>
+<rect x="20" y="162" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="182" font-size="11.5" fill="#24313f" text-anchor="middle">ネスレ日本（懲戒解雇）事件では、職場で就業時間中に行われた暴行で目撃者もいたため、</text>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">捜査の結果を待たずとも処分を決めることは十分に可能であったとされました。</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">不起訴となったのに重い処分を行うことは、対応に一貫性を欠くとも指摘されています。</text>
+</svg>
+<figcaption>懲戒処分が遅れた理由として正当化されやすいもの・されにくいもの</figcaption></figure>
 <h3>労働者側はこう主張してくる——会社が先に答えるべき4点</h3>
 <ul>
 <li>労働者側の主張は定型です：①事実発生から処分までの期間②会社の認識時期③その間の正常勤務・秩序回復④新たな非違行為の不存在——いずれも「今処分する必要性の欠如」に向かいます。会社は処分前にこの4点へ説明を用意できるかを検証すべきで、懲戒解雇・諭旨退職なら地位確認＋賃金請求（バックペイ）で争われ、敗訴コストは遅延期間に比例します。</li>
@@ -26874,6 +28328,15 @@ body="""
 <li><strong>竊盜罪</strong>（刑法235條・10年以下拘禁刑或50萬日圓以下罰金）：拿走<strong>他人（公司）占有中</strong>的財物。一般員工從倉庫搬走商品、拿走別的部門管理的備品，是竊盜——因為那些物品不在他的保管權限內。</li>
 <li><strong>背任罪</strong>（刑法247條・5年以下拘禁刑或50萬日圓以下罰金）：為他人處理事務者，為了自己或第三人的利益<strong>濫用權限・違背任務</strong>，使公司受財產上損害。採購擔當故意用高價向特定廠商進貨收回扣、擔保價值不足仍放款，是典型。役員做同樣的事是<strong>特別背任罪</strong>（會社法960條・10年以下拘禁刑或1,000萬日圓以下罰金，可併科），更重。</li>
 </ul>
+<table class="wrap1">
+<tr><th>罪名</th><th>成立的核心</th><th>法定刑</th><th>要固定的證據</th></tr>
+<tr><td>竊盜罪（刑法235條）</td><td>把公司占有中的財物搬走</td><td>10年以下拘禁刑或50萬日圓以下罰金</td><td>搬出的事實（監視器・入出庫紀錄）</td></tr>
+<tr><td>橫領罪（刑法252條1項）</td><td>把自己占有的他人之物據為己有</td><td>5年以下拘禁刑</td><td>占有的根據與領得（領取紀錄・用途）</td></tr>
+<tr><td>業務上橫領罪（刑法253條）</td><td>把基於業務而自己占有的他人之物據為己有</td><td>10年以下拘禁刑</td><td>保管權限與領得（帳簿・匯款紀錄）</td></tr>
+<tr><td>背任罪（刑法247條）</td><td>為他人處理事務者，以圖利或加害的目的違背任務，使本人受財產上損害</td><td>5年以下拘禁刑或50萬日圓以下罰金</td><td>任務違背・目的・損害額（決裁紀錄・對比市價）</td></tr>
+<tr><td>詐欺罪（刑法246條1項）</td><td>欺騙他人使其交付財物</td><td>10年以下拘禁刑</td><td>欺騙行為與交付的因果（申請書・稟議書）</td></tr>
+</table>
+<p class="small">罪名由偵查機關重新構成，所以在告訴的階段不需要先確定。公司該做的是看準立證的方向並固定證據。能用橫領構成的案件卻用背任去組建，等於自己背上「圖利加害的目的」這個最難立證的要素。</p>
 <h2>區分的實益</h2>
 <p>對公司來說，罪名本身不是最重要的（告訴時寫錯罪名，警察・檢察官會重新構成），重要的是<strong>證據的方向</strong>：橫領要證明「保管權限＋領得行為」（帳簿・匯款紀錄），竊盜要證明「搬出行為」（監視器・入出庫紀錄），背任要證明「任務違背＋圖利目的＋公司損害」（決裁紀錄・對比市價）。背任的立證最難，能構成橫領的儘量用橫領整理。</p>
 <h2>公司的對應順序</h2>
@@ -26884,6 +28347,30 @@ body="""
 <li><strong>懲戒</strong>：金額・期間・地位・返還狀況綜合量定。懲戒解僱常見，但也要踐行弁明程序。</li>
 <li><strong>刑事告訴</strong>：是否告訴是經營判斷（回收優先還是嚴正對應優先）。「不告訴換取返還」的合意本身是適法的交涉選項。</li>
 </ol>
+<figure class="hfig">
+<svg viewBox="0 0 700 243" role="img" aria-label="對比發現員工不正時應先固定證據的理由的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">第一步怎麼走，決定錢收不收得回來</text>
+<rect x="20.0" y="36" width="322.0" height="133" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">先去質問本人</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">資料・帳簿被改掉</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">串供・把證據帶走</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">本人從此不來上班</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">藏錢・把名義換掉</text>
+<text x="181.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">懲戒和民事回收都難成立</text>
+<rect x="358.0" y="36" width="322.0" height="133" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">先把證據固定</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">保全帳簿・傳票・入出庫紀錄</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">印出帳戶・經費精算的歷程</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">在覆寫前保存監視器影像</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">確保終端・郵件的紀錄</text>
+<text x="519.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">在這之後才面談、取自認書</text>
+<rect x="20" y="181" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">面談要在固定證據之後，由2人以上進行，並把聽取的內容留成紀錄。</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">自認書要寫上日期・金額・方法・用途並簽名，返還的合意另以別的書面處理。</text>
+</svg>
+<figcaption>發現不正時的第一步</figcaption></figure>
 """,
 ja="""<h2>【日本語版】レジの金・倉庫の商品が消えた——窃盗・業務上横領・背任はどう違う</h2>
 <p>レジの現金が合わない、倉庫の商品が消える、経理が公金を私的流用。いずれも「従業員が会社の財物を取る」行為ですが、罪名は<strong>誰がその財物を占有・管理していたか</strong>で分かれます。</p>
@@ -26893,6 +28380,15 @@ ja="""<h2>【日本語版】レジの金・倉庫の商品が消えた——窃�
 <li><strong>窃盗罪</strong>（刑法235条・10年以下の拘禁刑または50万円以下の罰金）：<strong>会社の占有下</strong>にある財物の持ち出し。一般従業員が倉庫から商品を持ち出す類型（保管権限がないため横領ではない）。</li>
 <li><strong>背任罪</strong>（刑法247条・5年以下の拘禁刑または50万円以下の罰金）：事務処理者が図利加害目的で<strong>任務に背き</strong>会社に財産上の損害を与える。キックバック目的の高値発注、担保不足の貸付が典型。役員なら<strong>特別背任罪</strong>（会社法960条・10年以下の拘禁刑もしくは1,000万円以下の罰金、併科あり）。</li>
 </ul>
+<table class="wrap1">
+<tr><th>罪名</th><th>成立の核心</th><th>法定刑</th><th>固めるべき証拠</th></tr>
+<tr><td>窃盗罪（刑法235条）</td><td>会社が占有している財物を持ち出す</td><td>10年以下の拘禁刑又は50万円以下の罰金</td><td>持出しの事実（防犯カメラ・入出庫記録）</td></tr>
+<tr><td>横領罪（刑法252条1項）</td><td>自己が占有する他人の物を領得する</td><td>5年以下の拘禁刑</td><td>占有の根拠と領得（受領記録・使途）</td></tr>
+<tr><td>業務上横領罪（刑法253条）</td><td>業務上自己が占有する他人の物を領得する</td><td>10年以下の拘禁刑</td><td>保管権限と領得（帳簿・送金記録）</td></tr>
+<tr><td>背任罪（刑法247条）</td><td>他人のためにその事務を処理する者が、図利加害の目的で任務に背く行為をし、財産上の損害を加える</td><td>5年以下の拘禁刑又は50万円以下の罰金</td><td>任務違背・目的・損害額（決裁記録・市価対比）</td></tr>
+<tr><td>詐欺罪（刑法246条1項）</td><td>人を欺いて財物を交付させる</td><td>10年以下の拘禁刑</td><td>欺罔行為と交付の因果（申請書・稟議書）</td></tr>
+</table>
+<p class="small">罪名は捜査機関が構成し直すため、告訴の段階で確定している必要はありません。会社がすべきことは、立証の方向を見定めて証拠を固めることです。横領で構成できる事案を背任で組み立てると、図利加害の目的という最も立証が難しい要素を自ら背負うことになります。</p>
 <h3>区別の実益は「証拠の方向」</h3>
 <p>告訴状の罪名は捜査機関が再構成するので決定的ではありません。重要なのは立証の方向です。横領＝保管権限＋領得（帳簿・送金記録）、窃盗＝持出行為（カメラ・入出庫記録）、背任＝任務違背＋図利目的＋損害（決裁記録・市価対比）。背任の立証が最も難しく、横領で構成できるものは横領で整理するのが実務です。</p>
 <h3>会社の対応順序</h3>
@@ -26903,6 +28399,30 @@ ja="""<h2>【日本語版】レジの金・倉庫の商品が消えた——窃�
 <li>懲戒：金額・期間・地位・返還状況で量定。懲戒解雇でも弁明手続は必要</li>
 <li>刑事告訴：告訴するかは経営判断。「返還と引換えに告訴しない」という合意は適法な交渉の選択肢</li>
 </ol>
+<figure class="hfig">
+<svg viewBox="0 0 700 243" role="img" aria-label="従業員の不正が発覚したときに先に証拠を固めるべき理由を対比した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">最初の一手で、回収できるかどうかが決まる</text>
+<rect x="20.0" y="36" width="322.0" height="133" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">先に本人を問い質す</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">データ・帳簿が改変される</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">口裏合わせ・証拠の持ち出し</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">本人が出社しなくなる</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">金銭の隠匿・名義の付け替え</text>
+<text x="181.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">懲戒も民事回収も立ちにくい</text>
+<rect x="358.0" y="36" width="322.0" height="133" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">先に証拠を固める</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">帳簿・伝票・入出庫記録を保全</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">口座・経費精算の履歴を印刷</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">カメラ映像を上書き前に保存</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">端末・メールのログを確保</text>
+<text x="519.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">そのうえで面談し自認書を取る</text>
+<rect x="20" y="181" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">面談は証拠を固めた後に、2名以上で、聴取の内容を記録して行います。</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">自認書には日付・金額・方法・使途と署名を入れ、返還の合意は別の書面にします。</text>
+</svg>
+<figcaption>不正が発覚したときの最初の一手</figcaption></figure>
 """),
 dict(
 slug="jugyoin-inshu-unten",
@@ -29025,8 +30545,61 @@ body="""
 <li><strong>④期限</strong>：改善確認的時點（例：交付日起1個月後面談確認）。</li>
 <li><strong>⑤交付紀錄</strong>：請本人在副本簽名。<strong>拒簽也沒關係</strong>——記錄「某月某日於會議室交付，本人拒絕簽名」即可，交付的事實不受影響。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 537" role="img" aria-label="顯示注意書・指導書一定要記載的5個要素的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">注意書一定要放進去的5個要素</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①具體的事實</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">令和○年○月○日○時，在○會議室，對同僚A說了『……』。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">不寫「態度不好」這類抽象評語。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②違反的規範</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">明示就業規則的第幾條（服務規律・業務命令遵守等）。</text>
+<path d="M350.0 195 L350.0 211" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,211 355.0,211 350.0,219" fill="#8fa6c6"/>
+<rect x="90.0" y="221" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="242" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③要求的改善行動</text>
+<text x="350.0" y="262" font-size="11.5" fill="#44596f" text-anchor="middle">不是「要注意」，而是「日報每天17時前提交」。</text>
+<path d="M350.0 278 L350.0 294" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,294 355.0,294 350.0,302" fill="#8fa6c6"/>
+<rect x="90.0" y="304" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="325" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④期限</text>
+<text x="350.0" y="345" font-size="11.5" fill="#44596f" text-anchor="middle">決定確認改善的時點（例：交付起1個月後面談）。</text>
+<path d="M350.0 361 L350.0 377" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,377 355.0,377 350.0,385" fill="#8fa6c6"/>
+<rect x="90.0" y="387" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="408" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤交付的紀錄</text>
+<text x="350.0" y="428" font-size="11.5" fill="#44596f" text-anchor="middle">請本人在副本簽名。被拒絕就記錄交付的經過。</text>
+<text x="350.0" y="447" font-size="11.5" fill="#44596f" text-anchor="middle">「○月○日在○會議室交付，本人拒絕簽名」——這樣就夠。</text>
+<rect x="20" y="475" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="495" font-size="11.5" fill="#24313f" text-anchor="middle">注意書・指導書是業務上的指示而非懲戒處分，因此沒有辯明手續與</text>
+<text x="350.0" y="514" font-size="11.5" fill="#24313f" text-anchor="middle">一事不再理的問題，同一問題行動反覆發生就可以反覆交付。</text>
+</svg>
+<figcaption>注意書・指導書的必備5要素</figcaption></figure>
 <h2>注意指導不是懲戒處分</h2>
 <p>注意書・指導書是業務上的指示，<strong>不是懲戒處分</strong>。因此①不需要就業規則上的懲戒事由該當性判斷、②不需要弁明手續、③沒有「一事不再理」的問題，同一問題行動反覆發生就反覆交付。輕快、低門檻、可積累——這是它與譴責・減給等懲戒處分的最大差異，也是它的價值所在。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 243" role="img" aria-label="比較注意書・指導書與懲戒處分的差異的圖" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">注意指導與懲戒處分是兩回事</text>
+<rect x="20.0" y="36" width="322.0" height="133" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">注意書・指導書</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">業務上的指示</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">不需要就業規則懲戒事由</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">的該當性判斷</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">不需要辯明手續</text>
+<text x="181.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">同一行動可以反覆交付</text>
+<rect x="358.0" y="36" width="322.0" height="133" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">懲戒處分</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">對企業秩序違反的制裁</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">需要就業規則的根據規定</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">需要辯明機會等手續</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">同一事由不能處分兩次</text>
+<text x="519.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">欠缺相當性即無效（勞契法15條）</text>
+<rect x="20" y="181" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">注意指導的累積，在判斷懲戒處分的相當性（勞動契約法15條）</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">與解僱的合理性・相當性（同法16條）時，是核心的證據。</text>
+</svg>
+<figcaption>注意指導與懲戒處分的差異</figcaption></figure>
 <h2>積累的用途</h2>
 <p>「注意→不改善→再注意→仍不改善」的書面循環，在①懲戒處分的相當性（勞動契約法15條）、②解僱的合理性・相當性（同法16條）、③本採用拒否的判斷，全部場面都是核心證據。反過來說，沒有這個積累，再嚴重的問題行動也難以直接走到解僱。</p>
 <p>一個實務提醒：文書的語調保持冷靜・事務性。威壓性的表達可能反過來被主張為職權騷擾的證據。</p>
@@ -29041,8 +30614,61 @@ ja="""<h2>【日本語版】注意書・指導書の書き方——将来の懲�
 <li><strong>④期限</strong>：改善確認の時点（例：交付日から1か月後に面談で確認）。</li>
 <li><strong>⑤交付記録</strong>：本人に控えへの署名を求めます。<strong>拒否されても問題ありません</strong>——「○月○日会議室で交付、本人は署名を拒否」と記録すれば交付の事実は揺らぎません。</li>
 </ul>
+<figure class="hfig">
+<svg viewBox="0 0 700 537" role="img" aria-label="注意書・指導書に必ず記載する5つの要素を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">注意書に必ず入れる5つの要素</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①具体的な事実</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">令和○年○月○日○時、○会議室で、同僚Aに『……』と発言。</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">「態度が悪い」等の抽象評価は書かない。</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②違反した規範</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">就業規則の第何条かを明示する（服務規律・業務命令遵守等）。</text>
+<path d="M350.0 195 L350.0 211" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,211 355.0,211 350.0,219" fill="#8fa6c6"/>
+<rect x="90.0" y="221" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="242" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③求める改善行動</text>
+<text x="350.0" y="262" font-size="11.5" fill="#44596f" text-anchor="middle">「注意する」ではなく「日報を毎日17時までに提出する」と書く。</text>
+<path d="M350.0 278 L350.0 294" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,294 355.0,294 350.0,302" fill="#8fa6c6"/>
+<rect x="90.0" y="304" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="325" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④期限</text>
+<text x="350.0" y="345" font-size="11.5" fill="#44596f" text-anchor="middle">改善を確認する時点を決める（例：交付から1か月後に面談）。</text>
+<path d="M350.0 361 L350.0 377" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,377 355.0,377 350.0,385" fill="#8fa6c6"/>
+<rect x="90.0" y="387" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="408" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">⑤交付の記録</text>
+<text x="350.0" y="428" font-size="11.5" fill="#44596f" text-anchor="middle">控えに署名を求める。拒否されたら交付の経過を記録する。</text>
+<text x="350.0" y="447" font-size="11.5" fill="#44596f" text-anchor="middle">「○月○日○会議室で交付、本人は署名を拒否」——これで足りる。</text>
+<rect x="20" y="475" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="495" font-size="11.5" fill="#24313f" text-anchor="middle">注意書・指導書は業務上の指示であって懲戒処分ではないため、弁明手続や</text>
+<text x="350.0" y="514" font-size="11.5" fill="#24313f" text-anchor="middle">一事不再理の問題がなく、同じ問題行動が繰り返されればその都度交付できます。</text>
+</svg>
+<figcaption>注意書・指導書の必須5要素</figcaption></figure>
 <h3>注意指導は懲戒処分ではない</h3>
 <p>注意書・指導書は業務上の指示であり、<strong>懲戒処分ではありません</strong>。したがって①就業規則上の懲戒事由該当性の判断が不要、②弁明手続が不要、③「一事不再理」の問題がなく、同じ問題行動が繰り返されればその都度交付できます。軽く、低いハードルで、積み重ねられる——これが譴責・減給等の懲戒処分との最大の違いであり、価値の源泉です。</p>
+<figure class="hfig">
+<svg viewBox="0 0 700 243" role="img" aria-label="注意書・指導書と懲戒処分の違いを比べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">注意指導と懲戒処分は別のもの</text>
+<rect x="20.0" y="36" width="322.0" height="133" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">注意書・指導書</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">業務上の指示</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">就業規則の懲戒事由への</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">当てはめは不要</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">弁明手続は不要</text>
+<text x="181.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">同じ行動なら何度でも出せる</text>
+<rect x="358.0" y="36" width="322.0" height="133" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">懲戒処分</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">企業秩序違反に対する制裁</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">就業規則の根拠規定が必要</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">弁明の機会など手続が必要</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">同一の事由で二度は処分できない</text>
+<text x="519.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">相当性を欠けば無効（労契法15条）</text>
+<rect x="20" y="181" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="201" font-size="11.5" fill="#24313f" text-anchor="middle">注意指導の積み重ねは、懲戒処分の相当性（労働契約法15条）や解雇の合理性・相当性</text>
+<text x="350.0" y="220" font-size="11.5" fill="#24313f" text-anchor="middle">（同法16条）を判断するときの核心的な証拠になります。</text>
+</svg>
+<figcaption>注意指導と懲戒処分の違い</figcaption></figure>
 <h3>積み重ねの使い道</h3>
 <p>「注意→改善なし→再注意→なお改善なし」の書面サイクルは、①懲戒処分の相当性（労働契約法15条）、②解雇の合理性・相当性（同法16条）、③本採用拒否の判断、すべての場面で核心的証拠になります。逆にいえば、この積み重ねなしには、どれほど深刻な問題行動でも解雇まで直行するのは困難です。</p>
 <p>実務上の注意を一つ：文書のトーンは冷静・事務的に保つこと。威圧的な表現は、逆にパワハラの証拠として主張されかねません。</p>
@@ -31937,7 +33563,7 @@ ja="""<h2>【日本語版】派遣社員の受入れは何年までか——事�
 <p>つまり、<strong>「3か月と1日空けてから呼び戻す」という運用は、すでに指針で名指しされています</strong>。</p>
 
 <figure class="hfig">
-<svg viewBox="0 0 700 250" role="img" aria-label="抵触日とクーリング期間の時間軸" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 700 262" role="img" aria-label="抵触日とクーリング期間の時間軸" xmlns="http://www.w3.org/2000/svg">
 <text x="350" y="20" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">抵触日とクーリング期間（中断）の関係</text>
 <rect x="40" y="46" width="300" height="26" fill="#b8d4f0" rx="3"/>
 <text x="190" y="64" font-size="11" fill="#1a3a5c" text-anchor="middle">派遣の受入れ　3年（派遣可能期間）</text>
@@ -34380,6 +36006,21 @@ NEWS_TYPE = {
     "site":    ("網站", "サイト"),
 }
 NEWS = [
+    dict(date="2026-11-12", type="article",
+         title="發布了新文章「有期契約員工滿5年——無期轉換申込權的發生・行使・冷卻期間與轉換後的勞動條件（勞契法18條）」",
+         title_ja="新着記事「有期労働契約の無期転換——労契法18条の5年ルールと実務対応」を公開しました",
+         url="articles/mukitenkan.html",
+         url_ja="ja/articles/mukitenkan.html"),
+    dict(date="2026-11-11", type="article",
+         title="發布了新文章「修改就業規則降低待遇，員工不同意也有效嗎——不利益變更的『合理性』4要素（勞契法10條）」",
+         title_ja="新着記事「就業規則の不利益変更——労契法10条の合理性4要素と実務対応」を公開しました",
+         url="articles/shugyokisoku-henkei.html",
+         url_ja="ja/articles/shugyokisoku-henkei.html"),
+    dict(date="2026-11-10", type="article",
+         title="發布了新文章「彈性上班制的設計與導入——清算期間最長3個月・核心時間・彈性時間・加班費計算（勞基法32條の3）」",
+         title_ja="新着記事「フレックスタイム制の設計と実務（労基法32条の3）」を公開しました",
+         url="articles/flex-jikan.html",
+         url_ja="ja/articles/flex-jikan.html"),
     dict(date="2026-11-09", type="article",
          title="發布了新文章「10人以下的飲食店・零售店法定工時是週44小時——『特例措置對象事業場』的要件與3個陷阱（勞基法40條・勞基則25條之2）」",
          title_ja="新着記事「10人未満の飲食店・小売店の法定労働時間は週44時間——特例措置対象事業場の要件と3つの落とし穴（労基法40条・労基則25条の2）」を公開しました",
