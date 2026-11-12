@@ -50,6 +50,28 @@ HANREI = [
 <p>そのうえでユニオン・ショップ協定について、この制度は組合の組織を間接的に強化するためのものであって、正当な機能を果たすと認められる範囲でのみ効力が認められるとした。したがって、会社が組合に対して解雇義務を負うのは、労働者が正当な理由なく組合に加入しない場合や、有効に脱退・除名されて組合員資格を失った場合に限られ、<strong>除名が無効であれば会社は解雇義務を負わない</strong>と判断した。</p>
 <p>結論として、除名の効力を審理しないまま解雇を有効とした原審の判断は審理不尽であるとして、原判決を破棄し、審理を高等裁判所に差し戻した。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 371" role="img" aria-label="ユニオン・ショップ協定に基づく解雇の有効性を審理する順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">ユニオン・ショップ協定に基づく解雇を審理する順序</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①組合による除名が有効かどうかを審理する</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">協定は、組織の拡大強化を図る制度としての正当な機能を</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">果たすと認められる範囲でのみ効力が承認される</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②除名が無効であれば、使用者は解雇義務を負わない</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">解雇義務が生ずるのは、正当な理由なく組合に加入しない</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">場合や、有効に脱退・除名されて組合員資格を失った場合</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③解雇義務がない以上、解雇に客観的に合理的な理由はない</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">他に解雇の合理的な理由がない限り、権利の濫用として無効</text>
+<rect x="20" y="309" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="329" font-size="11.5" fill="#24313f" text-anchor="middle">除名の効力を審理しないまま解雇を有効とした原審の判断は審理不尽とされ、</text>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">原判決は破棄され、審理が高等裁判所に差し戻された。</text>
+</svg>
+<figcaption>日本食塩製造事件（最二小判昭和50年4月25日民集29巻4号456頁）が示した審理の順序</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>この判断で示された枠組みは、その後の裁判例を通じて確立し、現在は労働契約法16条として明文化されている。条文は「解雇は、客観的に合理的な理由を欠き、社会通念上相当であると認められない場合は、その権利を濫用したものとして、無効とする」と定める。</li>
@@ -80,6 +102,39 @@ HANREI = [
 <p>最高裁は、就業規則等の定めと転勤の実態、勤務地限定の合意がないことから、会社は個別の同意なしに勤務場所を決定し転勤を命じる権限を持つとした。そのうえで、転勤命令権も濫用は許されないとして、次の枠組みを示した。</p>
 <blockquote>「当該転勤命令につき業務上の必要性が存しない場合又は業務上の必要性が存する場合であつても、当該転勤命令が他の不当な動機・目的をもつてなされたものであるとき若しくは労働者に対し通常甘受すべき程度を著しく超える不利益を負わせるものであるとき等、特段の事情の存する場合でない限りは、当該転勤命令は権利の濫用になるものではない」（最二小判昭和61年7月14日労判477号6頁）</blockquote>
 <p>必要性の程度についても、その人以外では代えがきかないというレベルまで求められるわけではないとした。人員の適正な配置、業務の効率、本人の能力を伸ばすこと、職場運営を滑らかにすることなど、企業を合理的に運営するうえで役に立つと言えるのであれば、必要性は認められるという整理である。本件では後任を置く必要があり、家族が負う負担も転勤に伴って通常生じる範囲を大きく超えるものではないとして、権利濫用には当たらないと結論づけ、原判決を破棄して差し戻した。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 281" role="img" aria-label="転勤命令が権利の濫用になる特段の事情の三つの類型を並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">転勤命令が権利の濫用になる「特段の事情」</text>
+<rect x="20.0" y="36" width="209.33333333333334" height="171" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="20.0" y="36" width="209.33333333333334" height="25" rx="7" fill="#e0a79e"/>
+<text x="124.66666666666667" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">①業務上の必要性がない</text>
+<text x="124.66666666666667" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">余人をもって容易に替え</text>
+<text x="124.66666666666667" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">難いという高度の必要性</text>
+<text x="124.66666666666667" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">までは要しない</text>
+<text x="124.66666666666667" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">配置の適正化・能率の増</text>
+<text x="124.66666666666667" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">進・能力開発・意欲の高</text>
+<text x="124.66666666666667" y="175" font-size="11.5" fill="#24313f" text-anchor="middle">揚・運営の円滑化に寄与</text>
+<text x="124.66666666666667" y="194" font-size="11.5" fill="#24313f" text-anchor="middle">する点があれば足りる</text>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="171" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="245.33333333333334" y="36" width="209.33333333333334" height="25" rx="7" fill="#e0a79e"/>
+<text x="350.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">②不当な動機・目的</text>
+<text x="350.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">業務上の必要性がある場</text>
+<text x="350.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">合であっても、他の不当</text>
+<text x="350.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">な動機・目的をもってさ</text>
+<text x="350.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">れたものであるとき</text>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="171" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="470.6666666666667" y="36" width="209.33333333333334" height="25" rx="7" fill="#e0a79e"/>
+<text x="575.3333333333334" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">③著しい不利益</text>
+<text x="575.3333333333334" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">労働者に対し、通常甘受</text>
+<text x="575.3333333333334" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">すべき程度を著しく超え</text>
+<text x="575.3333333333334" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">る不利益を負わせるもの</text>
+<text x="575.3333333333334" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">であるとき</text>
+<rect x="20" y="219" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="239" font-size="11.5" fill="#24313f" text-anchor="middle">これらの特段の事情がない限り、転勤命令は権利の濫用にはならないとされた</text>
+<text x="350.0" y="258" font-size="11.5" fill="#24313f" text-anchor="middle">（最二小判昭和61年7月14日労判477号6頁）。</text>
+</svg>
+<figcaption>東亜ペイント事件（最二小判昭和61年7月14日労判477号6頁）が示した判断の枠組み</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -112,6 +167,27 @@ HANREI = [
 <p>最高裁は、まず懲戒の根拠について次のように述べた。</p>
 <blockquote>「使用者が労働者を懲戒するには、あらかじめ就業規則において懲戒の種別及び事由を定めておくことを要する」（最二小判平成15年10月10日労判861号5頁）</blockquote>
 <p>そのうえで、就業規則が職場のルールとして労働者を拘束するには、<strong>その規則が当てはまる職場で働く人たちに中身を知らせる手続がとられていなければならない</strong>とした。原審は、労働者代表の同意を得て作成し届け出たという事実を認めただけで、センターで働く人への知らせ方について何も認定していない。それにもかかわらず旧就業規則の効力を認めた点が審理を尽くしていないとされ、原判決は破棄され差し戻された。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 352" role="img" aria-label="就業規則が懲戒の根拠として拘束力を生ずるまでの段階を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">就業規則が懲戒の根拠として働くまでの段階</text>
+<rect x="90.0" y="36" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①あらかじめ就業規則に懲戒の種別及び事由を定める</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">定めのない事由を理由として懲戒することはできない</text>
+<path d="M350.0 93 L350.0 109" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,109 355.0,109 350.0,117" fill="#8fa6c6"/>
+<rect x="90.0" y="119" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="140" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②その内容を、適用を受ける事業場の労働者に周知させる手続をとる</text>
+<text x="350.0" y="160" font-size="11.5" fill="#44596f" text-anchor="middle">作成し、労働者代表の同意を得て労働基準監督署長に届け出た</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">という事実だけでは、周知の手続がとられたことにはならない</text>
+<path d="M350.0 195 L350.0 211" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,211 355.0,211 350.0,219" fill="#8fa6c6"/>
+<rect x="90.0" y="221" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="242" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③就業規則が法的規範としての拘束力を生ずる</text>
+<text x="350.0" y="262" font-size="11.5" fill="#44596f" text-anchor="middle">この段階に至って、はじめて懲戒の根拠として用いることができる</text>
+<rect x="20" y="290" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="310" font-size="11.5" fill="#24313f" text-anchor="middle">原審は周知の手続を認定しないまま旧就業規則の効力を認めており、審理不尽の</text>
+<text x="350.0" y="329" font-size="11.5" fill="#24313f" text-anchor="middle">結果、法令の適用を誤った違法があるとして破棄・差戻しとなった。</text>
+</svg>
+<figcaption>フジ興産事件（最二小判平成15年10月10日労判861号5頁）が示した拘束力の要件</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -179,6 +255,33 @@ HANREI = [
 <p>読み替えの基準はこうである。新しく人を採るときに契約に期間を付けた場合、その期間を置いた狙いが本人の向き不向きを見極めることにあるなら、その期間は契約そのものの長さではなく試用のための期間と読む。例外は、期間が来れば契約が終わるという了解が当事者の間ではっきりできていた、といった特別の事情があるときに限られる。</p>
 <p>では試用期間が付いた契約はどういう中身になるのか。これは、期間中の扱いの実際と、期間が終わるときに本採用の手続をどう踏んでいるかから判断するしかないとされた。本件のように、期間の付いていない従業員と同じ職場・同じ仕事に就き、処遇にも目立った違いがなく、期間満了のときに本採用の契約書を作る運用もないのであれば、ほかに特別の事情がない限り、会社が解約する権利を留保しただけの契約と読むことになる。そして留保した解約権を使うには、留保の趣旨に照らして客観的に合理的な理由があり、社会の常識から見ても相当だと言える必要がある。以上の枠組みを示して、原判決は破棄され差し戻された。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 473" role="img" aria-label="有期の雇用契約が試用期間と解されるかを判断する順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">期間を設けた趣旨・目的から契約の性質を判断する順序</text>
+<rect x="90.0" y="36" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①期間を設けた趣旨・目的が、適性を評価・判断するためのものか</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">新規に採用するに当たって期間を設けた場合に、まず確かめる点</text>
+<path d="M350.0 93 L350.0 109" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,109 355.0,109 350.0,117" fill="#8fa6c6"/>
+<rect x="90.0" y="119" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="140" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②明確な合意という特段の事情がなければ、試用期間と解する</text>
+<text x="350.0" y="160" font-size="11.5" fill="#44596f" text-anchor="middle">期間の満了により雇用契約が当然に終了する旨の明確な合意が</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">成立しているなどの特段の事情が認められる場合を除く</text>
+<path d="M350.0 195 L350.0 211" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,211 355.0,211 350.0,219" fill="#8fa6c6"/>
+<rect x="90.0" y="221" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="242" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③処遇の実情と本採用手続の実態から、解約権留保付と解する</text>
+<text x="350.0" y="262" font-size="11.5" fill="#44596f" text-anchor="middle">期間の付いていない労働者と同じ職場で同じ職務に従事し、</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">本採用に関する契約書作成の手続も採られていない場合</text>
+<path d="M350.0 297 L350.0 313" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,313 355.0,313 350.0,321" fill="#8fa6c6"/>
+<rect x="90.0" y="323" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="344" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">④解約権の行使には、客観的に合理的な理由と社会通念上の相当性</text>
+<text x="350.0" y="364" font-size="11.5" fill="#44596f" text-anchor="middle">通常の解雇より広い範囲の自由は認められるが、本採用の拒否が</text>
+<text x="350.0" y="383" font-size="11.5" fill="#44596f" text-anchor="middle">許される場合でなければ、期間の満了により終了しない</text>
+<rect x="20" y="411" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="431" font-size="11.5" fill="#24313f" text-anchor="middle">期間を区切って採用した場合でも、適性を見るための期間であれば、期間満了で</text>
+<text x="350.0" y="450" font-size="11.5" fill="#24313f" text-anchor="middle">当然に終了するとは限らない。契約書の文言だけで決まるものではない。</text>
+</svg>
+<figcaption>神戸弘陵学園事件（最三小判平成2年6月5日民集44巻4号668頁）が示した判断の順序</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>「適性を見るために1年の有期契約にする」という設計は、裁判になると有期契約として扱われず、試用期間付きの契約と判断される可能性がある。そうなると、期間満了で当然に終了するのではなく、本採用を拒否する（留保解約権を行使する）ための客観的合理性と社会通念上の相当性が必要になる。</li>
@@ -242,6 +345,13 @@ HANREI = [
 <p>そのうえで、内定を取り消せる範囲について次のように述べた。</p>
 <blockquote>「採用内定の取消事由は、採用内定当時知ることができず、また知ることが期待できないような事実であつて」（最二小判昭和54年7月20日民集33巻5号582頁）</blockquote>
 <p>さらに、そうした事実を理由に内定を取り消すことが、解約権を留保した趣旨・目的に照らして客観的に合理的と認められ、社会通念上相当として是認できるものに限られるとした。本件で会社が挙げた理由は、グルーミーな印象を与えるという調査結果であったが、それは当初の面接の段階でも判断できたことであり、新たに判明した事実とはいえないとして、取消しは無効とされた（上告棄却）。</p>
+
+<table class="wrap1">
+<tr><th>採用内定の取消しが認められるための要件</th><th>本件での評価</th></tr>
+<tr><td>採用内定当時に知ることができず、また知ることが期待できないような事実であること</td><td>グルーミーな印象を与えるという点は当初から分かっていたことであり、採用内定後に新たに判明した事実とはいえない</td></tr>
+<tr><td>その事実を理由に取り消すことが、解約権を留保した趣旨・目的に照らして客観的に合理的と認められ、社会通念上相当として是認できること</td><td>不適格と思いながら採用を内定し、それを打ち消す材料が出なかったので取り消すという経過は、社会通念上相当として是認できない</td></tr>
+</table>
+<p class="small">採用内定により、就労の始期を大学卒業直後とし、誓約書記載の取消事由に基づく解約権を留保した労働契約が成立したものとされた（最二小判昭和54年7月20日民集33巻5号582頁）。</p>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -822,6 +932,28 @@ HANREI = [
 <blockquote>「労働者の行為が使用者の指揮命令下に置かれたものと評価することができるか否かにより客観的に定まるものであって、労働契約、就業規則、労働協約等の定めのいかんにより決定されるべきものではない」（最一小判平成12年3月9日民集54巻3号801頁）</blockquote>
 <p>そして、就業を命じられた業務の準備行為等を事業所内で行うことを義務付けられ、またはこれを余儀なくされたときは、所定労働時間外に行うものとされていても、特段の事情がない限り指揮命令下に置かれたものと評価でき、社会通念上必要と認められる限りその時間は労働時間に当たるとした。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 371" role="img" aria-label="準備行為等に要した時間が労働時間に当たるかを判断する順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">準備行為等に要した時間が労働時間に当たるかの判断</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①労働時間とは、使用者の指揮命令下に置かれている時間をいう</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">該当するかどうかは客観的に定まり、労働契約・就業規則・</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">労働協約等の定めのいかんによって決まるものではない</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②事業所内で行うことを義務付けられ、または余儀なくされたか</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">所定労働時間外に行うものとされている場合であっても、</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">特段の事情のない限り指揮命令下に置かれたものと評価できる</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③社会通念上必要と認められる限り、労働時間に当たる</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">必要な範囲を超える時間まで当然に含まれるわけではない</text>
+<rect x="20" y="309" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="329" font-size="11.5" fill="#24313f" text-anchor="middle">本件では、作業服のほか保護具等の装着が義務付けられ、怠れば懲戒処分を受けたり</text>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">就業を拒否されたりし、成績考課に反映されることもあったことが前提とされた。</text>
+</svg>
+<figcaption>三菱重工業長崎造船所事件（最一小判平成12年3月9日民集54巻3号801頁）が示した判断</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>労働時間かどうかは、就業規則に労働時間に含まないと書いたかどうかでは決まらない。実際に義務付けているか、事業所内で行わせているかという実態から判断される。</li>
@@ -852,6 +984,27 @@ HANREI = [
 <blockquote>「不活動仮眠時間であっても労働からの解放が保障されていない場合には労基法上の労働時間に当たるというべきである」（最一小判平成14年2月28日民集56巻2号361頁）</blockquote>
 <p>そして、本件の仮眠時間は、仮眠室における待機と警報や電話等への対応が義務付けられており、労働契約上の役務の提供が義務付けられていると評価されるとして、その全体が労働時間に当たると判断した。他方で、労働協約や就業規則に基づく手当の請求については、さらに検討を要するとして原審に差し戻した。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 352" role="img" aria-label="仮眠時間のうち実作業のない時間が労働時間に当たるかを判断する順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">仮眠時間のうち実作業のない時間をどう評価するか</text>
+<rect x="90.0" y="36" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①実作業に従事していないというだけでは足りない</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">それだけで使用者の指揮命令下から離脱しているとはいえない</text>
+<path d="M350.0 93 L350.0 109" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,109 355.0,109 350.0,117" fill="#8fa6c6"/>
+<rect x="90.0" y="119" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="140" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②労働から離れることを保障されていて初めて、指揮命令下にない</text>
+<text x="350.0" y="160" font-size="11.5" fill="#44596f" text-anchor="middle">保障されていない場合は、労働基準法上の労働時間に当たる</text>
+<path d="M350.0 176 L350.0 192" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,192 355.0,192 350.0,200" fill="#8fa6c6"/>
+<rect x="90.0" y="202" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="223" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③労働契約上の役務の提供が義務付けられていると評価されるか</text>
+<text x="350.0" y="243" font-size="11.5" fill="#44596f" text-anchor="middle">義務付けられていれば、労働からの解放は保障されておらず、</text>
+<text x="350.0" y="262" font-size="11.5" fill="#44596f" text-anchor="middle">指揮命令下に置かれているというのが相当である</text>
+<rect x="20" y="290" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="310" font-size="11.5" fill="#24313f" text-anchor="middle">本件の仮眠時間は、仮眠室での待機と警報や電話等への直ちの対応が義務付けられ、</text>
+<text x="350.0" y="329" font-size="11.5" fill="#24313f" text-anchor="middle">その必要が生じることが皆無に等しいともいえないとして、全体が労働時間とされた。</text>
+</svg>
+<figcaption>大星ビル管理事件（最一小判平成14年2月28日民集56巻2号361頁）が示した判断の順序</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>仮眠・待機の時間を労働時間から外すには、その時間に労務提供の義務がなく、労働から解放されていることが必要である。警報対応や電話対応を義務付けている限り、名称を仮眠としても労働時間と評価されやすい。</li>
@@ -881,6 +1034,15 @@ HANREI = [
 <p>最高裁は、実作業に従事していないだけでは指揮命令下から離脱したとはいえないとして、不活動時間の評価の枠組みを次のように示した。</p>
 <blockquote>「当該時間に労働者が労働から離れることを保障されていて初めて、労働者が使用者の指揮命令下に置かれていないものと評価することができる」（最二小判平成19年10月19日民集61巻7号2555頁）</blockquote>
 <p>そのうえで、平日については、午前7時から午後10時まで（休憩時間を除く）は事実上待機せざるを得ない状態に置かれ、要望への対応について黙示の指示があったとして、居室における不活動時間も含めて労働時間に当たるとした。土曜日についても同じ時間帯が労働時間に当たるとしつつ、1人体制で執務するよう明確に指示し本人らもこれを承認していたことから、1名のみが業務に従事したものとして算定すべきとした。日曜日と祝日は、照明の点消灯やごみ置場の扉の開閉以外の労務の提供が義務付けられておらず労働からの解放が保障されていたとして、現実に業務に従事した時間に限られるとした。通院や犬の運動に要した時間は私的な行為であり労働時間に当たらないとされた。</p>
+
+<table class="wrap1">
+<tr><th>区分</th><th>最高裁の判断</th></tr>
+<tr><td>平日</td><td>午前7時から午後10時まで（休憩時間を除く）は、管理員室の隣の居室における不活動時間も含めて労働時間に当たる。1人体制で執務するようにとの指示はなく、2人が時間外労働に従事したとする原審の判断も是認された</td></tr>
+<tr><td>土曜日</td><td>同じ時間帯が労働時間に当たり、代休が取得されていない以上すべて時間外労働に当たる。ただし1人体制で執務するよう明確に指示され本人らも承認していたことから、1名のみが従事したものとして算定する</td></tr>
+<tr><td>日曜日・祝日</td><td>照明の点消灯とごみ置場の扉の開閉以外に労務の提供が義務付けられておらず、労働からの解放が保障されていた。現実に業務に従事した時間に限って休日労働または時間外労働となる</td></tr>
+<tr><td>通院・犬の運動</td><td>管理員の業務とは関係のない私的な行為であり、住み込みであったことを考慮しても業務の遂行に当然に伴う行為とはいえず、労働時間に当たらない</td></tr>
+</table>
+<p class="small">所定労働時間外の断続的な業務の指示、午前7時から午後10時まで照明を点灯しておくようにとの指示、管理日報等による報告の受領などから、住民等からの要望への対応について黙示の指示があったとされた（最二小判平成19年10月19日民集61巻7号2555頁）。</p>
 
 <h2>実務のポイント</h2>
 <ul>
