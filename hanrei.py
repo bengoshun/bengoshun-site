@@ -221,6 +221,33 @@ HANREI = [
 <blockquote>「懲戒当時に使用者が認識していなかった非違行為は、特段の事情のない限り、当該懲戒の理由とされたものでないことが明らかであるから、その存在をもって当該懲戒の有効性を根拠付けることはできない」（最一小判平成8年9月26日労判708号31頁）</blockquote>
 <p>本件の懲戒解雇は、あくまで休暇の請求とそのときの態度を理由とするものだった。年齢の詐称は解雇の時点で会社が知らなかった事情なので、これを持ち出して解雇を正当化することはできないとされ、上告は棄却された（会社側の敗訴が確定した）。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 281" role="img" aria-label="懲戒の有効性を根拠付けられる事実とそうでない事実を並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">懲戒の有効性を根拠付けられる事実とそうでない事実</text>
+<rect x="20.0" y="36" width="322.0" height="171" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">懲戒当時に認識していた非違行為</text>
+<text x="181.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・休暇を請求したこと</text>
+<text x="181.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">・請求の際の応接態度</text>
+<text x="181.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">　（これが解雇理由とされた）</text>
+<text x="181.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">→　この行為との対応関係で、</text>
+<text x="181.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">　処分の妥当性が判断される</text>
+<rect x="358.0" y="36" width="322.0" height="171" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#c4cfdb"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">懲戒当時に認識していなかった行為</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・採用時の年齢詐称</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">　（57歳3か月を45歳3か月</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">　と申告していたこと）</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">→　特段の事情のない限り、</text>
+<text x="519.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">　懲戒の理由とされたもので</text>
+<text x="519.0" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">　ないことが明らかであり、</text>
+<text x="519.0" y="194" font-size="11.5" fill="#44596f" text-anchor="middle">　有効性を根拠付けられない</text>
+<rect x="20" y="219" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="239" font-size="11.5" fill="#24313f" text-anchor="middle">懲戒は職場の秩序を破った行為に対する制裁であるから、処分の妥当性は処分理由と</text>
+<text x="350.0" y="258" font-size="11.5" fill="#24313f" text-anchor="middle">された行為との対応関係で判断される、というのが前提に置かれている。</text>
+</svg>
+<figcaption>最一小判平成8年9月26日労判708号31頁が区別した事実</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>懲戒処分は、処分時に挙げた理由で勝負が決まる。訴訟になってから別の事情を持ち出して補強するという戦い方は、原則として通用しない。</li>
@@ -313,6 +340,35 @@ HANREI = [
 <p>最高裁は、まず試用期間付きの契約の性質について、会社が試用期間中に不適格と認めたときはそれだけの理由で解約できるという解約権を留保した労働契約であり、<strong>留保した解約権の行使は雇入れ後の解雇にあたる</strong>と整理した。そのうえで、採用の段階と採用後の段階を区別し、採用については企業に広い選択の自由があるとして、次のように述べた。</p>
 <blockquote>「企業者が雇傭の自由を有し、思想、信条を理由として雇入れを拒んでもこれを目して違法とすることができない」（最大判昭和48年12月12日民集27巻11号1536頁）</blockquote>
 <p>したがって、採用の判断材料として思想・信条に関連する事項を調査し申告を求めること自体は、法律上禁止された違法行為とはいえないとされた。もっとも、留保した解約権を行使するには、企業に広い裁量があるとはいえ、客観的に合理的な理由があり社会通念上相当と認められる必要がある。原審はこの点の審理を尽くしていないとして、原判決は破棄され差し戻された。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 281" role="img" aria-label="採用の段階と採用後の段階の違いを並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">採用の段階と採用後の段階の区別</text>
+<rect x="20.0" y="36" width="322.0" height="171" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#c4cfdb"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">採用の段階（雇入れの自由）</text>
+<text x="181.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・企業者は雇傭の自由を有し、</text>
+<text x="181.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">　思想、信条を理由として雇入</text>
+<text x="181.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">　れを拒んでも違法とすること</text>
+<text x="181.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">　ができないとされた</text>
+<text x="181.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">・思想・信条に関連する事項を</text>
+<text x="181.0" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">　調査し申告を求めること自体</text>
+<text x="181.0" y="194" font-size="11.5" fill="#44596f" text-anchor="middle">　も違法とはいえないとされた</text>
+<rect x="358.0" y="36" width="322.0" height="171" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">採用後の段階（留保解約権の行使）</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・試用期間付きの契約は、解約</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">　権を留保した労働契約である</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">・留保した解約権の行使は、雇</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">　入れ後の解雇に当たる</text>
+<text x="519.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">・行使には客観的に合理的な理</text>
+<text x="519.0" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">　由と社会通念上の相当性が必</text>
+<text x="519.0" y="194" font-size="11.5" fill="#44596f" text-anchor="middle">　要になる</text>
+<rect x="20" y="219" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="239" font-size="11.5" fill="#24313f" text-anchor="middle">採用の自由が広いという判断は昭和48年当時の法状況を前提としており、現在は職業</text>
+<text x="350.0" y="258" font-size="11.5" fill="#24313f" text-anchor="middle">安定法に基づく指針や個人情報保護法により、取得できる情報の範囲が制限される。</text>
+</svg>
+<figcaption>最大判昭和48年12月12日民集27巻11号1536頁が区別した二つの段階</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -569,6 +625,29 @@ HANREI = [
 <blockquote>「右意思表示の効力を肯定するには、それが上告人の自由な意思に基づくものであることが明確でなければならない」（最二小判昭和48年1月19日民集27巻1号27頁）</blockquote>
 <p>本件では、この従業員が退職前に会社の西日本における責任者の地位にあり、競業する会社へ移る意向があって、会社が持つ損害賠償請求権などとの関係もあったという事情から、放棄が自由な意思に基づくものであることは明確であると判断され、上告は棄却された。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="退職金債権の放棄の効力を判断する順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">退職金債権の放棄の効力を判断する順序</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①退職金も労働基準法11条の賃金に当たる</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">就業規則で支給条件があらかじめ明確に定められ、会社が当然に</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">支払義務を負うものであるから、全額払の原則が適用される</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②全額払の原則の趣旨は一方的な控除の禁止にある</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">労働者が自ら賃金債権を放棄する意思表示をした場合に、その</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">効力まで否定する趣旨とは解されない</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③放棄が自由な意思に基づくことが明確でなければならない</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">本件では、西日本における責任者の地位にあり、競業する会社へ</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">移る意向があったなどの事情から、明確であると判断された</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">清算条項に賃金債権の放棄が含まれる場合は、何をいくら放棄することになるのかを</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">具体的に示し、本人に判断の材料と時間を与えておく必要がある。</text>
+</svg>
+<figcaption>最二小判昭和48年1月19日民集27巻1号27頁が示した判断の順序</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>退職時に「一切の債権債務がないことを確認する」という清算条項を入れる実務は広く行われている。本判決はその有効性を一般に否定するものではないが、賃金債権を放棄させる内容が含まれる場合には、自由な意思に基づくことが明確であるという高いハードルがかかる。</li>
@@ -599,6 +678,28 @@ HANREI = [
 <p>最高裁は、賃金全額払の原則は、使用者が労働者に対して有する債権をもって賃金債権と相殺することを禁止する趣旨を含むとした。もっとも、労働者が自由な意思に基づいて相殺に同意した場合については、次のように述べた。</p>
 <blockquote>「右同意が労働者の自由な意思に基づいてされたものであると認めるに足りる合理的な理由が客観的に存在するときは、右同意を得てした相殺は右規定に違反するものとはいえない」（最二小判平成2年11月26日民集44巻8号1085頁）</blockquote>
 <p>同時に、全額払の原則の趣旨に照らせば、自由な意思に基づくものであるという認定判断は厳格かつ慎重に行わなければならないと念を押している。本件では、借入れの経緯、返済に窮していた状況、相殺の処理が従業員自身の利益にもなる面があったことなどから、同意が自由な意思に基づくものと認められ、会社の処理は有効とされた（上告棄却）。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 371" role="img" aria-label="同意に基づく相殺が賃金全額払の原則に違反しないための条件を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">同意に基づく相殺が全額払の原則に違反しないための条件</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①全額払の原則は相殺を禁止する趣旨を含む</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">使用者が労働者に対して有する債権をもって賃金債権と相殺</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">することは、原則として許されない</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②自由な意思に基づくと認めるに足りる合理的な理由</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">その理由が客観的に存在するときは、同意を得てした相殺は</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">全額払の原則に違反するものとはいえない</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③自由な意思に基づくという認定判断は厳格かつ慎重に行う</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">全額払の原則の趣旨に照らして、慎重な判断が求められる</text>
+<rect x="20" y="309" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="329" font-size="11.5" fill="#24313f" text-anchor="middle">本件では、借入れの経緯や返済に窮していた状況、相殺の処理が本人の利益にもなる</text>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">面があったことなどから、同意は自由な意思に基づくものと認められた。</text>
+</svg>
+<figcaption>最二小判平成2年11月26日民集44巻8号1085頁が示した判断の枠組み</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -1308,6 +1409,36 @@ HANREI = [
 <blockquote>「企業秩序遵守義務その他の義務を負うが、企業の一般的な支配に服するものということはできない」（最三小判昭和52年12月13日民集31巻7号1037頁）</blockquote>
 <p>そのうえで、他の労働者の指導・監督や企業秩序の維持を職責とする者で調査への協力が職務内容となっている場合には、協力は労務提供義務の履行そのものであるから協力義務を負うが、それ以外の場合は、違反行為の性質・内容、違反行為を見聞した機会と職務執行との関連性、より適切な調査方法の有無などを総合して、協力が労務提供義務の履行上必要かつ合理的と認められない限り協力義務を負わないとした。本件では、質問の主要部分が職務執行との関連を離れた事柄に向けられていたことなどから必要かつ合理的とはいえず、協力義務を前提とした処分は無効とされた。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 300" role="img" aria-label="社内調査への協力義務が認められる場合と認められない場合を並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">社内調査への協力義務が認められる場合と認められない場合</text>
+<rect x="20.0" y="36" width="322.0" height="190" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#8fa6c6"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">協力義務を負う場合</text>
+<text x="181.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・他の労働者に対する指導、監</text>
+<text x="181.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">　督ないし企業秩序の維持など</text>
+<text x="181.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">　を職責とする者であって、調</text>
+<text x="181.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">　査に協力することがその職務</text>
+<text x="181.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">　の内容となっている場合</text>
+<text x="181.0" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">→　協力は労務提供義務の履行</text>
+<text x="181.0" y="194" font-size="11.5" fill="#44596f" text-anchor="middle">　そのものに当たる</text>
+<rect x="358.0" y="36" width="322.0" height="190" rx="7" fill="#f6f8fa" stroke="#c4cfdb"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#c4cfdb"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">それ以外の場合</text>
+<text x="519.0" y="80" font-size="11.5" fill="#44596f" text-anchor="middle">・違反行為の性質・内容</text>
+<text x="519.0" y="99" font-size="11.5" fill="#44596f" text-anchor="middle">・見聞した機会と職務執行との</text>
+<text x="519.0" y="118" font-size="11.5" fill="#44596f" text-anchor="middle">　関連性</text>
+<text x="519.0" y="137" font-size="11.5" fill="#44596f" text-anchor="middle">・より適切な調査方法の有無</text>
+<text x="519.0" y="156" font-size="11.5" fill="#44596f" text-anchor="middle">→　これらを総合して、労務提</text>
+<text x="519.0" y="175" font-size="11.5" fill="#44596f" text-anchor="middle">　供義務を履行する上で必要か</text>
+<text x="519.0" y="194" font-size="11.5" fill="#44596f" text-anchor="middle">　つ合理的と認められない限り</text>
+<text x="519.0" y="213" font-size="11.5" fill="#44596f" text-anchor="middle">　協力義務を負わない</text>
+<rect x="20" y="238" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="258" font-size="11.5" fill="#24313f" text-anchor="middle">本件では、質問の主要部分が職務執行との関連を離れた事柄に向けられていたことなど</text>
+<text x="350.0" y="277" font-size="11.5" fill="#24313f" text-anchor="middle">から必要かつ合理的とはいえず、協力義務を前提とした処分は無効とされた。</text>
+</svg>
+<figcaption>最三小判昭和52年12月13日民集31巻7号1037頁が示した区別</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>社内調査でヒアリングに応じない従業員がいても、それだけで懲戒事由になるとは限らない。協力義務の有無は、対象者の職責と質問事項の内容によって変わる。</li>
@@ -1338,6 +1469,28 @@ HANREI = [
 <blockquote>「会社の社会的評価に重大な悪影響を与えるような従業員の行為については、それが職務遂行と直接関係のない私生活上で行われたものであつても、これに対して会社の規制を及ぼしうる」（最二小判昭和49年3月15日民集28巻2号265頁）</blockquote>
 <p>もっとも、「会社の体面」とは会社に対する社会一般の客観的な評価をいうものであって、経営者や従業員の主観的な名誉感情を含むものではないとした。そして、体面を著しく汚したというためには、行為の性質・情状、会社の事業の種類・態様・規模、経済界に占める地位、経営方針、従業員の地位・職種などを総合して、社会的評価に及ぼす悪影響が相当重大であると客観的に評価される場合でなければならないとし、本件はこれに当たらないとして懲戒解雇等を無効とした原審の判断を維持した。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 371" role="img" aria-label="私生活上の行為を懲戒の対象とできるかを判断する順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">私生活上の行為を懲戒の対象とできるかの判断</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①私生活上の行為にも会社の規制が及びうる</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">会社の社会的評価に重大な悪影響を与えるような行為であれば、</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">職務遂行と直接関係のない私生活上のものでも規制が及びうる</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="57" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②「会社の体面」とは社会一般の客観的な評価をいう</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">経営者や従業員の主観的な名誉感情を含むものではない</text>
+<path d="M350.0 195 L350.0 211" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,211 355.0,211 350.0,219" fill="#8fa6c6"/>
+<rect x="90.0" y="221" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="242" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③悪影響が相当重大と客観的に評価される場合に限られる</text>
+<text x="350.0" y="262" font-size="11.5" fill="#44596f" text-anchor="middle">行為の性質・情状、事業の種類・態様・規模、経済界に占める</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">地位、経営方針、従業員の地位・職種などを総合して判断する</text>
+<rect x="20" y="309" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="329" font-size="11.5" fill="#24313f" text-anchor="middle">本件では、刑が罰金2000円にとどまり、従業員約3万名の大企業において工員の地位に</text>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">あったことなどから、懲戒解雇等を無効とした原審の判断が維持された。</text>
+</svg>
+<figcaption>最二小判昭和49年3月15日民集28巻2号265頁が示した判断の枠組み</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>私生活上の非違行為を懲戒の対象とするには、会社の社会的評価への影響が客観的に重大であることが必要である。社内で噂になった、経営者が不快に感じたという事情だけでは足りない。</li>
@@ -1367,6 +1520,14 @@ HANREI = [
 <p>最高裁は、犯行の時刻や態様からみて恥ずべき性質の事柄であり、会社が責任を軽視できないとして懲戒解雇の措置に出たことに無理からぬ点がないではないとしつつ、賞罰規則の趣旨に照らして次のように結論づけた。</p>
 <blockquote>「被上告人の右行為が、上告会社の体面を著しく汚したとまで評価するのは、当たらないというのほかはない」（最三小判昭和45年7月28日民集24巻7号1220頁）</blockquote>
 <p>理由として挙げられたのは、行為が会社の組織や業務と関係のない私生活の範囲内で行われたこと、刑罰が罰金2500円にとどまったこと、本人の職務上の地位が蒸熱作業担当の工員で指導的なものではなかったことである。なお、本判決には1名の裁判官の反対意見が付されている。</p>
+
+<table class="wrap1">
+<tr><th>最高裁が挙げた事情</th><th>内容</th></tr>
+<tr><td>行為が行われた場面</td><td>会社の組織や業務と関係のない私生活の範囲内で行われたものであった</td></tr>
+<tr><td>刑事処分の重さ</td><td>住居侵入罪で罰金2500円に処されたにとどまった</td></tr>
+<tr><td>本人の職務上の地位</td><td>蒸熱作業担当の工員であり、指導的な地位ではなかった</td></tr>
+</table>
+<p class="small">犯行の時刻や態様からみて恥ずべき性質の事柄であり、会社が懲戒解雇の措置に出たことに無理からぬ点がないではないとしつつ、賞罰規則にいう「会社の体面を著しく汚した」とまで評価するのは当たらないとされた。本判決には1名の裁判官の反対意見が付されている（最三小判昭和45年7月28日民集24巻7号1220頁）。</p>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -1694,6 +1855,29 @@ HANREI = [
 <p>原審は、採用が副社長や取締役を含む複数の面接委員の判断を総合して決定されていたことと対比すると、退職の承認についても組織上一定の手続を経て会社の意思が形成されるはずであり、人事部長個人の意思のみによって会社の意思が形成されたとは解せないとして、受理は申込みの意思表示を受領したにとどまると判断した。最高裁はこの判断を是認し難いとして、次のように述べた。</p>
 <blockquote>「私企業における労働者からの雇用契約の合意解約申込に対する使用者の承諾の意思表示は、就業規則等に特段の定めがない限り、辞令書の交付等一定の方式によらなければならないというものではない」（最三小判昭和62年9月18日労判504号6頁）</blockquote>
 <p>そして、人事部長に退職願に対する退職承認の決定権があるのであれば、確定した事実関係のもとでは、受理によって会社の即時承諾の意思表示がされたとみるべきであり、これにより合意解約が成立したと解するのがむしろ当然であるとした。決定権の有無について審理を尽くさせるため、事件は原審に差し戻された。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="退職願の受理が承諾の意思表示に当たるかを判断する順序を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">退職願の受理が承諾に当たるかの判断</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①承諾の意思表示は一定の方式によらなくてよい</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">就業規則等に特段の定めがない限り、辞令書の交付等の方式を</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">必要とするものではない</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②受理した者に退職承認の決定権があるか</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">決定権があるのであれば、受理によって会社の即時承諾の</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">意思表示がされたとみるべきである</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③受理によって合意解約が成立したと解するのが当然</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">決定権の有無について審理を尽くさせるため、事件は原審に</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">差し戻された</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">原審は、採用が複数の面接委員の判断で決まっていたことと対比して退職の承認にも</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">組織上の手続を要するとしたが、最高裁はこの判断を是認し難いとした。</text>
+</svg>
+<figcaption>最三小判昭和62年9月18日労判504号6頁が示した判断</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -2340,6 +2524,30 @@ HANREI = [
 <blockquote>「労働者の過半数を代表する者ではないから本件三六協定が有効であるとは認められず」（最二小判平成13年6月22日労判808号11頁）</blockquote>
 <p>そして、残業命令に従う義務があったとはいえないとして解雇を無効とした原審の判断は正当であるとされた。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 409" role="img" aria-label="36協定の当事者適格が残業命令の効力に及ぼす影響を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">36協定の当事者適格が残業命令の効力に及ぼす影響</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①協定当事者が労働者の過半数を代表する者か</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">社内の親睦団体の代表者が自動的に協定を締結したにすぎず、</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">締結の適否を労働者に判断させる手続が採られた形跡もない</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②民主的に選出されたとは認められず、36協定は無効</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">過半数を代表する者ではないから、本件36協定が有効である</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">とは認められないとされた</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③残業命令に従う義務があったとはいえず、解雇は無効</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">36協定が無効である以上、これを前提とする残業命令の効力も</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">認められないことになる</text>
+<rect x="20" y="328" width="660" height="71" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">労働基準法施行規則6条の2は、過半数代表者について、監督又は管理の地位にある者で</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">ないことと、協定をする者を選出することを明らかにして実施される投票・挙手等の</text>
+<text x="350.0" y="386" font-size="11.5" fill="#24313f" text-anchor="middle">方法により、使用者の意向に基づかずに選出された者であることを要件としている。</text>
+</svg>
+<figcaption>最二小判平成13年6月22日労判808号11頁が示した判断</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>36協定が無効であれば、それを前提とする残業命令も効力を持たない。残業命令の拒否を懲戒や解雇の理由にする前に、協定の有効性を点検しておく必要がある。</li>
@@ -2370,6 +2578,29 @@ HANREI = [
 <p>そのうえで、年休期間について一定の賃金の支払を義務付けた規定の趣旨から、次のように述べた。</p>
 <blockquote>「年次休暇の取得日の属する期間に対応する賞与の計算上この日を欠勤として扱うことはできない」（最三小判平成4年2月18日労判609号12頁）</blockquote>
 <p>本件の就業規則は法定の年次休暇と法定外の年次休暇を区別せずに定めており、両者を同様に取り扱う趣旨と認められることから、いずれについても年休取得日を欠勤として扱うことはできないとされた。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="出勤率の算定と年休取得日の取扱いについての判断を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">出勤率の算定と年休取得日の取扱い</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①全労働日とは労働義務を課せられている日数をいう</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">1年の総暦日数のうち、労働契約上労働義務を課せられている</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">日数を指すものと解される</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②一般休暇日を全労働日に含めた部分は39条1項に違反し無効</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">就業規則に定める一般休暇日は労働義務を課せられていない日に</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">当たるから、これを含めて年休権の成立要件を定められない</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③年休取得日を賞与の計算上欠勤として扱うことはできない</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">年休期間について一定の賃金の支払を義務付けた規定の趣旨に</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">照らして導かれた判断である</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">本件の就業規則は法定の年次休暇と法定外の年次休暇を区別せずに定めており、両者を</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">同様に取り扱う趣旨と認められることから、いずれも欠勤扱いはできないとされた。</text>
+</svg>
+<figcaption>最三小判平成4年2月18日労判609号12頁が示した判断</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -2520,6 +2751,29 @@ HANREI = [
 <blockquote>「当該就業規則の規定の内容が合理的なものである限り、それが具体的労働契約の内容をなす」（最一小判平成3年11月28日民集45巻8号1270頁）</blockquote>
 <p>そして本件の36協定は、延長できる時間を限定し、かつ列挙された事由の存在を必要としているから、就業規則の規定は合理的なものであるとされた。列挙事由のうち「生産目標達成のため必要ある場合」などは概括的であることは否定できないとしつつ、需給関係に即応した生産計画を適正かつ円滑に実施する必要性は労基法36条の予定するところであるとして、相当性を欠くものではないとした。残業命令は従業員自身の手抜作業の結果を補正するためのものであった事情も併せ考慮し、懲戒解雇は権利の濫用に当たらないと結論付けている。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="残業を命じる根拠が個々の労働者に及ぶまでの段階を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">残業を命じる根拠が個々の労働者に及ぶまでの段階</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①36協定を締結し、所轄労働基準監督署長に届け出る</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">本件の協定は延長できる時間を限定し、納期、賃金計算、設備の</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">修理、生産目標の達成など7項目の事由を掲げていた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②就業規則に、協定の範囲内で延長できる旨の定めを置く</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">業務上の都合によりやむを得ない場合には、労働組合との協定に</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">より1日8時間の実働時間を延長することがある旨の定め</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③規定の内容が合理的である限り、労働契約の内容となる</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">適用を受ける労働者は、その定めるところに従い、労働契約に</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">定める労働時間を超えて労働をする義務を負う</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">「生産目標達成のため必要ある場合」などが概括的であることは否定できないとしつつ、</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">需給関係に即応した生産計画の実施は労働基準法36条の予定するところとされた。</text>
+</svg>
+<figcaption>最一小判平成3年11月28日民集45巻8号1270頁が示した判断</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>残業を命じるには、36協定の締結・届出だけでは足りない。就業規則または労働契約に時間外労働を命じうる根拠規定を置いておく必要がある。この二段構えを欠くと、個々の労働者に義務を負わせることができない。</li>
@@ -2549,6 +2803,29 @@ HANREI = [
 <p>最高裁は、まず労基法24条1項が賃金全額払を定めた趣旨について、賃金は労働者の生活を支える重要な財源で日常必要とするものであるから、これを確実に受領させ生活に不安のないようにすることが必要である点にあるとし、同項は一般的には使用者が労働者に対する債権をもって賃金債権と相殺することを許さない趣旨を含むとした。もっとも、賃金計算における過誤や支払日と減額事由の時期の関係から過払が生ずることは避けがたく、これを後の賃金から精算することは実情に照らし合理的理由があり、労働者にとっても賃金と関係のない債権による相殺とは趣を異にすると指摘し、次のように述べた。</p>
 <blockquote>「労働者の経済生活の安定をおびやかすおそれのない場合でなければならない」（最一小判昭和44年12月18日民集23巻12号2495頁）</blockquote>
 <p>すなわち、許される清算は、過払のあった時期と合理的に接着した時期に行われ、あらかじめ労働者に予告されるとか、金額が多額にわたらないといった事情が必要とされた。本件の控除はこの要件を満たすものとして適法と認められている。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="過払賃金を後の賃金から清算できる範囲を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">過払賃金を後の賃金から清算できる範囲</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①全額払の原則は相殺を許さない趣旨を含む</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">賃金を確実に受領させ、労働者の生活に不安のないようにする</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">ことがその趣旨であるとされた</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②過払の清算は賃金と関係のない債権による相殺とは異なる</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">賃金計算の過誤等による過払は避けがたく、後の賃金から</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">精算することには実情に照らし合理的な理由がある</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③経済生活の安定をおびやかすおそれのない場合に限られる</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">過払のあった時期と合理的に接着した時期にされ、あらかじめ</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">予告されるとか、金額が多額にわたらないことが必要になる</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">本件は翌月分または翌々月分の給与から過払額を差し引いたもので、この要件を満たす</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">ものとして適法と認められた。</text>
+</svg>
+<figcaption>最一小判昭和44年12月18日民集23巻12号2495頁が示した判断の枠組み</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -2580,6 +2857,38 @@ HANREI = [
 <blockquote>「権利の行使を抑制し、ひいては右各法が労働者に各権利を保障した趣旨を実質的に失わせる」（最一小判平成元年12月14日民集43巻12号1895頁）</blockquote>
 <p>本件では、除外される賃上げにベースアップ分が含まれ、いったん生じた不利益が後続年度の賃金や退職金にも影響することから不利益が大きいこと、80%という数値からみて産前産後の休業や労災による休業といった比較的長期の不就労があれば、それだけで、あるいはわずかな年休の取得を加えるだけで該当してしまうことが指摘された。その結果、権利行使に対する事実上の抑制力は相当強いとされ、法律上の権利に基づく不就労を算定の基礎とする点は無効とされた。他方、それ以外の不就労を基礎として稼働率を算定する限りでは効力を否定すべきいわれはないとして、全体を無効とした原審の判断が破棄された。</p>
 
+<figure class="hfig">
+<svg viewBox="0 0 700 319" role="img" aria-label="稼働率条項のうち無効とされた部分とされなかった部分を並べた図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">稼働率条項のうち無効とされた部分とされなかった部分</text>
+<rect x="20.0" y="36" width="322.0" height="209" rx="7" fill="#fdecea" stroke="#e0a79e"/>
+<rect x="20.0" y="36" width="322.0" height="25" rx="7" fill="#e0a79e"/>
+<text x="181.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">無効とされた部分</text>
+<text x="181.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">・年次有給休暇、生理休暇、産</text>
+<text x="181.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">　前産後の休業、育児時間、労</text>
+<text x="181.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">　災による休業、同盟罷業な</text>
+<text x="181.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">　ど、法律上の権利に基づく不</text>
+<text x="181.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">　就労を算定の基礎とする部分</text>
+<text x="181.0" y="175" font-size="11.5" fill="#24313f" text-anchor="middle">→　権利の行使を抑制し、各法</text>
+<text x="181.0" y="194" font-size="11.5" fill="#24313f" text-anchor="middle">　が権利を保障した趣旨を実質</text>
+<text x="181.0" y="213" font-size="11.5" fill="#24313f" text-anchor="middle">　的に失わせるため公序に反す</text>
+<text x="181.0" y="232" font-size="11.5" fill="#24313f" text-anchor="middle">　る</text>
+<rect x="358.0" y="36" width="322.0" height="209" rx="7" fill="#e9f3ec" stroke="#8fbf9f"/>
+<rect x="358.0" y="36" width="322.0" height="25" rx="7" fill="#8fbf9f"/>
+<text x="519.0" y="53.5" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">効力を否定されなかった部分</text>
+<text x="519.0" y="80" font-size="11.5" fill="#24313f" text-anchor="middle">・欠勤、遅刻、早退など、法律</text>
+<text x="519.0" y="99" font-size="11.5" fill="#24313f" text-anchor="middle">　上の権利に基づかない不就労</text>
+<text x="519.0" y="118" font-size="11.5" fill="#24313f" text-anchor="middle">　を基礎として算定する部分</text>
+<text x="519.0" y="137" font-size="11.5" fill="#24313f" text-anchor="middle">→　出勤率の低下防止の観点か</text>
+<text x="519.0" y="156" font-size="11.5" fill="#24313f" text-anchor="middle">　ら稼働率の低い者に経済的利</text>
+<text x="519.0" y="175" font-size="11.5" fill="#24313f" text-anchor="middle">　益を与えないこととする制度</text>
+<text x="519.0" y="194" font-size="11.5" fill="#24313f" text-anchor="middle">　自体には、一応の経済的合理</text>
+<text x="519.0" y="213" font-size="11.5" fill="#24313f" text-anchor="middle">　性がある</text>
+<rect x="20" y="257" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="277" font-size="11.5" fill="#24313f" text-anchor="middle">80%という数値からみて、産前産後の休業や労災による休業があればそれだけで、あるいは</text>
+<text x="350.0" y="296" font-size="11.5" fill="#24313f" text-anchor="middle">わずかな年休の取得を加えるだけで該当してしまう点が指摘されている。</text>
+</svg>
+<figcaption>最一小判平成元年12月14日民集43巻12号1895頁が区別した部分</figcaption></figure>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>出勤率や稼働率を処遇に反映させる制度は、それ自体が否定されるわけではない。問題となるのは、法律上保障された休暇・休業を欠勤と同じに扱うかどうかである。</li>
@@ -2610,6 +2919,29 @@ HANREI = [
 <blockquote>「年次有給休暇の成立要件として使用者の承認という観念を容れる余地はない」（最一小判昭和57年3月18日民集36巻3号366頁）</blockquote>
 <p>実際に使用者が承認・不承認の応答をすることはあるが、それは時季変更権を行使しない態度の表明か、時季変更権行使の意思表示に当たると整理された。そして、休暇期間が開始し又は経過した後の時季変更権の行使についても、請求自体が始期に極めて接近してされたため事前に判断する時間的余裕がなかったときには、そのこと自体で不適法となるものではなく、客観的に行使しうる事由が存し、かつ遅滞なくされた場合には効力が認められるとした。本件では事前に行使する余裕はなく、理由の聴取のため暫時差し控えた後、確定的となった時点で遅滞なく行使されているから適法とされた。</p>
 <p>また、原審の判断は、使用者が休暇の利用目的を問いただすことを一般的に許容したものではなく、利用目的を明らかにしないことを時季変更権行使の理由としうることを一般に認めたものでもないと確認されている。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="年休の請求に対する使用者の応答の法律上の位置付けを示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">年休の請求と使用者の応答の法律上の位置付け</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①年休の権利は法律上当然に労働者に生ずる</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">労働基準法39条1項・2項の要件を充足することにより生じ、</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">成立要件として使用者の承認という観念を容れる余地はない</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②使用者の承認・不承認は時季変更権に関する意思表示</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">時季変更権を行使しない態度の表明か、時季変更権行使の</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">意思表示に当たるものと整理される</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③休暇の開始後にされた時季変更権の行使も直ちに違法ではない</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">請求が始期に極めて接近してされ、事前に判断する時間的余裕が</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">なかったときは、事由が客観的に存し遅滞なくされれば有効</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">本件では、理由の聴取のため行使を暫時差し控えた後、確定的となった時点で遅滞なく</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">行使されているとして、時季変更権の行使は適法とされた。</text>
+</svg>
+<figcaption>最一小判昭和57年3月18日民集36巻3号366頁が示した整理</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
@@ -2802,6 +3134,14 @@ HANREI = [
 <blockquote>「添乗員の勤務の状況を具体的に把握することが困難であったとは認め難く」（最二小判平成26年1月24日労判1088号5頁）</blockquote>
 <p>その結果、労基法38条の2第1項にいう「労働時間を算定し難いとき」に当たるとはいえないとされ、みなし制の適用を否定した原審の判断が是認された。</p>
 
+<table class="wrap1">
+<tr><th>場面</th><th>最高裁が指摘した事情</th></tr>
+<tr><td>ツアー開始前</td><td>旅行日程が契約内容として日時や目的地等を明らかにして定められ、業務の内容があらかじめ具体的に確定している。パンフレット、最終日程表、行程表およびマニュアルにより具体的な業務の内容が示される</td></tr>
+<tr><td>ツアー実施中</td><td>国際電話用の携帯電話が貸与され、常に電源を入れておくものとされていた。目的地や宿泊施設の変更など契約上の問題が生じ得る変更が必要となったときは、営業担当者に報告して指示を受けることが求められていた</td></tr>
+<tr><td>ツアー終了後</td><td>行程に沿った出発・到着時刻や各施設の状況を正確かつ詳細に記載する添乗日報の提出が指示され、正確性を確認し得る添乗日報により詳細な報告を受けていた</td></tr>
+</table>
+<p class="small">添乗員が自ら決定できる事項の範囲および選択の幅は限られているとされ、これらの事情から勤務の状況を具体的に把握することが困難であったとは認め難いと判断された（最二小判平成26年1月24日労判1088号5頁）。</p>
+
 <h2>実務のポイント</h2>
 <ul>
 <li>事業場外労働のみなし制の要件は「労働時間を算定し難いとき」であり、事業場外で働いているかどうかではない。業務内容が事前に確定しているか、随時指示を受ける体制があるか、事後の報告で状況を把握できるかが判断材料になる。</li>
@@ -2833,6 +3173,29 @@ HANREI = [
 <p>本件の健康管理規程は、職員の健康保持義務、健康管理上必要な事項についての指示を誠実に守る義務、健康管理医が必要と認めたときの精密検診、要管理者が健康回復に努め指示に従う義務を定めており、これらはいずれも合理的であるとされた。もっとも指示の具体的内容については定めがないため、次の限定が付された。</p>
 <blockquote>「要管理者の健康の早期回復という目的に照らし合理性ないし相当性を肯定し得る内容の指示であることを要する」（最一小判昭和61年3月13日労判470号6頁）</blockquote>
 <p>その限度においては、指示できる事項を限定的に考える必要はなく、精密検診を行う病院や担当医師の指定、実施時期についても指示することができるとされた。受診義務は具体的な治療方法まで指示に従わせるものではなく、別途自ら選択した医師による診療を制限するものでもないから、診療を受けることの自由や医師選択の自由を侵害することにはならないと述べられている。</p>
+
+<figure class="hfig">
+<svg viewBox="0 0 700 390" role="img" aria-label="受診を命じる業務命令が有効となるまでの段階を示した図" xmlns="http://www.w3.org/2000/svg">
+<text x="350.0" y="24" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">受診を命じる業務命令が有効となるまでの段階</text>
+<rect x="90.0" y="36" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="57" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">①業務命令に従う義務の根拠は労働契約にある</text>
+<text x="350.0" y="77" font-size="11.5" fill="#44596f" text-anchor="middle">命令しうる事項であるかは、労働契約によって処分を許諾した</text>
+<text x="350.0" y="96" font-size="11.5" fill="#44596f" text-anchor="middle">範囲内の事項であるかによって定まる</text>
+<path d="M350.0 112 L350.0 128" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,128 355.0,128 350.0,136" fill="#8fa6c6"/>
+<rect x="90.0" y="138" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="159" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">②健康管理規程も就業規則としての性質を有する</text>
+<text x="350.0" y="179" font-size="11.5" fill="#44596f" text-anchor="middle">安全衛生に関する事項について別に定められた規程であり、</text>
+<text x="350.0" y="198" font-size="11.5" fill="#44596f" text-anchor="middle">その定めが合理的である限り労働契約の内容となる</text>
+<path d="M350.0 214 L350.0 230" stroke="#8fa6c6" stroke-width="1.6" fill="none"/><polygon points="345.0,230 355.0,230 350.0,238" fill="#8fa6c6"/>
+<rect x="90.0" y="240" width="520" height="76" rx="7" fill="#e6edf7" stroke="#8fa6c6"/>
+<text x="350.0" y="261" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">③健康の早期回復という目的に照らした合理性・相当性</text>
+<text x="350.0" y="281" font-size="11.5" fill="#44596f" text-anchor="middle">その限度では指示できる事項を限定的に考える必要はなく、病院</text>
+<text x="350.0" y="300" font-size="11.5" fill="#44596f" text-anchor="middle">や担当医師の指定、実施時期についても指示することができる</text>
+<rect x="20" y="328" width="660" height="52" rx="5" fill="#f6f8fa" stroke="#c4cfdb"/>
+<text x="350.0" y="348" font-size="11.5" fill="#24313f" text-anchor="middle">受診義務は具体的な治療方法まで指示に従わせるものではなく、別途自ら選択した医師</text>
+<text x="350.0" y="367" font-size="11.5" fill="#24313f" text-anchor="middle">による診療を制限するものでもないから、医師選択の自由を侵害しないとされた。</text>
+</svg>
+<figcaption>最一小判昭和61年3月13日労判470号6頁が示した判断の順序</figcaption></figure>
 
 <h2>実務のポイント</h2>
 <ul>
