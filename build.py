@@ -1698,7 +1698,7 @@ body="""
 <p>解僱<strong>有效還是無效</strong>，是另一個完全不同的問題：客觀上合理的理由＋社會通念上的相當性（勞動契約法16條・解僱權濫用法理）。沒有這個，預告手當付得再多，解僱還是無效。無效的話，員工法律上仍然在籍，公司要支付爭訟期間的全部工資。</p>
 <figure class="hfig">
 <svg viewBox="0 0 700 180" role="img" aria-label="解僱預告手當的手續面與勞動契約法16條的有效性判斷左右並列的圖" xmlns="http://www.w3.org/2000/svg">
-<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">解僱的「手續」和「有效性」是兩回事</text><rect x="15" y="34" width="330" height="136" rx="7" fill="#e6edf7" stroke="#8fa6c6"/><path d="M15 62 L345 62" stroke="#8fa6c6" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">手續面＝勞基法20條</text><g transform="translate(0,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・30日前預告，或30日分以上的平均工資</text><text x="29" y="93" font-size="11.8" fill="#44596f" text-anchor="start">・預告與手當可以併用（預告15日＋手當15日分）</text><text x="29" y="116" font-size="11.8" fill="#44596f" text-anchor="start">・試用期開始14日以內不需預告手當（21條）</text><text x="29" y="139" font-size="11.8" fill="#44596f" text-anchor="start">→ 解決的只是「什麼時候生效」</text></g><rect x="355" y="34" width="330" height="136" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M355 62 L685 62" stroke="#c98484" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">有效性＝勞動契約法16條</text><g transform="translate(340,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・客觀上合理的理由</text><text x="29" y="93" font-size="11.8" fill="#44596f" text-anchor="start">・社會通念上的相當性</text><text x="29" y="116" font-size="11.8" fill="#44596f" text-anchor="start">・欠缺則解僱無效＝員工仍然在籍</text><text x="29" y="139" font-size="11.8" fill="#44596f" text-anchor="start">→ 預告手當付再多也治不了</text></g>
+<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">解僱的「手續」和「有效性」是兩回事</text><rect x="15" y="34" width="330" height="136" rx="7" fill="#e6edf7" stroke="#8fa6c6"/><path d="M15 62 L345 62" stroke="#8fa6c6" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">手續面＝勞基法20條</text><g transform="translate(0,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・30日前預告，或30日分以上的平均工資</text><text x="29" y="105" font-size="11.8" fill="#44596f" text-anchor="start">・預告與手當可以併用（預告15日＋手當15日分）</text><text x="29" y="128" font-size="11.8" fill="#44596f" text-anchor="start">・試用期開始14日以內不需預告手當（21條）</text><text x="29" y="151" font-size="11.8" fill="#44596f" text-anchor="start">→ 解決的只是「什麼時候生效」</text></g><rect x="355" y="34" width="330" height="136" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M355 62 L685 62" stroke="#c98484" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">有效性＝勞動契約法16條</text><g transform="translate(340,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・客觀上合理的理由</text><text x="29" y="105" font-size="11.8" fill="#44596f" text-anchor="start">・社會通念上的相當性</text><text x="29" y="128" font-size="11.8" fill="#44596f" text-anchor="start">・欠缺則解僱無效＝員工仍然在籍</text><text x="29" y="151" font-size="11.8" fill="#44596f" text-anchor="start">→ 預告手當付再多也治不了</text></g>
 </svg>
 <figcaption>預告手當處理的是解僱何時生效，解僱有沒有效另由勞動契約法16條判斷。</figcaption>
 </figure>
@@ -1721,7 +1721,7 @@ ja="""
 <p>解雇が<strong>有効か無効か</strong>は全く別の問題で、客観的に合理的な理由と社会通念上の相当性が必要です（労契法16条・解雇権濫用法理）。これがなければ、予告手当をいくら払っても解雇は無効。無効なら従業員は法律上在籍しており、係争期間中の賃金全額の支払いが必要になります。</p>
 <figure class="hfig">
 <svg viewBox="0 0 700 180" role="img" aria-label="解雇予告手当が定める手続面と、労契法16条が定める有効性の判断を左右に並べた図" xmlns="http://www.w3.org/2000/svg">
-<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">解雇の「手続」と「有効性」は別の問題</text><rect x="15" y="34" width="330" height="136" rx="7" fill="#e6edf7" stroke="#8fa6c6"/><path d="M15 62 L345 62" stroke="#8fa6c6" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">手続面＝労基法20条</text><g transform="translate(0,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・30日前の予告、または30日分以上の平均賃金</text><text x="29" y="93" font-size="11.8" fill="#44596f" text-anchor="start">・予告と手当の併用も可（予告15日＋手当15日分）</text><text x="29" y="116" font-size="11.8" fill="#44596f" text-anchor="start">・試用開始14日以内は予告手当不要（21条）</text><text x="29" y="139" font-size="11.8" fill="#44596f" text-anchor="start">→ 解決するのは「いつ効力が生じるか」</text></g><rect x="355" y="34" width="330" height="136" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M355 62 L685 62" stroke="#c98484" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">有効性＝労契法16条</text><g transform="translate(340,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・客観的に合理的な理由</text><text x="29" y="93" font-size="11.8" fill="#44596f" text-anchor="start">・社会通念上の相当性</text><text x="29" y="116" font-size="11.8" fill="#44596f" text-anchor="start">・欠ければ解雇は無効＝従業員は在籍のまま</text><text x="29" y="139" font-size="11.8" fill="#44596f" text-anchor="start">→ 予告手当をいくら払っても治らない</text></g>
+<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">解雇の「手続」と「有効性」は別の問題</text><rect x="15" y="34" width="330" height="136" rx="7" fill="#e6edf7" stroke="#8fa6c6"/><path d="M15 62 L345 62" stroke="#8fa6c6" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">手続面＝労基法20条</text><g transform="translate(0,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・30日前の予告、または30日分以上の平均賃金</text><text x="29" y="105" font-size="11.8" fill="#44596f" text-anchor="start">・予告と手当の併用も可（予告15日＋手当15日分）</text><text x="29" y="128" font-size="11.8" fill="#44596f" text-anchor="start">・試用開始14日以内は予告手当不要（21条）</text><text x="29" y="151" font-size="11.8" fill="#44596f" text-anchor="start">→ 解決するのは「いつ効力が生じるか」</text></g><rect x="355" y="34" width="330" height="136" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M355 62 L685 62" stroke="#c98484" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">有効性＝労契法16条</text><g transform="translate(340,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・客観的に合理的な理由</text><text x="29" y="105" font-size="11.8" fill="#44596f" text-anchor="start">・社会通念上の相当性</text><text x="29" y="128" font-size="11.8" fill="#44596f" text-anchor="start">・欠ければ解雇は無効＝従業員は在籍のまま</text><text x="29" y="151" font-size="11.8" fill="#44596f" text-anchor="start">→ 予告手当をいくら払っても治らない</text></g>
 </svg>
 <figcaption>予告手当は解雇の効力発生時期の問題であり、解雇が有効かどうかは労契法16条で別に判断される。</figcaption>
 </figure>
@@ -4164,7 +4164,7 @@ body="""
 <p>大星ビル管理事件（最高裁判所平成14年2月28日判決・民集56卷2號361頁）：大樓管理員的夜間假眠時間，因為警報響起時<strong>有義務立即對應</strong>，整段假眠時間都被認定為勞動時間。「實際上幾乎沒被叫起來」不是免責理由——問題是對應義務的有無。</p>
 <figure class="hfig">
 <svg viewBox="0 0 700 180" role="img" aria-label="休息時間與手待時間在是否從勞動中解放・能否自由利用・是否需要付薪水上的比較圖" xmlns="http://www.w3.org/2000/svg">
-<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">休息時間與手待時間的差異</text><rect x="15" y="34" width="330" height="136" rx="7" fill="#e6edf7" stroke="#8fa6c6"/><path d="M15 62 L345 62" stroke="#8fa6c6" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">休息時間（勞動基準法34條）</text><g transform="translate(0,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・保障從勞動中解放</text><text x="29" y="93" font-size="11.8" fill="#44596f" text-anchor="start">・可以自由利用（外出・私事）</text><text x="29" y="116" font-size="11.8" fill="#44596f" text-anchor="start">・不會被要求對應</text><text x="29" y="139" font-size="11.8" fill="#44596f" text-anchor="start">→ 不需要付薪水</text></g><rect x="355" y="34" width="330" height="136" rx="7" fill="#f3f7fb" stroke="#a9bdd6"/><path d="M355 62 L685 62" stroke="#a9bdd6" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">手待時間（勞動時間）</text><g transform="translate(340,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・被要求隨時可以對應的待命狀態</text><text x="29" y="93" font-size="11.8" fill="#44596f" text-anchor="start">・電話當番、來客對應的留守、等貨</text><text x="29" y="116" font-size="11.8" fill="#44596f" text-anchor="start">・離不開崗位</text><text x="29" y="139" font-size="11.8" fill="#44596f" text-anchor="start">→ 需要付薪水</text></g>
+<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">休息時間與手待時間的差異</text><rect x="15" y="34" width="330" height="136" rx="7" fill="#e6edf7" stroke="#8fa6c6"/><path d="M15 62 L345 62" stroke="#8fa6c6" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">休息時間（勞動基準法34條）</text><g transform="translate(0,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・保障從勞動中解放</text><text x="29" y="105" font-size="11.8" fill="#44596f" text-anchor="start">・可以自由利用（外出・私事）</text><text x="29" y="128" font-size="11.8" fill="#44596f" text-anchor="start">・不會被要求對應</text><text x="29" y="151" font-size="11.8" fill="#44596f" text-anchor="start">→ 不需要付薪水</text></g><rect x="355" y="34" width="330" height="136" rx="7" fill="#f3f7fb" stroke="#a9bdd6"/><path d="M355 62 L685 62" stroke="#a9bdd6" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">手待時間（勞動時間）</text><g transform="translate(340,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・被要求隨時可以對應的待命狀態</text><text x="29" y="105" font-size="11.8" fill="#44596f" text-anchor="start">・電話當番、來客對應的留守、等貨</text><text x="29" y="128" font-size="11.8" fill="#44596f" text-anchor="start">・離不開崗位</text><text x="29" y="151" font-size="11.8" fill="#44596f" text-anchor="start">→ 需要付薪水</text></g>
 </svg>
 <figcaption>不是看名稱，而是看有沒有保障「從勞動中解放」。</figcaption>
 </figure>
@@ -4186,7 +4186,7 @@ ja="""<h2>【日本語版】昼休みに電話番——それは休憩ではな�
 <p>大星ビル管理事件（最一小判平成14年2月28日民集56巻2号361頁）は、ビル管理員の夜間仮眠時間について、警報時に<strong>直ちに対応する義務</strong>がある以上、仮眠時間全体が労働時間に当たるとしました。「実際にはほとんど起こされない」は免責理由になりません。</p>
 <figure class="hfig">
 <svg viewBox="0 0 700 180" role="img" aria-label="休憩時間と手待時間を、労働からの解放の有無・自由利用・賃金の要否で比較した図" xmlns="http://www.w3.org/2000/svg">
-<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">休憩時間と手待時間の違い</text><rect x="15" y="34" width="330" height="136" rx="7" fill="#e6edf7" stroke="#8fa6c6"/><path d="M15 62 L345 62" stroke="#8fa6c6" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">休憩時間（労基法34条）</text><g transform="translate(0,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・労働からの解放が保障されている</text><text x="29" y="93" font-size="11.8" fill="#44596f" text-anchor="start">・自由に利用できる（外出・私用）</text><text x="29" y="116" font-size="11.8" fill="#44596f" text-anchor="start">・対応を求められることがない</text><text x="29" y="139" font-size="11.8" fill="#44596f" text-anchor="start">→ 賃金は不要</text></g><rect x="355" y="34" width="330" height="136" rx="7" fill="#f3f7fb" stroke="#a9bdd6"/><path d="M355 62 L685 62" stroke="#a9bdd6" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">手待時間（労働時間）</text><g transform="translate(340,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・求められればすぐ動く待機状態</text><text x="29" y="93" font-size="11.8" fill="#44596f" text-anchor="start">・電話番、来客対応の留守番、荷待ち</text><text x="29" y="116" font-size="11.8" fill="#44596f" text-anchor="start">・持ち場を離れられない</text><text x="29" y="139" font-size="11.8" fill="#44596f" text-anchor="start">→ 賃金が必要</text></g>
+<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">休憩時間と手待時間の違い</text><rect x="15" y="34" width="330" height="136" rx="7" fill="#e6edf7" stroke="#8fa6c6"/><path d="M15 62 L345 62" stroke="#8fa6c6" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">休憩時間（労基法34条）</text><g transform="translate(0,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・労働からの解放が保障されている</text><text x="29" y="105" font-size="11.8" fill="#44596f" text-anchor="start">・自由に利用できる（外出・私用）</text><text x="29" y="128" font-size="11.8" fill="#44596f" text-anchor="start">・対応を求められることがない</text><text x="29" y="151" font-size="11.8" fill="#44596f" text-anchor="start">→ 賃金は不要</text></g><rect x="355" y="34" width="330" height="136" rx="7" fill="#f3f7fb" stroke="#a9bdd6"/><path d="M355 62 L685 62" stroke="#a9bdd6" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">手待時間（労働時間）</text><g transform="translate(340,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・求められればすぐ動く待機状態</text><text x="29" y="105" font-size="11.8" fill="#44596f" text-anchor="start">・電話番、来客対応の留守番、荷待ち</text><text x="29" y="128" font-size="11.8" fill="#44596f" text-anchor="start">・持ち場を離れられない</text><text x="29" y="151" font-size="11.8" fill="#44596f" text-anchor="start">→ 賃金が必要</text></g>
 </svg>
 <figcaption>呼び名ではなく、労働からの解放が保障されているかどうかで決まる。</figcaption>
 </figure>
@@ -17963,10 +17963,20 @@ dict(slug="kyushoku-shaho-hoken",
     summary="休職中勞動契約存續，健康保險・厚生年金的被保險者資格繼續，保險料（含本人負擔分）照常發生。公司立替後向本人請求是通常做法。傷病手當金從中抵充・住民稅的普通徵收切替等實務對應解說。",
     body="""<p>休職進入第2個月，公司寄來請求書：「社會保險料本人負擔分○萬日圓請匯款」。無給狀態還要付錢？——很遺憾，這是合法的，而且不付會有麻煩。</p>
 <h2>為什麼休職中也要付</h2>
-<p>休職是勞動契約<strong>存續</strong>中的勞動義務停止。健康保險・厚生年金的被保險者資格以「使用關係」為基準，休職中資格繼續，<strong>保險料照常發生</strong>（標準報酬月額不因無給而馬上改變）。保險料勞使折半（健康保險法161條、厚生年金保險法82條），<strong>本人負擔分的支付義務不消失</strong>。</p>
-<p>平常從薪水天引（健康保險法167條允許），無給就無從天引——所以公司①每月請求匯款、②立替後復職時精算、③從傷病手當金代理受領中抵充（要本人同意的安排）等方式處理。</p>
+<p>休職是勞動契約<strong>存續</strong>中的勞動義務停止。健康保險・厚生年金的被保險者資格以「使用關係」為基準，休職中資格繼續，<strong>保險料照常發生</strong>（標準報酬月額不因無給而馬上改變）。保險料勞使折半（健康保險法161條1項、厚生年金保險法82條1項），<strong>本人負擔分的支付義務不消失</strong>。</p>
+<p>平常從薪水天引（健康保險法167條1項。可從報酬中扣除的是「<strong>前月</strong>」的標準報酬月額所對應的保險料），無給就無從天引——所以公司①每月請求匯款、②立替後復職時精算、③從傷病手當金代理受領中抵充（要本人同意的安排）等方式處理。</p>
 <h2>金額感</h2>
-<p>標準報酬月額30萬日圓的場合，本人負擔分大約：健康保險1.5萬（協會けんぽ・含介護保險料則再多）＋厚生年金2.7萬＝<strong>月4萬日圓前後</strong>。傷病手當金（約20萬）進來也不輕。</p>
+<p>以標準報酬月額30萬日圓・東京・令和8年度計算，本人負擔分是健康保險14,775日圓＋子ども・子育て支援金345日圓＋厚生年金27,450日圓＝<strong>42,570日圓</strong>（40〜64歲再加介護保險2,430日圓，合計<strong>45,000日圓</strong>）。另一邊，標準報酬月額30萬日圓持續12個月的話，傷病手當金是日額6,667日圓・1個月約20萬日圓——扣掉保險料只剩15萬日圓出頭，再加住民稅，並不輕鬆。</p>
+<table class="wrap1">
+<tr><th>項目</th><th>保險料率（勞使合計）</th><th>本人負擔（月額）</th></tr>
+<tr><td>健康保險</td><td>9.85%（東京・令和8年3月分〜。各支部不同）</td><td>14,775日圓</td></tr>
+<tr><td>子ども・子育て支援金</td><td>0.23%（全國一律・令和8年4月分〜新設）</td><td>345日圓</td></tr>
+<tr><td>厚生年金</td><td>18.3%（厚生年金保險法81條4項）</td><td>27,450日圓</td></tr>
+<tr><td>介護保險（40〜64歲）</td><td>1.62%（全國一律・令和8年3月分〜）</td><td>2,430日圓</td></tr>
+<tr><td><strong>合計（40歲未滿）</strong></td><td>—</td><td><strong>42,570日圓</strong></td></tr>
+<tr><td><strong>合計（40〜64歲）</strong></td><td>—</td><td><strong>45,000日圓</strong></td></tr>
+</table>
+<p class="small">標準報酬月額30萬日圓的例子。保險料勞使折半（健康保險法161條1項・厚生年金保險法82條1項），表中是本人負擔分。健康保險料率依都道府縣支部而異。出處：全國健康保險協會（協會けんぽ）令和8年度保險料率。</p>
 <h2>付不出來・不付的後果</h2>
 <ul>
 <li>對公司的<strong>債務</strong>累積（公司向保險者繳付全額的義務不變，本人分是立替）。復職・退職時一括請求，退職金相殺需要你的自由意思同意（全額払原則・勞基法24條）。</li>
@@ -17974,20 +17984,39 @@ dict(slug="kyushoku-shaho-hoken",
 </ul>
 <h2>能減輕負擔的制度</h2>
 <ul>
-<li><strong>傷病手當金</strong>（健康保險法99條）：標準報酬日額3分之2。從這裡撥出保險料分。</li>
-<li><strong>住民稅</strong>：特別徵收（天引）在無給時不能繼續，切替<strong>普通徵收</strong>自己繳。繳不出時向市區町村申請<strong>徵收猶予・減免</strong>（地方稅法15條、各自治體條例）。</li>
-<li><strong>產前產後休業・育兒休業</strong>的場合不同：有<strong>保險料免除</strong>制度（健康保險法159條・159條の3、厚生年金保險法81條の2）。<strong>私傷病休職沒有免除制度</strong>——這是常被誤解的點。</li>
-<li>收入激減下一年度的國保・住民稅負擔重的問題，退職後的任意繼續被保險者（健康保險法37條）與國保的比較也要算。</li>
+<li><strong>傷病手當金</strong>（健康保險法99條）：金額是「開始支給之日所屬月以前最近連續12個月的各月標準報酬月額的平均額的30分之1」的<strong>3分之2</strong>（同條2項）。最初的<strong>連續3天是等待期間</strong>，從第4天起才支給（同條1項）；支給期間是自開始支給之日起<strong>通算1年6個月</strong>（同條4項）。保險料的部分要從這裡先留起來。</li>
+<li><strong>住民稅</strong>：特別徵收（天引）在無給時不能繼續，切替<strong>普通徵收</strong>自己繳。繳不出時向市區町村申請<strong>徵收猶予</strong>——「納稅者或與其生計同一的親屬生病或受傷」本來就是法定事由之一（地方稅法15條1項2號），期間<strong>1年以內</strong>，有不得已的理由時可延長至<strong>通算2年</strong>（同條4項）。減免則依各自治體的條例。</li>
+<li><strong>產前產後休業・育兒休業</strong>的場合不同：事業主提出申出，<strong>勞使雙方的保險料都免除</strong>（產前產後＝健康保險法159條の3・厚生年金保險法81條の2の2；育兒休業等＝健康保險法159條・厚生年金保險法81條の2）。<strong>私傷病休職沒有免除制度</strong>——這是最常被誤解的點。</li>
+<li>收入激減會讓下一年度的國保・住民稅負擔變重。退職時，<strong>任意繼續被保險者</strong>與國保哪邊划算要先算。任意繼續的要件是：到喪失資格的前一天為止連續有2個月以上的被保險者期間（健康保險法3條4項），並在<strong>喪失資格之日起20日內</strong>提出申出（同法37條1項），最長<strong>2年</strong>（同法38條1號）。要注意<strong>保險料全額由自己負擔</strong>（同法161條1項但書）——原本公司出的那一半也要自己出。</li>
 </ul>
+<table class="wrap1">
+<tr><th>休業・休職的種類</th><th>社會保險料</th><th>根據</th></tr>
+<tr><td><strong>私傷病休職</strong></td><td><strong>沒有免除</strong>。本人負擔分的支付義務留著</td><td>健康保險法161條1項、厚生年金保險法82條1項</td></tr>
+<tr><td>產前產後休業</td><td>事業主申出後<strong>勞使都免除</strong></td><td>健康保險法159條の3、厚生年金保險法81條の2の2</td></tr>
+<tr><td>育兒休業等</td><td>事業主申出後<strong>勞使都免除</strong></td><td>健康保險法159條、厚生年金保險法81條の2</td></tr>
+<tr><td>業務上傷病（勞災）的休業</td><td><strong>沒有免除</strong>（勞災保險的休業補償給付另外出）</td><td>同上</td></tr>
+</table>
+<p class="small">育兒休業等的免除，在開始月與結束日的次日所屬月相同時，須該月的育兒休業等日數在14日以上（健康保險法159條1項2號、厚生年金保險法81條の2第1項2號）。</p>
 <h2>外國人勞工的注意</h2>
-<p>休職・傷病手當金受給本身不影響在留資格，但<strong>長期不就勞+保險料滯納</strong>在永住申請時是負面要素（國民年金・健康保險的納付狀況被審查）。分割協議也好，不要放置滯納。</p>""",
+<p>為了療養而休職，通常會被認為有「正當的理由」。不過要知道，別表第一的在留資格，<strong>繼續3個月以上不從事該在留資格所對應的活動</strong>本身就被列為在留資格的取消事由（入管法22條の4第1項6號。有正當理由時除外）。診斷書・休職命令等文件要留好。</p>
+<p>保險料的滯納，在永住許可申請時是負面要素。而且<strong>2027年4月1日起</strong>，「永住者<strong>故意不支付公租公課</strong>」被追加為在留資格的取消事由（令和6年法律第60號修正後的入管法22條の4第1項8號）。分割協議也好，不要放置滯納。</p>""",
     ja="""<h2>【日本語版】休職中は無給なのに社会保険料は取られる——誰が・どう払う・払えないとき</h2>
 <p>休職2か月目、会社から「社会保険料の本人負担分○万円を振り込んでください」という請求が届く。無給なのに？——残念ながら適法で、放置すると厄介です。</p>
 <h2>なぜ休職中も払うのか</h2>
-<p>休職は労働契約<strong>存続</strong>中の労務提供停止です。健康保険・厚生年金の被保険者資格は使用関係を基準とし、休職中も資格は継続、<strong>保険料は通常どおり発生</strong>します（標準報酬月額は無給になってもすぐには変わりません）。保険料は労使折半で（健康保険法161条、厚生年金保険法82条）、<strong>本人負担分の支払義務は消えません</strong>。</p>
-<p>通常は給与天引き（健康保険法167条）ですが、無給では天引きできないため、会社は①毎月の振込請求、②立替えのうえ復職時精算、③傷病手当金の代理受領からの充当（本人同意が必要）等で処理します。</p>
+<p>休職は労働契約<strong>存続</strong>中の労務提供停止です。健康保険・厚生年金の被保険者資格は使用関係を基準とし、休職中も資格は継続、<strong>保険料は通常どおり発生</strong>します（標準報酬月額は無給になってもすぐには変わりません）。保険料は労使折半で（健康保険法161条1項、厚生年金保険法82条1項）、<strong>本人負担分の支払義務は消えません</strong>。</p>
+<p>通常は給与天引き（健康保険法167条1項。報酬から控除できるのは「<strong>前月</strong>」の標準報酬月額に係る保険料です）ですが、無給では天引きできないため、会社は①毎月の振込請求、②立替えのうえ復職時精算、③傷病手当金の代理受領からの充当（本人同意が必要）等で処理します。</p>
 <h2>金額感</h2>
-<p>標準報酬月額30万円なら本人負担分はおおよそ健康保険1.5万円（介護保険該当ならさらに増）＋厚生年金2.7万円＝<strong>月4万円前後</strong>。傷病手当金（約20万円）が入っても軽くありません。</p>
+<p>標準報酬月額30万円、東京、令和8年度で計算すると、本人負担分は健康保険14,775円＋子ども・子育て支援金345円＋厚生年金27,450円＝<strong>42,570円</strong>です（40歳から64歳までの方は介護保険2,430円が加わり、合計<strong>45,000円</strong>）。他方、標準報酬月額30万円が12か月続いていれば傷病手当金は日額6,667円、1か月で約20万円ですから、保険料を引くと15万円台しか残らず、ここに住民税が乗ってきます。軽くはありません。</p>
+<table class="wrap1">
+<tr><th>項目</th><th>保険料率（労使合計）</th><th>本人負担（月額）</th></tr>
+<tr><td>健康保険</td><td>9.85%（東京・令和8年3月分〜。支部ごとに異なる）</td><td>14,775円</td></tr>
+<tr><td>子ども・子育て支援金</td><td>0.23%（全国一律・令和8年4月分から新設）</td><td>345円</td></tr>
+<tr><td>厚生年金</td><td>18.3%（厚生年金保険法81条4項）</td><td>27,450円</td></tr>
+<tr><td>介護保険（40歳〜64歳）</td><td>1.62%（全国一律・令和8年3月分〜）</td><td>2,430円</td></tr>
+<tr><td><strong>合計（40歳未満）</strong></td><td>—</td><td><strong>42,570円</strong></td></tr>
+<tr><td><strong>合計（40歳〜64歳）</strong></td><td>—</td><td><strong>45,000円</strong></td></tr>
+</table>
+<p class="small">標準報酬月額30万円の例です。保険料は労使折半であり（健康保険法161条1項・厚生年金保険法82条1項）、表は本人負担分です。健康保険料率は都道府県支部ごとに異なります。出典：全国健康保険協会（協会けんぽ）令和8年度保険料率。</p>
 <h2>払わない・払えないときの帰結</h2>
 <ul>
 <li>会社への<strong>債務</strong>が積み上がります（会社の保険者への全額納付義務は変わらず、本人分は立替え）。復職・退職時の一括請求、退職金との相殺にはあなたの自由な意思に基づく同意が必要です（全額払原則・労基法24条）。</li>
@@ -17995,13 +18024,22 @@ dict(slug="kyushoku-shaho-hoken",
 </ul>
 <h2>負担を軽くする制度</h2>
 <ul>
-<li><strong>傷病手当金</strong>（健康保険法99条）：標準報酬日額の3分の2。ここから保険料分を確保します。</li>
-<li><strong>住民税</strong>：特別徴収は無給では続けられず、<strong>普通徴収</strong>に切り替えて自分で納付。納付困難なら市区町村に<strong>徴収猶予・減免</strong>を申請（地方税法15条、各自治体条例）。</li>
-<li><strong>産前産後休業・育児休業は別</strong>：保険料<strong>免除</strong>制度があります（健康保険法159条・159条の3、厚生年金保険法81条の2）。<strong>私傷病休職に免除制度はありません</strong>——よく誤解される点です。</li>
-<li>退職する場合は任意継続被保険者（健康保険法37条）と国保の保険料比較も忘れずに。</li>
+<li><strong>傷病手当金</strong>（健康保険法99条）：額は、「支給を始める日の属する月以前の直近の継続した12月間の各月の標準報酬月額を平均した額の30分の1に相当する額」の<strong>3分の2</strong>です（同条2項）。最初の<strong>連続3日間は待期期間</strong>で、4日目から支給されます（同条1項）。支給期間は、支給を始めた日から<strong>通算して1年6か月</strong>です（同条4項）。ここから保険料分を確保します。</li>
+<li><strong>住民税</strong>：特別徴収は無給では続けられず、<strong>普通徴収</strong>に切り替えて自分で納付します。納付が困難なら市区町村に<strong>徴収猶予</strong>を申請してください。「納税者又はこれと生計を一にする親族が病気にかかり、又は負傷したとき」は法定の事由の一つです（地方税法15条1項2号）。期間は<strong>1年以内</strong>で、やむを得ない理由があれば<strong>通算2年</strong>まで延長できます（同条4項）。減免は各自治体の条例によります。</li>
+<li><strong>産前産後休業・育児休業は別</strong>：事業主が申出をすれば、<strong>労使双方の保険料が免除</strong>されます（産前産後休業＝健康保険法159条の3・厚生年金保険法81条の2の2、育児休業等＝健康保険法159条・厚生年金保険法81条の2）。<strong>私傷病休職に免除制度はありません</strong>——最も誤解される点です。</li>
+<li>退職する場合は、<strong>任意継続被保険者</strong>と国民健康保険の保険料の比較を忘れずに。任意継続の要件は、資格喪失の日の前日まで継続して2か月以上の被保険者期間があること（健康保険法3条4項）と、<strong>資格喪失の日から20日以内</strong>の申出（同法37条1項）で、期間は最長<strong>2年</strong>です（同法38条1号）。<strong>保険料は全額自己負担</strong>になる点に注意してください（同法161条1項ただし書）。会社が負担していた半額も自分で負担することになります。</li>
 </ul>
+<table class="wrap1">
+<tr><th>休業・休職の種類</th><th>社会保険料</th><th>根拠</th></tr>
+<tr><td><strong>私傷病休職</strong></td><td><strong>免除なし</strong>。本人負担分の支払義務は残る</td><td>健康保険法161条1項、厚生年金保険法82条1項</td></tr>
+<tr><td>産前産後休業</td><td>事業主の申出により<strong>労使とも免除</strong></td><td>健康保険法159条の3、厚生年金保険法81条の2の2</td></tr>
+<tr><td>育児休業等</td><td>事業主の申出により<strong>労使とも免除</strong></td><td>健康保険法159条、厚生年金保険法81条の2</td></tr>
+<tr><td>業務上の傷病（労災）による休業</td><td><strong>免除なし</strong>（労災保険の休業補償給付は別に支給）</td><td>同上</td></tr>
+</table>
+<p class="small">育児休業等の免除は、開始した日の属する月と終了する日の翌日が属する月とが同一の場合、その月の育児休業等の日数が14日以上であることが必要です（健康保険法159条1項2号、厚生年金保険法81条の2第1項2号）。</p>
 <h2>外国人労働者の注意</h2>
-<p>休職や傷病手当金の受給自体は在留資格に影響しませんが、<strong>保険料の滞納</strong>は永住許可申請で不利に働きます（年金・健康保険の納付状況が審査されます）。分割協議でもよいので滞納を放置しないでください。</p>"""),
+<p>療養のための休職は、通常は「正当な理由」があると考えられます。もっとも、別表第一の在留資格については、<strong>その在留資格に応じた活動を継続して3か月以上行わないこと</strong>自体が在留資格の取消事由とされています（入管法22条の4第1項6号。正当な理由がある場合は除かれます）。診断書や休職命令書等は残しておいてください。</p>
+<p>保険料の滞納は、永住許可申請で不利に働きます。さらに<strong>2027年4月1日から</strong>は、「永住者が<strong>故意に公租公課の支払をしないこと</strong>」が在留資格の取消事由に追加されます（令和6年法律第60号による改正後の入管法22条の4第1項8号）。分割の協議でもよいので、滞納を放置しないでください。</p>"""),
 dict(slug="rehabili-shukkin",
     cat="休假・休職",
     date="2026-06-16",
@@ -28567,23 +28605,42 @@ body="""
 <h2>顧問契約是什麼</h2>
 <ul>
 <li>典型內容：<strong>日常法律相談（電話・郵件隨時）＋契約書等的確認＋簡易書面作成</strong>——訴訟・交涉等個別案件另行計費（顧問客戶折扣是通例）。</li>
-<li>行情：中小企業<strong>月額3〜5萬日圓帶為中心</strong>（弁護士會等調查結果的多數帶）——依相談量・企業規模・對應範圍（夜間假日・外語）上下浮動。</li>
+<li>行情：<strong>月額2萬〜10萬日圓的範圍內佔了將近9成，其中3萬日圓與5萬日圓最多</strong>（日本辯護士聯合會的問卷調查結果）——依相談量・企業規模・對應範圍（顧問料內的相談時間上限、是否含契約書確認、夜間假日・外語）上下浮動。舊的報酬規程時代曾規定「事業者月額5萬日圓以上」，現在則由雙方自由決定。</li>
+<li>顧問料涵蓋的範圍，通常到「聽取法律問題並以<strong>口頭</strong>提供建議」為止；書面的鑑定、與對方的交涉、訴訟是另行計費。相談時間也常設上限，調查結果中<strong>以每月3小時左右為限者約佔6成</strong>，以「不必調查就能當場回答的內容」為限者約佔3成5。契約書確認則看繁簡，簡單的常被包進顧問料。</li>
 </ul>
+<table class="wrap1">
+<tr><th>業務</th><th>顧問料的範圍內？</th><th>備註</th></tr>
+<tr><td>口頭的法律相談（電話・郵件）</td><td><strong>○</strong>（常設時間上限）</td><td>以每月3小時左右為限者約6成</td></tr>
+<tr><td>簡單的契約書確認</td><td><strong>○〜△</strong></td><td>複雜・大量時另行計費或按時計費</td></tr>
+<tr><td>書面的法律意見書（鑑定）</td><td>✕</td><td>另行計費</td></tr>
+<tr><td>與對方的交涉（內容證明・談判）</td><td>✕</td><td>着手金・報酬金方式或按時計費</td></tr>
+<tr><td>訴訟・勞動審判・勞委會對應</td><td>✕</td><td>同上。顧問客戶折扣是通例</td></tr>
+</table>
+<p class="small">以上是多數例，實際範圍依顧問契約的約定。簽約時先把「相談時間的上限」「契約書確認是否包含」「個別案件的折扣率」寫清楚，日後不會起爭執。</p>
 <h2>顧問與單件委任的比較</h2>
 <ul>
 <li><strong>單件委任</strong>：着手金・報酬金方式或時間計費——出事才動，紛爭化後可選的手段已經變窄。</li>
-<li><strong>顧問的實益</strong>：①<strong>實行前相談</strong>（解僱・懲戒等不可逆措施做之前先問——事後能做的只有損害管理）②公司內情・過去經緯的<strong>累積</strong>（省去每次從零說明的成本）③優先對應④對外「本件已交由顧問弁護士處理」的<strong>交涉上的防波堤</strong>⑤規程・契約雛形的平時整備。</li>
-<li>顧問料・弁護士費用可<strong>列為損金</strong>（以事業關聯性為前提）。</li>
+<li><strong>顧問的實益</strong>：①<strong>實行前相談</strong>（解僱・懲戒等不可逆措施做之前先問——事後能做的只有損害管理）②公司內情・過去經緯的<strong>累積</strong>（省去每次從零說明的成本）③優先對應④對外「本件已交由顧問弁護士處理」的<strong>交涉上的防波堤</strong>⑤規程・契約雛形的平時整備⑥<strong>不會被對手搶先委任</strong>——律師原則上不得承辦以「約定持續提供法律事務者」（即顧問客戶）為對方的案件（弁護士職務基本規程28條2號。委託人與對方都同意時才例外）。</li>
+<li>顧問料・弁護士費用可<strong>列為損金</strong>（法人稅法22條3項2號的「販賣費、一般管理費及其他費用」。個人事業主則是必要經費・所得稅法37條1項）。另一方面，<strong>付給個人律師的報酬是源泉徵收的對象</strong>（所得稅法204條1項2號）——忘了扣繳時，被追繳的是支付方自己。</li>
 </ul>
 <h2>用好顧問：時機是全部</h2>
 <ul>
 <li><strong>契約書＝簽之前</strong>給律師看（簽完之後能做的有限）。<strong>解僱・「雇止め」・懲戒＝通知之前</strong>相談（通知後難以撤回・證據狀況也已固定）。<strong>退職勧奨・問題員工對應＝從初動開始</strong>——這三個時機錯過，顧問料的意義減半。</li>
 <li>內容證明等書面用不用<strong>弁護士名義</strong>的分別使用、勞基署調查・是正勧告的對應陪同，也都是相談對象。</li>
 </ul>
+<table class="wrap1">
+<tr><th>項目</th><th>付給<strong>個人</strong>律師</th><th>付給<strong>律師法人</strong></th></tr>
+<tr><td>源泉徵收</td><td><strong>必要</strong>（所得稅法204條1項2號）</td><td>不要（條文的對象是「居住者」＝個人）</td></tr>
+<tr><td>稅額</td><td>支付額100萬日圓以下＝×<strong>10.21%</strong>／超過時＝（支付額−100萬）×<strong>20.42%</strong>＋102,100日圓</td><td>—</td></tr>
+<tr><td>消費稅的處理</td><td>請求書上報酬額與消費稅額<strong>明確區分</strong>時，可只以報酬額為對象</td><td>—</td></tr>
+<tr><td>繳納期限</td><td>支付月的次月10日（適用納期特例時為7月10日・次年1月20日）</td><td>—</td></tr>
+<tr><td>公司端的處理</td><td>損金（法人稅法22條3項2號）</td><td>同左</td></tr>
+</table>
+<p class="small">稅率中含復興特別所得稅（復興財源確保法28條）。令和9年分以後，改為源泉徵收所得稅・防衛特別所得稅及復興特別所得稅。出處：國稅廳 タックスアンサー No.2798（令和8年4月1日現在法令等）。</p>
 <h2>怎麼選・怎麼換</h2>
 <ul>
 <li>看領域適合性（勞働・交易・國際等自家風險的中心）・回覆速度・<strong>語言對應</strong>（外國人經營者＝母語或平易日語的說明能力）。</li>
-<li>不合適時：顧問契約通常<strong>隨時可解約</strong>（確認預告期間）——「換顧問」不是背叛，是經營判斷。只要把進行中案件的交接整理好。</li>
+<li>不合適時：顧問契約具有（準）委任的性質，<strong>各當事人隨時都可以解除</strong>（民法651條1項・656條）。契約書上有預告期間的約定時依約定。只是「在對對方不利的時期」解除時可能產生損害賠償的問題（同條2項。有不得已的事由時除外），實務上照預告期間走最穩。「換顧問」不是背叛，是經營判斷；只要把進行中案件的交接整理好即可。</li>
 </ul>
 """,
 ja="""<h2>【日本語版】顧問弁護士の使い方——費用相場と活用法</h2>
@@ -28591,23 +28648,42 @@ ja="""<h2>【日本語版】顧問弁護士の使い方——費用相場と活�
 <h3>顧問契約とは何か</h3>
 <ul>
 <li>典型的な内容は、<strong>日常の法律相談（電話・電子メールで随時）＋契約書等のチェック＋簡易な書面の作成</strong>です。訴訟・交渉等の個別事件は別途の費用となりますが、顧問先割引が通例です。</li>
-<li>相場は、中小企業であれば<strong>月額3万円から5万円の帯が中心</strong>というのが、弁護士会等の調査でも多数を占める回答です。相談量、企業規模、対応範囲（夜間・休日の対応、外国語対応の有無）によって上下します。</li>
+<li>相場は、<strong>月額2万円から10万円の範囲に9割近くが収まり、中でも3万円と5万円が多い</strong>というのが、日本弁護士連合会のアンケート結果です。相談量、企業規模、対応範囲（顧問料内の相談時間の上限、契約書チェックを含めるかどうか、夜間・休日の対応、外国語対応の有無）によって上下します。かつての報酬規程では「事業者は月額5万円以上」とされていましたが、現在は当事者が自由に決められます。</li>
+<li>顧問料でカバーされる範囲は、通常、「法律的な問題について相談を受けて<strong>口頭で助言する</strong>」ところまでです。書面の鑑定、相手方との交渉、訴訟は別料金とされるのが一般的です。相談時間にも上限を置く例が多く、調査結果では<strong>月3時間程度までとするものが約6割</strong>、調査を要せずすぐに回答できる内容までとするものが約3割5分でした。契約書のチェックは、簡単なものであれば顧問料の範囲内として扱われることが多いといえます。</li>
 </ul>
+<table class="wrap1">
+<tr><th>業務</th><th>顧問料の範囲内か</th><th>備考</th></tr>
+<tr><td>口頭での法律相談（電話・電子メール）</td><td><strong>○</strong>（時間の上限を置く例が多い）</td><td>月3時間程度までとするものが約6割</td></tr>
+<tr><td>簡単な契約書のチェック</td><td><strong>○〜△</strong></td><td>複雑・大量のものは別料金又はタイムチャージ</td></tr>
+<tr><td>書面による法律意見書（鑑定）</td><td>✕</td><td>別料金</td></tr>
+<tr><td>相手方との交渉（内容証明・折衝）</td><td>✕</td><td>着手金・報酬金方式又はタイムチャージ</td></tr>
+<tr><td>訴訟・労働審判・労働委員会対応</td><td>✕</td><td>同上。顧問先割引が通例</td></tr>
+</table>
+<p class="small">以上は多数例であり、実際の範囲は顧問契約の定めによります。契約時に「相談時間の上限」「契約書チェックを含めるか」「個別事件の割引率」を書き込んでおくと、後で揉めません。</p>
 <h3>顧問契約と単発の委任との比較</h3>
 <ul>
 <li><strong>単発の委任</strong>は、着手金・報酬金方式又はタイムチャージです。問題が起きてから動くことになるため、紛争化した後に選べる手段は既に狭まっています。</li>
-<li><strong>顧問契約の実益</strong>は、①<strong>実行前の相談</strong>（解雇・懲戒といった不可逆の措置は、実行する前に相談する。事後にできるのは損害の管理だけです）②社内の事情・過去の経緯の<strong>蓄積</strong>（毎回ゼロから説明するコストが省けます）③優先的な対応④対外的に「本件は顧問弁護士に委ねています」と言える<strong>交渉上の防波堤</strong>⑤就業規則・各種契約の雛形の平時からの整備、という5点に整理できます。</li>
-<li>顧問料・弁護士費用は、事業との関連性があることを前提に<strong>損金に算入</strong>できます。</li>
+<li><strong>顧問契約の実益</strong>は、①<strong>実行前の相談</strong>（解雇・懲戒といった不可逆の措置は、実行する前に相談する。事後にできるのは損害の管理だけです）②社内の事情・過去の経緯の<strong>蓄積</strong>（毎回ゼロから説明するコストが省けます）③優先的な対応④対外的に「本件は顧問弁護士に委ねています」と言える<strong>交渉上の防波堤</strong>⑤就業規則・各種契約の雛形の平時からの整備⑥<strong>相手方に先に依頼される心配がないこと</strong>（弁護士は、「継続的な法律事務の提供を約している者」すなわち顧問先を相手方とする事件については、原則として職務を行うことができません。弁護士職務基本規程28条2号。依頼者と相手方の双方が同意した場合が例外です）、という6点に整理できます。</li>
+<li>顧問料・弁護士費用は、事業との関連性があることを前提に<strong>損金に算入</strong>できます（法人税法22条3項2号の「販売費、一般管理費その他の費用」。個人事業主であれば必要経費＝所得税法37条1項）。他方で、<strong>個人の弁護士に支払う報酬は源泉徴収の対象</strong>です（所得税法204条1項2号）。徴収を失念すると、支払った会社自身が納付を求められることになります。</li>
 </ul>
 <h3>使いこなす鍵は時機</h3>
 <ul>
 <li><strong>契約書は締結する前に</strong>見せてください（締結した後にできることは限られます）。<strong>解雇・雇止め・懲戒は通知する前に</strong>相談してください（通知した後の撤回は困難で、証拠の状況も既に固まっています）。<strong>退職勧奨・問題社員への対応は初動から</strong>です。この三つの時機を逃すと、顧問料の意義は半減します。</li>
 <li>内容証明等の書面について<strong>弁護士名義を使うか本人名義にとどめるか</strong>の使い分け、労働基準監督署の調査・是正勧告への対応の立会いも、相談の対象です。</li>
 </ul>
+<table class="wrap1">
+<tr><th>項目</th><th><strong>個人</strong>の弁護士に支払う場合</th><th><strong>弁護士法人</strong>に支払う場合</th></tr>
+<tr><td>源泉徴収</td><td><strong>必要</strong>（所得税法204条1項2号）</td><td>不要（条文の対象は「居住者」＝個人）</td></tr>
+<tr><td>税額</td><td>支払額100万円以下は×<strong>10.21%</strong>、超えるときは（支払額−100万円）×<strong>20.42%</strong>＋102,100円</td><td>—</td></tr>
+<tr><td>消費税の扱い</td><td>請求書等で報酬額と消費税額が<strong>明確に区分</strong>されていれば、報酬額のみを対象として差し支えない</td><td>—</td></tr>
+<tr><td>納付期限</td><td>支払った月の翌月10日（納期の特例の適用があれば7月10日・翌年1月20日）</td><td>—</td></tr>
+<tr><td>会社側の処理</td><td>損金（法人税法22条3項2号）</td><td>同左</td></tr>
+</table>
+<p class="small">税率には復興特別所得税が含まれます（復興財源確保法28条）。令和9年分以後は、所得税、防衛特別所得税及び復興特別所得税を源泉徴収することとされています。出典：国税庁タックスアンサーNo.2798（令和8年4月1日現在法令等）。</p>
 <h3>どう選び、どう替えるか</h3>
 <ul>
 <li>分野の適合性（労働、取引、国際など、自社のリスクの中心がどこにあるか）、レスポンスの速さ、そして<strong>言語対応</strong>（外国人経営者であれば、母語又は平易な日本語で説明できる能力）を見ます。</li>
-<li>合わない場合、顧問契約は通常<strong>随時解約できます</strong>（予告期間の定めは確認してください）。「顧問を替える」ことは裏切りではなく、経営判断です。進行中の事件の引継ぎだけは丁寧に整理しておいてください。</li>
+<li>合わない場合、顧問契約は（準）委任の性質を持ちますので、<strong>各当事者がいつでも解除できます</strong>（民法651条1項・656条）。契約書に予告期間の定めがあれば、それに従ってください。なお、相手方に不利な時期に解除したときは損害賠償の問題が生じ得ます（同条2項。やむを得ない事由があったときは除かれます）ので、実務上は予告期間のとおりに進めるのが無難です。「顧問を替える」ことは裏切りではなく、経営判断です。進行中の事件の引継ぎだけは丁寧に整理しておいてください。</li>
 </ul>
 """),
 dict(slug="rodo-sosho-nagare-hiyo",
@@ -33293,7 +33369,7 @@ body="""
 </ul>
 <figure class="hfig">
 <svg viewBox="0 0 700 196" role="img" aria-label="適正的指導與超過相當範圍的言動，依對事或對人・時間場所・有無改善出口・執拗性比較的圖" xmlns="http://www.w3.org/2000/svg">
-<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">同一場面的界線——適正的指導與超過相當範圍的言動</text><rect x="15" y="34" width="330" height="152" rx="7" fill="#dceadc" stroke="#7fa87f"/><path d="M15 62 L345 62" stroke="#7fa87f" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">業務上必要且相當範圍內的指導</text><g transform="translate(0,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・對事</text><text x="29" y="86" font-size="11.8" fill="#44596f" text-anchor="start">　「這份報告的數字錯了3處」</text><text x="29" y="109" font-size="11.8" fill="#44596f" text-anchor="start">・在必要範圍內簡潔地說</text><text x="29" y="132" font-size="11.8" fill="#44596f" text-anchor="start">・附帶「怎麼改」</text><text x="29" y="155" font-size="11.8" fill="#44596f" text-anchor="start">・日期・內容・對方反應留下紀錄</text></g><rect x="355" y="34" width="330" height="152" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M355 62 L685 62" stroke="#c98484" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">超過相當範圍的言動</text><g transform="translate(340,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・對人</text><text x="29" y="86" font-size="11.8" fill="#44596f" text-anchor="start">　「你這個人不行」「虧你還領薪水」</text><text x="29" y="109" font-size="11.8" fill="#44596f" text-anchor="start">・長時間反覆責問、在眾人面前羞辱</text><text x="29" y="132" font-size="11.8" fill="#44596f" text-anchor="start">・只有否定沒有出口的叱責</text><text x="29" y="155" font-size="11.8" fill="#44596f" text-anchor="start">・對方表明拒絕後仍執拗反覆</text></g>
+<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">同一場面的界線——適正的指導與超過相當範圍的言動</text><rect x="15" y="34" width="330" height="152" rx="7" fill="#dceadc" stroke="#7fa87f"/><path d="M15 62 L345 62" stroke="#7fa87f" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">業務上必要且相當範圍內的指導</text><g transform="translate(0,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・對事</text><text x="29" y="98" font-size="11.8" fill="#44596f" text-anchor="start">　「這份報告的數字錯了3處」</text><text x="29" y="121" font-size="11.8" fill="#44596f" text-anchor="start">・在必要範圍內簡潔地說</text><text x="29" y="144" font-size="11.8" fill="#44596f" text-anchor="start">・附帶「怎麼改」</text><text x="29" y="167" font-size="11.8" fill="#44596f" text-anchor="start">・日期・內容・對方反應留下紀錄</text></g><rect x="355" y="34" width="330" height="152" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M355 62 L685 62" stroke="#c98484" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">超過相當範圍的言動</text><g transform="translate(340,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・對人</text><text x="29" y="98" font-size="11.8" fill="#44596f" text-anchor="start">　「你這個人不行」「虧你還領薪水」</text><text x="29" y="121" font-size="11.8" fill="#44596f" text-anchor="start">・長時間反覆責問、在眾人面前羞辱</text><text x="29" y="144" font-size="11.8" fill="#44596f" text-anchor="start">・只有否定沒有出口的叱責</text><text x="29" y="167" font-size="11.8" fill="#44596f" text-anchor="start">・對方表明拒絕後仍執拗反覆</text></g>
 </svg>
 <figcaption>法律要求的不是「不罵」，而是「正確地罵」。</figcaption>
 </figure>
@@ -33319,7 +33395,7 @@ ja="""<h2>【日本語版】指導とパワハラの境界線——叱るべき�
 </ul>
 <figure class="hfig">
 <svg viewBox="0 0 700 196" role="img" aria-label="適正な指導と相当な範囲を超えた言動を、叱る対象・時間と場所・改善との連結・執拗さで比べた図" xmlns="http://www.w3.org/2000/svg">
-<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">同じ場面での線引き——適正な指導と相当な範囲を超えた言動</text><rect x="15" y="34" width="330" height="152" rx="7" fill="#dceadc" stroke="#7fa87f"/><path d="M15 62 L345 62" stroke="#7fa87f" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">業務上必要かつ相当な範囲内の指導</text><g transform="translate(0,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・事柄を叱る</text><text x="29" y="86" font-size="11.8" fill="#44596f" text-anchor="start">　「この報告書の数字が3か所間違っている」</text><text x="29" y="109" font-size="11.8" fill="#44596f" text-anchor="start">・必要な範囲で簡潔に</text><text x="29" y="132" font-size="11.8" fill="#44596f" text-anchor="start">・「どう直すか」を添える</text><text x="29" y="155" font-size="11.8" fill="#44596f" text-anchor="start">・日付・内容・相手の反応を記録に残す</text></g><rect x="355" y="34" width="330" height="152" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M355 62 L685 62" stroke="#c98484" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">相当な範囲を超えた言動</text><g transform="translate(340,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・人格を叱る</text><text x="29" y="86" font-size="11.8" fill="#44596f" text-anchor="start">　「お前はダメな人間だ」「給料泥棒」</text><text x="29" y="109" font-size="11.8" fill="#44596f" text-anchor="start">・長時間の詰問の繰り返し、衆人環視の中での叱責</text><text x="29" y="132" font-size="11.8" fill="#44596f" text-anchor="start">・否定だけで出口のない叱責</text><text x="29" y="155" font-size="11.8" fill="#44596f" text-anchor="start">・拒否の表明後もなお執拗に繰り返す</text></g>
+<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">同じ場面での線引き——適正な指導と相当な範囲を超えた言動</text><rect x="15" y="34" width="330" height="152" rx="7" fill="#dceadc" stroke="#7fa87f"/><path d="M15 62 L345 62" stroke="#7fa87f" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">業務上必要かつ相当な範囲内の指導</text><g transform="translate(0,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・事柄を叱る</text><text x="29" y="98" font-size="11.8" fill="#44596f" text-anchor="start">　「この報告書の数字が3か所間違っている」</text><text x="29" y="121" font-size="11.8" fill="#44596f" text-anchor="start">・必要な範囲で簡潔に</text><text x="29" y="144" font-size="11.8" fill="#44596f" text-anchor="start">・「どう直すか」を添える</text><text x="29" y="167" font-size="11.8" fill="#44596f" text-anchor="start">・日付・内容・相手の反応を記録に残す</text></g><rect x="355" y="34" width="330" height="152" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M355 62 L685 62" stroke="#c98484" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">相当な範囲を超えた言動</text><g transform="translate(340,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・人格を叱る</text><text x="29" y="98" font-size="11.8" fill="#44596f" text-anchor="start">　「お前はダメな人間だ」「給料泥棒」</text><text x="29" y="121" font-size="11.8" fill="#44596f" text-anchor="start">・長時間の詰問の繰り返し、衆人環視の中での叱責</text><text x="29" y="144" font-size="11.8" fill="#44596f" text-anchor="start">・否定だけで出口のない叱責</text><text x="29" y="167" font-size="11.8" fill="#44596f" text-anchor="start">・拒否の表明後もなお執拗に繰り返す</text></g>
 </svg>
 <figcaption>法律が求めているのは「叱らないこと」ではなく「正しく叱ること」。</figcaption>
 </figure>
@@ -33342,7 +33418,7 @@ body="""
 <p>注意：禁止的是「解僱」。懲戒解僱也一樣禁止。而<strong>合意退職・自然退職不在禁止之列</strong>（但以傷病為背景的退職勸奨要格外謹慎，容易被主張是實質解僱或違法勸奨）。</p>
 <figure class="hfig">
 <svg viewBox="0 0 700 228" role="img" aria-label="勞基法19條1項的解僱禁止期間兩個與法定例外三個左右並列的圖" xmlns="http://www.w3.org/2000/svg">
-<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">勞基法19條1項——解僱禁止期間與法定例外</text><rect x="15" y="34" width="330" height="184" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M15 62 L345 62" stroke="#c98484" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">禁止解僱的期間</text><g transform="translate(0,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・業務上傷病療養的休業期間</text><text x="29" y="86" font-size="11.8" fill="#44596f" text-anchor="start">　＋其後30日間</text><text x="29" y="109" font-size="11.8" fill="#44596f" text-anchor="start">・產前產後的休業期間（勞基法65條）</text><text x="29" y="125" font-size="11.8" fill="#44596f" text-anchor="start">　＋其後30日間</text><text x="29" y="148" font-size="11.8" fill="#44596f" text-anchor="start">・懲戒解僱同樣被禁止</text><text x="29" y="171" font-size="11.8" fill="#44596f" text-anchor="start">・合意退職・自然退職不在禁止之列</text></g><rect x="355" y="34" width="330" height="184" rx="7" fill="#dceadc" stroke="#7fa87f"/><path d="M355 62 L685 62" stroke="#7fa87f" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">3個法定例外</text><g transform="translate(340,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・打切補償＝平均工資1200日分</text><text x="29" y="86" font-size="11.8" fill="#44596f" text-anchor="start">　（19條1項但書・81條）</text><text x="29" y="109" font-size="11.8" fill="#44596f" text-anchor="start">・受領傷病補償年金的視同</text><text x="29" y="125" font-size="11.8" fill="#44596f" text-anchor="start">　（勞災保險法19條）</text><text x="29" y="148" font-size="11.8" fill="#44596f" text-anchor="start">・天災事變等致事業不能繼續</text><text x="29" y="164" font-size="11.8" fill="#44596f" text-anchor="start">　（需監督署長認定）</text><text x="29" y="187" font-size="11.8" fill="#44596f" text-anchor="start">・例外該當≠解僱自動有效（勞契法16條）</text></g>
+<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">勞基法19條1項——解僱禁止期間與法定例外</text><rect x="15" y="34" width="330" height="184" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M15 62 L345 62" stroke="#c98484" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">禁止解僱的期間</text><g transform="translate(0,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・業務上傷病療養的休業期間</text><text x="29" y="98" font-size="11.8" fill="#44596f" text-anchor="start">　＋其後30日間</text><text x="29" y="121" font-size="11.8" fill="#44596f" text-anchor="start">・產前產後的休業期間（勞基法65條）</text><text x="29" y="137" font-size="11.8" fill="#44596f" text-anchor="start">　＋其後30日間</text><text x="29" y="160" font-size="11.8" fill="#44596f" text-anchor="start">・懲戒解僱同樣被禁止</text><text x="29" y="183" font-size="11.8" fill="#44596f" text-anchor="start">・合意退職・自然退職不在禁止之列</text></g><rect x="355" y="34" width="330" height="184" rx="7" fill="#dceadc" stroke="#7fa87f"/><path d="M355 62 L685 62" stroke="#7fa87f" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">3個法定例外</text><g transform="translate(340,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・打切補償＝平均工資1200日分</text><text x="29" y="98" font-size="11.8" fill="#44596f" text-anchor="start">　（19條1項但書・81條）</text><text x="29" y="121" font-size="11.8" fill="#44596f" text-anchor="start">・受領傷病補償年金的視同</text><text x="29" y="137" font-size="11.8" fill="#44596f" text-anchor="start">　（勞災保險法19條）</text><text x="29" y="160" font-size="11.8" fill="#44596f" text-anchor="start">・天災事變等致事業不能繼續</text><text x="29" y="176" font-size="11.8" fill="#44596f" text-anchor="start">　（需監督署長認定）</text><text x="29" y="199" font-size="11.8" fill="#44596f" text-anchor="start">・例外該當≠解僱自動有效（勞契法16條）</text></g>
 </svg>
 <figcaption>禁止解僱的兩個期間與三個法定例外的對照圖</figcaption>
 </figure>
@@ -33366,7 +33442,7 @@ ja="""<h2>【日本語版】この期間は絶対に解雇できない——労�
 <p>注意：禁止されるのは「解雇」です。懲戒解雇も同様に禁止されます。他方、<strong>合意退職・自然退職は禁止の対象外</strong>です（ただし傷病を背景とする退職勧奨は、実質解雇や違法勧奨と主張されやすく、格別の慎重さが必要です）。</p>
 <figure class="hfig">
 <svg viewBox="0 0 700 228" role="img" aria-label="労基法19条1項の解雇制限期間2つと法定例外3つを左右に並べた図" xmlns="http://www.w3.org/2000/svg">
-<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">労基法19条1項——解雇制限期間と法定例外</text><rect x="15" y="34" width="330" height="184" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M15 62 L345 62" stroke="#c98484" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">解雇が禁止される期間</text><g transform="translate(0,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・業務上傷病の療養のための休業期間</text><text x="29" y="86" font-size="11.8" fill="#44596f" text-anchor="start">　＋その後30日間</text><text x="29" y="109" font-size="11.8" fill="#44596f" text-anchor="start">・産前産後の休業期間（労基法65条）</text><text x="29" y="125" font-size="11.8" fill="#44596f" text-anchor="start">　＋その後30日間</text><text x="29" y="148" font-size="11.8" fill="#44596f" text-anchor="start">・懲戒解雇も同様に禁止される</text><text x="29" y="171" font-size="11.8" fill="#44596f" text-anchor="start">・合意退職・自然退職は対象外</text></g><rect x="355" y="34" width="330" height="184" rx="7" fill="#dceadc" stroke="#7fa87f"/><path d="M355 62 L685 62" stroke="#7fa87f" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">3つの法定例外</text><g transform="translate(340,0)"><text x="29" y="70" font-size="11.8" fill="#44596f" text-anchor="start">・打切補償＝平均賃金1200日分</text><text x="29" y="86" font-size="11.8" fill="#44596f" text-anchor="start">　（19条1項但書・81条）</text><text x="29" y="109" font-size="11.8" fill="#44596f" text-anchor="start">・傷病補償年金受給によるみなし</text><text x="29" y="125" font-size="11.8" fill="#44596f" text-anchor="start">　（労災保険法19条）</text><text x="29" y="148" font-size="11.8" fill="#44596f" text-anchor="start">・天災事変等で事業継続が不可能</text><text x="29" y="164" font-size="11.8" fill="#44596f" text-anchor="start">　（監督署長の認定が必要）</text><text x="29" y="187" font-size="11.8" fill="#44596f" text-anchor="start">・例外該当でも労契法16条の審査は残る</text></g>
+<text x="350.0" y="22" font-size="13.5" fill="#22384f" text-anchor="middle" font-weight="bold">労基法19条1項——解雇制限期間と法定例外</text><rect x="15" y="34" width="330" height="184" rx="7" fill="#f7e4e4" stroke="#c98484"/><path d="M15 62 L345 62" stroke="#c98484" stroke-width="1"/><text x="180.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">解雇が禁止される期間</text><g transform="translate(0,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・業務上傷病の療養のための休業期間</text><text x="29" y="98" font-size="11.8" fill="#44596f" text-anchor="start">　＋その後30日間</text><text x="29" y="121" font-size="11.8" fill="#44596f" text-anchor="start">・産前産後の休業期間（労基法65条）</text><text x="29" y="137" font-size="11.8" fill="#44596f" text-anchor="start">　＋その後30日間</text><text x="29" y="160" font-size="11.8" fill="#44596f" text-anchor="start">・懲戒解雇も同様に禁止される</text><text x="29" y="183" font-size="11.8" fill="#44596f" text-anchor="start">・合意退職・自然退職は対象外</text></g><rect x="355" y="34" width="330" height="184" rx="7" fill="#dceadc" stroke="#7fa87f"/><path d="M355 62 L685 62" stroke="#7fa87f" stroke-width="1"/><text x="520.0" y="53" font-size="13" fill="#22384f" text-anchor="middle" font-weight="bold">3つの法定例外</text><g transform="translate(340,0)"><text x="29" y="82" font-size="11.8" fill="#44596f" text-anchor="start">・打切補償＝平均賃金1200日分</text><text x="29" y="98" font-size="11.8" fill="#44596f" text-anchor="start">　（19条1項但書・81条）</text><text x="29" y="121" font-size="11.8" fill="#44596f" text-anchor="start">・傷病補償年金受給によるみなし</text><text x="29" y="137" font-size="11.8" fill="#44596f" text-anchor="start">　（労災保険法19条）</text><text x="29" y="160" font-size="11.8" fill="#44596f" text-anchor="start">・天災事変等で事業継続が不可能</text><text x="29" y="176" font-size="11.8" fill="#44596f" text-anchor="start">　（監督署長の認定が必要）</text><text x="29" y="199" font-size="11.8" fill="#44596f" text-anchor="start">・例外該当でも労契法16条の審査は残る</text></g>
 </svg>
 <figcaption>解雇が禁止される2つの期間と、3つの法定例外を並べた図</figcaption>
 </figure>
