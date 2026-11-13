@@ -133,7 +133,7 @@ article.post blockquote {
 }
 article.post .hfig {
   margin: 22px 0;
-  padding: 16px 14px 10px;
+  padding: 16px 8px 10px;
   background: #fafbfd;
   border: 1px solid #dde3ec;
   border-radius: 10px;
@@ -144,8 +144,11 @@ article.post .hfig svg {
   width: 100%;
   height: auto;
   min-width: 560px;
-  max-width: 760px;
   margin: 0 auto;
+}
+/* 図の文字を大きく見せるため、広い画面では本文幅より少しはみ出させる */
+@media (min-width: 860px) {
+  article.post .hfig { margin-left: -26px; margin-right: -26px; }
 }
 article.post .hfig figcaption {
   margin-top: 10px;
