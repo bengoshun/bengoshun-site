@@ -41054,7 +41054,7 @@ def build():
 <h1>{a['title']}</h1>
 <div class="date">{a['date']}</div>
 {lang_note}
-<div class="tldr"><span class="tldr-label">10秒結論</span><p>{a['summary']}</p></div>
+<div class="tldr"><span class="tldr-label">結論</span><p>{a['summary']}</p></div>
 {a['body']}
 {related_block(a['slug'], 'zh')}
 {AUTHOR_BOX.format(proot="../", aroot="../", youtube=YOUTUBE, threads=THREADS)}
