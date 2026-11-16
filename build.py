@@ -41218,7 +41218,7 @@ def build():
 <h1>{t}</h1>
 <div class="date">{a['date']}</div>
 <p class="lang-note"><a href="../../articles/{a['slug']}.html" lang="zh-Hant">閱讀本文中文版 →</a></p>
-<div class="tldr"><span class="tldr-label">10秒でわかる結論</span><p>{JA_SUMMARY[a['slug']]}</p></div>
+<div class="tldr"><span class="tldr-label">結論</span><p>{JA_SUMMARY[a['slug']]}</p></div>
 {b}
 {related_block(a['slug'], 'ja')}
 {AUTHOR_BOX_JA.format(proot="../../", aroot="../", youtube=YOUTUBE, threads=THREADS)}
@@ -41256,7 +41256,7 @@ def build():
 <div class="cat"><a href="../hanrei.html">労働裁判例</a></div>
 <h1>{h['case']}</h1>
 <div class="date">{h['court']}　{h['dateja']}判決（{h['result']}）</div>
-<div class="tldr"><span class="tldr-label">10秒でわかる結論</span><p>{h['summary']}</p></div>
+<div class="tldr"><span class="tldr-label">結論</span><p>{h['summary']}</p></div>
 {hanrei_meta_table(h)}
 {h['body']}
 {hanrei_related(h)}
@@ -41721,7 +41721,7 @@ ARTICLES.append(dict(
 <ul>
 <li><strong>グループ会社（別法人）</strong>：中国の子会社・関連会社・親会社は別法人であるため「第三者」に該当→ 28条が適用されます。</li>
 <li><strong>委託（業務処理委託）の場合も28条が適用される</strong>：国内では委託先は「第三者」に当たらず（法27条5項1号）、27条の制限が及びません。しかし、個情委の「外国にある第三者への提供編」ガイドライン（令和7年12月一部改正版）では、28条1項の「提供」には委託・共同利用も含まれると解されており、外国への委託でも28条を守る必要があります。中国にサーバーを置くクラウドサービスに個人データをアップロードする場合も、委託に該当する場合は同様です。</li>
-<li><strong>外国の支店・営業所（同一法人内）</strong>：同一法人内の移転は「第三者提供」に当たらず28条は不適用です（書籍p.308参照）。ただし、外国において個人データを取り扱う場合は当該外国の個人情報保護制度等を把握した上で安全管理措置を講じる義務があります（施行規則11条3号・「外的環境の把握」）。</li>
+<li><strong>外国の支店・営業所（同一法人内）</strong>：同一法人内の移転は「第三者提供」に当たらず28条は不適用です。ただし、外国において個人データを取り扱う場合は当該外国の個人情報保護制度等を把握した上で安全管理措置を講じる義務があります（施行規則11条3号・「外的環境の把握」）。</li>
 </ul>
 
 <h3>中国は同等水準国ではない</h3>
