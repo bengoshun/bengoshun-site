@@ -6,6 +6,7 @@
 import os, re, html, json, hashlib, opencc
 
 from hanrei import HANREI  # 労働裁判例データベース（日本語のみ）
+from shindan import SHINDAN, SHINDAN_FOR  # 診断ツール（日本語のみ）
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 
@@ -152,6 +153,7 @@ HEAD_JA = """<!DOCTYPE html>
     <nav>
       <a href="{root}ja/index.html#articles">記事</a>
       <a href="{root}ja/hanrei.html">裁判例</a>
+      <a href="{root}ja/shindan.html">診断ツール</a>
       <a href="{root}ja/news.html">お知らせ</a>
       <a href="{root}ja/cases.html">解決事例</a>
       <a href="{root}ja/about.html">プロフィール</a>
@@ -39450,6 +39452,36 @@ def jsonld_hanrei(h):
     }
     return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
 
+# ===== 診断ツール（日本語のみ） =====
+def shindan_card(t):
+    return f"""<a class="card" href="shindan/{t['slug']}.html">
+<div class="cat">{t['tag']}</div>
+<h3>{t['title']}</h3>
+<p>{t['summary']}</p>
+</a>\n"""
+
+def shindan_cta(slug):
+    """記事ページ末尾に置く診断ツールへの導線（SHINDAN_FOR に載せた記事のみ）"""
+    s = SHINDAN_FOR.get(slug)
+    if not s:
+        return ""
+    t = next(x for x in SHINDAN if x["slug"] == s)
+    return f"""<div class="shindan-cta">
+<div class="label">自社の体制をチェックする</div>
+<a href="../shindan/{t['slug']}.html">{t['title']}（{t['tag']}）</a>
+<p>{t['summary']}</p>
+</div>"""
+
+def jsonld_shindan(t):
+    d = {"@context": "https://schema.org", "@type": "WebApplication",
+         "name": t["title"], "description": t["desc"],
+         "url": f"{SITE_URL}/{canon('ja/shindan/' + t['slug'] + '.html')}",
+         "applicationCategory": "BusinessApplication",
+         "operatingSystem": "All", "inLanguage": "ja", "isAccessibleForFree": True,
+         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"},
+         "author": PERSON_LD}
+    return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
+
 def catnav(arts, lang, active=None):
     """カテゴリナビ（件数付き）。index・カテゴリページ共通。root直下からの相対リンク"""
     links = []
@@ -41589,6 +41621,7 @@ def build():
     os.makedirs(os.path.join(BASE, "articles"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "ja", "articles"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "ja", "hanrei"), exist_ok=True)
+    os.makedirs(os.path.join(BASE, "ja", "shindan"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "cn", "articles"), exist_ok=True)
     arts = sorted((a for a in ARTICLES if a["slug"] not in UNPUBLISHED), key=lambda a: a["date"], reverse=True)
 
@@ -41935,6 +41968,7 @@ def build():
 <p class="lang-note"><a href="../../articles/{a['slug']}.html" lang="zh-Hant">閱讀本文中文版 →</a></p>
 <div class="tldr"><span class="tldr-label">結論</span><p>{JA_SUMMARY[a['slug']]}</p></div>
 {b}
+{shindan_cta(a['slug'])}
 {related_block(a['slug'], 'ja')}
 {AUTHOR_BOX_JA.format(proot="../../", aroot="../", youtube=YOUTUBE, threads=THREADS)}
 {DISCLAIMER_DATED_JA.format(date=a['date'])}
@@ -41986,6 +42020,35 @@ def build():
                          root="../../", lang="ja", base=f"hanrei/{h['slug']}.html", langs=("ja",),
                          jsonld=jsonld_hanrei(h)))
 
+    # ===== 診断ツール（日本語のみ） =====
+    shindan_index = f"""<main>
+<h2 class="section-title" id="shindan">診断ツール</h2>
+<p class="lead">法律上の義務とされている社内体制について、経営者・人事担当者の方がご自身で現状を確認できるツールです。設問に答えると、不足している項目と次に着手すべきことが表示されます。</p>
+<p class="lead">入力内容がサーバーに送信されることはありません（お使いのブラウザ内でのみ処理されます）。診断結果は目安であり、個別の事案に関する法的助言ではありません。</p>
+<div class="cards">
+{"".join(shindan_card(t) for t in SHINDAN)}</div>
+{CONTACT_JA.format(mail=MAIL)}
+{DISCLAIMER_JA}
+</main>"""
+    with open(os.path.join(BASE, "ja", "shindan.html"), "w", encoding="utf-8") as f:
+        f.write(page(f"診断ツール｜{SITE_NAME_JA}",
+                     "ハラスメント対策、カスタマーハラスメント対応、公益通報対応体制の整備状況をセルフチェックできる診断ツールと、労務トラブルの類型別の初動ナビ。入力内容は送信されません。",
+                     shindan_index, root="../", lang="ja", base="shindan.html", langs=("ja",)))
+
+    for t in SHINDAN:
+        t_body = f"""<main>
+{t['body']}
+{CONTACT_JA.format(mail=MAIL)}
+{DISCLAIMER_JA}
+</main>
+<script>
+{t['js']}
+</script>"""
+        with open(os.path.join(BASE, "ja", "shindan", t["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(page(f"{t['title']}｜{SITE_NAME_JA}", t["desc"], t_body,
+                         root="../../", lang="ja", base=f"shindan/{t['slug']}.html", langs=("ja",),
+                         jsonld=jsonld_shindan(t) + "\n<style>\n" + t["css"] + "\n</style>"))
+
     # ===== お知らせ一覧ページ（news.html） =====
     items_zh = "".join(news_li(n, "zh") for n in news_sorted)
     news_body = f"""<main>
@@ -42030,6 +42093,9 @@ def build():
     u("ja/hanrei.html", today)
     for h in HANREI:
         u(f"ja/hanrei/{h['slug']}.html", today)
+    u("ja/shindan.html", today)
+    for t in SHINDAN:
+        u(f"ja/shindan/{t['slug']}.html", today)
     sitemap =('<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                + "\n".join(urls) + "\n</urlset>\n")

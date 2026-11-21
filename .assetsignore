@@ -5,3 +5,6 @@ build.py
 pack_upload.py
 worker.js
 wrangler.jsonc
+hanrei.py
+shindan.py
+__pycache__

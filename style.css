@@ -534,3 +534,22 @@ article.post .cat a, article.post .cat { color: var(--catc, var(--gold)); }
 .newsbox .more a { color: var(--gold); font-weight: 700; }
 .news-list li { padding: 13px 0; }
 [data-theme="dark"] .newsbox h2 { color: #dfe7f2; }
+
+/* 記事末尾から診断ツールへの導線 */
+.shindan-cta {
+  background: #fbf7ec;
+  border: 1px solid #e3d6b4;
+  border-left: 4px solid var(--gold);
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-top: 36px;
+  font-size: .92rem;
+}
+.shindan-cta .label { color: var(--navy); font-weight: 700; font-size: .8rem; letter-spacing: .08em; margin-bottom: 6px; }
+.shindan-cta a { color: var(--navy); font-weight: 700; text-decoration: none; border-bottom: 1px solid var(--gold); }
+.shindan-cta a:hover { color: var(--gold); }
+.shindan-cta p { margin: 6px 0 0; color: var(--grey); font-size: .88rem; }
+[data-theme="dark"] .shindan-cta { background: #26200f; border-color: #54461f; }
+[data-theme="dark"] .shindan-cta .label { color: #dfe7f2; }
+[data-theme="dark"] .shindan-cta a { color: #e9d49b; }
+[data-theme="dark"] .shindan-cta p { color: #b9c4d2; }
