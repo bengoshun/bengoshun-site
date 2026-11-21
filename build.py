@@ -6,7 +6,8 @@
 import os, re, html, json, hashlib, opencc
 
 from hanrei import HANREI  # 労働裁判例データベース（日本語のみ）
-from shindan import SHINDAN, SHINDAN_FOR  # 診断ツール（日本語のみ）
+from shindan import SHINDAN, SHINDAN_FOR  # 診断ツール（設問・CSS・JS）
+from shindan_zh import SHINDAN_ZH, SHINDAN_ZH_INDEX  # 診断ツールの繁体字版（簡体字は to_cn で変換）
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 
@@ -29,6 +30,8 @@ _KEEP_WORDS = sorted((
     "入口", "宣言", "解析", "原件", "記憶", "回復", "還原", "介面",
     "型別", "紀錄", "記錄", "匯入", "匯出", "匯款", "指標", "接觸", "查詢",
     "存檔", "效能", "截圖", "通道", "撥出",
+    # 「建立（制度を整える）」「新增（新設する）」はIT語彙（创建・添加）に変えると法令の説明として不自然
+    "建立", "新增",
 ), key=len, reverse=True)
 
 # 台湾語彙のうち、大陸では別語を使うもの（OpenCCの辞書が拾わない分を先に置換する）
@@ -119,6 +122,7 @@ HEAD = """<!DOCTYPE html>
     <div class="brand"><a href="{root}index.html">日本律師 山崎駿<span class="sub">日本的勞動法與生活法律實務</span></a></div>
     <nav>
       <a href="{root}index.html#articles">文章</a>
+      <a href="{root}shindan.html">診斷工具</a>
       <a href="{root}news.html">最新消息</a>
       <a href="{root}cases.html">解決案例</a>
       <a href="{root}about.html">關於我</a>
@@ -258,6 +262,7 @@ HEAD_CN = (to_cn(HEAD)
            .replace('<html lang="zh-Hant">', '<html lang="zh-Hans">')
            .replace("Noto+Serif+TC", "Noto+Serif+SC")
            .replace("{root}index.html", "{root}cn/index.html")
+           .replace("{root}shindan.html", "{root}cn/shindan.html")
            .replace("{root}news.html", "{root}cn/news.html")
            .replace("{root}cases.html", "{root}cn/cases.html")
            .replace("{root}about.html", "{root}cn/about.html"))
@@ -39452,7 +39457,7 @@ def jsonld_hanrei(h):
     }
     return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
 
-# ===== 診断ツール（日本語のみ） =====
+# ===== 診断ツール（日本語・繁体字・簡体字） =====
 def shindan_card(t):
     return f"""<a class="card" href="shindan/{t['slug']}.html">
 <div class="cat">{t['tag']}</div>
@@ -39472,12 +39477,12 @@ def shindan_cta(slug):
 <p>{t['summary']}</p>
 </div>"""
 
-def jsonld_shindan(t):
+def jsonld_shindan(t, lang="ja"):
     d = {"@context": "https://schema.org", "@type": "WebApplication",
          "name": t["title"], "description": t["desc"],
-         "url": f"{SITE_URL}/{canon('ja/shindan/' + t['slug'] + '.html')}",
+         "url": f"{SITE_URL}/{canon(PREFIX[lang] + 'shindan/' + t['slug'] + '.html')}",
          "applicationCategory": "BusinessApplication",
-         "operatingSystem": "All", "inLanguage": "ja", "isAccessibleForFree": True,
+         "operatingSystem": "All", "inLanguage": HREFLANG[lang], "isAccessibleForFree": True,
          "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"},
          "author": PERSON_LD}
     return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
@@ -41416,9 +41421,9 @@ NEWS_TYPE = {
 }
 NEWS = [
     dict(date="2026-11-21", type="site",
-         title="日語網站新增了「診斷工具」（セルフチェック）4種：職場騷擾對策總合診斷（16問）・公益通報對應體制簡易診斷（13問）・客訴騷擾（カスハラ）對應體制簡易診斷（15問）・勞務糾紛初動導航（8類型）。回答設問後，會顯示不足的項目與接下來應著手的事項。輸入的內容不會傳送到伺服器，只在瀏覽器內處理。目前僅提供日語版",
-         title_ja="日本語サイトに「診断ツール」を4本追加しました（職場のハラスメント対策 総合診断16問／公益通報対応体制 簡易診断13問／カスタマーハラスメント対応体制 簡易診断15問／労務トラブル初動ナビ8類型）。設問に答えると不足している項目と次に着手すべきことが表示されます。入力内容はサーバーに送信されず、お使いのブラウザ内でのみ処理されます",
-         url="",
+         title="新增了「診斷工具」4種：職場騷擾對策總合診斷（16問）・公益通報對應體制簡易診斷（13問）・客訴騷擾對應體制簡易診斷（15問）・勞務糾紛初動導航（8類型）。回答設問後，會顯示不足的項目與接下來應著手的事項。輸入的內容不會傳送到伺服器，只在瀏覽器內處理。繁體中文・簡體中文・日語均可使用",
+         title_ja="「診断ツール」を4本追加しました（職場のハラスメント対策 総合診断16問／公益通報対応体制 簡易診断13問／カスタマーハラスメント対応体制 簡易診断15問／労務トラブル初動ナビ8類型）。設問に答えると不足している項目と次に着手すべきことが表示されます。入力内容はサーバーに送信されず、お使いのブラウザ内でのみ処理されます。繁体字・簡体字版もあわせて公開しました",
+         url="shindan.html",
          url_ja="ja/shindan.html"),
     dict(date="2026-11-21", type="article",
          title="發布了新文章「小店鋪的「1週間單位非定型變形工時制」——1天可排到10小時，但週上限仍是40小時（勞基法32條之5）」",
@@ -41627,6 +41632,8 @@ def build():
     os.makedirs(os.path.join(BASE, "ja", "articles"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "ja", "hanrei"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "ja", "shindan"), exist_ok=True)
+    os.makedirs(os.path.join(BASE, "shindan"), exist_ok=True)
+    os.makedirs(os.path.join(BASE, "cn", "shindan"), exist_ok=True)
     os.makedirs(os.path.join(BASE, "cn", "articles"), exist_ok=True)
     arts = sorted((a for a in ARTICLES if a["slug"] not in UNPUBLISHED), key=lambda a: a["date"], reverse=True)
 
@@ -42025,7 +42032,7 @@ def build():
                          root="../../", lang="ja", base=f"hanrei/{h['slug']}.html", langs=("ja",),
                          jsonld=jsonld_hanrei(h)))
 
-    # ===== 診断ツール（日本語のみ） =====
+    # ===== 診断ツール（日本語・繁体字・簡体字） =====
     shindan_index = f"""<main>
 <h2 class="section-title" id="shindan">診断ツール</h2>
 <p class="lead">法律上の義務とされている社内体制について、経営者・人事担当者の方がご自身で現状を確認できるツールです。設問に答えると、不足している項目と次に着手すべきことが表示されます。</p>
@@ -42038,7 +42045,7 @@ def build():
     with open(os.path.join(BASE, "ja", "shindan.html"), "w", encoding="utf-8") as f:
         f.write(page(f"診断ツール｜{SITE_NAME_JA}",
                      "ハラスメント対策、カスタマーハラスメント対応、公益通報対応体制の整備状況をセルフチェックできる診断ツールと、労務トラブルの類型別の初動ナビ。入力内容は送信されません。",
-                     shindan_index, root="../", lang="ja", base="shindan.html", langs=("ja",)))
+                     shindan_index, root="../", lang="ja", base="shindan.html"))
 
     for t in SHINDAN:
         t_body = f"""<main>
@@ -42051,8 +42058,64 @@ def build():
 </script>"""
         with open(os.path.join(BASE, "ja", "shindan", t["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page(f"{t['title']}｜{SITE_NAME_JA}", t["desc"], t_body,
-                         root="../../", lang="ja", base=f"shindan/{t['slug']}.html", langs=("ja",),
-                         jsonld=jsonld_shindan(t) + "\n<style>\n" + t["css"] + "\n</style>"))
+                         root="../../", lang="ja", base=f"shindan/{t['slug']}.html",
+                         jsonld=jsonld_shindan(t, "ja") + "\n<style>\n" + t["css"] + "\n</style>"))
+
+    # --- 繁体字版・簡体字版（設問文は shindan_zh.py の手書き、CSS・JSの構造は日本語版と共通）---
+    # SHINDAN の css を使い回すため、繁体字の文言を上書きしたマージ辞書を作る
+    shindan_zh = [dict(t, **SHINDAN_ZH[t["slug"]]) for t in SHINDAN]
+    zi = SHINDAN_ZH_INDEX
+    shindan_index_zh = f"""<main>
+<h2 class="section-title" id="shindan">{zi['title']}</h2>
+<p class="lead">{zi['lead1']}</p>
+<p class="lead">{zi['lead2']}</p>
+<div class="cards">
+{"".join(shindan_card(t) for t in shindan_zh)}</div>
+{CONTACT.format(mail=MAIL)}
+{DISCLAIMER}
+</main>"""
+    with open(os.path.join(BASE, "shindan.html"), "w", encoding="utf-8") as f:
+        f.write(page(f"{zi['title']}｜{SITE_NAME}", zi["desc"], shindan_index_zh,
+                     root="", lang="zh", base="shindan.html"))
+    shindan_index_cn = f"""<main>
+<h2 class="section-title" id="shindan">{to_cn(zi['title'])}</h2>
+<p class="lead">{to_cn(zi['lead1'])}</p>
+<p class="lead">{to_cn(zi['lead2'])}</p>
+<div class="cards">
+{"".join(shindan_card(dict(t, title=to_cn(t['title']), tag=to_cn(t['tag']), summary=to_cn(t['summary']))) for t in shindan_zh)}</div>
+{CONTACT_CN.format(mail=MAIL)}
+{DISCLAIMER_CN}
+</main>"""
+    with open(os.path.join(BASE, "cn", "shindan.html"), "w", encoding="utf-8") as f:
+        f.write(page(to_cn(f"{zi['title']}｜{SITE_NAME}"), to_cn(zi["desc"]), shindan_index_cn,
+                     root="../", lang="cn", base="shindan.html"))
+
+    for t in shindan_zh:
+        t_body = f"""<main>
+{t['body']}
+{CONTACT.format(mail=MAIL)}
+{DISCLAIMER}
+</main>
+<script>
+{t['js']}
+</script>"""
+        with open(os.path.join(BASE, "shindan", t["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(page(f"{t['title']}｜{SITE_NAME}", t["desc"], t_body,
+                         root="../", lang="zh", base=f"shindan/{t['slug']}.html",
+                         jsonld=jsonld_shindan(t, "zh") + "\n<style>\n" + t["css"] + "\n</style>"))
+        t_body_cn = f"""<main>
+{to_cn(t['body'])}
+{CONTACT_CN.format(mail=MAIL)}
+{DISCLAIMER_CN}
+</main>
+<script>
+{to_cn(t['js'])}
+</script>"""
+        t_cn = dict(t, title=to_cn(t["title"]), desc=to_cn(t["desc"]))
+        with open(os.path.join(BASE, "cn", "shindan", t["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(page(f"{t_cn['title']}｜{to_cn(SITE_NAME)}", t_cn["desc"], t_body_cn,
+                         root="../../", lang="cn", base=f"shindan/{t['slug']}.html",
+                         jsonld=jsonld_shindan(t_cn, "cn") + "\n<style>\n" + t["css"] + "\n</style>"))
 
     # ===== お知らせ一覧ページ（news.html） =====
     items_zh = "".join(news_li(n, "zh") for n in news_sorted)
@@ -42098,8 +42161,11 @@ def build():
     u("ja/hanrei.html", today)
     for h in HANREI:
         u(f"ja/hanrei/{h['slug']}.html", today)
-    u("ja/shindan.html", today)
+    for p in ("shindan.html", "cn/shindan.html", "ja/shindan.html"):
+        u(p, today)
     for t in SHINDAN:
+        u(f"shindan/{t['slug']}.html", today)
+        u(f"cn/shindan/{t['slug']}.html", today)
         u(f"ja/shindan/{t['slug']}.html", today)
     sitemap =('<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
