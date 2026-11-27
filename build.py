@@ -45424,25 +45424,61 @@ SEO_TITLE = {
 SEO_DASH = re.compile(r"[—―]+")
 SEO_TITLE_MAX = 30
 
+def short_title(slug, raw, lang):
+    """副題を落とした主題だけのタイトル（<title>と関連記事リンクで共用）"""
+    return SEO_TITLE.get(slug, {}).get(lang) or SEO_DASH.split(raw)[0].strip()
+
 def seo_title(slug, raw, lang, brand):
     """<title>用の短縮タイトル。副題を落とし、30字に収まる範囲でサイト名を付ける"""
-    t = SEO_TITLE.get(slug, {}).get(lang) or SEO_DASH.split(raw)[0].strip()
+    t = short_title(slug, raw, lang)
     if len(t) + 1 + len(brand) <= SEO_TITLE_MAX:
         return f"{t}｜{brand}"
     return t
 
+RELATED_N = 9  # 記事1本あたりの関連記事リンク数
+
+def related_slugs(slug, lang):
+    """手動指定（RELATED）と、同じカテゴリから巡回で選んだ記事を返す。
+    巡回の起点を自分の位置にずらすので、被リンクがカテゴリ内でほぼ均等になる。"""
+    by_slug = {a["slug"]: a for a in ARTICLES}
+    ok = lambda s: s in by_slug and s != slug and (lang == "zh" or by_slug[s].get("ja"))
+    picked = [s for s in RELATED.get(slug, []) if ok(s)]
+    siblings = [a["slug"] for a in ARTICLES if a["cat"] == by_slug[slug]["cat"]]
+    i = siblings.index(slug)
+    fill = []
+    for s in siblings[i + 1:] + siblings[:i]:
+        if len(picked) + len(fill) >= RELATED_N:
+            break
+        if s not in picked and ok(s):
+            fill.append(s)
+    return picked, fill
+
 def related_block(slug, lang):
     """記事末尾の関連記事リンク（同一ディレクトリ内の相対リンク）"""
     by_slug = {a["slug"]: a for a in ARTICLES}
-    items = ""
-    for s in RELATED.get(slug, []):
-        ra = by_slug[s]
-        label_title = ra["title"] if lang == "zh" else ja_parts(ra)[0]
-        items += f'<li><a href="{s}.html">{label_title}</a></li>\n'
-    if not items:
+    cat = by_slug[slug]["cat"]
+    cname = cat if lang == "zh" else CAT_JA[cat]
+
+    def ul(slugs):
+        items = ""
+        for s in slugs:
+            raw = by_slug[s]["title"] if lang == "zh" else ja_parts(by_slug[s])[0]
+            items += f'<li><a href="{s}.html">{short_title(s, raw, lang if lang == "ja" else "zh")}</a></li>\n'
+        return f"<ul>\n{items}</ul>"
+
+    picked, fill = related_slugs(slug, lang)
+    if not picked and not fill:
         return ""
-    label = "相關文章" if lang == "zh" else "関連記事"
-    return f'<div class="related"><div class="label">{label}</div><ul>\n{items}</ul></div>'
+    out = ""
+    if picked:
+        out += f'<div class="label">{"相關文章" if lang == "zh" else "関連記事"}</div>' + ul(picked)
+    if fill:
+        label = (f"「{cname}」的其他文章" if lang == "zh" else f"「{cname}」の他の記事")
+        out += f'<div class="label{" label2" if picked else ""}">{label}</div>' + ul(fill)
+    out += (f'<p class="related-more"><a href="../category-{CAT_SLUG[cat]}.html">'
+            + (f"「{cname}」的文章一覽 →" if lang == "zh" else f"「{cname}」の記事一覧 →")
+            + "</a></p>")
+    return f'<div class="related">{out}</div>'
 
 
 FS_INIT = """<script>(function(){var v=localStorage.getItem('bsfs');if(v)document.documentElement.style.fontSize=v+'%';})();</script>"""
@@ -45547,6 +45583,25 @@ def jsonld_article(a, lang, title, desc):
         "inLanguage": HREFLANG[lang],
         "mainEntityOfPage": {"@type": "WebPage", "@id": url},
         "author": PERSON_LD,
+    }
+    return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
+
+def jsonld_breadcrumb(a, lang, title):
+    """記事ページのパンくず（ホーム → カテゴリ → 記事）"""
+    root = f"{SITE_URL}/{PREFIX[lang]}"
+    cname = CAT_JA[a["cat"]] if lang == "ja" else a["cat"]
+    crumbs = [
+        ("首頁" if lang != "ja" else "ホーム", root),
+        (cname, f"{root}category-{CAT_SLUG[a['cat']]}"),
+        (title, f"{root}articles/{a['slug']}"),
+    ]
+    d = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": i, "name": n, "item": u}
+            for i, (n, u) in enumerate(crumbs, 1)
+        ],
     }
     return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
 
@@ -48026,7 +48081,7 @@ def build():
         lang_note = f"""<p class="lang-note"><a href="../ja/articles/{a['slug']}.html" lang="ja">この記事を日本語で読む →</a></p>""" if a.get("ja") else ""
         body = f"""<main>
 <article class="post catc-{CAT_SLUG[a['cat']]}">
-<div class="cat"><a href="../category-{CAT_SLUG[a['cat']]}.html">{a['cat']}</a></div>
+<nav class="cat" aria-label="麵包屑導覽"><a href="../index.html">首頁</a> › <a href="../category-{CAT_SLUG[a['cat']]}.html">{a['cat']}</a></nav>
 <h1>{a['title']}</h1>
 <div class="date">{a['date']}</div>
 {lang_note}
@@ -48043,7 +48098,8 @@ def build():
         art_base = f"articles/{a['slug']}.html"
         with open(os.path.join(BASE, "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page(seo_title(a["slug"], a["title"], "zh", SITE_NAME), a["summary"], body, root="../", base=art_base, langs=lgs,
-                         jsonld=jsonld_article(a, "zh", a["title"], a["summary"])))
+                         jsonld=jsonld_article(a, "zh", a["title"], a["summary"])
+                                + jsonld_breadcrumb(a, "zh", a["title"])))
         # 簡体字版は cn/articles/ 配下なので日本語版へのリンクだけ一段深くする
         aud = a["slug"] not in CN_KEEP_TW
         body_cn = (to_cn(body, aud)
@@ -48053,7 +48109,8 @@ def build():
         with open(os.path.join(BASE, "cn", "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page(to_cn(seo_title(a["slug"], a["title"], "zh", SITE_NAME), aud), to_cn(a["summary"], aud), body_cn,
                          root="../../", lang="cn", base=art_base, langs=lgs,
-                         jsonld=jsonld_article(a, "cn", to_cn(a["title"], aud), to_cn(a["summary"], aud))))
+                         jsonld=jsonld_article(a, "cn", to_cn(a["title"], aud), to_cn(a["summary"], aud))
+                                + to_cn(jsonld_breadcrumb(a, "cn", a["title"]), aud)))
 
     # ===== 日本語版 =====
     # --- index ---
@@ -48190,7 +48247,7 @@ def build():
         t, b = ja_parts(a)
         body_ja = f"""<main>
 <article class="post catc-{CAT_SLUG[a['cat']]}">
-<div class="cat"><a href="../category-{CAT_SLUG[a['cat']]}.html">{CAT_JA[a['cat']]}</a></div>
+<nav class="cat" aria-label="パンくずリスト"><a href="../index.html">ホーム</a> › <a href="../category-{CAT_SLUG[a['cat']]}.html">{CAT_JA[a['cat']]}</a></nav>
 <h1>{t}</h1>
 <div class="date">{a['date']}</div>
 <p class="lang-note"><a href="../../articles/{a['slug']}.html" lang="zh-Hant">閱讀本文中文版 →</a></p>
@@ -48206,7 +48263,8 @@ def build():
 </main>"""
         with open(os.path.join(BASE, "ja", "articles", a["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page(seo_title(a["slug"], t, "ja", SITE_NAME_JA), JA_SUMMARY[a["slug"]], body_ja, root="../../", lang="ja", base=f"articles/{a['slug']}.html",
-                         jsonld=jsonld_article(a, "ja", t, JA_SUMMARY[a["slug"]])))
+                         jsonld=jsonld_article(a, "ja", t, JA_SUMMARY[a["slug"]])
+                                + jsonld_breadcrumb(a, "ja", t)))
         n_ja += 1
 
     # ===== 労働裁判例データベース（日本語のみ） =====

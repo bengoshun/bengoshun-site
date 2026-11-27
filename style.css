@@ -221,6 +221,9 @@ article.post table.wrap1 td:first-child { white-space: normal; }
 .related li { margin: 4px 0; }
 .related a { color: var(--navy); }
 .related a:hover { color: var(--gold); }
+.related .label2 { margin-top: 14px; }
+.related-more { margin: 12px 0 0; font-size: .88rem; }
+.related-more a { font-weight: 700; }
 .post-footer {
   margin-top: 40px;
   padding-top: 24px;
