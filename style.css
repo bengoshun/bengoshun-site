@@ -83,6 +83,17 @@ main { max-width: 980px; margin: 0 auto; padding: 48px 20px 80px; }
 }
 .section-title:first-child { margin-top: 0; }
 
+/* カテゴリ（ピラー）ページ */
+main > nav.cat { color: var(--gold); font-weight: 700; font-size: .8rem; letter-spacing: .1em; margin-bottom: 12px; }
+main > nav.cat a { color: var(--gold); text-decoration: none; }
+main > nav.cat a:hover { text-decoration: underline; }
+h1.section-title { font-size: 1.5rem; }
+.pillar-lead { margin: 0 0 26px; }
+.pillar-lead p { line-height: 1.95; margin: 0 0 14px; }
+.pillar-lead p:last-child { margin-bottom: 0; }
+.pillar-faq h3 { font-size: 1rem; color: var(--navy); margin: 24px 0 6px; }
+.pillar-faq p { line-height: 1.95; margin: 0; }
+
 /* Article cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
 .card {
@@ -504,6 +515,7 @@ article.post .cat a, article.post .cat { color: var(--catc, var(--gold)); }
 [data-theme="dark"] .profile h2,
 [data-theme="dark"] .author-name,
 [data-theme="dark"] .author-links a,
+[data-theme="dark"] .pillar-faq h3,
 [data-theme="dark"] .toc .label { color: #dfe7f2; }
 [data-theme="dark"] article.post blockquote { background: #1f2a3b; color: #cfd8e4; border-left-color: var(--gold); }
 [data-theme="dark"] article.post .hfig { background: #1b2433; border-color: #30405a; }

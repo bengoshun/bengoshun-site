@@ -5,7 +5,8 @@
 """
 import os, re, html, json, hashlib, opencc
 
-from hanrei import HANREI  # 労働裁判例データベース（日本語のみ）
+from hanrei import HANREI
+from pillar import CAT_PILLAR  # 労働裁判例データベース（日本語のみ）
 from shindan import SHINDAN, SHINDAN_FOR  # 診断ツール（設問・CSS・JS）
 from shindan_zh import SHINDAN_ZH, SHINDAN_ZH_INDEX  # 診断ツールの繁体字版（簡体字は to_cn で変換）
 
@@ -45605,6 +45606,57 @@ def jsonld_breadcrumb(a, lang, title):
     }
     return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
 
+def pillar_text(cslug, lang):
+    """カテゴリ（ピラー）ページの本文。cn は zh を to_cn で変換する"""
+    p = CAT_PILLAR[cslug]["ja" if lang == "ja" else "zh"]
+    if lang != "cn":
+        return p
+    return {"title": to_cn(p["title"]), "desc": to_cn(p["desc"]), "lead": to_cn(p["lead"]),
+            "faq": [(to_cn(q), to_cn(a)) for q, a in p["faq"]]}
+
+def pillar_crumb(cname, lang):
+    """カテゴリページのパンくず（ホーム › カテゴリ）"""
+    label = "ホーム" if lang == "ja" else "首頁"
+    aria = "パンくずリスト" if lang == "ja" else "導覽"
+    return f'<nav class="cat" aria-label="{aria}"><a href="index.html">{label}</a> › {cname}</nav>'
+
+def pillar_lead(cslug, lang):
+    return f'<div class="pillar-lead">{CAT_PILLAR[cslug]["ja" if lang == "ja" else "zh"]["lead"]}</div>'
+
+def pillar_faq(cslug, lang):
+    p = CAT_PILLAR[cslug]["ja" if lang == "ja" else "zh"]
+    head = "よくある質問" if lang == "ja" else "常見問題"
+    items = "".join(f"<h3>{q}</h3>\n<p>{a}</p>\n" for q, a in p["faq"])
+    return f'<section class="pillar-faq">\n<h2 class="section-title" id="faq">{head}</h2>\n{items}</section>'
+
+def jsonld_category(cslug, cname, lang, n):
+    """カテゴリページの CollectionPage ＋ パンくず ＋ よくある質問"""
+    root = f"{SITE_URL}/{PREFIX[lang]}"
+    url = f"{root}category-{cslug}"
+    p = pillar_text(cslug, lang)
+    home = "ホーム" if lang == "ja" else ("首页" if lang == "cn" else "首頁")
+    ds = [
+        {"@context": "https://schema.org", "@type": "CollectionPage",
+         "name": p["title"], "description": p["desc"], "url": url,
+         "inLanguage": HREFLANG[lang], "isPartOf": {"@type": "WebSite", "@id": root},
+         "author": PERSON_LD,
+         "mainEntity": {"@type": "ItemList", "name": cname, "numberOfItems": n}},
+        {"@context": "https://schema.org", "@type": "BreadcrumbList",
+         "itemListElement": [
+             {"@type": "ListItem", "position": 1, "name": home, "item": root},
+             {"@type": "ListItem", "position": 2, "name": cname, "item": url},
+         ]},
+        {"@context": "https://schema.org", "@type": "FAQPage",
+         "inLanguage": HREFLANG[lang],
+         "mainEntity": [
+             {"@type": "Question", "name": q,
+              "acceptedAnswer": {"@type": "Answer", "text": a}}
+             for q, a in p["faq"]
+         ]},
+    ]
+    return "\n".join('<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
+                     for d in ds)
+
 def books_html(lang):
     """aboutページ用の著書・執筆リスト。lang='ja' は日本語、それ以外は繁体字（簡体字はto_cnで変換）"""
     out = []
@@ -47963,22 +48015,28 @@ def build():
         cat_arts = [a for a in arts if a["cat"] == cat]
         cat_cards = "".join(card_zh(a) for a in cat_arts)
         cat_body = f"""<main>
-<h2 class="section-title" id="articles">{cat}</h2>
+{pillar_crumb(cat, "zh")}
+<h1 class="section-title">{CAT_PILLAR[cslug]["zh"]["title"]}</h1>
+{pillar_lead(cslug, "zh")}
 {catnav(arts, "zh", active=cat)}
+<h2 class="section-title" id="articles">「{cat}」的文章（{len(cat_arts)}篇）</h2>
 <div class="searchbox"><input type="search" id="q" placeholder="在「{cat}」分類中搜尋" aria-label="在本分類中搜尋"><p class="search-empty" id="qe" hidden>找不到符合的文章</p></div>
 <div class="cards">
 {cat_cards}</div>
+{pillar_faq(cslug, "zh")}
 {CONTACT.format(mail=MAIL)}
 {DISCLAIMER}
 {SEARCH_JS}
 </main>"""
-        cat_title = f"{cat}｜{SITE_NAME}"
-        cat_desc = f"「{cat}」分類的文章一覽（{len(cat_arts)}篇）。"
+        cat_title = f'{CAT_PILLAR[cslug]["zh"]["title"]}｜{SITE_NAME}'
+        cat_desc = CAT_PILLAR[cslug]["zh"]["desc"]
         with open(os.path.join(BASE, f"category-{cslug}.html"), "w", encoding="utf-8") as f:
-            f.write(page(cat_title, cat_desc, cat_body, base=f"category-{cslug}.html"))
+            f.write(page(cat_title, cat_desc, cat_body, base=f"category-{cslug}.html",
+                         jsonld=jsonld_category(cslug, cat, "zh", len(cat_arts))))
         with open(os.path.join(BASE, "cn", f"category-{cslug}.html"), "w", encoding="utf-8") as f:
             f.write(page(to_cn(cat_title), to_cn(cat_desc), to_cn(cat_body),
-                         root="../", lang="cn", base=f"category-{cslug}.html"))
+                         root="../", lang="cn", base=f"category-{cslug}.html",
+                         jsonld=jsonld_category(cslug, to_cn(cat), "cn", len(cat_arts))))
 
     # --- about ---
     about_body = f"""<main>
@@ -48141,17 +48199,24 @@ def build():
         cat_arts = [a for a in arts_ja if a["cat"] == cat]
         cat_cards = "".join(card_ja(a) for a in cat_arts)
         cat_body = f"""<main>
-<h2 class="section-title" id="articles">{CAT_JA[cat]}</h2>
+{pillar_crumb(CAT_JA[cat], "ja")}
+<h1 class="section-title">{CAT_PILLAR[cslug]["ja"]["title"]}</h1>
+{pillar_lead(cslug, "ja")}
 {catnav(arts_ja, "ja", active=cat)}
+<h2 class="section-title" id="articles">「{CAT_JA[cat]}」の記事（{len(cat_arts)}本）</h2>
 <div class="searchbox"><input type="search" id="q" placeholder="「{CAT_JA[cat]}」カテゴリ内を検索" aria-label="カテゴリ内を検索"><p class="search-empty" id="qe" hidden>該当する記事が見つかりません</p></div>
 <div class="cards">
 {cat_cards}</div>
+{pillar_faq(cslug, "ja")}
 {CONTACT_JA.format(mail=MAIL)}
 {DISCLAIMER_JA}
 {SEARCH_JS}
 </main>"""
         with open(os.path.join(BASE, "ja", f"category-{cslug}.html"), "w", encoding="utf-8") as f:
-            f.write(page(f"{CAT_JA[cat]}｜{SITE_NAME_JA}", f"「{CAT_JA[cat]}」カテゴリの記事一覧（{len(cat_arts)}本）。", cat_body, root="../", lang="ja", base=f"category-{cslug}.html"))
+            f.write(page(f'{CAT_PILLAR[cslug]["ja"]["title"]}｜{SITE_NAME_JA}',
+                         CAT_PILLAR[cslug]["ja"]["desc"], cat_body, root="../", lang="ja",
+                         base=f"category-{cslug}.html",
+                         jsonld=jsonld_category(cslug, CAT_JA[cat], "ja", len(cat_arts))))
 
     # --- about ---
     about_ja = f"""<main>
@@ -48720,7 +48785,7 @@ ARTICLES.append(dict(
 <p class="small">プレミアライン（假處分）事件（宇都宮地方裁判所栃木支部平成21年4月28日決定・勞動判例982號5頁）。派遣元以派遣先的勞動者派遣契約中途解除為由，對有期的派遣勞工實施期間內解僱。法院綜合上述各情事，認定本件解僱該當「欠缺客觀合理的理由、社會通念上不被認為相當」的情形，因而<strong>不能認為有「不得已的事由」</strong>，解僱明顯無效。法院並明示：<strong>即使與派遣先的勞動者派遣契約在期間內終了，期間內解僱的限制也沒有不同</strong>。</p>
 
 <h3>解僱預告義務同樣適用</h3>
-<p>有期勞動契約中途解僱亦適用勞動基準法第20條的解僱預告義務：解僱前至少須<strong>提前30日預告</strong>，或支付相當於30日份薪資的<strong>解僱預告補償金</strong>（詳見<a href="/kaiko-yokoku-teate/">解僱預告制度的詳細說明</a>）。兩項要件（「不得已的事由」＋解僱預告）須同時滿足。</p>
+<p>有期勞動契約中途解僱亦適用勞動基準法第20條的解僱預告義務：解僱前至少須<strong>提前30日預告</strong>，或支付相當於30日份薪資的<strong>解僱預告補償金</strong>（詳見<a href="kaiko-yokoku-teate.html">解僱預告制度的詳細說明</a>）。兩項要件（「不得已的事由」＋解僱預告）須同時滿足。</p>
 
 <h3>中途解僱無效時的法律效果</h3>
 <p>若中途解僱因不具備「不得已的事由」而被判決無效：</p>
